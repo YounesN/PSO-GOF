@@ -2,6 +2,9 @@
 #include "info.h"
 #include "restriction.h"
 #include "sa.h"
+#include "easylogging++.h"
+
+INITIALIZE_EASYLOGGINGPP
 
 double current_charge;
 double current_epsilon;
@@ -20,11 +23,12 @@ int iteration = 0;
 
 int main()
 {
+  LOG(INFO) << "Program started";
   PrintRestrictions();
   PrintAlgorithmInfo();
   init_variables();
   PrintInitial();
-  objective_function();
-  //annealing();
+  annealing();
+  LOG(INFO) << "Program finished successfully";
   return 0;
 }

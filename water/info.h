@@ -2,47 +2,48 @@
 
 #include <iostream>
 #include "restriction.h"
+#include "easylogging++.h"
 
 void PrintRestrictions()
 {
-    std::cout << "========= RESTRICTIONS =========" << std::endl;
-    std::cout << "CHARGE : [" << HCHARGE_START << ", " << HCHARGE_END
-        << ", " << HCHARGE_ACC << "]" << std::endl;
-    std::cout << "EPSILON: [" << EPSILON_START << ", " << EPSILON_END
-        << ", " << EPSILON_ACC << "]" << std::endl;
-    std::cout << "SIGMA  : [" << SIGMA_START << ", " << SIGMA_END
-        << ", " << SIGMA_ACC << "]" << std::endl;
-    std::cout << "N      : [" << N_START << ", " << N_END
-        << ", " << N_ACC << "]" << std::endl;
-    std::cout << "BOND   : [" << BOND_START << ", " << BOND_END
-        << ", " << BOND_ACC << "]" << std::endl;
+    LOG(INFO) << "========= RESTRICTIONS =========";
+    LOG(INFO) << "CHARGE : [" << HCHARGE_START << ", " << HCHARGE_END
+        << ", " << HCHARGE_ACC << "]";
+    LOG(INFO) << "EPSILON: [" << EPSILON_START << ", " << EPSILON_END
+        << ", " << EPSILON_ACC << "]";
+    LOG(INFO) << "SIGMA  : [" << SIGMA_START << ", " << SIGMA_END
+        << ", " << SIGMA_ACC << "]";
+    LOG(INFO) << "N      : [" << N_START << ", " << N_END
+        << ", " << N_ACC << "]";
+    LOG(INFO) << "BOND   : [" << BOND_START << ", " << BOND_END
+        << ", " << BOND_ACC << "]";
 }
 
 void PrintAlgorithmInfo()
 {
-    std::cout << "=========      SA      =========" << std::endl;
-    std::cout << "=========    Initial   =========" << std::endl;
-    std::cout << "Initial Temperature: " << INITIAL_TEMPERATURE << std::endl;
-    std::cout << "Cooling Fraction   : " << COOLING_FRACTION << std::endl;
-    std::cout << "Cooling Criteria   : " << COOLING_CRIT << std::endl;
+    LOG(INFO) << "=========      SA      =========";
+    LOG(INFO) << "=========    Initial   =========";
+    LOG(INFO) << "Initial Temperature: " << INITIAL_TEMPERATURE;
+    LOG(INFO) << "Cooling Fraction   : " << COOLING_FRACTION;
+    LOG(INFO) << "Cooling Criteria   : " << COOLING_CRIT;
 }
 
 void PrintCurrent()
 {
-    std::cout << "=========  Current   =========" << std::endl;
-    std::cout << "CHARGE : " << current_charge << std::endl;
-    std::cout << "EPSILON: " << current_epsilon << std::endl;
-    std::cout << "SIGMA  : " << current_sigma << std::endl;
-    std::cout << "N      : " << current_n << std::endl;
-    std::cout << "BOND   : " << current_bond << std::endl;
+    LOG(INFO) << "=========  Current   =========";
+    LOG(INFO) << "CHARGE : " << current_charge;
+    LOG(INFO) << "EPSILON: " << current_epsilon;
+    LOG(INFO) << "SIGMA  : " << current_sigma;
+    LOG(INFO) << "N      : " << current_n;
+    LOG(INFO) << "BOND   : " << current_bond;
 }
 
 void PrintInitial()
 {
-    std::cout << "=========    Initial   =========" << std::endl;
-    std::cout << "CHARGE : " << current_charge << std::endl;
-    std::cout << "EPSILON: " << current_epsilon << std::endl;
-    std::cout << "SIGMA  : " << current_sigma << std::endl;
-    std::cout << "N      : " << current_n << std::endl;
-    std::cout << "BOND   : " << current_bond << std::endl;
+    LOG(INFO) << "=========    Initial   =========";
+    LOG(INFO) << "CHARGE : " << current_charge;
+    LOG(INFO) << "EPSILON: " << current_epsilon;
+    LOG(INFO) << "SIGMA  : " << current_sigma;
+    LOG(INFO) << "N      : " << current_n;
+    LOG(INFO) << "BOND   : " << current_bond;
 }

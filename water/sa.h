@@ -3,6 +3,10 @@
 #include <random>
 #include <iomanip>
 #include <sstream>
+#include <fstream>
+#include <string>
+#include <cmath>
+#include "easylogging++.h"
 
 double random_double(double min, double max)
 {
@@ -81,79 +85,267 @@ void make_temp()
     // Replace Bond
     std::stringstream stream;
     stream << std::fixed << std::setprecision(4) << current_bond;
-    std::string bond_rep = "sed -i 's/BBBBBB/" + stream.str() + "/g' temp_500/par_water.inp";
+    std::string bond_rep = "sed -i 's/BBBBBB/" + stream.str() + "/g' temp_500/Liq/par_water.inp";
     system(bond_rep.c_str());
-    bond_rep = "sed -i 's/BBBBBB/" + stream.str() + "/g' temp_600/par_water.inp";
+    bond_rep = "sed -i 's/BBBBBB/" + stream.str() + "/g' temp_500/Vap/par_water.inp";
     system(bond_rep.c_str());
+    bond_rep = "sed -i 's/BBBBBB/" + stream.str() + "/g' temp_600/Liq/par_water.inp";
+    system(bond_rep.c_str());
+    bond_rep = "sed -i 's/BBBBBB/" + stream.str() + "/g' temp_600/Vap/par_water.inp";
+    system(bond_rep.c_str());
+    
 
     // Replace Sigma
     stream.str(std::string());
     stream << std::fixed << std::setprecision(6) << current_sigma;
-    std::string sigma_rep = "sed -i 's/SSSSSSSSS/" + stream.str() + "/g' temp_500/par_water.inp";
+    std::string sigma_rep = "sed -i 's/SSSSSSSSS/" + stream.str() + "/g' temp_500/Liq/par_water.inp";
     system(sigma_rep.c_str());
-    sigma_rep = "sed -i 's/SSSSSSSSS/" + stream.str() + "/g' temp_600/par_water.inp";
+    sigma_rep = "sed -i 's/SSSSSSSSS/" + stream.str() + "/g' temp_500/Vap/par_water.inp";
+    system(sigma_rep.c_str());
+    sigma_rep = "sed -i 's/SSSSSSSSS/" + stream.str() + "/g' temp_600/Liq/par_water.inp";
+    system(sigma_rep.c_str());
+    sigma_rep = "sed -i 's/SSSSSSSSS/" + stream.str() + "/g' temp_600/Vap/par_water.inp";
     system(sigma_rep.c_str());
 
     // Replace Epsilon
     stream.str(std::string());
     stream << std::fixed << std::setprecision(6) << current_epsilon;
-    std::string epsilon_rep = "sed -i 's/EEEEEEE/" + stream.str() + "/g' temp_500/par_water.inp";
+    std::string epsilon_rep = "sed -i 's/EEEEEEE/" + stream.str() + "/g' temp_500/Liq/par_water.inp";
     system(epsilon_rep.c_str());
-    epsilon_rep = "sed -i 's/EEEEEEE/" + stream.str() + "/g' temp_600/par_water.inp";
+    epsilon_rep = "sed -i 's/EEEEEEE/" + stream.str() + "/g' temp_500/Vap/par_water.inp";
+    system(epsilon_rep.c_str());
+    epsilon_rep = "sed -i 's/EEEEEEE/" + stream.str() + "/g' temp_600/Liq/par_water.inp";
+    system(epsilon_rep.c_str());
+    epsilon_rep = "sed -i 's/EEEEEEE/" + stream.str() + "/g' temp_600/Vap/par_water.inp";
     system(epsilon_rep.c_str());
 
     // Replace n
     stream.str(std::string());
     stream << current_n;
-    std::string n_rep = "sed -i 's/NNN/" + stream.str() + "/g' temp_500/par_water.inp";
+    std::string n_rep = "sed -i 's/NNN/" + stream.str() + "/g' temp_500/Liq/par_water.inp";
     system(n_rep.c_str());
-    n_rep = "sed -i 's/NNN/" + stream.str() + "/g' temp_600/par_water.inp";
+    n_rep = "sed -i 's/NNN/" + stream.str() + "/g' temp_500/Vap/par_water.inp";
+    system(n_rep.c_str());
+    n_rep = "sed -i 's/NNN/" + stream.str() + "/g' temp_600/Liq/par_water.inp";
+    system(n_rep.c_str());
+    n_rep = "sed -i 's/NNN/" + stream.str() + "/g' temp_600/Vap/par_water.inp";
     system(n_rep.c_str());
 
     // Replace H Charges
     stream.str(std::string());
     stream << std::fixed << std::setprecision(6) << current_charge;
-    std::string hcharge_rep = "sed -i 's/HHHHHHHH/" + stream.str() + "/g' temp_500/START_WATER_BOX_0.psf";
+    std::string hcharge_rep = "sed -i 's/HHHHHHHH/" + stream.str() + "/g' temp_500/Liq/START_WATER_BOX_0.psf";
     system(hcharge_rep.c_str());
-    hcharge_rep = "sed -i 's/HHHHHHHH/" + stream.str() + "/g' temp_500/START_WATER_BOX_1.psf";
+    hcharge_rep = "sed -i 's/HHHHHHHH/" + stream.str() + "/g' temp_500/Vap/START_WATER_BOX_0.psf";
     system(hcharge_rep.c_str());
-    hcharge_rep = "sed -i 's/HHHHHHHH/" + stream.str() + "/g' temp_600/START_WATER_BOX_0.psf";
+    hcharge_rep = "sed -i 's/HHHHHHHH/" + stream.str() + "/g' temp_600/Liq/START_WATER_BOX_0.psf";
     system(hcharge_rep.c_str());
-    hcharge_rep = "sed -i 's/HHHHHHHH/" + stream.str() + "/g' temp_600/START_WATER_BOX_1.psf";
+    hcharge_rep = "sed -i 's/HHHHHHHH/" + stream.str() + "/g' temp_600/Vap/START_WATER_BOX_0.psf";
     system(hcharge_rep.c_str());
 
     // Replace O Charges
     stream.str(std::string());
     stream << std::fixed << std::setprecision(6) << 2 * current_charge;
-    std::string ocharge_rep = "sed -i 's/OOOOOOOO/" + stream.str() + "/g' temp_500/START_WATER_BOX_0.psf";
+    std::string ocharge_rep = "sed -i 's/OOOOOOOO/" + stream.str() + "/g' temp_500/Liq/START_WATER_BOX_0.psf";
     system(ocharge_rep.c_str());
-    ocharge_rep = "sed -i 's/OOOOOOOO/" + stream.str() + "/g' temp_500/START_WATER_BOX_1.psf";
+    ocharge_rep = "sed -i 's/OOOOOOOO/" + stream.str() + "/g' temp_500/Vap/START_WATER_BOX_0.psf";
     system(ocharge_rep.c_str());
-    ocharge_rep = "sed -i 's/OOOOOOOO/" + stream.str() + "/g' temp_600/START_WATER_BOX_0.psf";
+    ocharge_rep = "sed -i 's/OOOOOOOO/" + stream.str() + "/g' temp_600/Liq/START_WATER_BOX_0.psf";
     system(ocharge_rep.c_str());
-    ocharge_rep = "sed -i 's/OOOOOOOO/" + stream.str() + "/g' temp_600/START_WATER_BOX_1.psf";
+    ocharge_rep = "sed -i 's/OOOOOOOO/" + stream.str() + "/g' temp_600/Vap/START_WATER_BOX_0.psf";
     system(ocharge_rep.c_str());
 }
 
-void objective_function()
+std::string get_last_line_of(std::string filename, std::string substring)
+{
+    std::string line;
+    std::string last_line;
+    LOG(INFO) << "Opening file " << filename << "...\n";
+    std::ifstream myfile(filename.c_str());
+    if(!myfile)
+    {
+        LOG(FATAL) << "Couldn't open file " << filename << "!\n";
+        LOG(FATAL) << "Exiting...\n";
+    }
+    else
+    {
+        LOG(INFO) << "Successfully opened file " << filename << "!\n";
+    }
+    while(!myfile.eof())
+    {
+        getline(myfile, line, '\n');
+        if(line.find(substring) != -1)
+            last_line = line;
+    }
+    return last_line;
+}
+
+double return_density(std::string filename)
+{
+    LOG(INFO) << "Finding density in " << filename << "!\n";
+    std::string last_line = get_last_line_of(filename, "STAT_0");
+    double density;
+    std::size_t found = last_line.find_last_of(" \t");
+    density = std::stod(last_line.substr(found+1));
+    LOG(INFO) << "Density found: " << density << "\n";
+    return density;
+}
+
+double check_density_500_Liq() 
+{
+    std::string loc("temp_500/Liq/out.log");
+    double den = return_density(loc);
+    LOG(INFO) << "Expected density: " << DEN_LIQ_500 << "\n";
+    LOG(INFO) << "Density reported: " << den << "\n";
+    double err = 0.0;
+    if(den!=0.0)
+        err = ((abs(DEN_LIQ_500-den))/den)*100;
+    else
+        err = 99999999999.9;
+    LOG(INFO) << "Error: " << err << "\n";
+    return err;
+}
+
+double check_density_500_Vap()
+{
+    std::string loc("temp_500/Vap/out.log");
+    double den = return_density(loc);
+    LOG(INFO) << "Expected density: " << DEN_VAP_500 << "\n";
+    LOG(INFO) << "Density reported: " << den << "\n";
+    double err = 0.0;
+    if(den!=0.0)
+        err = ((abs(DEN_VAP_500-den))/den)*100;
+    else
+        err = 99999999999.9;
+    LOG(INFO) << "Error: " << err << "\n";
+    return err;
+}
+
+double check_density_600_Liq()
+{
+    std::string loc("temp_600/Liq/out.log");
+    double den = return_density(loc);
+    LOG(INFO) << "Expected density: " << DEN_LIQ_600 << "\n";
+    LOG(INFO) << "Density reported: " << den << "\n";
+    double err = 0.0;
+    if(den!=0.0)
+        err = ((abs(DEN_LIQ_600-den))/den)*100;
+    else
+        err = 99999999999.9;
+    LOG(INFO) << "Error: " << err << "\n";
+    return err;
+}
+
+double check_density_600_Vap()
+{
+    std::string loc("temp_600/Vap/out.log");
+    double den = return_density(loc);
+    LOG(INFO) << "Expected density: " << DEN_VAP_600 << "\n";
+    LOG(INFO) << "Density reported: " << den << "\n";
+    double err = 0.0;
+    if(den!=0.0)
+        err = ((abs(DEN_VAP_600-den))/den)*100;
+    else
+        err = 99999999999.9;
+    LOG(INFO) << "Error: " << err << "\n";
+    return err;
+}
+
+double objective_function()
 {
     make_temp();
 
-    // Run T 500
-    system("cd temp_500; ./GOMC_CPU_GEMC +p8 in.conf");
+    double total_obj = 0.0;
+    double curr_obj = 0.0;
+    // Run T 500 Liq
+    LOG(INFO) << "Running 500K Liq...";
+    system("cd temp_500/Liq; ./GOMC_GPU_NPT in.conf > out.log");
+    LOG(INFO) << "Finished 500K Liq!";
+    curr_obj = check_density_500_Liq();
+    if(curr_obj > 1.0)
+        return 999999999999999.9;
+    else
+        total_obj += curr_obj;
 
-    // Run T 600
-    system("cd temp_600; ./GOMC_CPU_GEMC +p8 in.conf");
+    // Run T 500 Vap
+    LOG(INFO) << "Running 500K Vap...";
+    system("cd temp_500/Vap; ./GOMC_GPU_NPT in.conf > out.log");
+    LOG(INFO) << "Finished 500K Vap!";
+    curr_obj = check_density_500_Vap();
+    if(curr_obj > 1.0)
+        return 999999999999999.9;
+    else
+        total_obj += curr_obj;
+
+    // Run T 600 Liq
+    LOG(INFO) << "Running 600K Liq...";
+    system("cd temp_600/Liq; ./GOMC_GPU_NPT in.conf > out.log");
+    LOG(INFO) << "Finished 600K Liq!";
+    curr_obj = check_density_600_Liq();
+    if(curr_obj > 1.0)
+        return 999999999999999.9;
+    else
+        total_obj += curr_obj;
+
+    // Run T 600 Vap
+    LOG(INFO) << "Running 600K Vap...";
+    system("cd temp_600/Vap; ./GOMC_GPU_NPT in.conf > out.log");
+    LOG(INFO) << "Finished 600K Vap!";
+    curr_obj = check_density_600_Vap();
+    if(curr_obj > 1.0)
+        return 999999999999999.9;
+    else
+        total_obj += curr_obj;
+    
+    return total_obj;
+}
+
+bool accept_prob(double delta, double current_temperature)
+{
+    return (exp(-1 * delta / current_temperature) > random_double(0, 1));
 }
 
 void annealing()
 {
+    double current_obj = 0.0;
+    double objective = 99999999.9;
+    double delta = 0.0;
+    pick_next();
+    objective = objective_function();
+
     while(current_temperature > COOLING_CRIT)
     {
+        LOG(INFO) << "=========== NEW ITERATION ===========\n";
+        LOG(INFO) << "Objective: " << objective;
+        LOG(INFO) << "Current objective before run: " << current_obj;
+        LOG(INFO) << "Current temperature: " << current_temperature;
+        
         pick_next();
-        objective_function();
+        PrintCurrent();
+        current_obj = objective_function();
+        delta = current_obj - objective;
+        LOG(INFO) << "Current objective after run: " << current_obj;
+        LOG(INFO) << "DELTA: " << delta;
+        if((delta<0) || (accept_prob(delta, current_temperature)))
+        {
+            LOG(INFO) << "Accepting new configuration";
+            // if we accept, change the objective value to the new one
+            objective = current_obj;
+        }
+        else
+        {
+            LOG(INFO) << "Rejecting new configuration";
+            // if we reject go back to previous state
+            current_charge = previous_charge;
+            current_bond = previous_bond;
+            current_epsilon = previous_epsilon;
+            current_n = previous_n;
+            current_sigma = previous_sigma;
+        }
 
         iteration ++;
+        LOG(INFO) << "iteration: " << iteration;
         current_temperature *= COOLING_FRACTION;
+        LOG(INFO) << "=========== END ITERATION ===========";
     }
 }
