@@ -259,7 +259,7 @@ double objective_function()
     double curr_obj = 0.0;
     // Run T 500 Liq
     LOG(INFO) << "Running 500K Liq...";
-    system("cd temp_500/Liq; ./GOMC_CPU_NPT +p4 in.conf > out.log");
+    system("cd temp_500/Liq; ./GOMC_GPU_NPT in.conf > out.log");
     LOG(INFO) << "Finished 500K Liq!";
     curr_obj = check_density_500_Liq();
     if(curr_obj > 1.0)
