@@ -316,7 +316,7 @@ void annealing()
 
     while(current_temperature > COOLING_CRIT)
     {
-        LOG(INFO) << "=========== NEW ITERATION ===========\n";
+        LOG(INFO) << "=========== NEW ITERATION ===========";
         LOG(INFO) << "Objective: " << objective;
         LOG(INFO) << "Current objective before run: " << current_obj;
         LOG(INFO) << "Current temperature: " << current_temperature;
