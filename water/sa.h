@@ -160,16 +160,16 @@ std::string get_last_line_of(std::string filename, std::string substring)
 {
     std::string line;
     std::string last_line;
-    LOG(INFO) << "Opening file " << filename << "...\n";
+    LOG(INFO) << "Opening file " << filename << "...";
     std::ifstream myfile(filename.c_str());
     if(!myfile)
     {
-        LOG(FATAL) << "Couldn't open file " << filename << "!\n";
-        LOG(FATAL) << "Exiting...\n";
+        LOG(FATAL) << "Couldn't open file " << filename << "!";
+        LOG(FATAL) << "Exiting...";
     }
     else
     {
-        LOG(INFO) << "Successfully opened file " << filename << "!\n";
+        LOG(INFO) << "Successfully opened file " << filename << "!";
     }
     while(!myfile.eof())
     {
@@ -182,12 +182,12 @@ std::string get_last_line_of(std::string filename, std::string substring)
 
 double return_density(std::string filename)
 {
-    LOG(INFO) << "Finding density in " << filename << "!\n";
+    LOG(INFO) << "Finding density in " << filename << "!";
     std::string last_line = get_last_line_of(filename, "STAT_0");
     double density;
     std::size_t found = last_line.find_last_of(" \t");
     density = std::stod(last_line.substr(found+1));
-    LOG(INFO) << "Density found: " << density << "\n";
+    LOG(INFO) << "Density found: " << density;
     return density;
 }
 
@@ -195,14 +195,14 @@ double check_density_500_Liq()
 {
     std::string loc("temp_500/Liq/out.log");
     double den = return_density(loc);
-    LOG(INFO) << "Expected density: " << DEN_LIQ_500 << "\n";
-    LOG(INFO) << "Density reported: " << den << "\n";
+    LOG(INFO) << "Expected density: " << DEN_LIQ_500;
+    LOG(INFO) << "Density reported: " << den;
     double err = 0.0;
     if(den!=0.0)
         err = ((abs(DEN_LIQ_500-den))/den)*100;
     else
         err = 99999999999.9;
-    LOG(INFO) << "Error: " << err << "\n";
+    LOG(INFO) << "Error: " << err;
     return err;
 }
 
@@ -210,14 +210,14 @@ double check_density_500_Vap()
 {
     std::string loc("temp_500/Vap/out.log");
     double den = return_density(loc);
-    LOG(INFO) << "Expected density: " << DEN_VAP_500 << "\n";
-    LOG(INFO) << "Density reported: " << den << "\n";
+    LOG(INFO) << "Expected density: " << DEN_VAP_500;
+    LOG(INFO) << "Density reported: " << den;
     double err = 0.0;
     if(den!=0.0)
         err = ((abs(DEN_VAP_500-den))/den)*100;
     else
         err = 99999999999.9;
-    LOG(INFO) << "Error: " << err << "\n";
+    LOG(INFO) << "Error: " << err;
     return err;
 }
 
@@ -225,14 +225,14 @@ double check_density_600_Liq()
 {
     std::string loc("temp_600/Liq/out.log");
     double den = return_density(loc);
-    LOG(INFO) << "Expected density: " << DEN_LIQ_600 << "\n";
-    LOG(INFO) << "Density reported: " << den << "\n";
+    LOG(INFO) << "Expected density: " << DEN_LIQ_600;
+    LOG(INFO) << "Density reported: " << den;
     double err = 0.0;
     if(den!=0.0)
         err = ((abs(DEN_LIQ_600-den))/den)*100;
     else
         err = 99999999999.9;
-    LOG(INFO) << "Error: " << err << "\n";
+    LOG(INFO) << "Error: " << err;
     return err;
 }
 
@@ -240,14 +240,14 @@ double check_density_600_Vap()
 {
     std::string loc("temp_600/Vap/out.log");
     double den = return_density(loc);
-    LOG(INFO) << "Expected density: " << DEN_VAP_600 << "\n";
-    LOG(INFO) << "Density reported: " << den << "\n";
+    LOG(INFO) << "Expected density: " << DEN_VAP_600;
+    LOG(INFO) << "Density reported: " << den;
     double err = 0.0;
     if(den!=0.0)
         err = ((abs(DEN_VAP_600-den))/den)*100;
     else
         err = 99999999999.9;
-    LOG(INFO) << "Error: " << err << "\n";
+    LOG(INFO) << "Error: " << err;
     return err;
 }
 
@@ -307,6 +307,7 @@ bool accept_prob(double delta, double current_temperature)
 
 void annealing()
 {
+    current_temperature = INITIAL_TEMPERATURE;
     double current_obj = 0.0;
     double objective = 99999999.9;
     double delta = 0.0;
