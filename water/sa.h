@@ -79,8 +79,8 @@ void pick_next()
 
 void make_temp()
 {
-    system("cp -R T_500 temp_500");
-    system("cp -R T_600 temp_600");
+    system("rm -rf temp_500; cp -R T_500 temp_500");
+    system("rm -rf temp_600; cp -R T_600 temp_600");
 
     // Replace Bond
     std::stringstream stream;
@@ -259,7 +259,7 @@ double objective_function()
     double curr_obj = 0.0;
     // Run T 500 Liq
     LOG(INFO) << "Running 500K Liq...";
-    system("cd temp_500/Liq; ./GOMC_GPU_NPT in.conf > out.log");
+    system("cd temp_500/Liq; ./GOMC_CPU_NPT +p4 in.conf > out.log");
     LOG(INFO) << "Finished 500K Liq!";
     curr_obj = check_density_500_Liq();
     if(curr_obj > 1.0)
