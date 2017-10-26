@@ -199,7 +199,7 @@ double check_density_500_Liq()
     LOG(INFO) << "Density reported: " << den;
     double err = 0.0;
     if(den!=0.0)
-        err = ((abs(DEN_LIQ_500-den))/den)*100;
+        err = ((abs(DEN_LIQ_500-den))/DEN_LIQ_500)*100;
     else
         err = 99999999999.9;
     LOG(INFO) << "Error: " << err;
@@ -214,7 +214,7 @@ double check_density_500_Vap()
     LOG(INFO) << "Density reported: " << den;
     double err = 0.0;
     if(den!=0.0)
-        err = ((abs(DEN_VAP_500-den))/den)*100;
+        err = ((abs(DEN_VAP_500-den))/DEN_VAP_500)*100;
     else
         err = 99999999999.9;
     LOG(INFO) << "Error: " << err;
@@ -229,7 +229,7 @@ double check_density_600_Liq()
     LOG(INFO) << "Density reported: " << den;
     double err = 0.0;
     if(den!=0.0)
-        err = ((abs(DEN_LIQ_600-den))/den)*100;
+        err = ((abs(DEN_LIQ_600-den))/DEN_LIQ_600)*100;
     else
         err = 99999999999.9;
     LOG(INFO) << "Error: " << err;
@@ -244,7 +244,7 @@ double check_density_600_Vap()
     LOG(INFO) << "Density reported: " << den;
     double err = 0.0;
     if(den!=0.0)
-        err = ((abs(DEN_VAP_600-den))/den)*100;
+        err = ((abs(DEN_VAP_600-den))/DEN_VAP_600)*100;
     else
         err = 99999999999.9;
     LOG(INFO) << "Error: " << err;
