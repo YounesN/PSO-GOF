@@ -1,0 +1,2754 @@
+2017-11-10 07:54:47,864 INFO [default] Program started
+2017-11-10 07:54:47,888 INFO [default] ========= RESTRICTIONS =========
+2017-11-10 07:54:47,888 INFO [default] EPSILON: [100, 130, 100]
+2017-11-10 07:54:47,888 INFO [default] SIGMA  : [2.4, 4.4, 1000]
+2017-11-10 07:54:47,888 INFO [default] N      : [12, 18, 1]
+2017-11-10 07:54:47,888 INFO [default] =========      SA      =========
+2017-11-10 07:54:47,888 INFO [default] =========    Initial   =========
+2017-11-10 07:54:47,888 INFO [default] Initial Temperature: 300
+2017-11-10 07:54:47,888 INFO [default] Cooling Fraction   : 0.9
+2017-11-10 07:54:47,888 INFO [default] Cooling Criteria   : 0.001
+2017-11-10 07:54:47,889 INFO [default] =========    Initial   =========
+2017-11-10 07:54:47,889 INFO [default] EPSILON: 127.16
+2017-11-10 07:54:47,889 INFO [default] SIGMA  : 3.553
+2017-11-10 07:54:47,889 INFO [default] N      : 13
+2017-11-10 07:54:52,217 INFO [default] Running 100K Liq...
+2017-11-10 08:24:57,825 INFO [default] Finished 100K Liq!
+2017-11-10 08:24:57,826 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-10 08:24:57,826 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-10 08:24:57,827 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-10 08:24:57,827 INFO [default] Density found: 1172.76
+2017-11-10 08:24:57,827 INFO [default] Expected density: 1313.7
+2017-11-10 08:24:57,827 INFO [default] Density reported: 1172.76
+2017-11-10 08:24:57,827 INFO [default] Error: 10.6569
+2017-11-10 08:24:57,827 INFO [default] =========== NEW ITERATION ===========
+2017-11-10 08:24:57,827 INFO [default] Objective: 10.6569
+2017-11-10 08:24:57,827 INFO [default] Current objective before run: 0
+2017-11-10 08:24:57,827 INFO [default] Current temperature: 300
+2017-11-10 08:24:57,828 INFO [default] =========  Current   =========
+2017-11-10 08:24:57,828 INFO [default] EPSILON: 127.16
+2017-11-10 08:24:57,828 INFO [default] SIGMA  : 3.553
+2017-11-10 08:24:57,828 INFO [default] N      : 13
+2017-11-10 08:25:03,896 INFO [default] Running 100K Liq...
+2017-11-10 08:55:11,636 INFO [default] Finished 100K Liq!
+2017-11-10 08:55:11,637 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-10 08:55:11,637 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-10 08:55:11,637 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-10 08:55:11,638 INFO [default] Density found: 1159.66
+2017-11-10 08:55:11,638 INFO [default] Expected density: 1313.7
+2017-11-10 08:55:11,638 INFO [default] Density reported: 1159.66
+2017-11-10 08:55:11,638 INFO [default] Error: 11.7226
+2017-11-10 08:55:11,638 INFO [default] Current objective after run: 11.7226
+2017-11-10 08:55:11,638 INFO [default] DELTA: 1.06569
+2017-11-10 08:55:11,639 INFO [default] Accepting new configuration
+2017-11-10 08:55:11,639 INFO [default] iteration: 1
+2017-11-10 08:55:11,639 INFO [default] =========== END ITERATION ===========
+2017-11-10 08:55:11,639 INFO [default] =========== NEW ITERATION ===========
+2017-11-10 08:55:11,639 INFO [default] Objective: 11.7226
+2017-11-10 08:55:11,639 INFO [default] Current objective before run: 11.7226
+2017-11-10 08:55:11,639 INFO [default] Current temperature: 270
+2017-11-10 08:55:11,639 INFO [default] =========  Current   =========
+2017-11-10 08:55:11,639 INFO [default] EPSILON: 127.16
+2017-11-10 08:55:11,639 INFO [default] SIGMA  : 3.775
+2017-11-10 08:55:11,639 INFO [default] N      : 13
+2017-11-10 08:55:16,258 INFO [default] Running 100K Liq...
+2017-11-10 09:09:56,733 INFO [default] Finished 100K Liq!
+2017-11-10 09:09:56,733 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-10 09:09:56,733 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-10 09:09:56,734 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-10 09:09:56,735 INFO [default] Density found: 979.332
+2017-11-10 09:09:56,735 INFO [default] Expected density: 1313.7
+2017-11-10 09:09:56,735 INFO [default] Density reported: 979.332
+2017-11-10 09:09:56,735 INFO [default] Error: 25.4244
+2017-11-10 09:09:56,735 INFO [default] Current objective after run: 25.4244
+2017-11-10 09:09:56,735 INFO [default] DELTA: 13.7018
+2017-11-10 09:09:56,735 INFO [default] Accepting new configuration
+2017-11-10 09:09:56,735 INFO [default] iteration: 2
+2017-11-10 09:09:56,735 INFO [default] =========== END ITERATION ===========
+2017-11-10 09:09:56,735 INFO [default] =========== NEW ITERATION ===========
+2017-11-10 09:09:56,735 INFO [default] Objective: 25.4244
+2017-11-10 09:09:56,735 INFO [default] Current objective before run: 25.4244
+2017-11-10 09:09:56,735 INFO [default] Current temperature: 243
+2017-11-10 09:09:56,736 INFO [default] =========  Current   =========
+2017-11-10 09:09:56,736 INFO [default] EPSILON: 127.16
+2017-11-10 09:09:56,736 INFO [default] SIGMA  : 2.661
+2017-11-10 09:09:56,736 INFO [default] N      : 13
+2017-11-10 09:10:00,696 INFO [default] Running 100K Liq...
+2017-11-10 09:52:04,638 INFO [default] Finished 100K Liq!
+2017-11-10 09:52:04,639 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-10 09:52:04,639 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-10 09:52:04,640 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-10 09:52:04,640 INFO [default] Density found: 2856.02
+2017-11-10 09:52:04,640 INFO [default] Expected density: 1313.7
+2017-11-10 09:52:04,640 INFO [default] Density reported: 2856.02
+2017-11-10 09:52:04,640 INFO [default] Error: 117.378
+2017-11-10 09:52:04,640 INFO [default] Current objective after run: 117.378
+2017-11-10 09:52:04,640 INFO [default] DELTA: 91.954
+2017-11-10 09:52:04,641 INFO [default] Rejecting new configuration
+2017-11-10 09:52:04,641 INFO [default] iteration: 3
+2017-11-10 09:52:04,641 INFO [default] =========== END ITERATION ===========
+2017-11-10 09:52:04,641 INFO [default] =========== NEW ITERATION ===========
+2017-11-10 09:52:04,641 INFO [default] Objective: 25.4244
+2017-11-10 09:52:04,641 INFO [default] Current objective before run: 117.378
+2017-11-10 09:52:04,641 INFO [default] Current temperature: 218.7
+2017-11-10 09:52:04,642 INFO [default] =========  Current   =========
+2017-11-10 09:52:04,642 INFO [default] EPSILON: 127.16
+2017-11-10 09:52:04,642 INFO [default] SIGMA  : 4.33
+2017-11-10 09:52:04,642 INFO [default] N      : 13
+2017-11-10 09:52:08,335 INFO [default] Running 100K Liq...
+2017-11-10 10:04:42,774 INFO [default] Finished 100K Liq!
+2017-11-10 10:04:42,774 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-10 10:04:42,774 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-10 10:04:42,775 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-10 10:04:42,775 INFO [default] Density found: 659.234
+2017-11-10 10:04:42,775 INFO [default] Expected density: 1313.7
+2017-11-10 10:04:42,775 INFO [default] Density reported: 659.234
+2017-11-10 10:04:42,776 INFO [default] Error: 49.7831
+2017-11-10 10:04:42,776 INFO [default] Current objective after run: 49.7831
+2017-11-10 10:04:42,776 INFO [default] DELTA: 24.3587
+2017-11-10 10:04:42,776 INFO [default] Accepting new configuration
+2017-11-10 10:04:42,776 INFO [default] iteration: 4
+2017-11-10 10:04:42,776 INFO [default] =========== END ITERATION ===========
+2017-11-10 10:04:42,776 INFO [default] =========== NEW ITERATION ===========
+2017-11-10 10:04:42,776 INFO [default] Objective: 49.7831
+2017-11-10 10:04:42,776 INFO [default] Current objective before run: 49.7831
+2017-11-10 10:04:42,776 INFO [default] Current temperature: 196.83
+2017-11-10 10:04:42,777 INFO [default] =========  Current   =========
+2017-11-10 10:04:42,777 INFO [default] EPSILON: 127.16
+2017-11-10 10:04:42,777 INFO [default] SIGMA  : 4.33
+2017-11-10 10:04:42,777 INFO [default] N      : 17
+2017-11-10 10:04:47,081 INFO [default] Running 100K Liq...
+2017-11-10 10:17:03,114 INFO [default] Finished 100K Liq!
+2017-11-10 10:17:03,115 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-10 10:17:03,115 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-10 10:17:03,116 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-10 10:17:03,116 INFO [default] Density found: 630.111
+2017-11-10 10:17:03,116 INFO [default] Expected density: 1313.7
+2017-11-10 10:17:03,116 INFO [default] Density reported: 630.111
+2017-11-10 10:17:03,116 INFO [default] Error: 51.9906
+2017-11-10 10:17:03,116 INFO [default] Current objective after run: 51.9906
+2017-11-10 10:17:03,116 INFO [default] DELTA: 2.20751
+2017-11-10 10:17:03,117 INFO [default] Accepting new configuration
+2017-11-10 10:17:03,117 INFO [default] iteration: 5
+2017-11-10 10:17:03,117 INFO [default] =========== END ITERATION ===========
+2017-11-10 10:17:03,117 INFO [default] =========== NEW ITERATION ===========
+2017-11-10 10:17:03,117 INFO [default] Objective: 51.9906
+2017-11-10 10:17:03,117 INFO [default] Current objective before run: 51.9906
+2017-11-10 10:17:03,117 INFO [default] Current temperature: 177.147
+2017-11-10 10:17:03,118 INFO [default] =========  Current   =========
+2017-11-10 10:17:03,118 INFO [default] EPSILON: 127.16
+2017-11-10 10:17:03,118 INFO [default] SIGMA  : 4.33
+2017-11-10 10:17:03,118 INFO [default] N      : 12
+2017-11-10 10:17:06,958 INFO [default] Running 100K Liq...
+2017-11-10 10:29:45,062 INFO [default] Finished 100K Liq!
+2017-11-10 10:29:45,062 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-10 10:29:45,062 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-10 10:29:45,063 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-10 10:29:45,063 INFO [default] Density found: 652.429
+2017-11-10 10:29:45,063 INFO [default] Expected density: 1313.7
+2017-11-10 10:29:45,063 INFO [default] Density reported: 652.429
+2017-11-10 10:29:45,063 INFO [default] Error: 50.3159
+2017-11-10 10:29:45,064 INFO [default] Current objective after run: 50.3159
+2017-11-10 10:29:45,064 INFO [default] DELTA: -1.67466
+2017-11-10 10:29:45,064 INFO [default] Accepting new configuration
+2017-11-10 10:29:45,064 INFO [default] iteration: 6
+2017-11-10 10:29:45,064 INFO [default] =========== END ITERATION ===========
+2017-11-10 10:29:45,064 INFO [default] =========== NEW ITERATION ===========
+2017-11-10 10:29:45,064 INFO [default] Objective: 50.3159
+2017-11-10 10:29:45,064 INFO [default] Current objective before run: 50.3159
+2017-11-10 10:29:45,064 INFO [default] Current temperature: 159.432
+2017-11-10 10:29:45,064 INFO [default] =========  Current   =========
+2017-11-10 10:29:45,064 INFO [default] EPSILON: 107.75
+2017-11-10 10:29:45,064 INFO [default] SIGMA  : 4.33
+2017-11-10 10:29:45,064 INFO [default] N      : 12
+2017-11-10 10:29:49,144 INFO [default] Running 100K Liq...
+2017-11-10 10:42:04,554 INFO [default] Finished 100K Liq!
+2017-11-10 10:42:04,554 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-10 10:42:04,554 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-10 10:42:04,555 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-10 10:42:04,556 INFO [default] Density found: 622.511
+2017-11-10 10:42:04,556 INFO [default] Expected density: 1313.7
+2017-11-10 10:42:04,556 INFO [default] Density reported: 622.511
+2017-11-10 10:42:04,556 INFO [default] Error: 52.5995
+2017-11-10 10:42:04,556 INFO [default] Current objective after run: 52.5995
+2017-11-10 10:42:04,556 INFO [default] DELTA: 2.28363
+2017-11-10 10:42:04,556 INFO [default] Accepting new configuration
+2017-11-10 10:42:04,556 INFO [default] iteration: 7
+2017-11-10 10:42:04,556 INFO [default] =========== END ITERATION ===========
+2017-11-10 10:42:04,556 INFO [default] =========== NEW ITERATION ===========
+2017-11-10 10:42:04,556 INFO [default] Objective: 52.5995
+2017-11-10 10:42:04,556 INFO [default] Current objective before run: 52.5995
+2017-11-10 10:42:04,556 INFO [default] Current temperature: 143.489
+2017-11-10 10:42:04,557 INFO [default] =========  Current   =========
+2017-11-10 10:42:04,557 INFO [default] EPSILON: 107.75
+2017-11-10 10:42:04,557 INFO [default] SIGMA  : 3.566
+2017-11-10 10:42:04,557 INFO [default] N      : 12
+2017-11-10 10:42:08,448 INFO [default] Running 100K Liq...
+2017-11-10 11:11:09,966 INFO [default] Finished 100K Liq!
+2017-11-10 11:11:09,967 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-10 11:11:09,967 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-10 11:11:09,967 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-10 11:11:09,968 INFO [default] Density found: 1076.42
+2017-11-10 11:11:09,968 INFO [default] Expected density: 1313.7
+2017-11-10 11:11:09,968 INFO [default] Density reported: 1076.42
+2017-11-10 11:11:09,968 INFO [default] Error: 18.0406
+2017-11-10 11:11:09,968 INFO [default] Current objective after run: 18.0406
+2017-11-10 11:11:09,968 INFO [default] DELTA: -34.5589
+2017-11-10 11:11:09,968 INFO [default] Accepting new configuration
+2017-11-10 11:11:09,968 INFO [default] iteration: 8
+2017-11-10 11:11:09,968 INFO [default] =========== END ITERATION ===========
+2017-11-10 11:11:09,968 INFO [default] =========== NEW ITERATION ===========
+2017-11-10 11:11:09,968 INFO [default] Objective: 18.0406
+2017-11-10 11:11:09,968 INFO [default] Current objective before run: 18.0406
+2017-11-10 11:11:09,968 INFO [default] Current temperature: 129.14
+2017-11-10 11:11:09,969 INFO [default] =========  Current   =========
+2017-11-10 11:11:09,969 INFO [default] EPSILON: 107.75
+2017-11-10 11:11:09,969 INFO [default] SIGMA  : 3.566
+2017-11-10 11:11:09,969 INFO [default] N      : 13
+2017-11-10 11:11:14,439 INFO [default] Running 100K Liq...
+2017-11-10 11:39:29,635 INFO [default] Finished 100K Liq!
+2017-11-10 11:39:29,636 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-10 11:39:29,636 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-10 11:39:29,637 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-10 11:39:29,637 INFO [default] Density found: 1084.21
+2017-11-10 11:39:29,637 INFO [default] Expected density: 1313.7
+2017-11-10 11:39:29,637 INFO [default] Density reported: 1084.21
+2017-11-10 11:39:29,637 INFO [default] Error: 17.4317
+2017-11-10 11:39:29,637 INFO [default] Current objective after run: 17.4317
+2017-11-10 11:39:29,637 INFO [default] DELTA: -0.608967
+2017-11-10 11:39:29,637 INFO [default] Accepting new configuration
+2017-11-10 11:39:29,637 INFO [default] iteration: 9
+2017-11-10 11:39:29,637 INFO [default] =========== END ITERATION ===========
+2017-11-10 11:39:29,637 INFO [default] =========== NEW ITERATION ===========
+2017-11-10 11:39:29,637 INFO [default] Objective: 17.4317
+2017-11-10 11:39:29,637 INFO [default] Current objective before run: 17.4317
+2017-11-10 11:39:29,637 INFO [default] Current temperature: 116.226
+2017-11-10 11:39:29,638 INFO [default] =========  Current   =========
+2017-11-10 11:39:29,638 INFO [default] EPSILON: 115.5
+2017-11-10 11:39:29,638 INFO [default] SIGMA  : 3.566
+2017-11-10 11:39:29,638 INFO [default] N      : 13
+2017-11-10 11:39:33,526 INFO [default] Running 100K Liq...
+2017-11-10 12:10:02,795 INFO [default] Finished 100K Liq!
+2017-11-10 12:10:02,795 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-10 12:10:02,795 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-10 12:10:02,796 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-10 12:10:02,797 INFO [default] Density found: 1107.39
+2017-11-10 12:10:02,797 INFO [default] Expected density: 1313.7
+2017-11-10 12:10:02,797 INFO [default] Density reported: 1107.39
+2017-11-10 12:10:02,797 INFO [default] Error: 15.6809
+2017-11-10 12:10:02,797 INFO [default] Current objective after run: 15.6809
+2017-11-10 12:10:02,797 INFO [default] DELTA: -1.75078
+2017-11-10 12:10:02,797 INFO [default] Accepting new configuration
+2017-11-10 12:10:02,797 INFO [default] iteration: 10
+2017-11-10 12:10:02,797 INFO [default] =========== END ITERATION ===========
+2017-11-10 12:10:02,797 INFO [default] =========== NEW ITERATION ===========
+2017-11-10 12:10:02,797 INFO [default] Objective: 15.6809
+2017-11-10 12:10:02,797 INFO [default] Current objective before run: 15.6809
+2017-11-10 12:10:02,797 INFO [default] Current temperature: 104.604
+2017-11-10 12:10:02,798 INFO [default] =========  Current   =========
+2017-11-10 12:10:02,798 INFO [default] EPSILON: 115.5
+2017-11-10 12:10:02,798 INFO [default] SIGMA  : 3.04
+2017-11-10 12:10:02,798 INFO [default] N      : 13
+2017-11-10 12:10:06,826 INFO [default] Running 100K Liq...
+2017-11-10 12:45:19,573 INFO [default] Finished 100K Liq!
+2017-11-10 12:45:19,574 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-10 12:45:19,574 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-10 12:45:19,575 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-10 12:45:19,576 INFO [default] Density found: 1793.41
+2017-11-10 12:45:19,576 INFO [default] Expected density: 1313.7
+2017-11-10 12:45:19,576 INFO [default] Density reported: 1793.41
+2017-11-10 12:45:19,576 INFO [default] Error: 36.4619
+2017-11-10 12:45:19,576 INFO [default] Current objective after run: 36.4619
+2017-11-10 12:45:19,576 INFO [default] DELTA: 20.781
+2017-11-10 12:45:19,576 INFO [default] Accepting new configuration
+2017-11-10 12:45:19,576 INFO [default] iteration: 11
+2017-11-10 12:45:19,576 INFO [default] =========== END ITERATION ===========
+2017-11-10 12:45:19,576 INFO [default] =========== NEW ITERATION ===========
+2017-11-10 12:45:19,576 INFO [default] Objective: 36.4619
+2017-11-10 12:45:19,576 INFO [default] Current objective before run: 36.4619
+2017-11-10 12:45:19,576 INFO [default] Current temperature: 94.1432
+2017-11-10 12:45:19,577 INFO [default] =========  Current   =========
+2017-11-10 12:45:19,577 INFO [default] EPSILON: 115.5
+2017-11-10 12:45:19,577 INFO [default] SIGMA  : 3.04
+2017-11-10 12:45:19,577 INFO [default] N      : 15
+2017-11-10 12:45:23,681 INFO [default] Running 100K Liq...
+2017-11-10 13:20:11,103 INFO [default] Finished 100K Liq!
+2017-11-10 13:20:11,103 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-10 13:20:11,103 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-10 13:20:11,104 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-10 13:20:11,105 INFO [default] Density found: 1730.62
+2017-11-10 13:20:11,105 INFO [default] Expected density: 1313.7
+2017-11-10 13:20:11,105 INFO [default] Density reported: 1730.62
+2017-11-10 13:20:11,105 INFO [default] Error: 31.6663
+2017-11-10 13:20:11,105 INFO [default] Current objective after run: 31.6663
+2017-11-10 13:20:11,105 INFO [default] DELTA: -4.79562
+2017-11-10 13:20:11,105 INFO [default] Accepting new configuration
+2017-11-10 13:20:11,105 INFO [default] iteration: 12
+2017-11-10 13:20:11,105 INFO [default] =========== END ITERATION ===========
+2017-11-10 13:20:11,105 INFO [default] =========== NEW ITERATION ===========
+2017-11-10 13:20:11,105 INFO [default] Objective: 31.6663
+2017-11-10 13:20:11,105 INFO [default] Current objective before run: 31.6663
+2017-11-10 13:20:11,105 INFO [default] Current temperature: 84.7289
+2017-11-10 13:20:11,106 INFO [default] =========  Current   =========
+2017-11-10 13:20:11,106 INFO [default] EPSILON: 115.5
+2017-11-10 13:20:11,106 INFO [default] SIGMA  : 4.187
+2017-11-10 13:20:11,106 INFO [default] N      : 15
+2017-11-10 13:20:15,004 INFO [default] Running 100K Liq...
+2017-11-10 13:32:53,377 INFO [default] Finished 100K Liq!
+2017-11-10 13:32:53,378 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-10 13:32:53,378 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-10 13:32:53,379 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-10 13:32:53,379 INFO [default] Density found: 668.26
+2017-11-10 13:32:53,379 INFO [default] Expected density: 1313.7
+2017-11-10 13:32:53,379 INFO [default] Density reported: 668.26
+2017-11-10 13:32:53,379 INFO [default] Error: 49.098
+2017-11-10 13:32:53,379 INFO [default] Current objective after run: 49.098
+2017-11-10 13:32:53,379 INFO [default] DELTA: 17.4317
+2017-11-10 13:32:53,380 INFO [default] Rejecting new configuration
+2017-11-10 13:32:53,380 INFO [default] iteration: 13
+2017-11-10 13:32:53,380 INFO [default] =========== END ITERATION ===========
+2017-11-10 13:32:53,380 INFO [default] =========== NEW ITERATION ===========
+2017-11-10 13:32:53,380 INFO [default] Objective: 31.6663
+2017-11-10 13:32:53,380 INFO [default] Current objective before run: 49.098
+2017-11-10 13:32:53,380 INFO [default] Current temperature: 76.256
+2017-11-10 13:32:53,381 INFO [default] =========  Current   =========
+2017-11-10 13:32:53,381 INFO [default] EPSILON: 107.75
+2017-11-10 13:32:53,381 INFO [default] SIGMA  : 2.985
+2017-11-10 13:32:53,381 INFO [default] N      : 13
+2017-11-10 13:32:57,507 INFO [default] Running 100K Liq...
+2017-11-10 14:08:20,445 INFO [default] Finished 100K Liq!
+2017-11-10 14:08:20,446 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-10 14:08:20,446 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-10 14:08:20,447 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-10 14:08:20,447 INFO [default] Density found: 1839.59
+2017-11-10 14:08:20,447 INFO [default] Expected density: 1313.7
+2017-11-10 14:08:20,447 INFO [default] Density reported: 1839.59
+2017-11-10 14:08:20,447 INFO [default] Error: 39.9635
+2017-11-10 14:08:20,447 INFO [default] Current objective after run: 39.9635
+2017-11-10 14:08:20,447 INFO [default] DELTA: 8.29718
+2017-11-10 14:08:20,448 INFO [default] Accepting new configuration
+2017-11-10 14:08:20,448 INFO [default] iteration: 14
+2017-11-10 14:08:20,448 INFO [default] =========== END ITERATION ===========
+2017-11-10 14:08:20,448 INFO [default] =========== NEW ITERATION ===========
+2017-11-10 14:08:20,448 INFO [default] Objective: 39.9635
+2017-11-10 14:08:20,448 INFO [default] Current objective before run: 39.9635
+2017-11-10 14:08:20,448 INFO [default] Current temperature: 68.6304
+2017-11-10 14:08:20,449 INFO [default] =========  Current   =========
+2017-11-10 14:08:20,449 INFO [default] EPSILON: 107.75
+2017-11-10 14:08:20,449 INFO [default] SIGMA  : 2.626
+2017-11-10 14:08:20,449 INFO [default] N      : 13
+2017-11-10 14:08:24,231 INFO [default] Running 100K Liq...
+2017-11-10 14:50:01,429 INFO [default] Finished 100K Liq!
+2017-11-10 14:50:01,429 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-10 14:50:01,429 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-10 14:50:01,430 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-10 14:50:01,431 INFO [default] Density found: 2609.35
+2017-11-10 14:50:01,431 INFO [default] Expected density: 1313.7
+2017-11-10 14:50:01,431 INFO [default] Density reported: 2609.35
+2017-11-10 14:50:01,431 INFO [default] Error: 98.5765
+2017-11-10 14:50:01,431 INFO [default] Current objective after run: 98.5765
+2017-11-10 14:50:01,431 INFO [default] DELTA: 58.6131
+2017-11-10 14:50:01,431 INFO [default] Rejecting new configuration
+2017-11-10 14:50:01,431 INFO [default] iteration: 15
+2017-11-10 14:50:01,431 INFO [default] =========== END ITERATION ===========
+2017-11-10 14:50:01,431 INFO [default] =========== NEW ITERATION ===========
+2017-11-10 14:50:01,431 INFO [default] Objective: 39.9635
+2017-11-10 14:50:01,431 INFO [default] Current objective before run: 98.5765
+2017-11-10 14:50:01,431 INFO [default] Current temperature: 61.7673
+2017-11-10 14:50:01,432 INFO [default] =========  Current   =========
+2017-11-10 14:50:01,432 INFO [default] EPSILON: 123.01
+2017-11-10 14:50:01,432 INFO [default] SIGMA  : 2.985
+2017-11-10 14:50:01,432 INFO [default] N      : 13
+2017-11-10 14:50:05,450 INFO [default] Running 100K Liq...
+2017-11-10 15:26:29,502 INFO [default] Finished 100K Liq!
+2017-11-10 15:26:29,503 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-10 15:26:29,503 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-10 15:26:29,503 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-10 15:26:29,504 INFO [default] Density found: 1924.01
+2017-11-10 15:26:29,504 INFO [default] Expected density: 1313.7
+2017-11-10 15:26:29,504 INFO [default] Density reported: 1924.01
+2017-11-10 15:26:29,504 INFO [default] Error: 46.4337
+2017-11-10 15:26:29,504 INFO [default] Current objective after run: 46.4337
+2017-11-10 15:26:29,504 INFO [default] DELTA: 6.47027
+2017-11-10 15:26:29,505 INFO [default] Accepting new configuration
+2017-11-10 15:26:29,505 INFO [default] iteration: 16
+2017-11-10 15:26:29,505 INFO [default] =========== END ITERATION ===========
+2017-11-10 15:26:29,505 INFO [default] =========== NEW ITERATION ===========
+2017-11-10 15:26:29,505 INFO [default] Objective: 46.4337
+2017-11-10 15:26:29,505 INFO [default] Current objective before run: 46.4337
+2017-11-10 15:26:29,505 INFO [default] Current temperature: 55.5906
+2017-11-10 15:26:29,505 INFO [default] =========  Current   =========
+2017-11-10 15:26:29,505 INFO [default] EPSILON: 106.01
+2017-11-10 15:26:29,505 INFO [default] SIGMA  : 2.985
+2017-11-10 15:26:29,505 INFO [default] N      : 13
+2017-11-10 15:26:33,309 INFO [default] Running 100K Liq...
+2017-11-10 16:01:43,678 INFO [default] Finished 100K Liq!
+2017-11-10 16:01:43,679 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-10 16:01:43,679 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-10 16:01:43,679 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-10 16:01:43,680 INFO [default] Density found: 1770.41
+2017-11-10 16:01:43,680 INFO [default] Expected density: 1313.7
+2017-11-10 16:01:43,680 INFO [default] Density reported: 1770.41
+2017-11-10 16:01:43,680 INFO [default] Error: 34.7111
+2017-11-10 16:01:43,680 INFO [default] Current objective after run: 34.7111
+2017-11-10 16:01:43,680 INFO [default] DELTA: -11.7226
+2017-11-10 16:01:43,680 INFO [default] Accepting new configuration
+2017-11-10 16:01:43,680 INFO [default] iteration: 17
+2017-11-10 16:01:43,680 INFO [default] =========== END ITERATION ===========
+2017-11-10 16:01:43,680 INFO [default] =========== NEW ITERATION ===========
+2017-11-10 16:01:43,680 INFO [default] Objective: 34.7111
+2017-11-10 16:01:43,680 INFO [default] Current objective before run: 34.7111
+2017-11-10 16:01:43,680 INFO [default] Current temperature: 50.0315
+2017-11-10 16:01:43,681 INFO [default] =========  Current   =========
+2017-11-10 16:01:43,681 INFO [default] EPSILON: 106.01
+2017-11-10 16:01:43,681 INFO [default] SIGMA  : 3.559
+2017-11-10 16:01:43,681 INFO [default] N      : 13
+2017-11-10 16:01:47,899 INFO [default] Running 100K Liq...
+2017-11-10 16:27:38,135 INFO [default] Finished 100K Liq!
+2017-11-10 16:27:38,136 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-10 16:27:38,136 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-10 16:27:38,137 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-10 16:27:38,137 INFO [default] Density found: 1063.77
+2017-11-10 16:27:38,137 INFO [default] Expected density: 1313.7
+2017-11-10 16:27:38,137 INFO [default] Density reported: 1063.77
+2017-11-10 16:27:38,137 INFO [default] Error: 18.9541
+2017-11-10 16:27:38,137 INFO [default] Current objective after run: 18.9541
+2017-11-10 16:27:38,137 INFO [default] DELTA: -15.757
+2017-11-10 16:27:38,137 INFO [default] Accepting new configuration
+2017-11-10 16:27:38,137 INFO [default] iteration: 18
+2017-11-10 16:27:38,137 INFO [default] =========== END ITERATION ===========
+2017-11-10 16:27:38,137 INFO [default] =========== NEW ITERATION ===========
+2017-11-10 16:27:38,137 INFO [default] Objective: 18.9541
+2017-11-10 16:27:38,137 INFO [default] Current objective before run: 18.9541
+2017-11-10 16:27:38,137 INFO [default] Current temperature: 45.0284
+2017-11-10 16:27:38,138 INFO [default] =========  Current   =========
+2017-11-10 16:27:38,138 INFO [default] EPSILON: 106.01
+2017-11-10 16:27:38,138 INFO [default] SIGMA  : 3.508
+2017-11-10 16:27:38,138 INFO [default] N      : 13
+2017-11-10 16:27:41,747 INFO [default] Running 100K Liq...
+2017-11-10 16:57:17,997 INFO [default] Finished 100K Liq!
+2017-11-10 16:57:17,998 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-10 16:57:17,998 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-10 16:57:17,999 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-10 16:57:17,999 INFO [default] Density found: 1112.62
+2017-11-10 16:57:17,999 INFO [default] Expected density: 1313.7
+2017-11-10 16:57:17,999 INFO [default] Density reported: 1112.62
+2017-11-10 16:57:17,999 INFO [default] Error: 15.3003
+2017-11-10 16:57:17,999 INFO [default] Current objective after run: 15.3003
+2017-11-10 16:57:17,999 INFO [default] DELTA: -3.6538
+2017-11-10 16:57:17,999 INFO [default] Accepting new configuration
+2017-11-10 16:57:17,999 INFO [default] iteration: 19
+2017-11-10 16:57:17,999 INFO [default] =========== END ITERATION ===========
+2017-11-10 16:57:17,999 INFO [default] =========== NEW ITERATION ===========
+2017-11-10 16:57:17,999 INFO [default] Objective: 15.3003
+2017-11-10 16:57:17,999 INFO [default] Current objective before run: 15.3003
+2017-11-10 16:57:17,999 INFO [default] Current temperature: 40.5256
+2017-11-10 16:57:18,000 INFO [default] =========  Current   =========
+2017-11-10 16:57:18,000 INFO [default] EPSILON: 106.01
+2017-11-10 16:57:18,000 INFO [default] SIGMA  : 4.143
+2017-11-10 16:57:18,000 INFO [default] N      : 13
+2017-11-10 16:57:21,893 INFO [default] Running 100K Liq...
+2017-11-10 17:09:52,412 INFO [default] Finished 100K Liq!
+2017-11-10 17:09:52,412 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-10 17:09:52,412 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-10 17:09:52,413 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-10 17:09:52,414 INFO [default] Density found: 678.407
+2017-11-10 17:09:52,414 INFO [default] Expected density: 1313.7
+2017-11-10 17:09:52,414 INFO [default] Density reported: 678.407
+2017-11-10 17:09:52,414 INFO [default] Error: 48.3368
+2017-11-10 17:09:52,414 INFO [default] Current objective after run: 48.3368
+2017-11-10 17:09:52,414 INFO [default] DELTA: 33.0365
+2017-11-10 17:09:52,414 INFO [default] Rejecting new configuration
+2017-11-10 17:09:52,414 INFO [default] iteration: 20
+2017-11-10 17:09:52,414 INFO [default] =========== END ITERATION ===========
+2017-11-10 17:09:52,414 INFO [default] =========== NEW ITERATION ===========
+2017-11-10 17:09:52,414 INFO [default] Objective: 15.3003
+2017-11-10 17:09:52,414 INFO [default] Current objective before run: 48.3368
+2017-11-10 17:09:52,414 INFO [default] Current temperature: 36.473
+2017-11-10 17:09:52,415 INFO [default] =========  Current   =========
+2017-11-10 17:09:52,415 INFO [default] EPSILON: 123.01
+2017-11-10 17:09:52,415 INFO [default] SIGMA  : 4.257
+2017-11-10 17:09:52,415 INFO [default] N      : 13
+2017-11-10 17:09:56,327 INFO [default] Running 100K Liq...
+2017-11-10 17:22:36,021 INFO [default] Finished 100K Liq!
+2017-11-10 17:22:36,022 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-10 17:22:36,022 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-10 17:22:36,023 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-10 17:22:36,024 INFO [default] Density found: 687.98
+2017-11-10 17:22:36,024 INFO [default] Expected density: 1313.7
+2017-11-10 17:22:36,024 INFO [default] Density reported: 687.98
+2017-11-10 17:22:36,024 INFO [default] Error: 47.5755
+2017-11-10 17:22:36,024 INFO [default] Current objective after run: 47.5755
+2017-11-10 17:22:36,024 INFO [default] DELTA: 32.2753
+2017-11-10 17:22:36,024 INFO [default] Accepting new configuration
+2017-11-10 17:22:36,024 INFO [default] iteration: 21
+2017-11-10 17:22:36,024 INFO [default] =========== END ITERATION ===========
+2017-11-10 17:22:36,024 INFO [default] =========== NEW ITERATION ===========
+2017-11-10 17:22:36,024 INFO [default] Objective: 47.5755
+2017-11-10 17:22:36,024 INFO [default] Current objective before run: 47.5755
+2017-11-10 17:22:36,024 INFO [default] Current temperature: 32.8257
+2017-11-10 17:22:36,025 INFO [default] =========  Current   =========
+2017-11-10 17:22:36,025 INFO [default] EPSILON: 123.01
+2017-11-10 17:22:36,025 INFO [default] SIGMA  : 3.917
+2017-11-10 17:22:36,025 INFO [default] N      : 13
+2017-11-10 17:22:40,431 INFO [default] Running 100K Liq...
+2017-11-10 17:36:42,338 INFO [default] Finished 100K Liq!
+2017-11-10 17:36:42,339 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-10 17:36:42,339 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-10 17:36:42,339 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-10 17:36:42,340 INFO [default] Density found: 873.742
+2017-11-10 17:36:42,340 INFO [default] Expected density: 1313.7
+2017-11-10 17:36:42,340 INFO [default] Density reported: 873.742
+2017-11-10 17:36:42,340 INFO [default] Error: 33.4171
+2017-11-10 17:36:42,340 INFO [default] Current objective after run: 33.4171
+2017-11-10 17:36:42,340 INFO [default] DELTA: -14.1585
+2017-11-10 17:36:42,340 INFO [default] Accepting new configuration
+2017-11-10 17:36:42,340 INFO [default] iteration: 22
+2017-11-10 17:36:42,340 INFO [default] =========== END ITERATION ===========
+2017-11-10 17:36:42,340 INFO [default] =========== NEW ITERATION ===========
+2017-11-10 17:36:42,340 INFO [default] Objective: 33.4171
+2017-11-10 17:36:42,340 INFO [default] Current objective before run: 33.4171
+2017-11-10 17:36:42,340 INFO [default] Current temperature: 29.5431
+2017-11-10 17:36:42,341 INFO [default] =========  Current   =========
+2017-11-10 17:36:42,341 INFO [default] EPSILON: 123.01
+2017-11-10 17:36:42,341 INFO [default] SIGMA  : 4.348
+2017-11-10 17:36:42,341 INFO [default] N      : 13
+2017-11-10 17:36:46,424 INFO [default] Running 100K Liq...
+2017-11-10 17:49:07,220 INFO [default] Finished 100K Liq!
+2017-11-10 17:49:07,220 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-10 17:49:07,220 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-10 17:49:07,221 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-10 17:49:07,222 INFO [default] Density found: 629.829
+2017-11-10 17:49:07,222 INFO [default] Expected density: 1313.7
+2017-11-10 17:49:07,222 INFO [default] Density reported: 629.829
+2017-11-10 17:49:07,222 INFO [default] Error: 51.9906
+2017-11-10 17:49:07,222 INFO [default] Current objective after run: 51.9906
+2017-11-10 17:49:07,222 INFO [default] DELTA: 18.5735
+2017-11-10 17:49:07,222 INFO [default] Accepting new configuration
+2017-11-10 17:49:07,222 INFO [default] iteration: 23
+2017-11-10 17:49:07,222 INFO [default] =========== END ITERATION ===========
+2017-11-10 17:49:07,222 INFO [default] =========== NEW ITERATION ===========
+2017-11-10 17:49:07,222 INFO [default] Objective: 51.9906
+2017-11-10 17:49:07,222 INFO [default] Current objective before run: 51.9906
+2017-11-10 17:49:07,222 INFO [default] Current temperature: 26.5888
+2017-11-10 17:49:07,223 INFO [default] =========  Current   =========
+2017-11-10 17:49:07,223 INFO [default] EPSILON: 123.01
+2017-11-10 17:49:07,223 INFO [default] SIGMA  : 3.677
+2017-11-10 17:49:07,223 INFO [default] N      : 13
+2017-11-10 17:49:11,075 INFO [default] Running 100K Liq...
+2017-11-10 18:13:48,224 INFO [default] Finished 100K Liq!
+2017-11-10 18:13:48,225 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-10 18:13:48,225 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-10 18:13:48,225 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-10 18:13:48,226 INFO [default] Density found: 1057.24
+2017-11-10 18:13:48,226 INFO [default] Expected density: 1313.7
+2017-11-10 18:13:48,226 INFO [default] Density reported: 1057.24
+2017-11-10 18:13:48,226 INFO [default] Error: 19.4869
+2017-11-10 18:13:48,226 INFO [default] Current objective after run: 19.4869
+2017-11-10 18:13:48,226 INFO [default] DELTA: -32.5036
+2017-11-10 18:13:48,226 INFO [default] Accepting new configuration
+2017-11-10 18:13:48,226 INFO [default] iteration: 24
+2017-11-10 18:13:48,226 INFO [default] =========== END ITERATION ===========
+2017-11-10 18:13:48,226 INFO [default] =========== NEW ITERATION ===========
+2017-11-10 18:13:48,226 INFO [default] Objective: 19.4869
+2017-11-10 18:13:48,226 INFO [default] Current objective before run: 19.4869
+2017-11-10 18:13:48,226 INFO [default] Current temperature: 23.9299
+2017-11-10 18:13:48,227 INFO [default] =========  Current   =========
+2017-11-10 18:13:48,227 INFO [default] EPSILON: 123.01
+2017-11-10 18:13:48,227 INFO [default] SIGMA  : 3.677
+2017-11-10 18:13:48,227 INFO [default] N      : 16
+2017-11-10 18:13:52,531 INFO [default] Running 100K Liq...
+2017-11-10 18:29:11,706 INFO [default] Finished 100K Liq!
+2017-11-10 18:29:11,707 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-10 18:29:11,707 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-10 18:29:11,708 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-10 18:29:11,708 INFO [default] Density found: 1018.72
+2017-11-10 18:29:11,708 INFO [default] Expected density: 1313.7
+2017-11-10 18:29:11,708 INFO [default] Density reported: 1018.72
+2017-11-10 18:29:11,708 INFO [default] Error: 22.3795
+2017-11-10 18:29:11,708 INFO [default] Current objective after run: 22.3795
+2017-11-10 18:29:11,708 INFO [default] DELTA: 2.89259
+2017-11-10 18:29:11,709 INFO [default] Accepting new configuration
+2017-11-10 18:29:11,709 INFO [default] iteration: 25
+2017-11-10 18:29:11,709 INFO [default] =========== END ITERATION ===========
+2017-11-10 18:29:11,709 INFO [default] =========== NEW ITERATION ===========
+2017-11-10 18:29:11,709 INFO [default] Objective: 22.3795
+2017-11-10 18:29:11,709 INFO [default] Current objective before run: 22.3795
+2017-11-10 18:29:11,709 INFO [default] Current temperature: 21.5369
+2017-11-10 18:29:11,710 INFO [default] =========  Current   =========
+2017-11-10 18:29:11,710 INFO [default] EPSILON: 123.01
+2017-11-10 18:29:11,710 INFO [default] SIGMA  : 3.677
+2017-11-10 18:29:11,710 INFO [default] N      : 12
+2017-11-10 18:29:16,228 INFO [default] Running 100K Liq...
+2017-11-10 18:57:18,867 INFO [default] Finished 100K Liq!
+2017-11-10 18:57:18,868 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-10 18:57:18,868 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-10 18:57:18,869 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-10 18:57:18,869 INFO [default] Density found: 1061.97
+2017-11-10 18:57:18,869 INFO [default] Expected density: 1313.7
+2017-11-10 18:57:18,869 INFO [default] Density reported: 1061.97
+2017-11-10 18:57:18,869 INFO [default] Error: 19.1063
+2017-11-10 18:57:18,869 INFO [default] Current objective after run: 19.1063
+2017-11-10 18:57:18,869 INFO [default] DELTA: -3.2732
+2017-11-10 18:57:18,869 INFO [default] Accepting new configuration
+2017-11-10 18:57:18,869 INFO [default] iteration: 26
+2017-11-10 18:57:18,869 INFO [default] =========== END ITERATION ===========
+2017-11-10 18:57:18,869 INFO [default] =========== NEW ITERATION ===========
+2017-11-10 18:57:18,869 INFO [default] Objective: 19.1063
+2017-11-10 18:57:18,869 INFO [default] Current objective before run: 19.1063
+2017-11-10 18:57:18,869 INFO [default] Current temperature: 19.3832
+2017-11-10 18:57:18,870 INFO [default] =========  Current   =========
+2017-11-10 18:57:18,870 INFO [default] EPSILON: 123.01
+2017-11-10 18:57:18,870 INFO [default] SIGMA  : 3.324
+2017-11-10 18:57:18,870 INFO [default] N      : 12
+2017-11-10 18:57:22,762 INFO [default] Running 100K Liq...
+2017-11-10 19:29:51,287 INFO [default] Finished 100K Liq!
+2017-11-10 19:29:51,287 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-10 19:29:51,287 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-10 19:29:51,288 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-10 19:29:51,289 INFO [default] Density found: 1429.83
+2017-11-10 19:29:51,289 INFO [default] Expected density: 1313.7
+2017-11-10 19:29:51,289 INFO [default] Density reported: 1429.83
+2017-11-10 19:29:51,289 INFO [default] Error: 8.83002
+2017-11-10 19:29:51,289 INFO [default] Current objective after run: 8.83002
+2017-11-10 19:29:51,289 INFO [default] DELTA: -10.2763
+2017-11-10 19:29:51,289 INFO [default] Accepting new configuration
+2017-11-10 19:29:51,289 INFO [default] iteration: 27
+2017-11-10 19:29:51,289 INFO [default] =========== END ITERATION ===========
+2017-11-10 19:29:51,289 INFO [default] =========== NEW ITERATION ===========
+2017-11-10 19:29:51,289 INFO [default] Objective: 8.83002
+2017-11-10 19:29:51,289 INFO [default] Current objective before run: 8.83002
+2017-11-10 19:29:51,289 INFO [default] Current temperature: 17.4449
+2017-11-10 19:29:51,290 INFO [default] =========  Current   =========
+2017-11-10 19:29:51,290 INFO [default] EPSILON: 123.01
+2017-11-10 19:29:51,290 INFO [default] SIGMA  : 3.324
+2017-11-10 19:29:51,290 INFO [default] N      : 15
+2017-11-10 19:29:55,507 INFO [default] Running 100K Liq...
+2017-11-10 20:02:02,796 INFO [default] Finished 100K Liq!
+2017-11-10 20:02:02,797 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-10 20:02:02,797 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-10 20:02:02,797 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-10 20:02:02,798 INFO [default] Density found: 1388.12
+2017-11-10 20:02:02,798 INFO [default] Expected density: 1313.7
+2017-11-10 20:02:02,798 INFO [default] Density reported: 1388.12
+2017-11-10 20:02:02,798 INFO [default] Error: 5.63295
+2017-11-10 20:02:02,798 INFO [default] Current objective after run: 5.63295
+2017-11-10 20:02:02,798 INFO [default] DELTA: -3.19708
+2017-11-10 20:02:02,798 INFO [default] Accepting new configuration
+2017-11-10 20:02:02,798 INFO [default] iteration: 28
+2017-11-10 20:02:02,798 INFO [default] =========== END ITERATION ===========
+2017-11-10 20:02:02,798 INFO [default] =========== NEW ITERATION ===========
+2017-11-10 20:02:02,798 INFO [default] Objective: 5.63295
+2017-11-10 20:02:02,798 INFO [default] Current objective before run: 5.63295
+2017-11-10 20:02:02,798 INFO [default] Current temperature: 15.7004
+2017-11-10 20:02:02,799 INFO [default] =========  Current   =========
+2017-11-10 20:02:02,799 INFO [default] EPSILON: 122.13
+2017-11-10 20:02:02,799 INFO [default] SIGMA  : 3.324
+2017-11-10 20:02:02,799 INFO [default] N      : 15
+2017-11-10 20:02:06,845 INFO [default] Running 100K Liq...
+2017-11-10 20:34:02,681 INFO [default] Finished 100K Liq!
+2017-11-10 20:34:02,682 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-10 20:34:02,682 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-10 20:34:02,683 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-10 20:34:02,683 INFO [default] Density found: 1354.36
+2017-11-10 20:34:02,683 INFO [default] Expected density: 1313.7
+2017-11-10 20:34:02,683 INFO [default] Density reported: 1354.36
+2017-11-10 20:34:02,683 INFO [default] Error: 3.04484
+2017-11-10 20:34:02,683 INFO [default] Current objective after run: 3.04484
+2017-11-10 20:34:02,683 INFO [default] DELTA: -2.58811
+2017-11-10 20:34:02,683 INFO [default] Accepting new configuration
+2017-11-10 20:34:02,683 INFO [default] iteration: 29
+2017-11-10 20:34:02,683 INFO [default] =========== END ITERATION ===========
+2017-11-10 20:34:02,683 INFO [default] =========== NEW ITERATION ===========
+2017-11-10 20:34:02,683 INFO [default] Objective: 3.04484
+2017-11-10 20:34:02,683 INFO [default] Current objective before run: 3.04484
+2017-11-10 20:34:02,683 INFO [default] Current temperature: 14.1304
+2017-11-10 20:34:02,684 INFO [default] =========  Current   =========
+2017-11-10 20:34:02,684 INFO [default] EPSILON: 121.41
+2017-11-10 20:34:02,684 INFO [default] SIGMA  : 3.324
+2017-11-10 20:34:02,685 INFO [default] N      : 15
+2017-11-10 20:34:06,819 INFO [default] Running 100K Liq...
+2017-11-10 21:06:16,461 INFO [default] Finished 100K Liq!
+2017-11-10 21:06:16,462 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-10 21:06:16,462 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-10 21:06:16,462 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-10 21:06:16,463 INFO [default] Density found: 1354.61
+2017-11-10 21:06:16,463 INFO [default] Expected density: 1313.7
+2017-11-10 21:06:16,463 INFO [default] Density reported: 1354.61
+2017-11-10 21:06:16,463 INFO [default] Error: 3.04484
+2017-11-10 21:06:16,463 INFO [default] Current objective after run: 3.04484
+2017-11-10 21:06:16,463 INFO [default] DELTA: 0
+2017-11-10 21:06:16,464 INFO [default] Accepting new configuration
+2017-11-10 21:06:16,464 INFO [default] iteration: 30
+2017-11-10 21:06:16,464 INFO [default] =========== END ITERATION ===========
+2017-11-10 21:06:16,464 INFO [default] =========== NEW ITERATION ===========
+2017-11-10 21:06:16,464 INFO [default] Objective: 3.04484
+2017-11-10 21:06:16,464 INFO [default] Current objective before run: 3.04484
+2017-11-10 21:06:16,464 INFO [default] Current temperature: 12.7173
+2017-11-10 21:06:16,464 INFO [default] =========  Current   =========
+2017-11-10 21:06:16,464 INFO [default] EPSILON: 121.41
+2017-11-10 21:06:16,464 INFO [default] SIGMA  : 2.444
+2017-11-10 21:06:16,464 INFO [default] N      : 15
+2017-11-10 21:06:20,607 INFO [default] Running 100K Liq...
+2017-11-10 21:49:24,673 INFO [default] Finished 100K Liq!
+2017-11-10 21:49:24,674 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-10 21:49:24,674 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-10 21:49:24,675 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-10 21:49:24,675 INFO [default] Density found: 3432.75
+2017-11-10 21:49:24,675 INFO [default] Expected density: 1313.7
+2017-11-10 21:49:24,675 INFO [default] Density reported: 3432.75
+2017-11-10 21:49:24,675 INFO [default] Error: 161.3
+2017-11-10 21:49:24,675 INFO [default] Current objective after run: 161.3
+2017-11-10 21:49:24,675 INFO [default] DELTA: 158.255
+2017-11-10 21:49:24,676 INFO [default] Rejecting new configuration
+2017-11-10 21:49:24,676 INFO [default] iteration: 31
+2017-11-10 21:49:24,676 INFO [default] =========== END ITERATION ===========
+2017-11-10 21:49:24,676 INFO [default] =========== NEW ITERATION ===========
+2017-11-10 21:49:24,676 INFO [default] Objective: 3.04484
+2017-11-10 21:49:24,676 INFO [default] Current objective before run: 161.3
+2017-11-10 21:49:24,676 INFO [default] Current temperature: 11.4456
+2017-11-10 21:49:24,677 INFO [default] =========  Current   =========
+2017-11-10 21:49:24,677 INFO [default] EPSILON: 109.71
+2017-11-10 21:49:24,677 INFO [default] SIGMA  : 3.324
+2017-11-10 21:49:24,677 INFO [default] N      : 12
+2017-11-10 21:49:28,719 INFO [default] Running 100K Liq...
+2017-11-10 22:21:22,952 INFO [default] Finished 100K Liq!
+2017-11-10 22:21:22,952 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-10 22:21:22,952 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-10 22:21:22,953 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-10 22:21:22,954 INFO [default] Density found: 1326.85
+2017-11-10 22:21:22,954 INFO [default] Expected density: 1313.7
+2017-11-10 22:21:22,954 INFO [default] Density reported: 1326.85
+2017-11-10 22:21:22,954 INFO [default] Error: 0.989571
+2017-11-10 22:21:22,954 INFO [default] Running 100K Vap...
+2017-11-10 22:23:01,640 INFO [default] Finished 100K Vap!
+2017-11-10 22:23:01,640 INFO [default] Finding density in temp_100/Vap/out.log!
+2017-11-10 22:23:01,640 INFO [default] Opening file temp_100/Vap/out.log...
+2017-11-10 22:23:01,641 INFO [default] Successfully opened file temp_100/Vap/out.log!
+2017-11-10 22:23:01,642 INFO [default] Density found: 16.259
+2017-11-10 22:23:01,642 INFO [default] Expected density: 16.859
+2017-11-10 22:23:01,642 INFO [default] Density reported: 16.259
+2017-11-10 22:23:01,642 INFO [default] Error: 0
+2017-11-10 22:23:01,642 INFO [default] Running 130K Liq...
+2017-11-10 22:43:39,488 INFO [default] Finished 130K Liq!
+2017-11-10 22:43:39,488 INFO [default] Finding density in temp_130/Liq/out.log!
+2017-11-10 22:43:39,488 INFO [default] Opening file temp_130/Liq/out.log...
+2017-11-10 22:43:39,489 INFO [default] Successfully opened file temp_130/Liq/out.log!
+2017-11-10 22:43:39,490 INFO [default] Density found: 1043.38
+2017-11-10 22:43:39,490 INFO [default] Expected density: 1068.1
+2017-11-10 22:43:39,490 INFO [default] Density reported: 1043.38
+2017-11-10 22:43:39,490 INFO [default] Error: 2.24698
+2017-11-10 22:43:39,490 INFO [default] Current objective after run: 1.07885
+2017-11-10 22:43:39,490 INFO [default] DELTA: -1.96598
+2017-11-10 22:43:39,490 INFO [default] Accepting new configuration
+2017-11-10 22:43:39,490 INFO [default] iteration: 32
+2017-11-10 22:43:39,490 INFO [default] =========== END ITERATION ===========
+2017-11-10 22:43:39,490 INFO [default] =========== NEW ITERATION ===========
+2017-11-10 22:43:39,490 INFO [default] Objective: 1.07885
+2017-11-10 22:43:39,490 INFO [default] Current objective before run: 1.07885
+2017-11-10 22:43:39,490 INFO [default] Current temperature: 10.3011
+2017-11-10 22:43:39,491 INFO [default] =========  Current   =========
+2017-11-10 22:43:39,491 INFO [default] EPSILON: 109.71
+2017-11-10 22:43:39,491 INFO [default] SIGMA  : 3.324
+2017-11-10 22:43:39,491 INFO [default] N      : 17
+2017-11-10 22:43:43,209 INFO [default] Running 100K Liq...
+2017-11-10 23:14:22,490 INFO [default] Finished 100K Liq!
+2017-11-10 23:14:22,491 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-10 23:14:22,491 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-10 23:14:22,492 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-10 23:14:22,492 INFO [default] Density found: 1208.71
+2017-11-10 23:14:22,492 INFO [default] Expected density: 1313.7
+2017-11-10 23:14:22,492 INFO [default] Density reported: 1208.71
+2017-11-10 23:14:22,492 INFO [default] Error: 7.91657
+2017-11-10 23:14:22,492 INFO [default] Current objective after run: 7.91657
+2017-11-10 23:14:22,492 INFO [default] DELTA: 6.83772
+2017-11-10 23:14:22,493 INFO [default] Rejecting new configuration
+2017-11-10 23:14:22,493 INFO [default] iteration: 33
+2017-11-10 23:14:22,493 INFO [default] =========== END ITERATION ===========
+2017-11-10 23:14:22,493 INFO [default] =========== NEW ITERATION ===========
+2017-11-10 23:14:22,493 INFO [default] Objective: 1.07885
+2017-11-10 23:14:22,493 INFO [default] Current objective before run: 7.91657
+2017-11-10 23:14:22,493 INFO [default] Current temperature: 9.27095
+2017-11-10 23:14:22,494 INFO [default] =========  Current   =========
+2017-11-10 23:14:22,494 INFO [default] EPSILON: 113.3
+2017-11-10 23:14:22,494 INFO [default] SIGMA  : 3.324
+2017-11-10 23:14:22,494 INFO [default] N      : 12
+2017-11-10 23:14:26,317 INFO [default] Running 100K Liq...
+2017-11-10 23:46:28,501 INFO [default] Finished 100K Liq!
+2017-11-10 23:46:28,502 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-10 23:46:28,502 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-10 23:46:28,503 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-10 23:46:28,503 INFO [default] Density found: 1355.28
+2017-11-10 23:46:28,503 INFO [default] Expected density: 1313.7
+2017-11-10 23:46:28,503 INFO [default] Density reported: 1355.28
+2017-11-10 23:46:28,503 INFO [default] Error: 3.12096
+2017-11-10 23:46:28,503 INFO [default] Current objective after run: 3.12096
+2017-11-10 23:46:28,503 INFO [default] DELTA: 2.04211
+2017-11-10 23:46:28,504 INFO [default] Accepting new configuration
+2017-11-10 23:46:28,504 INFO [default] iteration: 34
+2017-11-10 23:46:28,504 INFO [default] =========== END ITERATION ===========
+2017-11-10 23:46:28,504 INFO [default] =========== NEW ITERATION ===========
+2017-11-10 23:46:28,504 INFO [default] Objective: 3.12096
+2017-11-10 23:46:28,504 INFO [default] Current objective before run: 3.12096
+2017-11-10 23:46:28,504 INFO [default] Current temperature: 8.34385
+2017-11-10 23:46:28,505 INFO [default] =========  Current   =========
+2017-11-10 23:46:28,505 INFO [default] EPSILON: 113.3
+2017-11-10 23:46:28,505 INFO [default] SIGMA  : 3.324
+2017-11-10 23:46:28,505 INFO [default] N      : 14
+2017-11-10 23:46:32,713 INFO [default] Running 100K Liq...
+2017-11-11 00:18:18,118 INFO [default] Finished 100K Liq!
+2017-11-11 00:18:18,118 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-11 00:18:18,118 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-11 00:18:18,119 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-11 00:18:18,119 INFO [default] Density found: 1307.7
+2017-11-11 00:18:18,119 INFO [default] Expected density: 1313.7
+2017-11-11 00:18:18,119 INFO [default] Density reported: 1307.7
+2017-11-11 00:18:18,120 INFO [default] Error: 0.380604
+2017-11-11 00:18:18,120 INFO [default] Running 100K Vap...
+2017-11-11 00:19:57,041 INFO [default] Finished 100K Vap!
+2017-11-11 00:19:57,042 INFO [default] Finding density in temp_100/Vap/out.log!
+2017-11-11 00:19:57,042 INFO [default] Opening file temp_100/Vap/out.log...
+2017-11-11 00:19:57,042 INFO [default] Successfully opened file temp_100/Vap/out.log!
+2017-11-11 00:19:57,043 INFO [default] Density found: 16.634
+2017-11-11 00:19:57,043 INFO [default] Expected density: 16.859
+2017-11-11 00:19:57,043 INFO [default] Density reported: 16.634
+2017-11-11 00:19:57,043 INFO [default] Error: 0
+2017-11-11 00:19:57,043 INFO [default] Running 130K Liq...
+2017-11-11 00:23:34,721 INFO [default] Finished 130K Liq!
+2017-11-11 00:23:34,722 INFO [default] Finding density in temp_130/Liq/out.log!
+2017-11-11 00:23:34,722 INFO [default] Opening file temp_130/Liq/out.log...
+2017-11-11 00:23:34,722 INFO [default] Successfully opened file temp_130/Liq/out.log!
+2017-11-11 00:23:34,723 INFO [default] Density found: 95.9314
+2017-11-11 00:23:34,723 INFO [default] Expected density: 1068.1
+2017-11-11 00:23:34,723 INFO [default] Density reported: 95.9314
+2017-11-11 00:23:34,723 INFO [default] Error: 91.0027
+2017-11-11 00:23:34,723 INFO [default] Current objective after run: 30.4611
+2017-11-11 00:23:34,723 INFO [default] DELTA: 27.3402
+2017-11-11 00:23:34,723 INFO [default] Rejecting new configuration
+2017-11-11 00:23:34,723 INFO [default] iteration: 35
+2017-11-11 00:23:34,724 INFO [default] =========== END ITERATION ===========
+2017-11-11 00:23:34,724 INFO [default] =========== NEW ITERATION ===========
+2017-11-11 00:23:34,724 INFO [default] Objective: 3.12096
+2017-11-11 00:23:34,724 INFO [default] Current objective before run: 30.4611
+2017-11-11 00:23:34,724 INFO [default] Current temperature: 7.50947
+2017-11-11 00:23:34,724 INFO [default] =========  Current   =========
+2017-11-11 00:23:34,724 INFO [default] EPSILON: 122.13
+2017-11-11 00:23:34,724 INFO [default] SIGMA  : 3.894
+2017-11-11 00:23:34,724 INFO [default] N      : 12
+2017-11-11 00:23:38,401 INFO [default] Running 100K Liq...
+2017-11-11 00:37:50,849 INFO [default] Finished 100K Liq!
+2017-11-11 00:37:50,850 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-11 00:37:50,850 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-11 00:37:50,850 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-11 00:37:50,851 INFO [default] Density found: 898.697
+2017-11-11 00:37:50,851 INFO [default] Expected density: 1313.7
+2017-11-11 00:37:50,851 INFO [default] Density reported: 898.697
+2017-11-11 00:37:50,851 INFO [default] Error: 31.5902
+2017-11-11 00:37:50,851 INFO [default] Current objective after run: 31.5902
+2017-11-11 00:37:50,851 INFO [default] DELTA: 28.4692
+2017-11-11 00:37:50,852 INFO [default] Rejecting new configuration
+2017-11-11 00:37:50,852 INFO [default] iteration: 36
+2017-11-11 00:37:50,852 INFO [default] =========== END ITERATION ===========
+2017-11-11 00:37:50,852 INFO [default] =========== NEW ITERATION ===========
+2017-11-11 00:37:50,852 INFO [default] Objective: 3.12096
+2017-11-11 00:37:50,852 INFO [default] Current objective before run: 31.5902
+2017-11-11 00:37:50,852 INFO [default] Current temperature: 6.75852
+2017-11-11 00:37:50,852 INFO [default] =========  Current   =========
+2017-11-11 00:37:50,852 INFO [default] EPSILON: 122.13
+2017-11-11 00:37:50,852 INFO [default] SIGMA  : 3.324
+2017-11-11 00:37:50,852 INFO [default] N      : 15
+2017-11-11 00:37:54,808 INFO [default] Running 100K Liq...
+2017-11-11 01:09:56,609 INFO [default] Finished 100K Liq!
+2017-11-11 01:09:56,610 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-11 01:09:56,610 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-11 01:09:56,611 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-11 01:09:56,611 INFO [default] Density found: 1388.78
+2017-11-11 01:09:56,611 INFO [default] Expected density: 1313.7
+2017-11-11 01:09:56,611 INFO [default] Density reported: 1388.78
+2017-11-11 01:09:56,611 INFO [default] Error: 5.70907
+2017-11-11 01:09:56,611 INFO [default] Current objective after run: 5.70907
+2017-11-11 01:09:56,611 INFO [default] DELTA: 2.58811
+2017-11-11 01:09:56,612 INFO [default] Rejecting new configuration
+2017-11-11 01:09:56,612 INFO [default] iteration: 37
+2017-11-11 01:09:56,612 INFO [default] =========== END ITERATION ===========
+2017-11-11 01:09:56,612 INFO [default] =========== NEW ITERATION ===========
+2017-11-11 01:09:56,612 INFO [default] Objective: 3.12096
+2017-11-11 01:09:56,612 INFO [default] Current objective before run: 5.70907
+2017-11-11 01:09:56,612 INFO [default] Current temperature: 6.08267
+2017-11-11 01:09:56,613 INFO [default] =========  Current   =========
+2017-11-11 01:09:56,613 INFO [default] EPSILON: 118.17
+2017-11-11 01:09:56,613 INFO [default] SIGMA  : 3.324
+2017-11-11 01:09:56,613 INFO [default] N      : 12
+2017-11-11 01:10:00,449 INFO [default] Running 100K Liq...
+2017-11-11 01:42:25,402 INFO [default] Finished 100K Liq!
+2017-11-11 01:42:25,403 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-11 01:42:25,403 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-11 01:42:25,403 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-11 01:42:25,404 INFO [default] Density found: 1404.56
+2017-11-11 01:42:25,404 INFO [default] Expected density: 1313.7
+2017-11-11 01:42:25,404 INFO [default] Density reported: 1404.56
+2017-11-11 01:42:25,404 INFO [default] Error: 6.85088
+2017-11-11 01:42:25,404 INFO [default] Current objective after run: 6.85088
+2017-11-11 01:42:25,404 INFO [default] DELTA: 3.72992
+2017-11-11 01:42:25,404 INFO [default] Accepting new configuration
+2017-11-11 01:42:25,404 INFO [default] iteration: 38
+2017-11-11 01:42:25,404 INFO [default] =========== END ITERATION ===========
+2017-11-11 01:42:25,404 INFO [default] =========== NEW ITERATION ===========
+2017-11-11 01:42:25,404 INFO [default] Objective: 6.85088
+2017-11-11 01:42:25,404 INFO [default] Current objective before run: 6.85088
+2017-11-11 01:42:25,404 INFO [default] Current temperature: 5.4744
+2017-11-11 01:42:25,405 INFO [default] =========  Current   =========
+2017-11-11 01:42:25,405 INFO [default] EPSILON: 118.17
+2017-11-11 01:42:25,405 INFO [default] SIGMA  : 3.324
+2017-11-11 01:42:25,405 INFO [default] N      : 18
+2017-11-11 01:42:29,674 INFO [default] Running 100K Liq...
+2017-11-11 02:14:00,534 INFO [default] Finished 100K Liq!
+2017-11-11 02:14:00,535 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-11 02:14:00,535 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-11 02:14:00,536 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-11 02:14:00,536 INFO [default] Density found: 1285.04
+2017-11-11 02:14:00,536 INFO [default] Expected density: 1313.7
+2017-11-11 02:14:00,536 INFO [default] Density reported: 1285.04
+2017-11-11 02:14:00,536 INFO [default] Error: 2.13138
+2017-11-11 02:14:00,536 INFO [default] Current objective after run: 2.13138
+2017-11-11 02:14:00,536 INFO [default] DELTA: -4.71949
+2017-11-11 02:14:00,536 INFO [default] Accepting new configuration
+2017-11-11 02:14:00,536 INFO [default] iteration: 39
+2017-11-11 02:14:00,536 INFO [default] =========== END ITERATION ===========
+2017-11-11 02:14:00,536 INFO [default] =========== NEW ITERATION ===========
+2017-11-11 02:14:00,536 INFO [default] Objective: 2.13138
+2017-11-11 02:14:00,536 INFO [default] Current objective before run: 2.13138
+2017-11-11 02:14:00,537 INFO [default] Current temperature: 4.92696
+2017-11-11 02:14:00,537 INFO [default] =========  Current   =========
+2017-11-11 02:14:00,537 INFO [default] EPSILON: 118.17
+2017-11-11 02:14:00,537 INFO [default] SIGMA  : 3.324
+2017-11-11 02:14:00,537 INFO [default] N      : 13
+2017-11-11 02:14:04,298 INFO [default] Running 100K Liq...
+2017-11-11 02:46:18,089 INFO [default] Finished 100K Liq!
+2017-11-11 02:46:18,089 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-11 02:46:18,089 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-11 02:46:18,090 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-11 02:46:18,091 INFO [default] Density found: 1382.02
+2017-11-11 02:46:18,091 INFO [default] Expected density: 1313.7
+2017-11-11 02:46:18,091 INFO [default] Density reported: 1382.02
+2017-11-11 02:46:18,091 INFO [default] Error: 5.17622
+2017-11-11 02:46:18,091 INFO [default] Current objective after run: 5.17622
+2017-11-11 02:46:18,091 INFO [default] DELTA: 3.04484
+2017-11-11 02:46:18,091 INFO [default] Rejecting new configuration
+2017-11-11 02:46:18,091 INFO [default] iteration: 40
+2017-11-11 02:46:18,091 INFO [default] =========== END ITERATION ===========
+2017-11-11 02:46:18,091 INFO [default] =========== NEW ITERATION ===========
+2017-11-11 02:46:18,091 INFO [default] Objective: 2.13138
+2017-11-11 02:46:18,091 INFO [default] Current objective before run: 5.17622
+2017-11-11 02:46:18,091 INFO [default] Current temperature: 4.43426
+2017-11-11 02:46:18,092 INFO [default] =========  Current   =========
+2017-11-11 02:46:18,092 INFO [default] EPSILON: 116.48
+2017-11-11 02:46:18,092 INFO [default] SIGMA  : 3.324
+2017-11-11 02:46:18,092 INFO [default] N      : 18
+2017-11-11 02:46:21,997 INFO [default] Running 100K Liq...
+2017-11-11 03:17:56,296 INFO [default] Finished 100K Liq!
+2017-11-11 03:17:56,296 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-11 03:17:56,296 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-11 03:17:56,297 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-11 03:17:56,298 INFO [default] Density found: 1317.64
+2017-11-11 03:17:56,298 INFO [default] Expected density: 1313.7
+2017-11-11 03:17:56,298 INFO [default] Density reported: 1317.64
+2017-11-11 03:17:56,298 INFO [default] Error: 0.228363
+2017-11-11 03:17:56,298 INFO [default] Running 100K Vap...
+2017-11-11 03:19:34,791 INFO [default] Finished 100K Vap!
+2017-11-11 03:19:34,791 INFO [default] Finding density in temp_100/Vap/out.log!
+2017-11-11 03:19:34,791 INFO [default] Opening file temp_100/Vap/out.log...
+2017-11-11 03:19:34,792 INFO [default] Successfully opened file temp_100/Vap/out.log!
+2017-11-11 03:19:34,793 INFO [default] Density found: 16.2918
+2017-11-11 03:19:34,793 INFO [default] Expected density: 16.859
+2017-11-11 03:19:34,793 INFO [default] Density reported: 16.2918
+2017-11-11 03:19:34,793 INFO [default] Error: 0
+2017-11-11 03:19:34,793 INFO [default] Running 130K Liq...
+2017-11-11 03:22:25,692 INFO [default] Finished 130K Liq!
+2017-11-11 03:22:25,693 INFO [default] Finding density in temp_130/Liq/out.log!
+2017-11-11 03:22:25,693 INFO [default] Opening file temp_130/Liq/out.log...
+2017-11-11 03:22:25,694 INFO [default] Successfully opened file temp_130/Liq/out.log!
+2017-11-11 03:22:25,694 INFO [default] Density found: 85.888
+2017-11-11 03:22:25,694 INFO [default] Expected density: 1068.1
+2017-11-11 03:22:25,694 INFO [default] Density reported: 85.888
+2017-11-11 03:22:25,694 INFO [default] Error: 91.939
+2017-11-11 03:22:25,695 INFO [default] Current objective after run: 30.7224
+2017-11-11 03:22:25,695 INFO [default] DELTA: 28.5911
+2017-11-11 03:22:25,695 INFO [default] Rejecting new configuration
+2017-11-11 03:22:25,695 INFO [default] iteration: 41
+2017-11-11 03:22:25,695 INFO [default] =========== END ITERATION ===========
+2017-11-11 03:22:25,695 INFO [default] =========== NEW ITERATION ===========
+2017-11-11 03:22:25,695 INFO [default] Objective: 2.13138
+2017-11-11 03:22:25,695 INFO [default] Current objective before run: 30.7224
+2017-11-11 03:22:25,695 INFO [default] Current temperature: 3.99084
+2017-11-11 03:22:25,696 INFO [default] =========  Current   =========
+2017-11-11 03:22:25,696 INFO [default] EPSILON: 104.52
+2017-11-11 03:22:25,696 INFO [default] SIGMA  : 3.324
+2017-11-11 03:22:25,696 INFO [default] N      : 18
+2017-11-11 03:22:29,536 INFO [default] Running 100K Liq...
+2017-11-11 03:48:18,807 INFO [default] Finished 100K Liq!
+2017-11-11 03:48:18,807 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-11 03:48:18,807 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-11 03:48:18,808 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-11 03:48:18,808 INFO [default] Density found: 1068.73
+2017-11-11 03:48:18,808 INFO [default] Expected density: 1313.7
+2017-11-11 03:48:18,808 INFO [default] Density reported: 1068.73
+2017-11-11 03:48:18,809 INFO [default] Error: 18.5735
+2017-11-11 03:48:18,809 INFO [default] Current objective after run: 18.5735
+2017-11-11 03:48:18,809 INFO [default] DELTA: 16.4421
+2017-11-11 03:48:18,809 INFO [default] Rejecting new configuration
+2017-11-11 03:48:18,809 INFO [default] iteration: 42
+2017-11-11 03:48:18,809 INFO [default] =========== END ITERATION ===========
+2017-11-11 03:48:18,809 INFO [default] =========== NEW ITERATION ===========
+2017-11-11 03:48:18,809 INFO [default] Objective: 2.13138
+2017-11-11 03:48:18,809 INFO [default] Current objective before run: 18.5735
+2017-11-11 03:48:18,809 INFO [default] Current temperature: 3.59175
+2017-11-11 03:48:18,810 INFO [default] =========  Current   =========
+2017-11-11 03:48:18,810 INFO [default] EPSILON: 117.74
+2017-11-11 03:48:18,810 INFO [default] SIGMA  : 3.324
+2017-11-11 03:48:18,810 INFO [default] N      : 18
+2017-11-11 03:48:22,583 INFO [default] Running 100K Liq...
+2017-11-11 04:20:04,354 INFO [default] Finished 100K Liq!
+2017-11-11 04:20:04,354 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-11 04:20:04,354 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-11 04:20:04,355 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-11 04:20:04,356 INFO [default] Density found: 1294.77
+2017-11-11 04:20:04,356 INFO [default] Expected density: 1313.7
+2017-11-11 04:20:04,356 INFO [default] Density reported: 1294.77
+2017-11-11 04:20:04,356 INFO [default] Error: 1.37018
+2017-11-11 04:20:04,356 INFO [default] Current objective after run: 1.37018
+2017-11-11 04:20:04,356 INFO [default] DELTA: -0.761209
+2017-11-11 04:20:04,356 INFO [default] Accepting new configuration
+2017-11-11 04:20:04,356 INFO [default] iteration: 43
+2017-11-11 04:20:04,356 INFO [default] =========== END ITERATION ===========
+2017-11-11 04:20:04,356 INFO [default] =========== NEW ITERATION ===========
+2017-11-11 04:20:04,356 INFO [default] Objective: 1.37018
+2017-11-11 04:20:04,356 INFO [default] Current objective before run: 1.37018
+2017-11-11 04:20:04,356 INFO [default] Current temperature: 3.23258
+2017-11-11 04:20:04,357 INFO [default] =========  Current   =========
+2017-11-11 04:20:04,357 INFO [default] EPSILON: 104.61
+2017-11-11 04:20:04,357 INFO [default] SIGMA  : 3.324
+2017-11-11 04:20:04,357 INFO [default] N      : 18
+2017-11-11 04:20:08,417 INFO [default] Running 100K Liq...
+2017-11-11 04:44:37,224 INFO [default] Finished 100K Liq!
+2017-11-11 04:44:37,225 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-11 04:44:37,225 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-11 04:44:37,226 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-11 04:44:37,226 INFO [default] Density found: 1137.98
+2017-11-11 04:44:37,226 INFO [default] Expected density: 1313.7
+2017-11-11 04:44:37,226 INFO [default] Density reported: 1137.98
+2017-11-11 04:44:37,226 INFO [default] Error: 13.3212
+2017-11-11 04:44:37,226 INFO [default] Current objective after run: 13.3212
+2017-11-11 04:44:37,226 INFO [default] DELTA: 11.951
+2017-11-11 04:44:37,227 INFO [default] Rejecting new configuration
+2017-11-11 04:44:37,227 INFO [default] iteration: 44
+2017-11-11 04:44:37,227 INFO [default] =========== END ITERATION ===========
+2017-11-11 04:44:37,227 INFO [default] =========== NEW ITERATION ===========
+2017-11-11 04:44:37,227 INFO [default] Objective: 1.37018
+2017-11-11 04:44:37,227 INFO [default] Current objective before run: 13.3212
+2017-11-11 04:44:37,227 INFO [default] Current temperature: 2.90932
+2017-11-11 04:44:37,228 INFO [default] =========  Current   =========
+2017-11-11 04:44:37,228 INFO [default] EPSILON: 126.12
+2017-11-11 04:44:37,228 INFO [default] SIGMA  : 3.324
+2017-11-11 04:44:37,228 INFO [default] N      : 18
+2017-11-11 04:44:41,374 INFO [default] Running 100K Liq...
+2017-11-11 05:16:41,421 INFO [default] Finished 100K Liq!
+2017-11-11 05:16:41,422 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-11 05:16:41,422 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-11 05:16:41,423 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-11 05:16:41,423 INFO [default] Density found: 1388.81
+2017-11-11 05:16:41,423 INFO [default] Expected density: 1313.7
+2017-11-11 05:16:41,424 INFO [default] Density reported: 1388.81
+2017-11-11 05:16:41,424 INFO [default] Error: 5.70907
+2017-11-11 05:16:41,424 INFO [default] Current objective after run: 5.70907
+2017-11-11 05:16:41,424 INFO [default] DELTA: 4.33889
+2017-11-11 05:16:41,424 INFO [default] Accepting new configuration
+2017-11-11 05:16:41,424 INFO [default] iteration: 45
+2017-11-11 05:16:41,424 INFO [default] =========== END ITERATION ===========
+2017-11-11 05:16:41,424 INFO [default] =========== NEW ITERATION ===========
+2017-11-11 05:16:41,424 INFO [default] Objective: 5.70907
+2017-11-11 05:16:41,424 INFO [default] Current objective before run: 5.70907
+2017-11-11 05:16:41,424 INFO [default] Current temperature: 2.61839
+2017-11-11 05:16:41,425 INFO [default] =========  Current   =========
+2017-11-11 05:16:41,425 INFO [default] EPSILON: 117.52
+2017-11-11 05:16:41,425 INFO [default] SIGMA  : 3.324
+2017-11-11 05:16:41,425 INFO [default] N      : 18
+2017-11-11 05:16:45,507 INFO [default] Running 100K Liq...
+2017-11-11 05:48:13,970 INFO [default] Finished 100K Liq!
+2017-11-11 05:48:13,971 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-11 05:48:13,971 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-11 05:48:13,971 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-11 05:48:13,972 INFO [default] Density found: 1297.11
+2017-11-11 05:48:13,972 INFO [default] Expected density: 1313.7
+2017-11-11 05:48:13,972 INFO [default] Density reported: 1297.11
+2017-11-11 05:48:13,972 INFO [default] Error: 1.21793
+2017-11-11 05:48:13,972 INFO [default] Current objective after run: 1.21793
+2017-11-11 05:48:13,972 INFO [default] DELTA: -4.49113
+2017-11-11 05:48:13,972 INFO [default] Accepting new configuration
+2017-11-11 05:48:13,972 INFO [default] iteration: 46
+2017-11-11 05:48:13,972 INFO [default] =========== END ITERATION ===========
+2017-11-11 05:48:13,972 INFO [default] =========== NEW ITERATION ===========
+2017-11-11 05:48:13,972 INFO [default] Objective: 1.21793
+2017-11-11 05:48:13,972 INFO [default] Current objective before run: 1.21793
+2017-11-11 05:48:13,972 INFO [default] Current temperature: 2.35655
+2017-11-11 05:48:13,973 INFO [default] =========  Current   =========
+2017-11-11 05:48:13,973 INFO [default] EPSILON: 117.52
+2017-11-11 05:48:13,973 INFO [default] SIGMA  : 3.324
+2017-11-11 05:48:13,973 INFO [default] N      : 14
+2017-11-11 05:48:17,966 INFO [default] Running 100K Liq...
+2017-11-11 06:20:16,955 INFO [default] Finished 100K Liq!
+2017-11-11 06:20:16,956 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-11 06:20:16,956 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-11 06:20:16,957 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-11 06:20:16,957 INFO [default] Density found: 1354.92
+2017-11-11 06:20:16,957 INFO [default] Expected density: 1313.7
+2017-11-11 06:20:16,957 INFO [default] Density reported: 1354.92
+2017-11-11 06:20:16,957 INFO [default] Error: 3.12096
+2017-11-11 06:20:16,957 INFO [default] Current objective after run: 3.12096
+2017-11-11 06:20:16,957 INFO [default] DELTA: 1.90302
+2017-11-11 06:20:16,958 INFO [default] Accepting new configuration
+2017-11-11 06:20:16,958 INFO [default] iteration: 47
+2017-11-11 06:20:16,958 INFO [default] =========== END ITERATION ===========
+2017-11-11 06:20:16,958 INFO [default] =========== NEW ITERATION ===========
+2017-11-11 06:20:16,958 INFO [default] Objective: 3.12096
+2017-11-11 06:20:16,958 INFO [default] Current objective before run: 3.12096
+2017-11-11 06:20:16,958 INFO [default] Current temperature: 2.1209
+2017-11-11 06:20:16,959 INFO [default] =========  Current   =========
+2017-11-11 06:20:16,959 INFO [default] EPSILON: 117.52
+2017-11-11 06:20:16,959 INFO [default] SIGMA  : 3.324
+2017-11-11 06:20:16,959 INFO [default] N      : 12
+2017-11-11 06:20:20,790 INFO [default] Running 100K Liq...
+2017-11-11 06:52:38,170 INFO [default] Finished 100K Liq!
+2017-11-11 06:52:38,170 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-11 06:52:38,170 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-11 06:52:38,171 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-11 06:52:38,171 INFO [default] Density found: 1407.71
+2017-11-11 06:52:38,171 INFO [default] Expected density: 1313.7
+2017-11-11 06:52:38,171 INFO [default] Density reported: 1407.71
+2017-11-11 06:52:38,171 INFO [default] Error: 7.15536
+2017-11-11 06:52:38,171 INFO [default] Current objective after run: 7.15536
+2017-11-11 06:52:38,171 INFO [default] DELTA: 4.03441
+2017-11-11 06:52:38,172 INFO [default] Rejecting new configuration
+2017-11-11 06:52:38,172 INFO [default] iteration: 48
+2017-11-11 06:52:38,172 INFO [default] =========== END ITERATION ===========
+2017-11-11 06:52:38,172 INFO [default] =========== NEW ITERATION ===========
+2017-11-11 06:52:38,172 INFO [default] Objective: 3.12096
+2017-11-11 06:52:38,172 INFO [default] Current objective before run: 7.15536
+2017-11-11 06:52:38,172 INFO [default] Current temperature: 1.90881
+2017-11-11 06:52:38,173 INFO [default] =========  Current   =========
+2017-11-11 06:52:38,173 INFO [default] EPSILON: 126.12
+2017-11-11 06:52:38,173 INFO [default] SIGMA  : 3.324
+2017-11-11 06:52:38,173 INFO [default] N      : 12
+2017-11-11 06:52:42,246 INFO [default] Running 100K Liq...
+2017-11-11 07:25:35,919 INFO [default] Finished 100K Liq!
+2017-11-11 07:25:35,920 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-11 07:25:35,920 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-11 07:25:35,921 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-11 07:25:35,921 INFO [default] Density found: 1453.16
+2017-11-11 07:25:35,921 INFO [default] Expected density: 1313.7
+2017-11-11 07:25:35,921 INFO [default] Density reported: 1453.16
+2017-11-11 07:25:35,921 INFO [default] Error: 10.5808
+2017-11-11 07:25:35,921 INFO [default] Current objective after run: 10.5808
+2017-11-11 07:25:35,921 INFO [default] DELTA: 7.45985
+2017-11-11 07:25:35,922 INFO [default] Rejecting new configuration
+2017-11-11 07:25:35,922 INFO [default] iteration: 49
+2017-11-11 07:25:35,922 INFO [default] =========== END ITERATION ===========
+2017-11-11 07:25:35,922 INFO [default] =========== NEW ITERATION ===========
+2017-11-11 07:25:35,922 INFO [default] Objective: 3.12096
+2017-11-11 07:25:35,922 INFO [default] Current objective before run: 10.5808
+2017-11-11 07:25:35,922 INFO [default] Current temperature: 1.71793
+2017-11-11 07:25:35,923 INFO [default] =========  Current   =========
+2017-11-11 07:25:35,923 INFO [default] EPSILON: 122.15
+2017-11-11 07:25:35,923 INFO [default] SIGMA  : 3.324
+2017-11-11 07:25:35,923 INFO [default] N      : 14
+2017-11-11 07:25:39,966 INFO [default] Running 100K Liq...
+2017-11-11 07:57:46,058 INFO [default] Finished 100K Liq!
+2017-11-11 07:57:46,059 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-11 07:57:46,059 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-11 07:57:46,059 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-11 07:57:46,060 INFO [default] Density found: 1373.47
+2017-11-11 07:57:46,060 INFO [default] Expected density: 1313.7
+2017-11-11 07:57:46,060 INFO [default] Density reported: 1373.47
+2017-11-11 07:57:46,060 INFO [default] Error: 4.49113
+2017-11-11 07:57:46,060 INFO [default] Current objective after run: 4.49113
+2017-11-11 07:57:46,060 INFO [default] DELTA: 1.37018
+2017-11-11 07:57:46,060 INFO [default] Rejecting new configuration
+2017-11-11 07:57:46,060 INFO [default] iteration: 50
+2017-11-11 07:57:46,060 INFO [default] =========== END ITERATION ===========
+2017-11-11 07:57:46,060 INFO [default] =========== NEW ITERATION ===========
+2017-11-11 07:57:46,060 INFO [default] Objective: 3.12096
+2017-11-11 07:57:46,060 INFO [default] Current objective before run: 4.49113
+2017-11-11 07:57:46,061 INFO [default] Current temperature: 1.54613
+2017-11-11 07:57:46,061 INFO [default] =========  Current   =========
+2017-11-11 07:57:46,061 INFO [default] EPSILON: 126.12
+2017-11-11 07:57:46,061 INFO [default] SIGMA  : 3.324
+2017-11-11 07:57:46,061 INFO [default] N      : 16
+2017-11-11 07:57:49,913 INFO [default] Running 100K Liq...
+2017-11-11 08:30:06,101 INFO [default] Finished 100K Liq!
+2017-11-11 08:30:06,102 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-11 08:30:06,102 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-11 08:30:06,103 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-11 08:30:06,103 INFO [default] Density found: 1383.75
+2017-11-11 08:30:06,103 INFO [default] Expected density: 1313.7
+2017-11-11 08:30:06,103 INFO [default] Density reported: 1383.75
+2017-11-11 08:30:06,103 INFO [default] Error: 5.32846
+2017-11-11 08:30:06,103 INFO [default] Current objective after run: 5.32846
+2017-11-11 08:30:06,103 INFO [default] DELTA: 2.20751
+2017-11-11 08:30:06,104 INFO [default] Rejecting new configuration
+2017-11-11 08:30:06,104 INFO [default] iteration: 51
+2017-11-11 08:30:06,104 INFO [default] =========== END ITERATION ===========
+2017-11-11 08:30:06,104 INFO [default] =========== NEW ITERATION ===========
+2017-11-11 08:30:06,104 INFO [default] Objective: 3.12096
+2017-11-11 08:30:06,104 INFO [default] Current objective before run: 5.32846
+2017-11-11 08:30:06,104 INFO [default] Current temperature: 1.39152
+2017-11-11 08:30:06,105 INFO [default] =========  Current   =========
+2017-11-11 08:30:06,105 INFO [default] EPSILON: 117.13
+2017-11-11 08:30:06,105 INFO [default] SIGMA  : 3.324
+2017-11-11 08:30:06,105 INFO [default] N      : 14
+2017-11-11 08:30:09,943 INFO [default] Running 100K Liq...
+2017-11-11 09:02:16,945 INFO [default] Finished 100K Liq!
+2017-11-11 09:02:16,946 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-11 09:02:16,946 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-11 09:02:16,947 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-11 09:02:16,947 INFO [default] Density found: 1357.35
+2017-11-11 09:02:16,947 INFO [default] Expected density: 1313.7
+2017-11-11 09:02:16,947 INFO [default] Density reported: 1357.35
+2017-11-11 09:02:16,947 INFO [default] Error: 3.2732
+2017-11-11 09:02:16,947 INFO [default] Current objective after run: 3.2732
+2017-11-11 09:02:16,947 INFO [default] DELTA: 0.152242
+2017-11-11 09:02:16,948 INFO [default] Rejecting new configuration
+2017-11-11 09:02:16,948 INFO [default] iteration: 52
+2017-11-11 09:02:16,948 INFO [default] =========== END ITERATION ===========
+2017-11-11 09:02:16,948 INFO [default] =========== NEW ITERATION ===========
+2017-11-11 09:02:16,948 INFO [default] Objective: 3.12096
+2017-11-11 09:02:16,948 INFO [default] Current objective before run: 3.2732
+2017-11-11 09:02:16,948 INFO [default] Current temperature: 1.25237
+2017-11-11 09:02:16,949 INFO [default] =========  Current   =========
+2017-11-11 09:02:16,949 INFO [default] EPSILON: 126.12
+2017-11-11 09:02:16,949 INFO [default] SIGMA  : 2.852
+2017-11-11 09:02:16,949 INFO [default] N      : 14
+2017-11-11 09:02:21,000 INFO [default] Running 100K Liq...
+2017-11-11 09:41:12,921 INFO [default] Finished 100K Liq!
+2017-11-11 09:41:12,922 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-11 09:41:12,922 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-11 09:41:12,923 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-11 09:41:12,923 INFO [default] Density found: 2213.14
+2017-11-11 09:41:12,923 INFO [default] Expected density: 1313.7
+2017-11-11 09:41:12,923 INFO [default] Density reported: 2213.14
+2017-11-11 09:41:12,923 INFO [default] Error: 68.4327
+2017-11-11 09:41:12,923 INFO [default] Current objective after run: 68.4327
+2017-11-11 09:41:12,923 INFO [default] DELTA: 65.3117
+2017-11-11 09:41:12,924 INFO [default] Rejecting new configuration
+2017-11-11 09:41:12,924 INFO [default] iteration: 53
+2017-11-11 09:41:12,924 INFO [default] =========== END ITERATION ===========
+2017-11-11 09:41:12,924 INFO [default] =========== NEW ITERATION ===========
+2017-11-11 09:41:12,924 INFO [default] Objective: 3.12096
+2017-11-11 09:41:12,924 INFO [default] Current objective before run: 68.4327
+2017-11-11 09:41:12,924 INFO [default] Current temperature: 1.12713
+2017-11-11 09:41:12,925 INFO [default] =========  Current   =========
+2017-11-11 09:41:12,925 INFO [default] EPSILON: 126.12
+2017-11-11 09:41:12,925 INFO [default] SIGMA  : 3.324
+2017-11-11 09:41:12,925 INFO [default] N      : 14
+2017-11-11 09:41:17,043 INFO [default] Running 100K Liq...
+2017-11-11 10:13:46,849 INFO [default] Finished 100K Liq!
+2017-11-11 10:13:46,849 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-11 10:13:46,849 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-11 10:13:46,850 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-11 10:13:46,851 INFO [default] Density found: 1393.65
+2017-11-11 10:13:46,851 INFO [default] Expected density: 1313.7
+2017-11-11 10:13:46,851 INFO [default] Density reported: 1393.65
+2017-11-11 10:13:46,851 INFO [default] Error: 6.01355
+2017-11-11 10:13:46,851 INFO [default] Current objective after run: 6.01355
+2017-11-11 10:13:46,851 INFO [default] DELTA: 2.89259
+2017-11-11 10:13:46,851 INFO [default] Accepting new configuration
+2017-11-11 10:13:46,851 INFO [default] iteration: 54
+2017-11-11 10:13:46,851 INFO [default] =========== END ITERATION ===========
+2017-11-11 10:13:46,851 INFO [default] =========== NEW ITERATION ===========
+2017-11-11 10:13:46,851 INFO [default] Objective: 6.01355
+2017-11-11 10:13:46,851 INFO [default] Current objective before run: 6.01355
+2017-11-11 10:13:46,851 INFO [default] Current temperature: 1.01442
+2017-11-11 10:13:46,852 INFO [default] =========  Current   =========
+2017-11-11 10:13:46,852 INFO [default] EPSILON: 126.12
+2017-11-11 10:13:46,852 INFO [default] SIGMA  : 3.324
+2017-11-11 10:13:46,852 INFO [default] N      : 16
+2017-11-11 10:13:50,961 INFO [default] Running 100K Liq...
+2017-11-11 10:46:06,180 INFO [default] Finished 100K Liq!
+2017-11-11 10:46:06,181 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-11 10:46:06,181 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-11 10:46:06,181 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-11 10:46:06,182 INFO [default] Density found: 1406.49
+2017-11-11 10:46:06,182 INFO [default] Expected density: 1313.7
+2017-11-11 10:46:06,182 INFO [default] Density reported: 1406.49
+2017-11-11 10:46:06,182 INFO [default] Error: 7.00312
+2017-11-11 10:46:06,182 INFO [default] Current objective after run: 7.00312
+2017-11-11 10:46:06,182 INFO [default] DELTA: 0.989571
+2017-11-11 10:46:06,183 INFO [default] Accepting new configuration
+2017-11-11 10:46:06,183 INFO [default] iteration: 55
+2017-11-11 10:46:06,183 INFO [default] =========== END ITERATION ===========
+2017-11-11 10:46:06,183 INFO [default] =========== NEW ITERATION ===========
+2017-11-11 10:46:06,183 INFO [default] Objective: 7.00312
+2017-11-11 10:46:06,183 INFO [default] Current objective before run: 7.00312
+2017-11-11 10:46:06,183 INFO [default] Current temperature: 0.912976
+2017-11-11 10:46:06,183 INFO [default] =========  Current   =========
+2017-11-11 10:46:06,183 INFO [default] EPSILON: 116.61
+2017-11-11 10:46:06,183 INFO [default] SIGMA  : 3.324
+2017-11-11 10:46:06,183 INFO [default] N      : 16
+2017-11-11 10:46:10,056 INFO [default] Running 100K Liq...
+2017-11-11 11:17:23,828 INFO [default] Finished 100K Liq!
+2017-11-11 11:17:23,829 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-11 11:17:23,829 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-11 11:17:23,829 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-11 11:17:23,830 INFO [default] Density found: 1314.07
+2017-11-11 11:17:23,830 INFO [default] Expected density: 1313.7
+2017-11-11 11:17:23,830 INFO [default] Density reported: 1314.07
+2017-11-11 11:17:23,830 INFO [default] Error: 0
+2017-11-11 11:17:23,830 INFO [default] Running 100K Vap...
+2017-11-11 11:19:02,975 INFO [default] Finished 100K Vap!
+2017-11-11 11:19:02,976 INFO [default] Finding density in temp_100/Vap/out.log!
+2017-11-11 11:19:02,976 INFO [default] Opening file temp_100/Vap/out.log...
+2017-11-11 11:19:02,977 INFO [default] Successfully opened file temp_100/Vap/out.log!
+2017-11-11 11:19:02,977 INFO [default] Density found: 16.758
+2017-11-11 11:19:02,977 INFO [default] Expected density: 16.859
+2017-11-11 11:19:02,977 INFO [default] Density reported: 16.758
+2017-11-11 11:19:02,977 INFO [default] Error: 0
+2017-11-11 11:19:02,978 INFO [default] Running 130K Liq...
+2017-11-11 11:21:55,036 INFO [default] Finished 130K Liq!
+2017-11-11 11:21:55,037 INFO [default] Finding density in temp_130/Liq/out.log!
+2017-11-11 11:21:55,037 INFO [default] Opening file temp_130/Liq/out.log...
+2017-11-11 11:21:55,037 INFO [default] Successfully opened file temp_130/Liq/out.log!
+2017-11-11 11:21:55,038 INFO [default] Density found: 82.7141
+2017-11-11 11:21:55,038 INFO [default] Expected density: 1068.1
+2017-11-11 11:21:55,038 INFO [default] Density reported: 82.7141
+2017-11-11 11:21:55,038 INFO [default] Error: 92.2198
+2017-11-11 11:21:55,038 INFO [default] Current objective after run: 30.7399
+2017-11-11 11:21:55,038 INFO [default] DELTA: 23.7368
+2017-11-11 11:21:55,038 INFO [default] Rejecting new configuration
+2017-11-11 11:21:55,038 INFO [default] iteration: 56
+2017-11-11 11:21:55,038 INFO [default] =========== END ITERATION ===========
+2017-11-11 11:21:55,039 INFO [default] =========== NEW ITERATION ===========
+2017-11-11 11:21:55,039 INFO [default] Objective: 7.00312
+2017-11-11 11:21:55,039 INFO [default] Current objective before run: 30.7399
+2017-11-11 11:21:55,039 INFO [default] Current temperature: 0.821678
+2017-11-11 11:21:55,039 INFO [default] =========  Current   =========
+2017-11-11 11:21:55,039 INFO [default] EPSILON: 126.12
+2017-11-11 11:21:55,039 INFO [default] SIGMA  : 3.324
+2017-11-11 11:21:55,039 INFO [default] N      : 18
+2017-11-11 11:21:59,174 INFO [default] Running 100K Liq...
+2017-11-11 11:53:44,905 INFO [default] Finished 100K Liq!
+2017-11-11 11:53:44,906 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-11 11:53:44,906 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-11 11:53:44,907 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-11 11:53:44,907 INFO [default] Density found: 1343.09
+2017-11-11 11:53:44,907 INFO [default] Expected density: 1313.7
+2017-11-11 11:53:44,907 INFO [default] Density reported: 1343.09
+2017-11-11 11:53:44,907 INFO [default] Error: 2.20751
+2017-11-11 11:53:44,907 INFO [default] Current objective after run: 2.20751
+2017-11-11 11:53:44,907 INFO [default] DELTA: -4.79562
+2017-11-11 11:53:44,907 INFO [default] Accepting new configuration
+2017-11-11 11:53:44,907 INFO [default] iteration: 57
+2017-11-11 11:53:44,907 INFO [default] =========== END ITERATION ===========
+2017-11-11 11:53:44,907 INFO [default] =========== NEW ITERATION ===========
+2017-11-11 11:53:44,907 INFO [default] Objective: 2.20751
+2017-11-11 11:53:44,907 INFO [default] Current objective before run: 2.20751
+2017-11-11 11:53:44,908 INFO [default] Current temperature: 0.73951
+2017-11-11 11:53:44,908 INFO [default] =========  Current   =========
+2017-11-11 11:53:44,908 INFO [default] EPSILON: 112.62
+2017-11-11 11:53:44,908 INFO [default] SIGMA  : 3.324
+2017-11-11 11:53:44,908 INFO [default] N      : 18
+2017-11-11 11:53:48,918 INFO [default] Running 100K Liq...
+2017-11-11 12:24:17,682 INFO [default] Finished 100K Liq!
+2017-11-11 12:24:17,682 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-11 12:24:17,682 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-11 12:24:17,683 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-11 12:24:17,684 INFO [default] Density found: 1233.88
+2017-11-11 12:24:17,684 INFO [default] Expected density: 1313.7
+2017-11-11 12:24:17,684 INFO [default] Density reported: 1233.88
+2017-11-11 12:24:17,684 INFO [default] Error: 6.01355
+2017-11-11 12:24:17,684 INFO [default] Current objective after run: 6.01355
+2017-11-11 12:24:17,684 INFO [default] DELTA: 3.80604
+2017-11-11 12:24:17,684 INFO [default] Rejecting new configuration
+2017-11-11 12:24:17,684 INFO [default] iteration: 58
+2017-11-11 12:24:17,684 INFO [default] =========== END ITERATION ===========
+2017-11-11 12:24:17,684 INFO [default] =========== NEW ITERATION ===========
+2017-11-11 12:24:17,684 INFO [default] Objective: 2.20751
+2017-11-11 12:24:17,684 INFO [default] Current objective before run: 6.01355
+2017-11-11 12:24:17,684 INFO [default] Current temperature: 0.665559
+2017-11-11 12:24:17,685 INFO [default] =========  Current   =========
+2017-11-11 12:24:17,685 INFO [default] EPSILON: 126.12
+2017-11-11 12:24:17,685 INFO [default] SIGMA  : 3.324
+2017-11-11 12:24:17,685 INFO [default] N      : 16
+2017-11-11 12:24:21,410 INFO [default] Running 100K Liq...
+2017-11-11 12:56:40,228 INFO [default] Finished 100K Liq!
+2017-11-11 12:56:40,229 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-11 12:56:40,229 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-11 12:56:40,230 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-11 12:56:40,230 INFO [default] Density found: 1383.79
+2017-11-11 12:56:40,230 INFO [default] Expected density: 1313.7
+2017-11-11 12:56:40,230 INFO [default] Density reported: 1383.79
+2017-11-11 12:56:40,230 INFO [default] Error: 5.32846
+2017-11-11 12:56:40,231 INFO [default] Current objective after run: 5.32846
+2017-11-11 12:56:40,231 INFO [default] DELTA: 3.12096
+2017-11-11 12:56:40,231 INFO [default] Rejecting new configuration
+2017-11-11 12:56:40,231 INFO [default] iteration: 59
+2017-11-11 12:56:40,231 INFO [default] =========== END ITERATION ===========
+2017-11-11 12:56:40,231 INFO [default] =========== NEW ITERATION ===========
+2017-11-11 12:56:40,231 INFO [default] Objective: 2.20751
+2017-11-11 12:56:40,231 INFO [default] Current objective before run: 5.32846
+2017-11-11 12:56:40,231 INFO [default] Current temperature: 0.599003
+2017-11-11 12:56:40,232 INFO [default] =========  Current   =========
+2017-11-11 12:56:40,232 INFO [default] EPSILON: 126.12
+2017-11-11 12:56:40,232 INFO [default] SIGMA  : 3.324
+2017-11-11 12:56:40,232 INFO [default] N      : 16
+2017-11-11 12:56:44,468 INFO [default] Running 100K Liq...
+2017-11-11 13:28:55,740 INFO [default] Finished 100K Liq!
+2017-11-11 13:28:55,740 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-11 13:28:55,740 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-11 13:28:55,741 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-11 13:28:55,742 INFO [default] Density found: 1397.49
+2017-11-11 13:28:55,742 INFO [default] Expected density: 1313.7
+2017-11-11 13:28:55,742 INFO [default] Density reported: 1397.49
+2017-11-11 13:28:55,742 INFO [default] Error: 6.31803
+2017-11-11 13:28:55,742 INFO [default] Current objective after run: 6.31803
+2017-11-11 13:28:55,742 INFO [default] DELTA: 4.11053
+2017-11-11 13:28:55,742 INFO [default] Rejecting new configuration
+2017-11-11 13:28:55,742 INFO [default] iteration: 60
+2017-11-11 13:28:55,742 INFO [default] =========== END ITERATION ===========
+2017-11-11 13:28:55,742 INFO [default] =========== NEW ITERATION ===========
+2017-11-11 13:28:55,742 INFO [default] Objective: 2.20751
+2017-11-11 13:28:55,742 INFO [default] Current objective before run: 6.31803
+2017-11-11 13:28:55,742 INFO [default] Current temperature: 0.539103
+2017-11-11 13:28:55,743 INFO [default] =========  Current   =========
+2017-11-11 13:28:55,743 INFO [default] EPSILON: 126.12
+2017-11-11 13:28:55,743 INFO [default] SIGMA  : 3.324
+2017-11-11 13:28:55,743 INFO [default] N      : 14
+2017-11-11 13:28:59,596 INFO [default] Running 100K Liq...
+2017-11-11 14:01:27,566 INFO [default] Finished 100K Liq!
+2017-11-11 14:01:27,566 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-11 14:01:27,566 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-11 14:01:27,567 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-11 14:01:27,567 INFO [default] Density found: 1441.53
+2017-11-11 14:01:27,567 INFO [default] Expected density: 1313.7
+2017-11-11 14:01:27,567 INFO [default] Density reported: 1441.53
+2017-11-11 14:01:27,567 INFO [default] Error: 9.66735
+2017-11-11 14:01:27,567 INFO [default] Current objective after run: 9.66735
+2017-11-11 14:01:27,568 INFO [default] DELTA: 7.45985
+2017-11-11 14:01:27,568 INFO [default] Rejecting new configuration
+2017-11-11 14:01:27,568 INFO [default] iteration: 61
+2017-11-11 14:01:27,568 INFO [default] =========== END ITERATION ===========
+2017-11-11 14:01:27,568 INFO [default] =========== NEW ITERATION ===========
+2017-11-11 14:01:27,568 INFO [default] Objective: 2.20751
+2017-11-11 14:01:27,568 INFO [default] Current objective before run: 9.66735
+2017-11-11 14:01:27,568 INFO [default] Current temperature: 0.485193
+2017-11-11 14:01:27,569 INFO [default] =========  Current   =========
+2017-11-11 14:01:27,569 INFO [default] EPSILON: 126.12
+2017-11-11 14:01:27,569 INFO [default] SIGMA  : 3.265
+2017-11-11 14:01:27,569 INFO [default] N      : 14
+2017-11-11 14:01:31,460 INFO [default] Running 100K Liq...
+2017-11-11 14:34:35,877 INFO [default] Finished 100K Liq!
+2017-11-11 14:34:35,878 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-11 14:34:35,878 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-11 14:34:35,879 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-11 14:34:35,880 INFO [default] Density found: 1469.74
+2017-11-11 14:34:35,880 INFO [default] Expected density: 1313.7
+2017-11-11 14:34:35,880 INFO [default] Density reported: 1469.74
+2017-11-11 14:34:35,880 INFO [default] Error: 11.8749
+2017-11-11 14:34:35,880 INFO [default] Current objective after run: 11.8749
+2017-11-11 14:34:35,880 INFO [default] DELTA: 9.66735
+2017-11-11 14:34:35,880 INFO [default] Rejecting new configuration
+2017-11-11 14:34:35,880 INFO [default] iteration: 62
+2017-11-11 14:34:35,880 INFO [default] =========== END ITERATION ===========
+2017-11-11 14:34:35,880 INFO [default] =========== NEW ITERATION ===========
+2017-11-11 14:34:35,880 INFO [default] Objective: 2.20751
+2017-11-11 14:34:35,880 INFO [default] Current objective before run: 11.8749
+2017-11-11 14:34:35,880 INFO [default] Current temperature: 0.436674
+2017-11-11 14:34:35,881 INFO [default] =========  Current   =========
+2017-11-11 14:34:35,881 INFO [default] EPSILON: 120.41
+2017-11-11 14:34:35,881 INFO [default] SIGMA  : 3.324
+2017-11-11 14:34:35,881 INFO [default] N      : 14
+2017-11-11 14:34:39,742 INFO [default] Running 100K Liq...
+2017-11-11 15:06:44,610 INFO [default] Finished 100K Liq!
+2017-11-11 15:06:44,610 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-11 15:06:44,610 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-11 15:06:44,611 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-11 15:06:44,611 INFO [default] Density found: 1366.85
+2017-11-11 15:06:44,611 INFO [default] Expected density: 1313.7
+2017-11-11 15:06:44,611 INFO [default] Density reported: 1366.85
+2017-11-11 15:06:44,612 INFO [default] Error: 4.03441
+2017-11-11 15:06:44,612 INFO [default] Current objective after run: 4.03441
+2017-11-11 15:06:44,612 INFO [default] DELTA: 1.8269
+2017-11-11 15:06:44,612 INFO [default] Rejecting new configuration
+2017-11-11 15:06:44,612 INFO [default] iteration: 63
+2017-11-11 15:06:44,612 INFO [default] =========== END ITERATION ===========
+2017-11-11 15:06:44,612 INFO [default] =========== NEW ITERATION ===========
+2017-11-11 15:06:44,612 INFO [default] Objective: 2.20751
+2017-11-11 15:06:44,612 INFO [default] Current objective before run: 4.03441
+2017-11-11 15:06:44,612 INFO [default] Current temperature: 0.393006
+2017-11-11 15:06:44,613 INFO [default] =========  Current   =========
+2017-11-11 15:06:44,613 INFO [default] EPSILON: 103.26
+2017-11-11 15:06:44,613 INFO [default] SIGMA  : 3.324
+2017-11-11 15:06:44,613 INFO [default] N      : 14
+2017-11-11 15:06:48,484 INFO [default] Running 100K Liq...
+2017-11-11 15:37:31,874 INFO [default] Finished 100K Liq!
+2017-11-11 15:37:31,875 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-11 15:37:31,875 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-11 15:37:31,876 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-11 15:37:31,876 INFO [default] Density found: 1217.8
+2017-11-11 15:37:31,876 INFO [default] Expected density: 1313.7
+2017-11-11 15:37:31,876 INFO [default] Density reported: 1217.8
+2017-11-11 15:37:31,876 INFO [default] Error: 7.23148
+2017-11-11 15:37:31,876 INFO [default] Current objective after run: 7.23148
+2017-11-11 15:37:31,876 INFO [default] DELTA: 5.02398
+2017-11-11 15:37:31,877 INFO [default] Rejecting new configuration
+2017-11-11 15:37:31,877 INFO [default] iteration: 64
+2017-11-11 15:37:31,877 INFO [default] =========== END ITERATION ===========
+2017-11-11 15:37:31,877 INFO [default] =========== NEW ITERATION ===========
+2017-11-11 15:37:31,877 INFO [default] Objective: 2.20751
+2017-11-11 15:37:31,877 INFO [default] Current objective before run: 7.23148
+2017-11-11 15:37:31,877 INFO [default] Current temperature: 0.353706
+2017-11-11 15:37:31,878 INFO [default] =========  Current   =========
+2017-11-11 15:37:31,878 INFO [default] EPSILON: 124.09
+2017-11-11 15:37:31,878 INFO [default] SIGMA  : 3.324
+2017-11-11 15:37:31,878 INFO [default] N      : 14
+2017-11-11 15:37:35,715 INFO [default] Running 100K Liq...
+2017-11-11 16:09:59,229 INFO [default] Finished 100K Liq!
+2017-11-11 16:09:59,230 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-11 16:09:59,230 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-11 16:09:59,231 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-11 16:09:59,231 INFO [default] Density found: 1394.21
+2017-11-11 16:09:59,231 INFO [default] Expected density: 1313.7
+2017-11-11 16:09:59,231 INFO [default] Density reported: 1394.21
+2017-11-11 16:09:59,231 INFO [default] Error: 6.08967
+2017-11-11 16:09:59,231 INFO [default] Current objective after run: 6.08967
+2017-11-11 16:09:59,231 INFO [default] DELTA: 3.88216
+2017-11-11 16:09:59,232 INFO [default] Rejecting new configuration
+2017-11-11 16:09:59,232 INFO [default] iteration: 65
+2017-11-11 16:09:59,232 INFO [default] =========== END ITERATION ===========
+2017-11-11 16:09:59,232 INFO [default] =========== NEW ITERATION ===========
+2017-11-11 16:09:59,232 INFO [default] Objective: 2.20751
+2017-11-11 16:09:59,232 INFO [default] Current objective before run: 6.08967
+2017-11-11 16:09:59,232 INFO [default] Current temperature: 0.318335
+2017-11-11 16:09:59,233 INFO [default] =========  Current   =========
+2017-11-11 16:09:59,233 INFO [default] EPSILON: 126.12
+2017-11-11 16:09:59,233 INFO [default] SIGMA  : 2.932
+2017-11-11 16:09:59,233 INFO [default] N      : 14
+2017-11-11 16:10:03,390 INFO [default] Running 100K Liq...
+2017-11-11 16:47:32,309 INFO [default] Finished 100K Liq!
+2017-11-11 16:47:32,310 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-11 16:47:32,310 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-11 16:47:32,311 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-11 16:47:32,311 INFO [default] Density found: 2055.63
+2017-11-11 16:47:32,311 INFO [default] Expected density: 1313.7
+2017-11-11 16:47:32,311 INFO [default] Density reported: 2055.63
+2017-11-11 16:47:32,311 INFO [default] Error: 56.4056
+2017-11-11 16:47:32,311 INFO [default] Current objective after run: 56.4056
+2017-11-11 16:47:32,311 INFO [default] DELTA: 54.1981
+2017-11-11 16:47:32,312 INFO [default] Rejecting new configuration
+2017-11-11 16:47:32,312 INFO [default] iteration: 66
+2017-11-11 16:47:32,312 INFO [default] =========== END ITERATION ===========
+2017-11-11 16:47:32,312 INFO [default] =========== NEW ITERATION ===========
+2017-11-11 16:47:32,312 INFO [default] Objective: 2.20751
+2017-11-11 16:47:32,312 INFO [default] Current objective before run: 56.4056
+2017-11-11 16:47:32,312 INFO [default] Current temperature: 0.286501
+2017-11-11 16:47:32,313 INFO [default] =========  Current   =========
+2017-11-11 16:47:32,313 INFO [default] EPSILON: 126.12
+2017-11-11 16:47:32,313 INFO [default] SIGMA  : 3.324
+2017-11-11 16:47:32,313 INFO [default] N      : 15
+2017-11-11 16:47:36,221 INFO [default] Running 100K Liq...
+2017-11-11 17:19:51,976 INFO [default] Finished 100K Liq!
+2017-11-11 17:19:51,977 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-11 17:19:51,977 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-11 17:19:51,977 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-11 17:19:51,978 INFO [default] Density found: 1397.19
+2017-11-11 17:19:51,978 INFO [default] Expected density: 1313.7
+2017-11-11 17:19:51,978 INFO [default] Density reported: 1397.19
+2017-11-11 17:19:51,978 INFO [default] Error: 6.31803
+2017-11-11 17:19:51,978 INFO [default] Current objective after run: 6.31803
+2017-11-11 17:19:51,978 INFO [default] DELTA: 4.11053
+2017-11-11 17:19:51,978 INFO [default] Rejecting new configuration
+2017-11-11 17:19:51,978 INFO [default] iteration: 67
+2017-11-11 17:19:51,978 INFO [default] =========== END ITERATION ===========
+2017-11-11 17:19:51,978 INFO [default] =========== NEW ITERATION ===========
+2017-11-11 17:19:51,978 INFO [default] Objective: 2.20751
+2017-11-11 17:19:51,978 INFO [default] Current objective before run: 6.31803
+2017-11-11 17:19:51,978 INFO [default] Current temperature: 0.257851
+2017-11-11 17:19:51,979 INFO [default] =========  Current   =========
+2017-11-11 17:19:51,979 INFO [default] EPSILON: 101.41
+2017-11-11 17:19:51,979 INFO [default] SIGMA  : 3.324
+2017-11-11 17:19:51,979 INFO [default] N      : 14
+2017-11-11 17:19:55,965 INFO [default] Running 100K Liq...
+2017-11-11 17:50:26,801 INFO [default] Finished 100K Liq!
+2017-11-11 17:50:26,802 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-11 17:50:26,802 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-11 17:50:26,803 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-11 17:50:26,803 INFO [default] Density found: 1163.1
+2017-11-11 17:50:26,803 INFO [default] Expected density: 1313.7
+2017-11-11 17:50:26,803 INFO [default] Density reported: 1163.1
+2017-11-11 17:50:26,803 INFO [default] Error: 11.4181
+2017-11-11 17:50:26,803 INFO [default] Current objective after run: 11.4181
+2017-11-11 17:50:26,803 INFO [default] DELTA: 9.21063
+2017-11-11 17:50:26,804 INFO [default] Rejecting new configuration
+2017-11-11 17:50:26,804 INFO [default] iteration: 68
+2017-11-11 17:50:26,804 INFO [default] =========== END ITERATION ===========
+2017-11-11 17:50:26,804 INFO [default] =========== NEW ITERATION ===========
+2017-11-11 17:50:26,804 INFO [default] Objective: 2.20751
+2017-11-11 17:50:26,804 INFO [default] Current objective before run: 11.4181
+2017-11-11 17:50:26,804 INFO [default] Current temperature: 0.232066
+2017-11-11 17:50:26,805 INFO [default] =========  Current   =========
+2017-11-11 17:50:26,805 INFO [default] EPSILON: 126.12
+2017-11-11 17:50:26,805 INFO [default] SIGMA  : 3.324
+2017-11-11 17:50:26,805 INFO [default] N      : 18
+2017-11-11 17:50:30,794 INFO [default] Running 100K Liq...
+2017-11-11 18:22:08,043 INFO [default] Finished 100K Liq!
+2017-11-11 18:22:08,043 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-11 18:22:08,043 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-11 18:22:08,044 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-11 18:22:08,045 INFO [default] Density found: 1339.7
+2017-11-11 18:22:08,045 INFO [default] Expected density: 1313.7
+2017-11-11 18:22:08,045 INFO [default] Density reported: 1339.7
+2017-11-11 18:22:08,045 INFO [default] Error: 1.97914
+2017-11-11 18:22:08,045 INFO [default] Current objective after run: 1.97914
+2017-11-11 18:22:08,045 INFO [default] DELTA: -0.228363
+2017-11-11 18:22:08,045 INFO [default] Accepting new configuration
+2017-11-11 18:22:08,045 INFO [default] iteration: 69
+2017-11-11 18:22:08,045 INFO [default] =========== END ITERATION ===========
+2017-11-11 18:22:08,045 INFO [default] =========== NEW ITERATION ===========
+2017-11-11 18:22:08,045 INFO [default] Objective: 1.97914
+2017-11-11 18:22:08,045 INFO [default] Current objective before run: 1.97914
+2017-11-11 18:22:08,045 INFO [default] Current temperature: 0.20886
+2017-11-11 18:22:08,046 INFO [default] =========  Current   =========
+2017-11-11 18:22:08,046 INFO [default] EPSILON: 126.12
+2017-11-11 18:22:08,046 INFO [default] SIGMA  : 3.559
+2017-11-11 18:22:08,046 INFO [default] N      : 18
+2017-11-11 18:22:11,966 INFO [default] Running 100K Liq...
+2017-11-11 18:51:46,418 INFO [default] Finished 100K Liq!
+2017-11-11 18:51:46,418 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-11 18:51:46,418 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-11 18:51:46,419 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-11 18:51:46,420 INFO [default] Density found: 1099.7
+2017-11-11 18:51:46,420 INFO [default] Expected density: 1313.7
+2017-11-11 18:51:46,420 INFO [default] Density reported: 1099.7
+2017-11-11 18:51:46,420 INFO [default] Error: 16.2899
+2017-11-11 18:51:46,420 INFO [default] Current objective after run: 16.2899
+2017-11-11 18:51:46,420 INFO [default] DELTA: 14.3107
+2017-11-11 18:51:46,420 INFO [default] Rejecting new configuration
+2017-11-11 18:51:46,420 INFO [default] iteration: 70
+2017-11-11 18:51:46,420 INFO [default] =========== END ITERATION ===========
+2017-11-11 18:51:46,420 INFO [default] =========== NEW ITERATION ===========
+2017-11-11 18:51:46,420 INFO [default] Objective: 1.97914
+2017-11-11 18:51:46,420 INFO [default] Current objective before run: 16.2899
+2017-11-11 18:51:46,420 INFO [default] Current temperature: 0.187974
+2017-11-11 18:51:46,421 INFO [default] =========  Current   =========
+2017-11-11 18:51:46,421 INFO [default] EPSILON: 126.12
+2017-11-11 18:51:46,421 INFO [default] SIGMA  : 3.883
+2017-11-11 18:51:46,421 INFO [default] N      : 14
+2017-11-11 18:51:50,259 INFO [default] Running 100K Liq...
+2017-11-11 19:06:02,213 INFO [default] Finished 100K Liq!
+2017-11-11 19:06:02,213 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-11 19:06:02,213 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-11 19:06:02,214 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-11 19:06:02,215 INFO [default] Density found: 876.064
+2017-11-11 19:06:02,215 INFO [default] Expected density: 1313.7
+2017-11-11 19:06:02,215 INFO [default] Density reported: 876.064
+2017-11-11 19:06:02,215 INFO [default] Error: 33.2648
+2017-11-11 19:06:02,215 INFO [default] Current objective after run: 33.2648
+2017-11-11 19:06:02,215 INFO [default] DELTA: 31.2857
+2017-11-11 19:06:02,215 INFO [default] Rejecting new configuration
+2017-11-11 19:06:02,215 INFO [default] iteration: 71
+2017-11-11 19:06:02,215 INFO [default] =========== END ITERATION ===========
+2017-11-11 19:06:02,215 INFO [default] =========== NEW ITERATION ===========
+2017-11-11 19:06:02,215 INFO [default] Objective: 1.97914
+2017-11-11 19:06:02,215 INFO [default] Current objective before run: 33.2648
+2017-11-11 19:06:02,215 INFO [default] Current temperature: 0.169176
+2017-11-11 19:06:02,216 INFO [default] =========  Current   =========
+2017-11-11 19:06:02,216 INFO [default] EPSILON: 126.12
+2017-11-11 19:06:02,216 INFO [default] SIGMA  : 3.324
+2017-11-11 19:06:02,216 INFO [default] N      : 14
+2017-11-11 19:06:06,319 INFO [default] Running 100K Liq...
+2017-11-11 19:38:24,634 INFO [default] Finished 100K Liq!
+2017-11-11 19:38:24,635 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-11 19:38:24,635 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-11 19:38:24,636 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-11 19:38:24,636 INFO [default] Density found: 1413.39
+2017-11-11 19:38:24,636 INFO [default] Expected density: 1313.7
+2017-11-11 19:38:24,636 INFO [default] Density reported: 1413.39
+2017-11-11 19:38:24,636 INFO [default] Error: 7.53597
+2017-11-11 19:38:24,636 INFO [default] Current objective after run: 7.53597
+2017-11-11 19:38:24,636 INFO [default] DELTA: 5.55682
+2017-11-11 19:38:24,637 INFO [default] Rejecting new configuration
+2017-11-11 19:38:24,637 INFO [default] iteration: 72
+2017-11-11 19:38:24,637 INFO [default] =========== END ITERATION ===========
+2017-11-11 19:38:24,637 INFO [default] =========== NEW ITERATION ===========
+2017-11-11 19:38:24,637 INFO [default] Objective: 1.97914
+2017-11-11 19:38:24,637 INFO [default] Current objective before run: 7.53597
+2017-11-11 19:38:24,637 INFO [default] Current temperature: 0.152259
+2017-11-11 19:38:24,638 INFO [default] =========  Current   =========
+2017-11-11 19:38:24,638 INFO [default] EPSILON: 126.12
+2017-11-11 19:38:24,638 INFO [default] SIGMA  : 3.324
+2017-11-11 19:38:24,638 INFO [default] N      : 17
+2017-11-11 19:38:28,516 INFO [default] Running 100K Liq...
+2017-11-11 20:10:33,355 INFO [default] Finished 100K Liq!
+2017-11-11 20:10:33,355 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-11 20:10:33,355 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-11 20:10:33,356 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-11 20:10:33,357 INFO [default] Density found: 1372.46
+2017-11-11 20:10:33,357 INFO [default] Expected density: 1313.7
+2017-11-11 20:10:33,357 INFO [default] Density reported: 1372.46
+2017-11-11 20:10:33,357 INFO [default] Error: 4.41501
+2017-11-11 20:10:33,357 INFO [default] Current objective after run: 4.41501
+2017-11-11 20:10:33,357 INFO [default] DELTA: 2.43587
+2017-11-11 20:10:33,357 INFO [default] Rejecting new configuration
+2017-11-11 20:10:33,357 INFO [default] iteration: 73
+2017-11-11 20:10:33,357 INFO [default] =========== END ITERATION ===========
+2017-11-11 20:10:33,357 INFO [default] =========== NEW ITERATION ===========
+2017-11-11 20:10:33,357 INFO [default] Objective: 1.97914
+2017-11-11 20:10:33,357 INFO [default] Current objective before run: 4.41501
+2017-11-11 20:10:33,357 INFO [default] Current temperature: 0.137033
+2017-11-11 20:10:33,358 INFO [default] =========  Current   =========
+2017-11-11 20:10:33,358 INFO [default] EPSILON: 126.12
+2017-11-11 20:10:33,358 INFO [default] SIGMA  : 3.98
+2017-11-11 20:10:33,358 INFO [default] N      : 14
+2017-11-11 20:10:37,297 INFO [default] Running 100K Liq...
+2017-11-11 20:24:19,977 INFO [default] Finished 100K Liq!
+2017-11-11 20:24:19,977 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-11 20:24:19,977 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-11 20:24:19,978 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-11 20:24:19,978 INFO [default] Density found: 827.696
+2017-11-11 20:24:19,979 INFO [default] Expected density: 1313.7
+2017-11-11 20:24:19,979 INFO [default] Density reported: 827.696
+2017-11-11 20:24:19,979 INFO [default] Error: 36.9947
+2017-11-11 20:24:19,979 INFO [default] Current objective after run: 36.9947
+2017-11-11 20:24:19,979 INFO [default] DELTA: 35.0156
+2017-11-11 20:24:19,979 INFO [default] Rejecting new configuration
+2017-11-11 20:24:19,979 INFO [default] iteration: 74
+2017-11-11 20:24:19,979 INFO [default] =========== END ITERATION ===========
+2017-11-11 20:24:19,979 INFO [default] =========== NEW ITERATION ===========
+2017-11-11 20:24:19,979 INFO [default] Objective: 1.97914
+2017-11-11 20:24:19,979 INFO [default] Current objective before run: 36.9947
+2017-11-11 20:24:19,979 INFO [default] Current temperature: 0.123329
+2017-11-11 20:24:19,980 INFO [default] =========  Current   =========
+2017-11-11 20:24:19,980 INFO [default] EPSILON: 126.12
+2017-11-11 20:24:19,980 INFO [default] SIGMA  : 3.488
+2017-11-11 20:24:19,980 INFO [default] N      : 14
+2017-11-11 20:24:24,050 INFO [default] Running 100K Liq...
+2017-11-11 20:54:48,243 INFO [default] Finished 100K Liq!
+2017-11-11 20:54:48,244 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-11 20:54:48,244 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-11 20:54:48,244 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-11 20:54:48,245 INFO [default] Density found: 1233.13
+2017-11-11 20:54:48,245 INFO [default] Expected density: 1313.7
+2017-11-11 20:54:48,245 INFO [default] Density reported: 1233.13
+2017-11-11 20:54:48,245 INFO [default] Error: 6.08967
+2017-11-11 20:54:48,245 INFO [default] Current objective after run: 6.08967
+2017-11-11 20:54:48,245 INFO [default] DELTA: 4.11053
+2017-11-11 20:54:48,246 INFO [default] Rejecting new configuration
+2017-11-11 20:54:48,246 INFO [default] iteration: 75
+2017-11-11 20:54:48,246 INFO [default] =========== END ITERATION ===========
+2017-11-11 20:54:48,246 INFO [default] =========== NEW ITERATION ===========
+2017-11-11 20:54:48,246 INFO [default] Objective: 1.97914
+2017-11-11 20:54:48,246 INFO [default] Current objective before run: 6.08967
+2017-11-11 20:54:48,246 INFO [default] Current temperature: 0.110997
+2017-11-11 20:54:48,246 INFO [default] =========  Current   =========
+2017-11-11 20:54:48,246 INFO [default] EPSILON: 126.12
+2017-11-11 20:54:48,246 INFO [default] SIGMA  : 3.324
+2017-11-11 20:54:48,246 INFO [default] N      : 16
+2017-11-11 20:54:52,197 INFO [default] Running 100K Liq...
+2017-11-11 21:27:11,862 INFO [default] Finished 100K Liq!
+2017-11-11 21:27:11,863 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-11 21:27:11,863 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-11 21:27:11,864 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-11 21:27:11,864 INFO [default] Density found: 1410.82
+2017-11-11 21:27:11,864 INFO [default] Expected density: 1313.7
+2017-11-11 21:27:11,864 INFO [default] Density reported: 1410.82
+2017-11-11 21:27:11,864 INFO [default] Error: 7.38373
+2017-11-11 21:27:11,864 INFO [default] Current objective after run: 7.38373
+2017-11-11 21:27:11,864 INFO [default] DELTA: 5.40458
+2017-11-11 21:27:11,865 INFO [default] Rejecting new configuration
+2017-11-11 21:27:11,865 INFO [default] iteration: 76
+2017-11-11 21:27:11,865 INFO [default] =========== END ITERATION ===========
+2017-11-11 21:27:11,865 INFO [default] =========== NEW ITERATION ===========
+2017-11-11 21:27:11,865 INFO [default] Objective: 1.97914
+2017-11-11 21:27:11,865 INFO [default] Current objective before run: 7.38373
+2017-11-11 21:27:11,865 INFO [default] Current temperature: 0.0998969
+2017-11-11 21:27:11,865 INFO [default] =========  Current   =========
+2017-11-11 21:27:11,865 INFO [default] EPSILON: 126.12
+2017-11-11 21:27:11,865 INFO [default] SIGMA  : 2.819
+2017-11-11 21:27:11,866 INFO [default] N      : 14
+2017-11-11 21:27:15,864 INFO [default] Running 100K Liq...
+2017-11-11 22:06:08,779 INFO [default] Finished 100K Liq!
+2017-11-11 22:06:08,780 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-11 22:06:08,780 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-11 22:06:08,780 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-11 22:06:08,781 INFO [default] Density found: 2310.51
+2017-11-11 22:06:08,781 INFO [default] Expected density: 1313.7
+2017-11-11 22:06:08,781 INFO [default] Density reported: 2310.51
+2017-11-11 22:06:08,781 INFO [default] Error: 75.8164
+2017-11-11 22:06:08,781 INFO [default] Current objective after run: 75.8164
+2017-11-11 22:06:08,781 INFO [default] DELTA: 73.8373
+2017-11-11 22:06:08,782 INFO [default] Rejecting new configuration
+2017-11-11 22:06:08,782 INFO [default] iteration: 77
+2017-11-11 22:06:08,782 INFO [default] =========== END ITERATION ===========
+2017-11-11 22:06:08,782 INFO [default] =========== NEW ITERATION ===========
+2017-11-11 22:06:08,782 INFO [default] Objective: 1.97914
+2017-11-11 22:06:08,782 INFO [default] Current objective before run: 75.8164
+2017-11-11 22:06:08,782 INFO [default] Current temperature: 0.0899072
+2017-11-11 22:06:08,782 INFO [default] =========  Current   =========
+2017-11-11 22:06:08,782 INFO [default] EPSILON: 126.12
+2017-11-11 22:06:08,782 INFO [default] SIGMA  : 3.852
+2017-11-11 22:06:08,782 INFO [default] N      : 14
+2017-11-11 22:06:12,801 INFO [default] Running 100K Liq...
+2017-11-11 22:20:31,617 INFO [default] Finished 100K Liq!
+2017-11-11 22:20:31,617 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-11 22:20:31,617 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-11 22:20:31,618 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-11 22:20:31,619 INFO [default] Density found: 916.002
+2017-11-11 22:20:31,619 INFO [default] Expected density: 1313.7
+2017-11-11 22:20:31,619 INFO [default] Density reported: 916.002
+2017-11-11 22:20:31,619 INFO [default] Error: 30.22
+2017-11-11 22:20:31,619 INFO [default] Current objective after run: 30.22
+2017-11-11 22:20:31,619 INFO [default] DELTA: 28.2408
+2017-11-11 22:20:31,619 INFO [default] Rejecting new configuration
+2017-11-11 22:20:31,619 INFO [default] iteration: 78
+2017-11-11 22:20:31,619 INFO [default] =========== END ITERATION ===========
+2017-11-11 22:20:31,619 INFO [default] =========== NEW ITERATION ===========
+2017-11-11 22:20:31,619 INFO [default] Objective: 1.97914
+2017-11-11 22:20:31,619 INFO [default] Current objective before run: 30.22
+2017-11-11 22:20:31,619 INFO [default] Current temperature: 0.0809165
+2017-11-11 22:20:31,620 INFO [default] =========  Current   =========
+2017-11-11 22:20:31,620 INFO [default] EPSILON: 116.93
+2017-11-11 22:20:31,620 INFO [default] SIGMA  : 3.324
+2017-11-11 22:20:31,620 INFO [default] N      : 14
+2017-11-11 22:20:35,556 INFO [default] Running 100K Liq...
+2017-11-11 22:52:18,974 INFO [default] Finished 100K Liq!
+2017-11-11 22:52:18,974 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-11 22:52:18,974 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-11 22:52:18,975 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-11 22:52:18,976 INFO [default] Density found: 1348.1
+2017-11-11 22:52:18,976 INFO [default] Expected density: 1313.7
+2017-11-11 22:52:18,976 INFO [default] Density reported: 1348.1
+2017-11-11 22:52:18,976 INFO [default] Error: 2.58811
+2017-11-11 22:52:18,976 INFO [default] Current objective after run: 2.58811
+2017-11-11 22:52:18,976 INFO [default] DELTA: 0.608967
+2017-11-11 22:52:18,976 INFO [default] Rejecting new configuration
+2017-11-11 22:52:18,976 INFO [default] iteration: 79
+2017-11-11 22:52:18,976 INFO [default] =========== END ITERATION ===========
+2017-11-11 22:52:18,976 INFO [default] =========== NEW ITERATION ===========
+2017-11-11 22:52:18,976 INFO [default] Objective: 1.97914
+2017-11-11 22:52:18,976 INFO [default] Current objective before run: 2.58811
+2017-11-11 22:52:18,976 INFO [default] Current temperature: 0.0728248
+2017-11-11 22:52:18,977 INFO [default] =========  Current   =========
+2017-11-11 22:52:18,977 INFO [default] EPSILON: 126.12
+2017-11-11 22:52:18,977 INFO [default] SIGMA  : 3.617
+2017-11-11 22:52:18,977 INFO [default] N      : 14
+2017-11-11 22:52:23,273 INFO [default] Running 100K Liq...
+2017-11-11 23:21:31,239 INFO [default] Finished 100K Liq!
+2017-11-11 23:21:31,240 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-11 23:21:31,240 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-11 23:21:31,240 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-11 23:21:31,241 INFO [default] Density found: 1118.62
+2017-11-11 23:21:31,241 INFO [default] Expected density: 1313.7
+2017-11-11 23:21:31,241 INFO [default] Density reported: 1118.62
+2017-11-11 23:21:31,241 INFO [default] Error: 14.8436
+2017-11-11 23:21:31,241 INFO [default] Current objective after run: 14.8436
+2017-11-11 23:21:31,241 INFO [default] DELTA: 12.8644
+2017-11-11 23:21:31,241 INFO [default] Rejecting new configuration
+2017-11-11 23:21:31,242 INFO [default] iteration: 80
+2017-11-11 23:21:31,242 INFO [default] =========== END ITERATION ===========
+2017-11-11 23:21:31,242 INFO [default] =========== NEW ITERATION ===========
+2017-11-11 23:21:31,242 INFO [default] Objective: 1.97914
+2017-11-11 23:21:31,242 INFO [default] Current objective before run: 14.8436
+2017-11-11 23:21:31,242 INFO [default] Current temperature: 0.0655424
+2017-11-11 23:21:31,242 INFO [default] =========  Current   =========
+2017-11-11 23:21:31,242 INFO [default] EPSILON: 101.1
+2017-11-11 23:21:31,242 INFO [default] SIGMA  : 3.324
+2017-11-11 23:21:31,242 INFO [default] N      : 14
+2017-11-11 23:21:35,093 INFO [default] Running 100K Liq...
+2017-11-11 23:51:43,241 INFO [default] Finished 100K Liq!
+2017-11-11 23:51:43,241 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-11 23:51:43,242 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-11 23:51:43,242 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-11 23:51:43,243 INFO [default] Density found: 1208.13
+2017-11-11 23:51:43,243 INFO [default] Expected density: 1313.7
+2017-11-11 23:51:43,243 INFO [default] Density reported: 1208.13
+2017-11-11 23:51:43,243 INFO [default] Error: 7.99269
+2017-11-11 23:51:43,243 INFO [default] Current objective after run: 7.99269
+2017-11-11 23:51:43,243 INFO [default] DELTA: 6.01355
+2017-11-11 23:51:43,243 INFO [default] Rejecting new configuration
+2017-11-11 23:51:43,243 INFO [default] iteration: 81
+2017-11-11 23:51:43,243 INFO [default] =========== END ITERATION ===========
+2017-11-11 23:51:43,243 INFO [default] =========== NEW ITERATION ===========
+2017-11-11 23:51:43,243 INFO [default] Objective: 1.97914
+2017-11-11 23:51:43,243 INFO [default] Current objective before run: 7.99269
+2017-11-11 23:51:43,243 INFO [default] Current temperature: 0.0589881
+2017-11-11 23:51:43,244 INFO [default] =========  Current   =========
+2017-11-11 23:51:43,244 INFO [default] EPSILON: 126.12
+2017-11-11 23:51:43,244 INFO [default] SIGMA  : 3.324
+2017-11-11 23:51:43,244 INFO [default] N      : 18
+2017-11-11 23:51:47,395 INFO [default] Running 100K Liq...
+2017-11-12 00:23:47,690 INFO [default] Finished 100K Liq!
+2017-11-12 00:23:47,691 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-12 00:23:47,691 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-12 00:23:47,692 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-12 00:23:47,692 INFO [default] Density found: 1384.93
+2017-11-12 00:23:47,692 INFO [default] Expected density: 1313.7
+2017-11-12 00:23:47,692 INFO [default] Density reported: 1384.93
+2017-11-12 00:23:47,692 INFO [default] Error: 5.40458
+2017-11-12 00:23:47,692 INFO [default] Current objective after run: 5.40458
+2017-11-12 00:23:47,692 INFO [default] DELTA: 3.42544
+2017-11-12 00:23:47,693 INFO [default] Rejecting new configuration
+2017-11-12 00:23:47,693 INFO [default] iteration: 82
+2017-11-12 00:23:47,693 INFO [default] =========== END ITERATION ===========
+2017-11-12 00:23:47,693 INFO [default] =========== NEW ITERATION ===========
+2017-11-12 00:23:47,693 INFO [default] Objective: 1.97914
+2017-11-12 00:23:47,693 INFO [default] Current objective before run: 5.40458
+2017-11-12 00:23:47,693 INFO [default] Current temperature: 0.0530893
+2017-11-12 00:23:47,694 INFO [default] =========  Current   =========
+2017-11-12 00:23:47,694 INFO [default] EPSILON: 126.12
+2017-11-12 00:23:47,694 INFO [default] SIGMA  : 3.324
+2017-11-12 00:23:47,694 INFO [default] N      : 12
+2017-11-12 00:23:51,592 INFO [default] Running 100K Liq...
+2017-11-12 00:56:21,784 INFO [default] Finished 100K Liq!
+2017-11-12 00:56:21,784 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-12 00:56:21,785 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-12 00:56:21,785 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-12 00:56:21,786 INFO [default] Density found: 1457.32
+2017-11-12 00:56:21,786 INFO [default] Expected density: 1313.7
+2017-11-12 00:56:21,786 INFO [default] Density reported: 1457.32
+2017-11-12 00:56:21,786 INFO [default] Error: 10.8853
+2017-11-12 00:56:21,786 INFO [default] Current objective after run: 10.8853
+2017-11-12 00:56:21,786 INFO [default] DELTA: 8.90614
+2017-11-12 00:56:21,786 INFO [default] Rejecting new configuration
+2017-11-12 00:56:21,786 INFO [default] iteration: 83
+2017-11-12 00:56:21,786 INFO [default] =========== END ITERATION ===========
+2017-11-12 00:56:21,786 INFO [default] =========== NEW ITERATION ===========
+2017-11-12 00:56:21,786 INFO [default] Objective: 1.97914
+2017-11-12 00:56:21,786 INFO [default] Current objective before run: 10.8853
+2017-11-12 00:56:21,786 INFO [default] Current temperature: 0.0477804
+2017-11-12 00:56:21,787 INFO [default] =========  Current   =========
+2017-11-12 00:56:21,787 INFO [default] EPSILON: 121.96
+2017-11-12 00:56:21,787 INFO [default] SIGMA  : 3.324
+2017-11-12 00:56:21,787 INFO [default] N      : 14
+2017-11-12 00:56:25,710 INFO [default] Running 100K Liq...
+2017-11-12 01:28:45,729 INFO [default] Finished 100K Liq!
+2017-11-12 01:28:45,731 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-12 01:28:45,731 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-12 01:28:45,731 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-12 01:28:45,732 INFO [default] Density found: 1353.88
+2017-11-12 01:28:45,732 INFO [default] Expected density: 1313.7
+2017-11-12 01:28:45,732 INFO [default] Density reported: 1353.88
+2017-11-12 01:28:45,732 INFO [default] Error: 3.04484
+2017-11-12 01:28:45,732 INFO [default] Current objective after run: 3.04484
+2017-11-12 01:28:45,732 INFO [default] DELTA: 1.06569
+2017-11-12 01:28:45,732 INFO [default] Rejecting new configuration
+2017-11-12 01:28:45,732 INFO [default] iteration: 84
+2017-11-12 01:28:45,732 INFO [default] =========== END ITERATION ===========
+2017-11-12 01:28:45,732 INFO [default] =========== NEW ITERATION ===========
+2017-11-12 01:28:45,732 INFO [default] Objective: 1.97914
+2017-11-12 01:28:45,732 INFO [default] Current objective before run: 3.04484
+2017-11-12 01:28:45,732 INFO [default] Current temperature: 0.0430023
+2017-11-12 01:28:45,733 INFO [default] =========  Current   =========
+2017-11-12 01:28:45,733 INFO [default] EPSILON: 126.12
+2017-11-12 01:28:45,733 INFO [default] SIGMA  : 3.491
+2017-11-12 01:28:45,733 INFO [default] N      : 14
+2017-11-12 01:28:57,167 INFO [default] Running 100K Liq...
+2017-11-12 01:59:35,114 INFO [default] Finished 100K Liq!
+2017-11-12 01:59:35,115 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-12 01:59:35,115 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-12 01:59:35,116 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-12 01:59:35,116 INFO [default] Density found: 1232.23
+2017-11-12 01:59:35,116 INFO [default] Expected density: 1313.7
+2017-11-12 01:59:35,116 INFO [default] Density reported: 1232.23
+2017-11-12 01:59:35,116 INFO [default] Error: 6.16579
+2017-11-12 01:59:35,116 INFO [default] Current objective after run: 6.16579
+2017-11-12 01:59:35,116 INFO [default] DELTA: 4.18665
+2017-11-12 01:59:35,117 INFO [default] Rejecting new configuration
+2017-11-12 01:59:35,117 INFO [default] iteration: 85
+2017-11-12 01:59:35,117 INFO [default] =========== END ITERATION ===========
+2017-11-12 01:59:35,117 INFO [default] =========== NEW ITERATION ===========
+2017-11-12 01:59:35,117 INFO [default] Objective: 1.97914
+2017-11-12 01:59:35,117 INFO [default] Current objective before run: 6.16579
+2017-11-12 01:59:35,117 INFO [default] Current temperature: 0.0387021
+2017-11-12 01:59:35,118 INFO [default] =========  Current   =========
+2017-11-12 01:59:35,118 INFO [default] EPSILON: 126.12
+2017-11-12 01:59:35,118 INFO [default] SIGMA  : 3.324
+2017-11-12 01:59:35,118 INFO [default] N      : 13
+2017-11-12 01:59:46,760 INFO [default] Running 100K Liq...
+2017-11-12 02:32:10,244 INFO [default] Finished 100K Liq!
+2017-11-12 02:32:10,245 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-12 02:32:10,245 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-12 02:32:10,245 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-12 02:32:10,246 INFO [default] Density found: 1448.77
+2017-11-12 02:32:10,246 INFO [default] Expected density: 1313.7
+2017-11-12 02:32:10,246 INFO [default] Density reported: 1448.77
+2017-11-12 02:32:10,246 INFO [default] Error: 10.2763
+2017-11-12 02:32:10,246 INFO [default] Current objective after run: 10.2763
+2017-11-12 02:32:10,246 INFO [default] DELTA: 8.29718
+2017-11-12 02:32:10,246 INFO [default] Rejecting new configuration
+2017-11-12 02:32:10,246 INFO [default] iteration: 86
+2017-11-12 02:32:10,246 INFO [default] =========== END ITERATION ===========
+2017-11-12 02:32:10,246 INFO [default] =========== NEW ITERATION ===========
+2017-11-12 02:32:10,246 INFO [default] Objective: 1.97914
+2017-11-12 02:32:10,247 INFO [default] Current objective before run: 10.2763
+2017-11-12 02:32:10,247 INFO [default] Current temperature: 0.0348319
+2017-11-12 02:32:10,247 INFO [default] =========  Current   =========
+2017-11-12 02:32:10,247 INFO [default] EPSILON: 126.12
+2017-11-12 02:32:10,247 INFO [default] SIGMA  : 4.347
+2017-11-12 02:32:10,247 INFO [default] N      : 14
+2017-11-12 02:32:21,555 INFO [default] Running 100K Liq...
+2017-11-12 02:44:49,934 INFO [default] Finished 100K Liq!
+2017-11-12 02:44:49,935 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-12 02:44:49,935 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-12 02:44:49,936 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-12 02:44:49,936 INFO [default] Density found: 636.83
+2017-11-12 02:44:49,936 INFO [default] Expected density: 1313.7
+2017-11-12 02:44:49,936 INFO [default] Density reported: 636.83
+2017-11-12 02:44:49,936 INFO [default] Error: 51.4577
+2017-11-12 02:44:49,936 INFO [default] Current objective after run: 51.4577
+2017-11-12 02:44:49,936 INFO [default] DELTA: 49.4786
+2017-11-12 02:44:49,937 INFO [default] Rejecting new configuration
+2017-11-12 02:44:49,937 INFO [default] iteration: 87
+2017-11-12 02:44:49,937 INFO [default] =========== END ITERATION ===========
+2017-11-12 02:44:49,937 INFO [default] =========== NEW ITERATION ===========
+2017-11-12 02:44:49,937 INFO [default] Objective: 1.97914
+2017-11-12 02:44:49,937 INFO [default] Current objective before run: 51.4577
+2017-11-12 02:44:49,937 INFO [default] Current temperature: 0.0313487
+2017-11-12 02:44:49,937 INFO [default] =========  Current   =========
+2017-11-12 02:44:49,937 INFO [default] EPSILON: 105.08
+2017-11-12 02:44:49,937 INFO [default] SIGMA  : 3.324
+2017-11-12 02:44:49,937 INFO [default] N      : 14
+2017-11-12 02:45:02,175 INFO [default] Running 100K Liq...
+2017-11-12 03:15:43,045 INFO [default] Finished 100K Liq!
+2017-11-12 03:15:43,046 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-12 03:15:43,046 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-12 03:15:43,047 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-12 03:15:43,048 INFO [default] Density found: 1222.72
+2017-11-12 03:15:43,048 INFO [default] Expected density: 1313.7
+2017-11-12 03:15:43,048 INFO [default] Density reported: 1222.72
+2017-11-12 03:15:43,048 INFO [default] Error: 6.85088
+2017-11-12 03:15:43,048 INFO [default] Current objective after run: 6.85088
+2017-11-12 03:15:43,048 INFO [default] DELTA: 4.87174
+2017-11-12 03:15:43,048 INFO [default] Rejecting new configuration
+2017-11-12 03:15:43,049 INFO [default] iteration: 88
+2017-11-12 03:15:43,049 INFO [default] =========== END ITERATION ===========
+2017-11-12 03:15:43,049 INFO [default] =========== NEW ITERATION ===========
+2017-11-12 03:15:43,049 INFO [default] Objective: 1.97914
+2017-11-12 03:15:43,049 INFO [default] Current objective before run: 6.85088
+2017-11-12 03:15:43,049 INFO [default] Current temperature: 0.0282138
+2017-11-12 03:15:43,049 INFO [default] =========  Current   =========
+2017-11-12 03:15:43,049 INFO [default] EPSILON: 126.12
+2017-11-12 03:15:43,049 INFO [default] SIGMA  : 3.324
+2017-11-12 03:15:43,049 INFO [default] N      : 17
+2017-11-12 03:15:54,473 INFO [default] Running 100K Liq...
+2017-11-12 03:48:31,514 INFO [default] Finished 100K Liq!
+2017-11-12 03:48:31,515 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-12 03:48:31,515 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-12 03:48:31,515 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-12 03:48:31,516 INFO [default] Density found: 1364.26
+2017-11-12 03:48:31,516 INFO [default] Expected density: 1313.7
+2017-11-12 03:48:31,516 INFO [default] Density reported: 1364.26
+2017-11-12 03:48:31,516 INFO [default] Error: 3.80604
+2017-11-12 03:48:31,516 INFO [default] Current objective after run: 3.80604
+2017-11-12 03:48:31,516 INFO [default] DELTA: 1.8269
+2017-11-12 03:48:31,517 INFO [default] Rejecting new configuration
+2017-11-12 03:48:31,517 INFO [default] iteration: 89
+2017-11-12 03:48:31,517 INFO [default] =========== END ITERATION ===========
+2017-11-12 03:48:31,517 INFO [default] =========== NEW ITERATION ===========
+2017-11-12 03:48:31,517 INFO [default] Objective: 1.97914
+2017-11-12 03:48:31,517 INFO [default] Current objective before run: 3.80604
+2017-11-12 03:48:31,517 INFO [default] Current temperature: 0.0253924
+2017-11-12 03:48:31,517 INFO [default] =========  Current   =========
+2017-11-12 03:48:31,517 INFO [default] EPSILON: 126.12
+2017-11-12 03:48:31,517 INFO [default] SIGMA  : 3.324
+2017-11-12 03:48:31,517 INFO [default] N      : 12
+2017-11-12 03:48:44,527 INFO [default] Running 100K Liq...
+2017-11-12 04:21:11,422 INFO [default] Finished 100K Liq!
+2017-11-12 04:21:11,423 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-12 04:21:11,423 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-12 04:21:11,424 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-12 04:21:11,424 INFO [default] Density found: 1433.87
+2017-11-12 04:21:11,424 INFO [default] Expected density: 1313.7
+2017-11-12 04:21:11,424 INFO [default] Density reported: 1433.87
+2017-11-12 04:21:11,424 INFO [default] Error: 9.13451
+2017-11-12 04:21:11,424 INFO [default] Current objective after run: 9.13451
+2017-11-12 04:21:11,424 INFO [default] DELTA: 7.15536
+2017-11-12 04:21:11,425 INFO [default] Rejecting new configuration
+2017-11-12 04:21:11,425 INFO [default] iteration: 90
+2017-11-12 04:21:11,425 INFO [default] =========== END ITERATION ===========
+2017-11-12 04:21:11,425 INFO [default] =========== NEW ITERATION ===========
+2017-11-12 04:21:11,425 INFO [default] Objective: 1.97914
+2017-11-12 04:21:11,425 INFO [default] Current objective before run: 9.13451
+2017-11-12 04:21:11,425 INFO [default] Current temperature: 0.0228532
+2017-11-12 04:21:11,426 INFO [default] =========  Current   =========
+2017-11-12 04:21:11,426 INFO [default] EPSILON: 126.12
+2017-11-12 04:21:11,426 INFO [default] SIGMA  : 2.791
+2017-11-12 04:21:11,426 INFO [default] N      : 14
+2017-11-12 04:21:23,036 INFO [default] Running 100K Liq...
+2017-11-12 05:00:59,128 INFO [default] Finished 100K Liq!
+2017-11-12 05:00:59,129 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-12 05:00:59,129 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-12 05:00:59,130 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-12 05:00:59,130 INFO [default] Density found: 2346.57
+2017-11-12 05:00:59,130 INFO [default] Expected density: 1313.7
+2017-11-12 05:00:59,130 INFO [default] Density reported: 2346.57
+2017-11-12 05:00:59,130 INFO [default] Error: 78.5567
+2017-11-12 05:00:59,130 INFO [default] Current objective after run: 78.5567
+2017-11-12 05:00:59,130 INFO [default] DELTA: 76.5776
+2017-11-12 05:00:59,131 INFO [default] Rejecting new configuration
+2017-11-12 05:00:59,131 INFO [default] iteration: 91
+2017-11-12 05:00:59,131 INFO [default] =========== END ITERATION ===========
+2017-11-12 05:00:59,131 INFO [default] =========== NEW ITERATION ===========
+2017-11-12 05:00:59,131 INFO [default] Objective: 1.97914
+2017-11-12 05:00:59,131 INFO [default] Current objective before run: 78.5567
+2017-11-12 05:00:59,131 INFO [default] Current temperature: 0.0205679
+2017-11-12 05:00:59,132 INFO [default] =========  Current   =========
+2017-11-12 05:00:59,132 INFO [default] EPSILON: 126.12
+2017-11-12 05:00:59,132 INFO [default] SIGMA  : 3.324
+2017-11-12 05:00:59,132 INFO [default] N      : 15
+2017-11-12 05:01:10,332 INFO [default] Running 100K Liq...
+2017-11-12 05:33:27,169 INFO [default] Finished 100K Liq!
+2017-11-12 05:33:27,170 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-12 05:33:27,170 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-12 05:33:27,171 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-12 05:33:27,171 INFO [default] Density found: 1404.99
+2017-11-12 05:33:27,171 INFO [default] Expected density: 1313.7
+2017-11-12 05:33:27,171 INFO [default] Density reported: 1404.99
+2017-11-12 05:33:27,171 INFO [default] Error: 6.927
+2017-11-12 05:33:27,171 INFO [default] Current objective after run: 6.927
+2017-11-12 05:33:27,171 INFO [default] DELTA: 4.94786
+2017-11-12 05:33:27,172 INFO [default] Rejecting new configuration
+2017-11-12 05:33:27,172 INFO [default] iteration: 92
+2017-11-12 05:33:27,172 INFO [default] =========== END ITERATION ===========
+2017-11-12 05:33:27,172 INFO [default] =========== NEW ITERATION ===========
+2017-11-12 05:33:27,172 INFO [default] Objective: 1.97914
+2017-11-12 05:33:27,172 INFO [default] Current objective before run: 6.927
+2017-11-12 05:33:27,172 INFO [default] Current temperature: 0.0185111
+2017-11-12 05:33:27,173 INFO [default] =========  Current   =========
+2017-11-12 05:33:27,173 INFO [default] EPSILON: 126.12
+2017-11-12 05:33:27,173 INFO [default] SIGMA  : 3.006
+2017-11-12 05:33:27,173 INFO [default] N      : 14
+2017-11-12 05:33:38,875 INFO [default] Running 100K Liq...
+2017-11-12 06:10:04,389 INFO [default] Finished 100K Liq!
+2017-11-12 06:10:04,389 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-12 06:10:04,389 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-12 06:10:04,390 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-12 06:10:04,391 INFO [default] Density found: 1920.75
+2017-11-12 06:10:04,391 INFO [default] Expected density: 1313.7
+2017-11-12 06:10:04,391 INFO [default] Density reported: 1920.75
+2017-11-12 06:10:04,391 INFO [default] Error: 46.2054
+2017-11-12 06:10:04,391 INFO [default] Current objective after run: 46.2054
+2017-11-12 06:10:04,391 INFO [default] DELTA: 44.2262
+2017-11-12 06:10:04,391 INFO [default] Rejecting new configuration
+2017-11-12 06:10:04,391 INFO [default] iteration: 93
+2017-11-12 06:10:04,391 INFO [default] =========== END ITERATION ===========
+2017-11-12 06:10:04,391 INFO [default] =========== NEW ITERATION ===========
+2017-11-12 06:10:04,391 INFO [default] Objective: 1.97914
+2017-11-12 06:10:04,391 INFO [default] Current objective before run: 46.2054
+2017-11-12 06:10:04,391 INFO [default] Current temperature: 0.01666
+2017-11-12 06:10:04,392 INFO [default] =========  Current   =========
+2017-11-12 06:10:04,392 INFO [default] EPSILON: 126.12
+2017-11-12 06:10:04,392 INFO [default] SIGMA  : 3.119
+2017-11-12 06:10:04,392 INFO [default] N      : 14
+2017-11-12 06:10:15,948 INFO [default] Running 100K Liq...
+2017-11-12 06:44:50,291 INFO [default] Finished 100K Liq!
+2017-11-12 06:44:50,292 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-12 06:44:50,292 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-12 06:44:50,292 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-12 06:44:50,293 INFO [default] Density found: 1718.64
+2017-11-12 06:44:50,293 INFO [default] Expected density: 1313.7
+2017-11-12 06:44:50,293 INFO [default] Density reported: 1718.64
+2017-11-12 06:44:50,293 INFO [default] Error: 30.7528
+2017-11-12 06:44:50,293 INFO [default] Current objective after run: 30.7528
+2017-11-12 06:44:50,293 INFO [default] DELTA: 28.7737
+2017-11-12 06:44:50,293 INFO [default] Rejecting new configuration
+2017-11-12 06:44:50,293 INFO [default] iteration: 94
+2017-11-12 06:44:50,293 INFO [default] =========== END ITERATION ===========
+2017-11-12 06:44:50,293 INFO [default] =========== NEW ITERATION ===========
+2017-11-12 06:44:50,293 INFO [default] Objective: 1.97914
+2017-11-12 06:44:50,293 INFO [default] Current objective before run: 30.7528
+2017-11-12 06:44:50,293 INFO [default] Current temperature: 0.014994
+2017-11-12 06:44:50,294 INFO [default] =========  Current   =========
+2017-11-12 06:44:50,294 INFO [default] EPSILON: 126.12
+2017-11-12 06:44:50,294 INFO [default] SIGMA  : 3.134
+2017-11-12 06:44:50,294 INFO [default] N      : 14
+2017-11-12 06:45:03,430 INFO [default] Running 100K Liq...
+2017-11-12 07:19:31,877 INFO [default] Finished 100K Liq!
+2017-11-12 07:19:31,878 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-12 07:19:31,878 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-12 07:19:31,879 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-12 07:19:31,879 INFO [default] Density found: 1688.57
+2017-11-12 07:19:31,879 INFO [default] Expected density: 1313.7
+2017-11-12 07:19:31,879 INFO [default] Density reported: 1688.57
+2017-11-12 07:19:31,879 INFO [default] Error: 28.4692
+2017-11-12 07:19:31,879 INFO [default] Current objective after run: 28.4692
+2017-11-12 07:19:31,879 INFO [default] DELTA: 26.4901
+2017-11-12 07:19:31,880 INFO [default] Rejecting new configuration
+2017-11-12 07:19:31,880 INFO [default] iteration: 95
+2017-11-12 07:19:31,880 INFO [default] =========== END ITERATION ===========
+2017-11-12 07:19:31,880 INFO [default] =========== NEW ITERATION ===========
+2017-11-12 07:19:31,880 INFO [default] Objective: 1.97914
+2017-11-12 07:19:31,880 INFO [default] Current objective before run: 28.4692
+2017-11-12 07:19:31,880 INFO [default] Current temperature: 0.0134946
+2017-11-12 07:19:31,880 INFO [default] =========  Current   =========
+2017-11-12 07:19:31,880 INFO [default] EPSILON: 126.12
+2017-11-12 07:19:31,880 INFO [default] SIGMA  : 4.052
+2017-11-12 07:19:31,880 INFO [default] N      : 14
+2017-11-12 07:19:44,420 INFO [default] Running 100K Liq...
+2017-11-12 07:33:21,134 INFO [default] Finished 100K Liq!
+2017-11-12 07:33:21,135 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-12 07:33:21,135 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-12 07:33:21,135 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-12 07:33:21,136 INFO [default] Density found: 781.203
+2017-11-12 07:33:21,136 INFO [default] Expected density: 1313.7
+2017-11-12 07:33:21,136 INFO [default] Density reported: 781.203
+2017-11-12 07:33:21,136 INFO [default] Error: 40.4963
+2017-11-12 07:33:21,136 INFO [default] Current objective after run: 40.4963
+2017-11-12 07:33:21,136 INFO [default] DELTA: 38.5172
+2017-11-12 07:33:21,136 INFO [default] Rejecting new configuration
+2017-11-12 07:33:21,136 INFO [default] iteration: 96
+2017-11-12 07:33:21,136 INFO [default] =========== END ITERATION ===========
+2017-11-12 07:33:21,136 INFO [default] =========== NEW ITERATION ===========
+2017-11-12 07:33:21,137 INFO [default] Objective: 1.97914
+2017-11-12 07:33:21,137 INFO [default] Current objective before run: 40.4963
+2017-11-12 07:33:21,137 INFO [default] Current temperature: 0.0121451
+2017-11-12 07:33:21,137 INFO [default] =========  Current   =========
+2017-11-12 07:33:21,137 INFO [default] EPSILON: 126.35
+2017-11-12 07:33:21,137 INFO [default] SIGMA  : 3.324
+2017-11-12 07:33:21,137 INFO [default] N      : 14
+2017-11-12 07:33:33,770 INFO [default] Running 100K Liq...
+2017-11-12 08:05:59,635 INFO [default] Finished 100K Liq!
+2017-11-12 08:05:59,635 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-12 08:05:59,635 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-12 08:05:59,636 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-12 08:05:59,637 INFO [default] Density found: 1428.86
+2017-11-12 08:05:59,637 INFO [default] Expected density: 1313.7
+2017-11-12 08:05:59,637 INFO [default] Density reported: 1428.86
+2017-11-12 08:05:59,637 INFO [default] Error: 8.7539
+2017-11-12 08:05:59,637 INFO [default] Current objective after run: 8.7539
+2017-11-12 08:05:59,637 INFO [default] DELTA: 6.77476
+2017-11-12 08:05:59,637 INFO [default] Rejecting new configuration
+2017-11-12 08:05:59,637 INFO [default] iteration: 97
+2017-11-12 08:05:59,637 INFO [default] =========== END ITERATION ===========
+2017-11-12 08:05:59,637 INFO [default] =========== NEW ITERATION ===========
+2017-11-12 08:05:59,637 INFO [default] Objective: 1.97914
+2017-11-12 08:05:59,637 INFO [default] Current objective before run: 8.7539
+2017-11-12 08:05:59,637 INFO [default] Current temperature: 0.0109306
+2017-11-12 08:05:59,638 INFO [default] =========  Current   =========
+2017-11-12 08:05:59,638 INFO [default] EPSILON: 126.12
+2017-11-12 08:05:59,638 INFO [default] SIGMA  : 3.442
+2017-11-12 08:05:59,638 INFO [default] N      : 14
+2017-11-12 08:06:13,011 INFO [default] Running 100K Liq...
+2017-11-12 08:37:21,806 INFO [default] Finished 100K Liq!
+2017-11-12 08:37:21,807 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-12 08:37:21,807 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-12 08:37:21,807 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-12 08:37:21,808 INFO [default] Density found: 1277.62
+2017-11-12 08:37:21,808 INFO [default] Expected density: 1313.7
+2017-11-12 08:37:21,808 INFO [default] Density reported: 1277.62
+2017-11-12 08:37:21,808 INFO [default] Error: 2.74035
+2017-11-12 08:37:21,808 INFO [default] Current objective after run: 2.74035
+2017-11-12 08:37:21,808 INFO [default] DELTA: 0.761209
+2017-11-12 08:37:21,808 INFO [default] Rejecting new configuration
+2017-11-12 08:37:21,808 INFO [default] iteration: 98
+2017-11-12 08:37:21,808 INFO [default] =========== END ITERATION ===========
+2017-11-12 08:37:21,808 INFO [default] =========== NEW ITERATION ===========
+2017-11-12 08:37:21,808 INFO [default] Objective: 1.97914
+2017-11-12 08:37:21,808 INFO [default] Current objective before run: 2.74035
+2017-11-12 08:37:21,808 INFO [default] Current temperature: 0.00983756
+2017-11-12 08:37:21,809 INFO [default] =========  Current   =========
+2017-11-12 08:37:21,809 INFO [default] EPSILON: 126.12
+2017-11-12 08:37:21,809 INFO [default] SIGMA  : 3.324
+2017-11-12 08:37:21,809 INFO [default] N      : 16
+2017-11-12 08:37:36,827 INFO [default] Running 100K Liq...
+2017-11-12 09:09:45,930 INFO [default] Finished 100K Liq!
+2017-11-12 09:09:45,931 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-12 09:09:45,931 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-12 09:09:45,932 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-12 09:09:45,932 INFO [default] Density found: 1385.44
+2017-11-12 09:09:45,932 INFO [default] Expected density: 1313.7
+2017-11-12 09:09:45,932 INFO [default] Density reported: 1385.44
+2017-11-12 09:09:45,932 INFO [default] Error: 5.40458
+2017-11-12 09:09:45,932 INFO [default] Current objective after run: 5.40458
+2017-11-12 09:09:45,932 INFO [default] DELTA: 3.42544
+2017-11-12 09:09:45,933 INFO [default] Rejecting new configuration
+2017-11-12 09:09:45,933 INFO [default] iteration: 99
+2017-11-12 09:09:45,933 INFO [default] =========== END ITERATION ===========
+2017-11-12 09:09:45,933 INFO [default] =========== NEW ITERATION ===========
+2017-11-12 09:09:45,933 INFO [default] Objective: 1.97914
+2017-11-12 09:09:45,933 INFO [default] Current objective before run: 5.40458
+2017-11-12 09:09:45,933 INFO [default] Current temperature: 0.0088538
+2017-11-12 09:09:45,934 INFO [default] =========  Current   =========
+2017-11-12 09:09:45,934 INFO [default] EPSILON: 106.72
+2017-11-12 09:09:45,934 INFO [default] SIGMA  : 3.324
+2017-11-12 09:09:45,934 INFO [default] N      : 14
+2017-11-12 09:10:00,884 INFO [default] Running 100K Liq...
+2017-11-12 09:41:07,295 INFO [default] Finished 100K Liq!
+2017-11-12 09:41:07,296 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-12 09:41:07,296 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-12 09:41:07,297 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-12 09:41:07,297 INFO [default] Density found: 1247.79
+2017-11-12 09:41:07,297 INFO [default] Expected density: 1313.7
+2017-11-12 09:41:07,297 INFO [default] Density reported: 1247.79
+2017-11-12 09:41:07,297 INFO [default] Error: 4.94786
+2017-11-12 09:41:07,297 INFO [default] Current objective after run: 4.94786
+2017-11-12 09:41:07,297 INFO [default] DELTA: 2.96871
+2017-11-12 09:41:07,298 INFO [default] Rejecting new configuration
+2017-11-12 09:41:07,298 INFO [default] iteration: 100
+2017-11-12 09:41:07,298 INFO [default] =========== END ITERATION ===========
+2017-11-12 09:41:07,298 INFO [default] =========== NEW ITERATION ===========
+2017-11-12 09:41:07,298 INFO [default] Objective: 1.97914
+2017-11-12 09:41:07,298 INFO [default] Current objective before run: 4.94786
+2017-11-12 09:41:07,298 INFO [default] Current temperature: 0.00796842
+2017-11-12 09:41:07,299 INFO [default] =========  Current   =========
+2017-11-12 09:41:07,299 INFO [default] EPSILON: 124.41
+2017-11-12 09:41:07,299 INFO [default] SIGMA  : 3.324
+2017-11-12 09:41:07,299 INFO [default] N      : 14
+2017-11-12 09:41:22,673 INFO [default] Running 100K Liq...
+2017-11-12 10:13:37,078 INFO [default] Finished 100K Liq!
+2017-11-12 10:13:37,079 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-12 10:13:37,079 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-12 10:13:37,080 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-12 10:13:37,080 INFO [default] Density found: 1407.77
+2017-11-12 10:13:37,080 INFO [default] Expected density: 1313.7
+2017-11-12 10:13:37,080 INFO [default] Density reported: 1407.77
+2017-11-12 10:13:37,080 INFO [default] Error: 7.15536
+2017-11-12 10:13:37,080 INFO [default] Current objective after run: 7.15536
+2017-11-12 10:13:37,080 INFO [default] DELTA: 5.17622
+2017-11-12 10:13:37,081 INFO [default] Rejecting new configuration
+2017-11-12 10:13:37,081 INFO [default] iteration: 101
+2017-11-12 10:13:37,081 INFO [default] =========== END ITERATION ===========
+2017-11-12 10:13:37,081 INFO [default] =========== NEW ITERATION ===========
+2017-11-12 10:13:37,081 INFO [default] Objective: 1.97914
+2017-11-12 10:13:37,081 INFO [default] Current objective before run: 7.15536
+2017-11-12 10:13:37,081 INFO [default] Current temperature: 0.00717158
+2017-11-12 10:13:37,082 INFO [default] =========  Current   =========
+2017-11-12 10:13:37,082 INFO [default] EPSILON: 126.12
+2017-11-12 10:13:37,082 INFO [default] SIGMA  : 3.345
+2017-11-12 10:13:37,082 INFO [default] N      : 14
+2017-11-12 10:13:50,618 INFO [default] Running 100K Liq...
+2017-11-12 10:45:53,705 INFO [default] Finished 100K Liq!
+2017-11-12 10:45:53,706 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-12 10:45:53,706 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-12 10:45:53,706 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-12 10:45:53,707 INFO [default] Density found: 1386.52
+2017-11-12 10:45:53,707 INFO [default] Expected density: 1313.7
+2017-11-12 10:45:53,707 INFO [default] Density reported: 1386.52
+2017-11-12 10:45:53,707 INFO [default] Error: 5.4807
+2017-11-12 10:45:53,707 INFO [default] Current objective after run: 5.4807
+2017-11-12 10:45:53,707 INFO [default] DELTA: 3.50156
+2017-11-12 10:45:53,708 INFO [default] Rejecting new configuration
+2017-11-12 10:45:53,708 INFO [default] iteration: 102
+2017-11-12 10:45:53,708 INFO [default] =========== END ITERATION ===========
+2017-11-12 10:45:53,708 INFO [default] =========== NEW ITERATION ===========
+2017-11-12 10:45:53,708 INFO [default] Objective: 1.97914
+2017-11-12 10:45:53,708 INFO [default] Current objective before run: 5.4807
+2017-11-12 10:45:53,708 INFO [default] Current temperature: 0.00645442
+2017-11-12 10:45:53,708 INFO [default] =========  Current   =========
+2017-11-12 10:45:53,708 INFO [default] EPSILON: 119.85
+2017-11-12 10:45:53,708 INFO [default] SIGMA  : 3.324
+2017-11-12 10:45:53,708 INFO [default] N      : 14
+2017-11-12 10:46:09,484 INFO [default] Running 100K Liq...
+2017-11-12 11:18:05,897 INFO [default] Finished 100K Liq!
+2017-11-12 11:18:05,897 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-12 11:18:05,897 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-12 11:18:05,898 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-12 11:18:05,899 INFO [default] Density found: 1364.84
+2017-11-12 11:18:05,899 INFO [default] Expected density: 1313.7
+2017-11-12 11:18:05,899 INFO [default] Density reported: 1364.84
+2017-11-12 11:18:05,899 INFO [default] Error: 3.88216
+2017-11-12 11:18:05,899 INFO [default] Current objective after run: 3.88216
+2017-11-12 11:18:05,899 INFO [default] DELTA: 1.90302
+2017-11-12 11:18:05,899 INFO [default] Rejecting new configuration
+2017-11-12 11:18:05,899 INFO [default] iteration: 103
+2017-11-12 11:18:05,899 INFO [default] =========== END ITERATION ===========
+2017-11-12 11:18:05,899 INFO [default] =========== NEW ITERATION ===========
+2017-11-12 11:18:05,899 INFO [default] Objective: 1.97914
+2017-11-12 11:18:05,899 INFO [default] Current objective before run: 3.88216
+2017-11-12 11:18:05,899 INFO [default] Current temperature: 0.00580898
+2017-11-12 11:18:05,900 INFO [default] =========  Current   =========
+2017-11-12 11:18:05,900 INFO [default] EPSILON: 126.12
+2017-11-12 11:18:05,900 INFO [default] SIGMA  : 3.324
+2017-11-12 11:18:05,900 INFO [default] N      : 15
+2017-11-12 11:18:10,035 INFO [default] Running 100K Liq...
+2017-11-12 11:50:18,893 INFO [default] Finished 100K Liq!
+2017-11-12 11:50:18,893 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-12 11:50:18,893 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-12 11:50:18,894 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-12 11:50:18,894 INFO [default] Density found: 1408.24
+2017-11-12 11:50:18,895 INFO [default] Expected density: 1313.7
+2017-11-12 11:50:18,895 INFO [default] Density reported: 1408.24
+2017-11-12 11:50:18,895 INFO [default] Error: 7.15536
+2017-11-12 11:50:18,895 INFO [default] Current objective after run: 7.15536
+2017-11-12 11:50:18,895 INFO [default] DELTA: 5.17622
+2017-11-12 11:50:18,895 INFO [default] Rejecting new configuration
+2017-11-12 11:50:18,895 INFO [default] iteration: 104
+2017-11-12 11:50:18,895 INFO [default] =========== END ITERATION ===========
+2017-11-12 11:50:18,895 INFO [default] =========== NEW ITERATION ===========
+2017-11-12 11:50:18,895 INFO [default] Objective: 1.97914
+2017-11-12 11:50:18,895 INFO [default] Current objective before run: 7.15536
+2017-11-12 11:50:18,895 INFO [default] Current temperature: 0.00522808
+2017-11-12 11:50:18,896 INFO [default] =========  Current   =========
+2017-11-12 11:50:18,896 INFO [default] EPSILON: 105.1
+2017-11-12 11:50:18,896 INFO [default] SIGMA  : 3.324
+2017-11-12 11:50:18,896 INFO [default] N      : 14
+2017-11-12 11:50:22,738 INFO [default] Running 100K Liq...
+2017-11-12 12:21:19,184 INFO [default] Finished 100K Liq!
+2017-11-12 12:21:19,184 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-12 12:21:19,184 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-12 12:21:19,185 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-12 12:21:19,186 INFO [default] Density found: 1193.18
+2017-11-12 12:21:19,186 INFO [default] Expected density: 1313.7
+2017-11-12 12:21:19,186 INFO [default] Density reported: 1193.18
+2017-11-12 12:21:19,186 INFO [default] Error: 9.13451
+2017-11-12 12:21:19,186 INFO [default] Current objective after run: 9.13451
+2017-11-12 12:21:19,186 INFO [default] DELTA: 7.15536
+2017-11-12 12:21:19,186 INFO [default] Rejecting new configuration
+2017-11-12 12:21:19,186 INFO [default] iteration: 105
+2017-11-12 12:21:19,186 INFO [default] =========== END ITERATION ===========
+2017-11-12 12:21:19,186 INFO [default] =========== NEW ITERATION ===========
+2017-11-12 12:21:19,186 INFO [default] Objective: 1.97914
+2017-11-12 12:21:19,186 INFO [default] Current objective before run: 9.13451
+2017-11-12 12:21:19,186 INFO [default] Current temperature: 0.00470527
+2017-11-12 12:21:19,187 INFO [default] =========  Current   =========
+2017-11-12 12:21:19,187 INFO [default] EPSILON: 101.54
+2017-11-12 12:21:19,187 INFO [default] SIGMA  : 3.324
+2017-11-12 12:21:19,187 INFO [default] N      : 14
+2017-11-12 12:21:22,990 INFO [default] Running 100K Liq...
+2017-11-12 12:52:06,862 INFO [default] Finished 100K Liq!
+2017-11-12 12:52:06,863 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-12 12:52:06,863 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-12 12:52:06,863 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-12 12:52:06,864 INFO [default] Density found: 1217.88
+2017-11-12 12:52:06,864 INFO [default] Expected density: 1313.7
+2017-11-12 12:52:06,864 INFO [default] Density reported: 1217.88
+2017-11-12 12:52:06,864 INFO [default] Error: 7.23148
+2017-11-12 12:52:06,864 INFO [default] Current objective after run: 7.23148
+2017-11-12 12:52:06,864 INFO [default] DELTA: 5.25234
+2017-11-12 12:52:06,865 INFO [default] Rejecting new configuration
+2017-11-12 12:52:06,865 INFO [default] iteration: 106
+2017-11-12 12:52:06,865 INFO [default] =========== END ITERATION ===========
+2017-11-12 12:52:06,865 INFO [default] =========== NEW ITERATION ===========
+2017-11-12 12:52:06,865 INFO [default] Objective: 1.97914
+2017-11-12 12:52:06,865 INFO [default] Current objective before run: 7.23148
+2017-11-12 12:52:06,865 INFO [default] Current temperature: 0.00423474
+2017-11-12 12:52:06,865 INFO [default] =========  Current   =========
+2017-11-12 12:52:06,865 INFO [default] EPSILON: 126.7
+2017-11-12 12:52:06,865 INFO [default] SIGMA  : 3.324
+2017-11-12 12:52:06,865 INFO [default] N      : 14
+2017-11-12 12:52:10,688 INFO [default] Running 100K Liq...
+2017-11-12 13:24:28,171 INFO [default] Finished 100K Liq!
+2017-11-12 13:24:28,171 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-12 13:24:28,171 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-12 13:24:28,172 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-12 13:24:28,173 INFO [default] Density found: 1379.53
+2017-11-12 13:24:28,173 INFO [default] Expected density: 1313.7
+2017-11-12 13:24:28,173 INFO [default] Density reported: 1379.53
+2017-11-12 13:24:28,173 INFO [default] Error: 4.94786
+2017-11-12 13:24:28,173 INFO [default] Current objective after run: 4.94786
+2017-11-12 13:24:28,173 INFO [default] DELTA: 2.96871
+2017-11-12 13:24:28,173 INFO [default] Rejecting new configuration
+2017-11-12 13:24:28,173 INFO [default] iteration: 107
+2017-11-12 13:24:28,173 INFO [default] =========== END ITERATION ===========
+2017-11-12 13:24:28,173 INFO [default] =========== NEW ITERATION ===========
+2017-11-12 13:24:28,173 INFO [default] Objective: 1.97914
+2017-11-12 13:24:28,173 INFO [default] Current objective before run: 4.94786
+2017-11-12 13:24:28,173 INFO [default] Current temperature: 0.00381127
+2017-11-12 13:24:28,174 INFO [default] =========  Current   =========
+2017-11-12 13:24:28,174 INFO [default] EPSILON: 126.12
+2017-11-12 13:24:28,174 INFO [default] SIGMA  : 4.231
+2017-11-12 13:24:28,174 INFO [default] N      : 14
+2017-11-12 13:24:32,005 INFO [default] Running 100K Liq...
+2017-11-12 13:37:13,662 INFO [default] Finished 100K Liq!
+2017-11-12 13:37:13,662 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-12 13:37:13,662 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-12 13:37:13,663 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-12 13:37:13,664 INFO [default] Density found: 685.538
+2017-11-12 13:37:13,664 INFO [default] Expected density: 1313.7
+2017-11-12 13:37:13,664 INFO [default] Density reported: 685.538
+2017-11-12 13:37:13,664 INFO [default] Error: 47.8039
+2017-11-12 13:37:13,664 INFO [default] Current objective after run: 47.8039
+2017-11-12 13:37:13,664 INFO [default] DELTA: 45.8248
+2017-11-12 13:37:13,664 INFO [default] Rejecting new configuration
+2017-11-12 13:37:13,664 INFO [default] iteration: 108
+2017-11-12 13:37:13,664 INFO [default] =========== END ITERATION ===========
+2017-11-12 13:37:13,664 INFO [default] =========== NEW ITERATION ===========
+2017-11-12 13:37:13,664 INFO [default] Objective: 1.97914
+2017-11-12 13:37:13,664 INFO [default] Current objective before run: 47.8039
+2017-11-12 13:37:13,664 INFO [default] Current temperature: 0.00343014
+2017-11-12 13:37:13,665 INFO [default] =========  Current   =========
+2017-11-12 13:37:13,665 INFO [default] EPSILON: 120.9
+2017-11-12 13:37:13,665 INFO [default] SIGMA  : 3.324
+2017-11-12 13:37:13,665 INFO [default] N      : 14
+2017-11-12 13:37:17,585 INFO [default] Running 100K Liq...
+2017-11-12 14:09:31,554 INFO [default] Finished 100K Liq!
+2017-11-12 14:09:31,555 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-12 14:09:31,555 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-12 14:09:31,556 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-12 14:09:31,556 INFO [default] Density found: 1394.82
+2017-11-12 14:09:31,556 INFO [default] Expected density: 1313.7
+2017-11-12 14:09:31,556 INFO [default] Density reported: 1394.82
+2017-11-12 14:09:31,556 INFO [default] Error: 6.16579
+2017-11-12 14:09:31,556 INFO [default] Current objective after run: 6.16579
+2017-11-12 14:09:31,556 INFO [default] DELTA: 4.18665
+2017-11-12 14:09:31,557 INFO [default] Rejecting new configuration
+2017-11-12 14:09:31,557 INFO [default] iteration: 109
+2017-11-12 14:09:31,557 INFO [default] =========== END ITERATION ===========
+2017-11-12 14:09:31,557 INFO [default] =========== NEW ITERATION ===========
+2017-11-12 14:09:31,557 INFO [default] Objective: 1.97914
+2017-11-12 14:09:31,557 INFO [default] Current objective before run: 6.16579
+2017-11-12 14:09:31,557 INFO [default] Current temperature: 0.00308713
+2017-11-12 14:09:31,558 INFO [default] =========  Current   =========
+2017-11-12 14:09:31,558 INFO [default] EPSILON: 126.12
+2017-11-12 14:09:31,558 INFO [default] SIGMA  : 4.053
+2017-11-12 14:09:31,558 INFO [default] N      : 14
+2017-11-12 14:09:35,347 INFO [default] Running 100K Liq...
+2017-11-12 14:23:02,970 INFO [default] Finished 100K Liq!
+2017-11-12 14:23:02,970 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-12 14:23:02,970 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-12 14:23:02,971 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-12 14:23:02,972 INFO [default] Density found: 784.618
+2017-11-12 14:23:02,972 INFO [default] Expected density: 1313.7
+2017-11-12 14:23:02,972 INFO [default] Density reported: 784.618
+2017-11-12 14:23:02,972 INFO [default] Error: 40.2679
+2017-11-12 14:23:02,972 INFO [default] Current objective after run: 40.2679
+2017-11-12 14:23:02,972 INFO [default] DELTA: 38.2888
+2017-11-12 14:23:02,972 INFO [default] Rejecting new configuration
+2017-11-12 14:23:02,972 INFO [default] iteration: 110
+2017-11-12 14:23:02,972 INFO [default] =========== END ITERATION ===========
+2017-11-12 14:23:02,972 INFO [default] =========== NEW ITERATION ===========
+2017-11-12 14:23:02,972 INFO [default] Objective: 1.97914
+2017-11-12 14:23:02,972 INFO [default] Current objective before run: 40.2679
+2017-11-12 14:23:02,972 INFO [default] Current temperature: 0.00277842
+2017-11-12 14:23:02,973 INFO [default] =========  Current   =========
+2017-11-12 14:23:02,973 INFO [default] EPSILON: 126.12
+2017-11-12 14:23:02,973 INFO [default] SIGMA  : 3.521
+2017-11-12 14:23:02,973 INFO [default] N      : 14
+2017-11-12 14:23:07,016 INFO [default] Running 100K Liq...
+2017-11-12 14:53:18,629 INFO [default] Finished 100K Liq!
+2017-11-12 14:53:18,629 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-12 14:53:18,629 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-12 14:53:18,630 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-12 14:53:18,631 INFO [default] Density found: 1172.92
+2017-11-12 14:53:18,631 INFO [default] Expected density: 1313.7
+2017-11-12 14:53:18,631 INFO [default] Density reported: 1172.92
+2017-11-12 14:53:18,631 INFO [default] Error: 10.6569
+2017-11-12 14:53:18,631 INFO [default] Current objective after run: 10.6569
+2017-11-12 14:53:18,631 INFO [default] DELTA: 8.67778
+2017-11-12 14:53:18,631 INFO [default] Rejecting new configuration
+2017-11-12 14:53:18,631 INFO [default] iteration: 111
+2017-11-12 14:53:18,631 INFO [default] =========== END ITERATION ===========
+2017-11-12 14:53:18,631 INFO [default] =========== NEW ITERATION ===========
+2017-11-12 14:53:18,631 INFO [default] Objective: 1.97914
+2017-11-12 14:53:18,631 INFO [default] Current objective before run: 10.6569
+2017-11-12 14:53:18,631 INFO [default] Current temperature: 0.00250057
+2017-11-12 14:53:18,632 INFO [default] =========  Current   =========
+2017-11-12 14:53:18,632 INFO [default] EPSILON: 109.98
+2017-11-12 14:53:18,632 INFO [default] SIGMA  : 3.324
+2017-11-12 14:53:18,632 INFO [default] N      : 14
+2017-11-12 14:53:22,354 INFO [default] Running 100K Liq...
+2017-11-12 15:25:04,537 INFO [default] Finished 100K Liq!
+2017-11-12 15:25:04,538 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-12 15:25:04,538 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-12 15:25:04,539 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-12 15:25:04,539 INFO [default] Density found: 1328.4
+2017-11-12 15:25:04,539 INFO [default] Expected density: 1313.7
+2017-11-12 15:25:04,539 INFO [default] Density reported: 1328.4
+2017-11-12 15:25:04,539 INFO [default] Error: 1.06569
+2017-11-12 15:25:04,539 INFO [default] Current objective after run: 1.06569
+2017-11-12 15:25:04,539 INFO [default] DELTA: -0.913451
+2017-11-12 15:25:04,539 INFO [default] Accepting new configuration
+2017-11-12 15:25:04,539 INFO [default] iteration: 112
+2017-11-12 15:25:04,539 INFO [default] =========== END ITERATION ===========
+2017-11-12 15:25:04,539 INFO [default] =========== NEW ITERATION ===========
+2017-11-12 15:25:04,540 INFO [default] Objective: 1.06569
+2017-11-12 15:25:04,540 INFO [default] Current objective before run: 1.06569
+2017-11-12 15:25:04,540 INFO [default] Current temperature: 0.00225052
+2017-11-12 15:25:04,540 INFO [default] =========  Current   =========
+2017-11-12 15:25:04,540 INFO [default] EPSILON: 109.57
+2017-11-12 15:25:04,541 INFO [default] SIGMA  : 3.324
+2017-11-12 15:25:04,541 INFO [default] N      : 14
+2017-11-12 15:25:08,250 INFO [default] Running 100K Liq...
+2017-11-12 15:56:27,493 INFO [default] Finished 100K Liq!
+2017-11-12 15:56:27,494 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-12 15:56:27,494 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-12 15:56:27,495 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-12 15:56:27,495 INFO [default] Density found: 1299.45
+2017-11-12 15:56:27,495 INFO [default] Expected density: 1313.7
+2017-11-12 15:56:27,495 INFO [default] Density reported: 1299.45
+2017-11-12 15:56:27,495 INFO [default] Error: 1.06569
+2017-11-12 15:56:27,495 INFO [default] Current objective after run: 1.06569
+2017-11-12 15:56:27,495 INFO [default] DELTA: 0
+2017-11-12 15:56:27,496 INFO [default] Accepting new configuration
+2017-11-12 15:56:27,496 INFO [default] iteration: 113
+2017-11-12 15:56:27,496 INFO [default] =========== END ITERATION ===========
+2017-11-12 15:56:27,496 INFO [default] =========== NEW ITERATION ===========
+2017-11-12 15:56:27,496 INFO [default] Objective: 1.06569
+2017-11-12 15:56:27,496 INFO [default] Current objective before run: 1.06569
+2017-11-12 15:56:27,496 INFO [default] Current temperature: 0.00202547
+2017-11-12 15:56:27,497 INFO [default] =========  Current   =========
+2017-11-12 15:56:27,497 INFO [default] EPSILON: 109.57
+2017-11-12 15:56:27,497 INFO [default] SIGMA  : 3.324
+2017-11-12 15:56:27,497 INFO [default] N      : 17
+2017-11-12 15:56:31,656 INFO [default] Running 100K Liq...
+2017-11-12 16:26:56,783 INFO [default] Finished 100K Liq!
+2017-11-12 16:26:56,783 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-12 16:26:56,783 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-12 16:26:56,784 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-12 16:26:56,785 INFO [default] Density found: 1190.2
+2017-11-12 16:26:56,785 INFO [default] Expected density: 1313.7
+2017-11-12 16:26:56,785 INFO [default] Density reported: 1190.2
+2017-11-12 16:26:56,785 INFO [default] Error: 9.36287
+2017-11-12 16:26:56,785 INFO [default] Current objective after run: 9.36287
+2017-11-12 16:26:56,785 INFO [default] DELTA: 8.29718
+2017-11-12 16:26:56,785 INFO [default] Rejecting new configuration
+2017-11-12 16:26:56,785 INFO [default] iteration: 114
+2017-11-12 16:26:56,785 INFO [default] =========== END ITERATION ===========
+2017-11-12 16:26:56,785 INFO [default] =========== NEW ITERATION ===========
+2017-11-12 16:26:56,785 INFO [default] Objective: 1.06569
+2017-11-12 16:26:56,785 INFO [default] Current objective before run: 9.36287
+2017-11-12 16:26:56,785 INFO [default] Current temperature: 0.00182292
+2017-11-12 16:26:56,786 INFO [default] =========  Current   =========
+2017-11-12 16:26:56,786 INFO [default] EPSILON: 109.98
+2017-11-12 16:26:56,786 INFO [default] SIGMA  : 3.324
+2017-11-12 16:26:56,786 INFO [default] N      : 18
+2017-11-12 16:27:00,777 INFO [default] Running 100K Liq...
+2017-11-12 16:57:22,309 INFO [default] Finished 100K Liq!
+2017-11-12 16:57:22,310 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-12 16:57:22,310 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-12 16:57:22,311 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-12 16:57:22,311 INFO [default] Density found: 1182.8
+2017-11-12 16:57:22,311 INFO [default] Expected density: 1313.7
+2017-11-12 16:57:22,311 INFO [default] Density reported: 1182.8
+2017-11-12 16:57:22,311 INFO [default] Error: 9.89571
+2017-11-12 16:57:22,312 INFO [default] Current objective after run: 9.89571
+2017-11-12 16:57:22,312 INFO [default] DELTA: 8.83002
+2017-11-12 16:57:22,312 INFO [default] Rejecting new configuration
+2017-11-12 16:57:22,312 INFO [default] iteration: 115
+2017-11-12 16:57:22,312 INFO [default] =========== END ITERATION ===========
+2017-11-12 16:57:22,312 INFO [default] =========== NEW ITERATION ===========
+2017-11-12 16:57:22,312 INFO [default] Objective: 1.06569
+2017-11-12 16:57:22,312 INFO [default] Current objective before run: 9.89571
+2017-11-12 16:57:22,312 INFO [default] Current temperature: 0.00164063
+2017-11-12 16:57:22,313 INFO [default] =========  Current   =========
+2017-11-12 16:57:22,313 INFO [default] EPSILON: 109.98
+2017-11-12 16:57:22,313 INFO [default] SIGMA  : 3.324
+2017-11-12 16:57:22,313 INFO [default] N      : 16
+2017-11-12 16:57:26,147 INFO [default] Running 100K Liq...
+2017-11-12 17:28:40,403 INFO [default] Finished 100K Liq!
+2017-11-12 17:28:40,403 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-12 17:28:40,403 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-12 17:28:40,404 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-12 17:28:40,404 INFO [default] Density found: 1218.66
+2017-11-12 17:28:40,404 INFO [default] Expected density: 1313.7
+2017-11-12 17:28:40,404 INFO [default] Density reported: 1218.66
+2017-11-12 17:28:40,404 INFO [default] Error: 7.23148
+2017-11-12 17:28:40,404 INFO [default] Current objective after run: 7.23148
+2017-11-12 17:28:40,404 INFO [default] DELTA: 6.16579
+2017-11-12 17:28:40,405 INFO [default] Rejecting new configuration
+2017-11-12 17:28:40,405 INFO [default] iteration: 116
+2017-11-12 17:28:40,405 INFO [default] =========== END ITERATION ===========
+2017-11-12 17:28:40,405 INFO [default] =========== NEW ITERATION ===========
+2017-11-12 17:28:40,405 INFO [default] Objective: 1.06569
+2017-11-12 17:28:40,405 INFO [default] Current objective before run: 7.23148
+2017-11-12 17:28:40,405 INFO [default] Current temperature: 0.00147656
+2017-11-12 17:28:40,406 INFO [default] =========  Current   =========
+2017-11-12 17:28:40,406 INFO [default] EPSILON: 109.98
+2017-11-12 17:28:40,406 INFO [default] SIGMA  : 3.324
+2017-11-12 17:28:40,406 INFO [default] N      : 14
+2017-11-12 17:28:44,244 INFO [default] Running 100K Liq...
+2017-11-12 17:59:53,583 INFO [default] Finished 100K Liq!
+2017-11-12 17:59:53,583 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-12 17:59:53,583 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-12 17:59:53,584 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-12 17:59:53,585 INFO [default] Density found: 1322.08
+2017-11-12 17:59:53,585 INFO [default] Expected density: 1313.7
+2017-11-12 17:59:53,585 INFO [default] Density reported: 1322.08
+2017-11-12 17:59:53,585 INFO [default] Error: 0.608967
+2017-11-12 17:59:53,585 INFO [default] Running 100K Vap...
+2017-11-12 18:01:32,878 INFO [default] Finished 100K Vap!
+2017-11-12 18:01:32,879 INFO [default] Finding density in temp_100/Vap/out.log!
+2017-11-12 18:01:32,879 INFO [default] Opening file temp_100/Vap/out.log...
+2017-11-12 18:01:32,880 INFO [default] Successfully opened file temp_100/Vap/out.log!
+2017-11-12 18:01:32,880 INFO [default] Density found: 16.327
+2017-11-12 18:01:32,880 INFO [default] Expected density: 16.859
+2017-11-12 18:01:32,880 INFO [default] Density reported: 16.327
+2017-11-12 18:01:32,880 INFO [default] Error: 0
+2017-11-12 18:01:32,880 INFO [default] Running 130K Liq...
+2017-11-12 18:04:48,075 INFO [default] Finished 130K Liq!
+2017-11-12 18:04:48,076 INFO [default] Finding density in temp_130/Liq/out.log!
+2017-11-12 18:04:48,076 INFO [default] Opening file temp_130/Liq/out.log...
+2017-11-12 18:04:48,077 INFO [default] Successfully opened file temp_130/Liq/out.log!
+2017-11-12 18:04:48,077 INFO [default] Density found: 92.7317
+2017-11-12 18:04:48,077 INFO [default] Expected density: 1068.1
+2017-11-12 18:04:48,077 INFO [default] Density reported: 92.7317
+2017-11-12 18:04:48,077 INFO [default] Error: 91.2836
+2017-11-12 18:04:48,077 INFO [default] Current objective after run: 30.6309
+2017-11-12 18:04:48,077 INFO [default] DELTA: 29.5652
+2017-11-12 18:04:48,078 INFO [default] Rejecting new configuration
+2017-11-12 18:04:48,078 INFO [default] iteration: 117
+2017-11-12 18:04:48,078 INFO [default] =========== END ITERATION ===========
+2017-11-12 18:04:48,078 INFO [default] =========== NEW ITERATION ===========
+2017-11-12 18:04:48,078 INFO [default] Objective: 1.06569
+2017-11-12 18:04:48,078 INFO [default] Current objective before run: 30.6309
+2017-11-12 18:04:48,078 INFO [default] Current temperature: 0.00132891
+2017-11-12 18:04:48,078 INFO [default] =========  Current   =========
+2017-11-12 18:04:48,078 INFO [default] EPSILON: 116.17
+2017-11-12 18:04:48,078 INFO [default] SIGMA  : 3.324
+2017-11-12 18:04:48,078 INFO [default] N      : 14
+2017-11-12 18:04:52,449 INFO [default] Running 100K Liq...
+2017-11-12 18:36:42,136 INFO [default] Finished 100K Liq!
+2017-11-12 18:36:42,136 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-12 18:36:42,137 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-12 18:36:42,137 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-12 18:36:42,138 INFO [default] Density found: 1330.77
+2017-11-12 18:36:42,138 INFO [default] Expected density: 1313.7
+2017-11-12 18:36:42,138 INFO [default] Density reported: 1330.77
+2017-11-12 18:36:42,138 INFO [default] Error: 1.29405
+2017-11-12 18:36:42,138 INFO [default] Current objective after run: 1.29405
+2017-11-12 18:36:42,138 INFO [default] DELTA: 0.228363
+2017-11-12 18:36:42,138 INFO [default] Rejecting new configuration
+2017-11-12 18:36:42,138 INFO [default] iteration: 118
+2017-11-12 18:36:42,138 INFO [default] =========== END ITERATION ===========
+2017-11-12 18:36:42,138 INFO [default] =========== NEW ITERATION ===========
+2017-11-12 18:36:42,138 INFO [default] Objective: 1.06569
+2017-11-12 18:36:42,138 INFO [default] Current objective before run: 1.29405
+2017-11-12 18:36:42,138 INFO [default] Current temperature: 0.00119602
+2017-11-12 18:36:42,139 INFO [default] =========  Current   =========
+2017-11-12 18:36:42,139 INFO [default] EPSILON: 109.98
+2017-11-12 18:36:42,139 INFO [default] SIGMA  : 3.479
+2017-11-12 18:36:42,139 INFO [default] N      : 14
+2017-11-12 18:36:45,896 INFO [default] Running 100K Liq...
+2017-11-12 19:06:33,059 INFO [default] Finished 100K Liq!
+2017-11-12 19:06:33,059 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-12 19:06:33,059 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-12 19:06:33,060 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-12 19:06:33,061 INFO [default] Density found: 1135.07
+2017-11-12 19:06:33,061 INFO [default] Expected density: 1313.7
+2017-11-12 19:06:33,061 INFO [default] Density reported: 1135.07
+2017-11-12 19:06:33,061 INFO [default] Error: 13.5495
+2017-11-12 19:06:33,061 INFO [default] Current objective after run: 13.5495
+2017-11-12 19:06:33,061 INFO [default] DELTA: 12.4838
+2017-11-12 19:06:33,061 INFO [default] Rejecting new configuration
+2017-11-12 19:06:33,061 INFO [default] iteration: 119
+2017-11-12 19:06:33,061 INFO [default] =========== END ITERATION ===========
+2017-11-12 19:06:33,061 INFO [default] =========== NEW ITERATION ===========
+2017-11-12 19:06:33,061 INFO [default] Objective: 1.06569
+2017-11-12 19:06:33,061 INFO [default] Current objective before run: 13.5495
+2017-11-12 19:06:33,061 INFO [default] Current temperature: 0.00107642
+2017-11-12 19:06:33,062 INFO [default] =========  Current   =========
+2017-11-12 19:06:33,062 INFO [default] EPSILON: 106.01
+2017-11-12 19:06:33,062 INFO [default] SIGMA  : 3.324
+2017-11-12 19:06:33,062 INFO [default] N      : 14
+2017-11-12 19:06:37,018 INFO [default] Running 100K Liq...
+2017-11-12 19:37:27,123 INFO [default] Finished 100K Liq!
+2017-11-12 19:37:27,124 INFO [default] Finding density in temp_100/Liq/out.log!
+2017-11-12 19:37:27,124 INFO [default] Opening file temp_100/Liq/out.log...
+2017-11-12 19:37:27,124 INFO [default] Successfully opened file temp_100/Liq/out.log!
+2017-11-12 19:37:27,125 INFO [default] Density found: 1245.64
+2017-11-12 19:37:27,125 INFO [default] Expected density: 1313.7
+2017-11-12 19:37:27,125 INFO [default] Density reported: 1245.64
+2017-11-12 19:37:27,125 INFO [default] Error: 5.17622
+2017-11-12 19:37:27,125 INFO [default] Current objective after run: 5.17622
+2017-11-12 19:37:27,125 INFO [default] DELTA: 4.11053
+2017-11-12 19:37:27,125 INFO [default] Rejecting new configuration
+2017-11-12 19:37:27,125 INFO [default] iteration: 120
+2017-11-12 19:37:27,125 INFO [default] =========== END ITERATION ===========
+2017-11-12 19:37:27,125 INFO [default] Program finished successfully
