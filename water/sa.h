@@ -85,74 +85,98 @@ void make_temp()
     // Replace Bond
     std::stringstream stream;
     stream << std::fixed << std::setprecision(4) << current_bond;
-    std::string bond_rep = "sed -i 's/BBBBBB/" + stream.str() + "/g' temp_500/Liq/par_water.inp";
+    std::string bond_rep = "sed -i 's/BBBBBB/" + stream.str() 
+      + "/g' temp_500/Liq/par_water.inp";
     system(bond_rep.c_str());
-    bond_rep = "sed -i 's/BBBBBB/" + stream.str() + "/g' temp_500/Vap/par_water.inp";
+    bond_rep = "sed -i 's/BBBBBB/" + stream.str() 
+      + "/g' temp_500/Vap/par_water.inp";
     system(bond_rep.c_str());
-    bond_rep = "sed -i 's/BBBBBB/" + stream.str() + "/g' temp_600/Liq/par_water.inp";
+    bond_rep = "sed -i 's/BBBBBB/" + stream.str() 
+      + "/g' temp_600/Liq/par_water.inp";
     system(bond_rep.c_str());
-    bond_rep = "sed -i 's/BBBBBB/" + stream.str() + "/g' temp_600/Vap/par_water.inp";
+    bond_rep = "sed -i 's/BBBBBB/" + stream.str() 
+      + "/g' temp_600/Vap/par_water.inp";
     system(bond_rep.c_str());
     
 
     // Replace Sigma
     stream.str(std::string());
     stream << std::fixed << std::setprecision(6) << current_sigma;
-    std::string sigma_rep = "sed -i 's/SSSSSSSSS/" + stream.str() + "/g' temp_500/Liq/par_water.inp";
+    std::string sigma_rep = "sed -i 's/SSSSSSSSS/" 
+      + stream.str() + "/g' temp_500/Liq/par_water.inp";
     system(sigma_rep.c_str());
-    sigma_rep = "sed -i 's/SSSSSSSSS/" + stream.str() + "/g' temp_500/Vap/par_water.inp";
+    sigma_rep = "sed -i 's/SSSSSSSSS/" 
+      + stream.str() + "/g' temp_500/Vap/par_water.inp";
     system(sigma_rep.c_str());
-    sigma_rep = "sed -i 's/SSSSSSSSS/" + stream.str() + "/g' temp_600/Liq/par_water.inp";
+    sigma_rep = "sed -i 's/SSSSSSSSS/" 
+      + stream.str() + "/g' temp_600/Liq/par_water.inp";
     system(sigma_rep.c_str());
-    sigma_rep = "sed -i 's/SSSSSSSSS/" + stream.str() + "/g' temp_600/Vap/par_water.inp";
+    sigma_rep = "sed -i 's/SSSSSSSSS/" 
+      + stream.str() + "/g' temp_600/Vap/par_water.inp";
     system(sigma_rep.c_str());
 
     // Replace Epsilon
     stream.str(std::string());
     stream << std::fixed << std::setprecision(6) << current_epsilon;
-    std::string epsilon_rep = "sed -i 's/EEEEEEE/" + stream.str() + "/g' temp_500/Liq/par_water.inp";
+    std::string epsilon_rep = "sed -i 's/EEEEEEE/" + stream.str() 
+      + "/g' temp_500/Liq/par_water.inp";
     system(epsilon_rep.c_str());
-    epsilon_rep = "sed -i 's/EEEEEEE/" + stream.str() + "/g' temp_500/Vap/par_water.inp";
+    epsilon_rep = "sed -i 's/EEEEEEE/" + stream.str() 
+      + "/g' temp_500/Vap/par_water.inp";
     system(epsilon_rep.c_str());
-    epsilon_rep = "sed -i 's/EEEEEEE/" + stream.str() + "/g' temp_600/Liq/par_water.inp";
+    epsilon_rep = "sed -i 's/EEEEEEE/" + stream.str() 
+      + "/g' temp_600/Liq/par_water.inp";
     system(epsilon_rep.c_str());
-    epsilon_rep = "sed -i 's/EEEEEEE/" + stream.str() + "/g' temp_600/Vap/par_water.inp";
+    epsilon_rep = "sed -i 's/EEEEEEE/" + stream.str() 
+      + "/g' temp_600/Vap/par_water.inp";
     system(epsilon_rep.c_str());
 
     // Replace n
     stream.str(std::string());
     stream << current_n;
-    std::string n_rep = "sed -i 's/NNN/" + stream.str() + "/g' temp_500/Liq/par_water.inp";
+    std::string n_rep = "sed -i 's/NNN/" + stream.str() 
+      + "/g' temp_500/Liq/par_water.inp";
     system(n_rep.c_str());
-    n_rep = "sed -i 's/NNN/" + stream.str() + "/g' temp_500/Vap/par_water.inp";
+    n_rep = "sed -i 's/NNN/" + stream.str() 
+      + "/g' temp_500/Vap/par_water.inp";
     system(n_rep.c_str());
-    n_rep = "sed -i 's/NNN/" + stream.str() + "/g' temp_600/Liq/par_water.inp";
+    n_rep = "sed -i 's/NNN/" + stream.str() 
+      + "/g' temp_600/Liq/par_water.inp";
     system(n_rep.c_str());
-    n_rep = "sed -i 's/NNN/" + stream.str() + "/g' temp_600/Vap/par_water.inp";
+    n_rep = "sed -i 's/NNN/" + stream.str() 
+      + "/g' temp_600/Vap/par_water.inp";
     system(n_rep.c_str());
 
     // Replace H Charges
     stream.str(std::string());
     stream << std::fixed << std::setprecision(6) << current_charge;
-    std::string hcharge_rep = "sed -i 's/HHHHHHHH/" + stream.str() + "/g' temp_500/Liq/START_WATER_BOX_0.psf";
+    std::string hcharge_rep = "sed -i 's/HHHHHHHH/" + stream.str() 
+      + "/g' temp_500/Liq/START_WATER_BOX_0.psf";
     system(hcharge_rep.c_str());
-    hcharge_rep = "sed -i 's/HHHHHHHH/" + stream.str() + "/g' temp_500/Vap/START_WATER_BOX_0.psf";
+    hcharge_rep = "sed -i 's/HHHHHHHH/" + stream.str() 
+      + "/g' temp_500/Vap/START_WATER_BOX_0.psf";
     system(hcharge_rep.c_str());
-    hcharge_rep = "sed -i 's/HHHHHHHH/" + stream.str() + "/g' temp_600/Liq/START_WATER_BOX_0.psf";
+    hcharge_rep = "sed -i 's/HHHHHHHH/" + stream.str() 
+      + "/g' temp_600/Liq/START_WATER_BOX_0.psf";
     system(hcharge_rep.c_str());
-    hcharge_rep = "sed -i 's/HHHHHHHH/" + stream.str() + "/g' temp_600/Vap/START_WATER_BOX_0.psf";
+    hcharge_rep = "sed -i 's/HHHHHHHH/" + stream.str() 
+      + "/g' temp_600/Vap/START_WATER_BOX_0.psf";
     system(hcharge_rep.c_str());
 
     // Replace O Charges
     stream.str(std::string());
     stream << std::fixed << std::setprecision(6) << 2 * current_charge;
-    std::string ocharge_rep = "sed -i 's/OOOOOOOO/" + stream.str() + "/g' temp_500/Liq/START_WATER_BOX_0.psf";
+    std::string ocharge_rep = "sed -i 's/OOOOOOOO/" 
+      + stream.str() + "/g' temp_500/Liq/START_WATER_BOX_0.psf";
     system(ocharge_rep.c_str());
-    ocharge_rep = "sed -i 's/OOOOOOOO/" + stream.str() + "/g' temp_500/Vap/START_WATER_BOX_0.psf";
+    ocharge_rep = "sed -i 's/OOOOOOOO/" + stream.str() 
+      + "/g' temp_500/Vap/START_WATER_BOX_0.psf";
     system(ocharge_rep.c_str());
-    ocharge_rep = "sed -i 's/OOOOOOOO/" + stream.str() + "/g' temp_600/Liq/START_WATER_BOX_0.psf";
+    ocharge_rep = "sed -i 's/OOOOOOOO/" + stream.str() 
+      + "/g' temp_600/Liq/START_WATER_BOX_0.psf";
     system(ocharge_rep.c_str());
-    ocharge_rep = "sed -i 's/OOOOOOOO/" + stream.str() + "/g' temp_600/Vap/START_WATER_BOX_0.psf";
+    ocharge_rep = "sed -i 's/OOOOOOOO/" + stream.str() 
+      + "/g' temp_600/Vap/START_WATER_BOX_0.psf";
     system(ocharge_rep.c_str());
 }
 
@@ -160,16 +184,11 @@ std::string get_last_line_of(std::string filename, std::string substring)
 {
     std::string line;
     std::string last_line;
-    LOG(INFO) << "Opening file " << filename << "...";
     std::ifstream myfile(filename.c_str());
     if(!myfile)
     {
         LOG(FATAL) << "Couldn't open file " << filename << "!";
         LOG(FATAL) << "Exiting...";
-    }
-    else
-    {
-        LOG(INFO) << "Successfully opened file " << filename << "!";
     }
     while(!myfile.eof())
     {
@@ -182,12 +201,10 @@ std::string get_last_line_of(std::string filename, std::string substring)
 
 double return_density(std::string filename)
 {
-    LOG(INFO) << "Finding density in " << filename << "!";
     std::string last_line = get_last_line_of(filename, "STAT_0");
     double density;
     std::size_t found = last_line.find_last_of(" \t");
     density = std::stod(last_line.substr(found+1));
-    LOG(INFO) << "Density found: " << density;
     return density;
 }
 

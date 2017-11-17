@@ -4099,3 +4099,18 @@
 2017-11-17 12:16:40,522 INFO [default] SIGMA  : 2.78
 2017-11-17 12:16:40,522 INFO [default] N      : 17
 2017-11-17 12:16:44,008 INFO [default] Running 100K Liq...
+2017-11-17 12:45:42,394 INFO [default] Program started
+2017-11-17 12:45:42,431 INFO [default] ========= RESTRICTIONS =========
+2017-11-17 12:45:42,431 INFO [default] EPSILON: [100, 130, 100]
+2017-11-17 12:45:42,431 INFO [default] SIGMA  : [2.4, 4.4, 1000]
+2017-11-17 12:45:42,431 INFO [default] N      : [12, 18, 1]
+2017-11-17 12:45:42,431 INFO [default] =========      SA      =========
+2017-11-17 12:45:42,431 INFO [default] =========    Initial   =========
+2017-11-17 12:45:42,431 INFO [default] Initial Temperature: 300
+2017-11-17 12:45:42,431 INFO [default] Cooling Fraction   : 0.9
+2017-11-17 12:45:42,431 INFO [default] Cooling Criteria   : 0.001
+2017-11-17 12:45:42,432 INFO [default] =========    Initial   =========
+2017-11-17 12:45:42,432 INFO [default] EPSILON: 103.53
+2017-11-17 12:45:42,432 INFO [default] SIGMA  : 3.82
+2017-11-17 12:45:42,432 INFO [default] N      : 15
+2017-11-17 12:45:45,573 INFO [default] Running 100K Liq...

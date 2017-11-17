@@ -13,7 +13,7 @@
 #define SIGMA_ACC 1000
 
 #define N_START 8
-#define N_END 10
+#define N_END 8
 #define N_ACC 1
 
 #define BOND_START 0.9
