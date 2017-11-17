@@ -4084,3 +4084,15 @@
 2017-11-17 12:12:58,400 INFO [default] SIGMA  : 3.784
 2017-11-17 12:12:58,400 INFO [default] N      : 15
 2017-11-17 12:13:01,562 INFO [default] Running 100K Liq...
+2017-11-17 12:40:30,139 INFO [default] Finished 100K Liq!
+2017-11-17 12:40:30,142 INFO [default] Expected density: 1313.7
+2017-11-17 12:40:30,142 INFO [default] Density reported: 1482.33
+2017-11-17 12:40:30,142 INFO [default] Error: 12.7883
+2017-11-17 12:40:30,142 INFO [default] =========== NEW ITERATION ===========
+2017-11-17 12:40:30,142 INFO [default] Objective: 12.7883
+2017-11-17 12:40:30,142 INFO [default] Current temperature: 300
+2017-11-17 12:40:30,143 INFO [default] =========  Current   =========
+2017-11-17 12:40:30,143 INFO [default] EPSILON: 115.95
+2017-11-17 12:40:30,143 INFO [default] SIGMA  : 2.723
+2017-11-17 12:40:30,143 INFO [default] N      : 16
+2017-11-17 12:40:33,480 INFO [default] Running 100K Liq...
