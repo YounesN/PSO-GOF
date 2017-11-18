@@ -4114,3 +4114,888 @@
 2017-11-17 12:45:42,432 INFO [default] SIGMA  : 3.82
 2017-11-17 12:45:42,432 INFO [default] N      : 15
 2017-11-17 12:45:45,573 INFO [default] Running 100K Liq...
+2017-11-17 12:55:23,718 INFO [default] Program started
+2017-11-17 12:55:23,847 INFO [default] ========= RESTRICTIONS =========
+2017-11-17 12:55:23,847 INFO [default] EPSILON: [100, 130, 100]
+2017-11-17 12:55:23,847 INFO [default] SIGMA  : [2.4, 4.4, 1000]
+2017-11-17 12:55:23,847 INFO [default] N      : [13, 13, 1]
+2017-11-17 12:55:23,847 INFO [default] =========      SA      =========
+2017-11-17 12:55:23,847 INFO [default] =========    Initial   =========
+2017-11-17 12:55:23,847 INFO [default] Initial Temperature: 300
+2017-11-17 12:55:23,847 INFO [default] Cooling Fraction   : 0.9
+2017-11-17 12:55:23,847 INFO [default] Cooling Criteria   : 0.001
+2017-11-17 12:55:23,848 INFO [default] =========    Initial   =========
+2017-11-17 12:55:23,848 INFO [default] EPSILON: 109.7
+2017-11-17 12:55:23,848 INFO [default] SIGMA  : 4.11
+2017-11-17 12:55:23,848 INFO [default] N      : 13
+2017-11-17 12:55:27,272 INFO [default] Running 100K Liq...
+2017-11-17 13:04:21,738 INFO [default] Program started
+2017-11-17 13:04:21,768 INFO [default] ========= RESTRICTIONS =========
+2017-11-17 13:04:21,768 INFO [default] EPSILON: [100, 130, 100]
+2017-11-17 13:04:21,768 INFO [default] SIGMA  : [2.4, 4.4, 1000]
+2017-11-17 13:04:21,768 INFO [default] N      : [13, 13, 1]
+2017-11-17 13:04:21,768 INFO [default] =========      SA      =========
+2017-11-17 13:04:21,768 INFO [default] =========    Initial   =========
+2017-11-17 13:04:21,768 INFO [default] Initial Temperature: 300
+2017-11-17 13:04:21,768 INFO [default] Cooling Fraction   : 0.9
+2017-11-17 13:04:21,768 INFO [default] Cooling Criteria   : 0.001
+2017-11-17 13:04:21,769 INFO [default] =========    Initial   =========
+2017-11-17 13:04:21,769 INFO [default] EPSILON: 107.42
+2017-11-17 13:04:21,769 INFO [default] SIGMA  : 3.921
+2017-11-17 13:04:21,769 INFO [default] N      : 13
+2017-11-17 13:04:25,209 INFO [default] Running 100K Liq...
+2017-11-17 13:15:04,627 INFO [default] Finished 100K Liq!
+2017-11-17 13:15:04,629 INFO [default] Expected density: 1313.7
+2017-11-17 13:15:04,629 INFO [default] Density reported: 662.152
+2017-11-17 13:15:04,629 INFO [default] Error: 49.5547
+2017-11-17 13:15:04,629 INFO [default] =========== NEW ITERATION ===========
+2017-11-17 13:15:04,629 INFO [default] Objective: 49.5547
+2017-11-17 13:15:04,629 INFO [default] Current temperature: 300
+2017-11-17 13:15:04,630 INFO [default] =========  Current   =========
+2017-11-17 13:15:04,630 INFO [default] EPSILON: 121.58
+2017-11-17 13:15:04,630 INFO [default] SIGMA  : 3.673
+2017-11-17 13:15:04,630 INFO [default] N      : 13
+2017-11-17 13:15:07,940 INFO [default] Running 100K Liq...
+2017-11-17 13:34:38,167 INFO [default] Finished 100K Liq!
+2017-11-17 13:34:38,170 INFO [default] Expected density: 1313.7
+2017-11-17 13:34:38,170 INFO [default] Density reported: 1024.52
+2017-11-17 13:34:38,170 INFO [default] Error: 21.9989
+2017-11-17 13:34:38,170 INFO [default] Current objective: 21.9989
+2017-11-17 13:34:38,170 INFO [default] DELTA: -27.5558
+2017-11-17 13:34:38,170 INFO [default] Accepting new configuration
+2017-11-17 13:34:38,170 INFO [default] iteration: 1
+2017-11-17 13:34:38,170 INFO [default] =========== END ITERATION ===========
+2017-11-17 13:34:38,170 INFO [default] =========== NEW ITERATION ===========
+2017-11-17 13:34:38,170 INFO [default] Objective: 21.9989
+2017-11-17 13:34:38,170 INFO [default] Current temperature: 270
+2017-11-17 13:34:38,171 INFO [default] =========  Current   =========
+2017-11-17 13:34:38,171 INFO [default] EPSILON: 125.6
+2017-11-17 13:34:38,171 INFO [default] SIGMA  : 3.196
+2017-11-17 13:34:38,171 INFO [default] N      : 13
+2017-11-17 13:34:41,587 INFO [default] Running 100K Liq...
+2017-11-17 14:03:13,614 INFO [default] Finished 100K Liq!
+2017-11-17 14:03:13,616 INFO [default] Expected density: 1313.7
+2017-11-17 14:03:13,616 INFO [default] Density reported: 1602.15
+2017-11-17 14:03:13,616 INFO [default] Error: 21.9228
+2017-11-17 14:03:13,616 INFO [default] Current objective: 21.9228
+2017-11-17 14:03:13,616 INFO [default] DELTA: -0.0761209
+2017-11-17 14:03:13,616 INFO [default] Accepting new configuration
+2017-11-17 14:03:13,616 INFO [default] iteration: 2
+2017-11-17 14:03:13,616 INFO [default] =========== END ITERATION ===========
+2017-11-17 14:03:13,616 INFO [default] =========== NEW ITERATION ===========
+2017-11-17 14:03:13,616 INFO [default] Objective: 21.9228
+2017-11-17 14:03:13,616 INFO [default] Current temperature: 243
+2017-11-17 14:03:13,617 INFO [default] =========  Current   =========
+2017-11-17 14:03:13,617 INFO [default] EPSILON: 128.36
+2017-11-17 14:03:13,617 INFO [default] SIGMA  : 2.867
+2017-11-17 14:03:13,617 INFO [default] N      : 13
+2017-11-17 14:03:16,862 INFO [default] Running 100K Liq...
+2017-11-17 14:35:41,145 INFO [default] Finished 100K Liq!
+2017-11-17 14:35:41,147 INFO [default] Expected density: 1313.7
+2017-11-17 14:35:41,147 INFO [default] Density reported: 2264.5
+2017-11-17 14:35:41,147 INFO [default] Error: 72.3148
+2017-11-17 14:35:41,147 INFO [default] Current objective: 72.3148
+2017-11-17 14:35:41,147 INFO [default] DELTA: 50.392
+2017-11-17 14:35:41,147 INFO [default] Accepting new configuration
+2017-11-17 14:35:41,147 INFO [default] iteration: 3
+2017-11-17 14:35:41,147 INFO [default] =========== END ITERATION ===========
+2017-11-17 14:35:41,147 INFO [default] =========== NEW ITERATION ===========
+2017-11-17 14:35:41,148 INFO [default] Objective: 72.3148
+2017-11-17 14:35:41,148 INFO [default] Current temperature: 218.7
+2017-11-17 14:35:41,148 INFO [default] =========  Current   =========
+2017-11-17 14:35:41,149 INFO [default] EPSILON: 111.88
+2017-11-17 14:35:41,149 INFO [default] SIGMA  : 2.995
+2017-11-17 14:35:41,149 INFO [default] N      : 13
+2017-11-17 14:35:44,511 INFO [default] Running 100K Liq...
+2017-11-17 15:05:37,465 INFO [default] Finished 100K Liq!
+2017-11-17 15:05:37,468 INFO [default] Expected density: 1313.7
+2017-11-17 15:05:37,468 INFO [default] Density reported: 1792.85
+2017-11-17 15:05:37,468 INFO [default] Error: 36.4619
+2017-11-17 15:05:37,468 INFO [default] Current objective: 36.4619
+2017-11-17 15:05:37,468 INFO [default] DELTA: -35.8529
+2017-11-17 15:05:37,468 INFO [default] Accepting new configuration
+2017-11-17 15:05:37,468 INFO [default] iteration: 4
+2017-11-17 15:05:37,468 INFO [default] =========== END ITERATION ===========
+2017-11-17 15:05:37,468 INFO [default] =========== NEW ITERATION ===========
+2017-11-17 15:05:37,468 INFO [default] Objective: 36.4619
+2017-11-17 15:05:37,468 INFO [default] Current temperature: 196.83
+2017-11-17 15:05:37,469 INFO [default] =========  Current   =========
+2017-11-17 15:05:37,469 INFO [default] EPSILON: 100.7
+2017-11-17 15:05:37,469 INFO [default] SIGMA  : 4.077
+2017-11-17 15:05:37,469 INFO [default] N      : 13
+2017-11-17 15:05:40,655 INFO [default] Running 100K Liq...
+2017-11-17 15:16:16,846 INFO [default] Finished 100K Liq!
+2017-11-17 15:16:16,848 INFO [default] Expected density: 1313.7
+2017-11-17 15:16:16,848 INFO [default] Density reported: 658.742
+2017-11-17 15:16:16,848 INFO [default] Error: 49.7831
+2017-11-17 15:16:16,848 INFO [default] Current objective: 49.7831
+2017-11-17 15:16:16,848 INFO [default] DELTA: 13.3212
+2017-11-17 15:16:16,849 INFO [default] Accepting new configuration
+2017-11-17 15:16:16,849 INFO [default] iteration: 5
+2017-11-17 15:16:16,849 INFO [default] =========== END ITERATION ===========
+2017-11-17 15:16:16,849 INFO [default] =========== NEW ITERATION ===========
+2017-11-17 15:16:16,849 INFO [default] Objective: 49.7831
+2017-11-17 15:16:16,849 INFO [default] Current temperature: 177.147
+2017-11-17 15:16:16,850 INFO [default] =========  Current   =========
+2017-11-17 15:16:16,850 INFO [default] EPSILON: 112.99
+2017-11-17 15:16:16,850 INFO [default] SIGMA  : 3.222
+2017-11-17 15:16:16,850 INFO [default] N      : 13
+2017-11-17 15:16:20,130 INFO [default] Running 100K Liq...
+2017-11-17 15:43:48,718 INFO [default] Finished 100K Liq!
+2017-11-17 15:43:48,720 INFO [default] Expected density: 1313.7
+2017-11-17 15:43:48,720 INFO [default] Density reported: 1476.96
+2017-11-17 15:43:48,720 INFO [default] Error: 12.4077
+2017-11-17 15:43:48,720 INFO [default] Current objective: 12.4077
+2017-11-17 15:43:48,720 INFO [default] DELTA: -37.3754
+2017-11-17 15:43:48,720 INFO [default] Accepting new configuration
+2017-11-17 15:43:48,720 INFO [default] iteration: 6
+2017-11-17 15:43:48,720 INFO [default] =========== END ITERATION ===========
+2017-11-17 15:43:48,720 INFO [default] =========== NEW ITERATION ===========
+2017-11-17 15:43:48,720 INFO [default] Objective: 12.4077
+2017-11-17 15:43:48,720 INFO [default] Current temperature: 159.432
+2017-11-17 15:43:48,721 INFO [default] =========  Current   =========
+2017-11-17 15:43:48,721 INFO [default] EPSILON: 103.96
+2017-11-17 15:43:48,721 INFO [default] SIGMA  : 3.942
+2017-11-17 15:43:48,721 INFO [default] N      : 13
+2017-11-17 15:43:52,066 INFO [default] Running 100K Liq...
+2017-11-17 15:55:13,255 INFO [default] Finished 100K Liq!
+2017-11-17 15:55:13,257 INFO [default] Expected density: 1313.7
+2017-11-17 15:55:13,257 INFO [default] Density reported: 743.171
+2017-11-17 15:55:13,257 INFO [default] Error: 43.3889
+2017-11-17 15:55:13,257 INFO [default] Current objective: 43.3889
+2017-11-17 15:55:13,257 INFO [default] DELTA: 30.9812
+2017-11-17 15:55:13,258 INFO [default] Accepting new configuration
+2017-11-17 15:55:13,258 INFO [default] iteration: 7
+2017-11-17 15:55:13,258 INFO [default] =========== END ITERATION ===========
+2017-11-17 15:55:13,258 INFO [default] =========== NEW ITERATION ===========
+2017-11-17 15:55:13,258 INFO [default] Objective: 43.3889
+2017-11-17 15:55:13,258 INFO [default] Current temperature: 143.489
+2017-11-17 15:55:13,259 INFO [default] =========  Current   =========
+2017-11-17 15:55:13,259 INFO [default] EPSILON: 118.52
+2017-11-17 15:55:13,259 INFO [default] SIGMA  : 3.567
+2017-11-17 15:55:13,259 INFO [default] N      : 13
+2017-11-17 15:55:16,698 INFO [default] Running 100K Liq...
+2017-11-17 16:20:40,704 INFO [default] Finished 100K Liq!
+2017-11-17 16:20:40,707 INFO [default] Expected density: 1313.7
+2017-11-17 16:20:40,707 INFO [default] Density reported: 1125.18
+2017-11-17 16:20:40,707 INFO [default] Error: 14.3107
+2017-11-17 16:20:40,707 INFO [default] Current objective: 14.3107
+2017-11-17 16:20:40,707 INFO [default] DELTA: -29.0782
+2017-11-17 16:20:40,707 INFO [default] Accepting new configuration
+2017-11-17 16:20:40,707 INFO [default] iteration: 8
+2017-11-17 16:20:40,707 INFO [default] =========== END ITERATION ===========
+2017-11-17 16:20:40,707 INFO [default] =========== NEW ITERATION ===========
+2017-11-17 16:20:40,707 INFO [default] Objective: 14.3107
+2017-11-17 16:20:40,707 INFO [default] Current temperature: 129.14
+2017-11-17 16:20:40,708 INFO [default] =========  Current   =========
+2017-11-17 16:20:40,708 INFO [default] EPSILON: 127.44
+2017-11-17 16:20:40,708 INFO [default] SIGMA  : 2.444
+2017-11-17 16:20:40,708 INFO [default] N      : 13
+2017-11-17 16:20:43,955 INFO [default] Running 100K Liq...
+2017-11-17 16:59:08,701 INFO [default] Finished 100K Liq!
+2017-11-17 16:59:08,703 INFO [default] Expected density: 1313.7
+2017-11-17 16:59:08,703 INFO [default] Density reported: 3635.2
+2017-11-17 16:59:08,703 INFO [default] Error: 176.677
+2017-11-17 16:59:08,703 INFO [default] Current objective: 176.677
+2017-11-17 16:59:08,703 INFO [default] DELTA: 162.366
+2017-11-17 16:59:08,704 INFO [default] Rejecting new configuration
+2017-11-17 16:59:08,704 INFO [default] iteration: 9
+2017-11-17 16:59:08,704 INFO [default] =========== END ITERATION ===========
+2017-11-17 16:59:08,704 INFO [default] =========== NEW ITERATION ===========
+2017-11-17 16:59:08,704 INFO [default] Objective: 14.3107
+2017-11-17 16:59:08,704 INFO [default] Current temperature: 116.226
+2017-11-17 16:59:08,705 INFO [default] =========  Current   =========
+2017-11-17 16:59:08,705 INFO [default] EPSILON: 104.58
+2017-11-17 16:59:08,705 INFO [default] SIGMA  : 3.545
+2017-11-17 16:59:08,705 INFO [default] N      : 13
+2017-11-17 16:59:11,953 INFO [default] Running 100K Liq...
+2017-11-17 17:21:07,806 INFO [default] Finished 100K Liq!
+2017-11-17 17:21:07,808 INFO [default] Expected density: 1313.7
+2017-11-17 17:21:07,808 INFO [default] Density reported: 1033.57
+2017-11-17 17:21:07,808 INFO [default] Error: 21.3138
+2017-11-17 17:21:07,808 INFO [default] Current objective: 21.3138
+2017-11-17 17:21:07,808 INFO [default] DELTA: 7.00312
+2017-11-17 17:21:07,809 INFO [default] Accepting new configuration
+2017-11-17 17:21:07,809 INFO [default] iteration: 10
+2017-11-17 17:21:07,809 INFO [default] =========== END ITERATION ===========
+2017-11-17 17:21:07,809 INFO [default] =========== NEW ITERATION ===========
+2017-11-17 17:21:07,809 INFO [default] Objective: 21.3138
+2017-11-17 17:21:07,809 INFO [default] Current temperature: 104.604
+2017-11-17 17:21:07,810 INFO [default] =========  Current   =========
+2017-11-17 17:21:07,810 INFO [default] EPSILON: 119.88
+2017-11-17 17:21:07,810 INFO [default] SIGMA  : 3.988
+2017-11-17 17:21:07,810 INFO [default] N      : 13
+2017-11-17 17:21:11,176 INFO [default] Running 100K Liq...
+2017-11-17 17:32:36,937 INFO [default] Finished 100K Liq!
+2017-11-17 17:32:36,939 INFO [default] Expected density: 1313.7
+2017-11-17 17:32:36,939 INFO [default] Density reported: 822.184
+2017-11-17 17:32:36,939 INFO [default] Error: 37.3754
+2017-11-17 17:32:36,939 INFO [default] Current objective: 37.3754
+2017-11-17 17:32:36,939 INFO [default] DELTA: 16.0615
+2017-11-17 17:32:36,940 INFO [default] Accepting new configuration
+2017-11-17 17:32:36,940 INFO [default] iteration: 11
+2017-11-17 17:32:36,940 INFO [default] =========== END ITERATION ===========
+2017-11-17 17:32:36,940 INFO [default] =========== NEW ITERATION ===========
+2017-11-17 17:32:36,940 INFO [default] Objective: 37.3754
+2017-11-17 17:32:36,940 INFO [default] Current temperature: 94.1432
+2017-11-17 17:32:36,941 INFO [default] =========  Current   =========
+2017-11-17 17:32:36,941 INFO [default] EPSILON: 107.31
+2017-11-17 17:32:36,941 INFO [default] SIGMA  : 2.82
+2017-11-17 17:32:36,941 INFO [default] N      : 13
+2017-11-17 17:32:40,418 INFO [default] Running 100K Liq...
+2017-11-17 18:03:55,337 INFO [default] Finished 100K Liq!
+2017-11-17 18:03:55,339 INFO [default] Expected density: 1313.7
+2017-11-17 18:03:55,339 INFO [default] Density reported: 2138.69
+2017-11-17 18:03:55,339 INFO [default] Error: 62.7236
+2017-11-17 18:03:55,339 INFO [default] Current objective: 62.7236
+2017-11-17 18:03:55,339 INFO [default] DELTA: 25.3483
+2017-11-17 18:03:55,340 INFO [default] Accepting new configuration
+2017-11-17 18:03:55,340 INFO [default] iteration: 12
+2017-11-17 18:03:55,340 INFO [default] =========== END ITERATION ===========
+2017-11-17 18:03:55,340 INFO [default] =========== NEW ITERATION ===========
+2017-11-17 18:03:55,340 INFO [default] Objective: 62.7236
+2017-11-17 18:03:55,340 INFO [default] Current temperature: 84.7289
+2017-11-17 18:03:55,341 INFO [default] =========  Current   =========
+2017-11-17 18:03:55,341 INFO [default] EPSILON: 119.53
+2017-11-17 18:03:55,341 INFO [default] SIGMA  : 3.749
+2017-11-17 18:03:55,341 INFO [default] N      : 13
+2017-11-17 18:03:58,414 INFO [default] Running 100K Liq...
+2017-11-17 18:16:20,967 INFO [default] Finished 100K Liq!
+2017-11-17 18:16:20,969 INFO [default] Expected density: 1313.7
+2017-11-17 18:16:20,969 INFO [default] Density reported: 957.01
+2017-11-17 18:16:20,969 INFO [default] Error: 27.099
+2017-11-17 18:16:20,969 INFO [default] Current objective: 27.099
+2017-11-17 18:16:20,969 INFO [default] DELTA: -35.6246
+2017-11-17 18:16:20,969 INFO [default] Accepting new configuration
+2017-11-17 18:16:20,969 INFO [default] iteration: 13
+2017-11-17 18:16:20,969 INFO [default] =========== END ITERATION ===========
+2017-11-17 18:16:20,969 INFO [default] =========== NEW ITERATION ===========
+2017-11-17 18:16:20,969 INFO [default] Objective: 27.099
+2017-11-17 18:16:20,969 INFO [default] Current temperature: 76.256
+2017-11-17 18:16:20,970 INFO [default] =========  Current   =========
+2017-11-17 18:16:20,970 INFO [default] EPSILON: 125.53
+2017-11-17 18:16:20,970 INFO [default] SIGMA  : 4.27
+2017-11-17 18:16:20,970 INFO [default] N      : 13
+2017-11-17 18:16:24,344 INFO [default] Running 100K Liq...
+2017-11-17 18:27:10,475 INFO [default] Finished 100K Liq!
+2017-11-17 18:27:10,478 INFO [default] Expected density: 1313.7
+2017-11-17 18:27:10,478 INFO [default] Density reported: 667.463
+2017-11-17 18:27:10,478 INFO [default] Error: 49.1741
+2017-11-17 18:27:10,478 INFO [default] Current objective: 49.1741
+2017-11-17 18:27:10,478 INFO [default] DELTA: 22.0751
+2017-11-17 18:27:10,478 INFO [default] Accepting new configuration
+2017-11-17 18:27:10,478 INFO [default] iteration: 14
+2017-11-17 18:27:10,478 INFO [default] =========== END ITERATION ===========
+2017-11-17 18:27:10,478 INFO [default] =========== NEW ITERATION ===========
+2017-11-17 18:27:10,478 INFO [default] Objective: 49.1741
+2017-11-17 18:27:10,478 INFO [default] Current temperature: 68.6304
+2017-11-17 18:27:10,479 INFO [default] =========  Current   =========
+2017-11-17 18:27:10,479 INFO [default] EPSILON: 104.25
+2017-11-17 18:27:10,479 INFO [default] SIGMA  : 2.423
+2017-11-17 18:27:10,479 INFO [default] N      : 13
+2017-11-17 18:27:14,318 INFO [default] Running 100K Liq...
+2017-11-17 18:28:43,049 INFO [default] Finished 100K Liq!
+2017-11-17 18:28:43,052 INFO [default] Expected density: 1313.7
+2017-11-17 18:28:43,052 INFO [default] Density reported: 14.9612
+2017-11-17 18:28:43,052 INFO [default] Error: 98.8049
+2017-11-17 18:28:43,052 INFO [default] Current objective: 98.8049
+2017-11-17 18:28:43,052 INFO [default] DELTA: 49.6308
+2017-11-17 18:28:43,052 INFO [default] Accepting new configuration
+2017-11-17 18:28:43,052 INFO [default] iteration: 15
+2017-11-17 18:28:43,052 INFO [default] =========== END ITERATION ===========
+2017-11-17 18:28:43,052 INFO [default] =========== NEW ITERATION ===========
+2017-11-17 18:28:43,052 INFO [default] Objective: 98.8049
+2017-11-17 18:28:43,052 INFO [default] Current temperature: 61.7673
+2017-11-17 18:28:43,053 INFO [default] =========  Current   =========
+2017-11-17 18:28:43,053 INFO [default] EPSILON: 105.24
+2017-11-17 18:28:43,053 INFO [default] SIGMA  : 4.302
+2017-11-17 18:28:43,053 INFO [default] N      : 13
+2017-11-17 18:28:46,668 INFO [default] Running 100K Liq...
+2017-11-17 18:38:59,131 INFO [default] Finished 100K Liq!
+2017-11-17 18:38:59,134 INFO [default] Expected density: 1313.7
+2017-11-17 18:38:59,134 INFO [default] Density reported: 592.299
+2017-11-17 18:38:59,134 INFO [default] Error: 54.8832
+2017-11-17 18:38:59,134 INFO [default] Current objective: 54.8832
+2017-11-17 18:38:59,134 INFO [default] DELTA: -43.9217
+2017-11-17 18:38:59,134 INFO [default] Accepting new configuration
+2017-11-17 18:38:59,134 INFO [default] iteration: 16
+2017-11-17 18:38:59,134 INFO [default] =========== END ITERATION ===========
+2017-11-17 18:38:59,134 INFO [default] =========== NEW ITERATION ===========
+2017-11-17 18:38:59,134 INFO [default] Objective: 54.8832
+2017-11-17 18:38:59,134 INFO [default] Current temperature: 55.5906
+2017-11-17 18:38:59,135 INFO [default] =========  Current   =========
+2017-11-17 18:38:59,135 INFO [default] EPSILON: 121.14
+2017-11-17 18:38:59,135 INFO [default] SIGMA  : 2.516
+2017-11-17 18:38:59,135 INFO [default] N      : 13
+2017-11-17 18:39:02,423 INFO [default] Running 100K Liq...
+2017-11-17 19:15:29,073 INFO [default] Finished 100K Liq!
+2017-11-17 19:15:29,076 INFO [default] Expected density: 1313.7
+2017-11-17 19:15:29,076 INFO [default] Density reported: 3242.54
+2017-11-17 19:15:29,076 INFO [default] Error: 146.761
+2017-11-17 19:15:29,076 INFO [default] Current objective: 146.761
+2017-11-17 19:15:29,076 INFO [default] DELTA: 91.8779
+2017-11-17 19:15:29,076 INFO [default] Rejecting new configuration
+2017-11-17 19:15:29,076 INFO [default] iteration: 17
+2017-11-17 19:15:29,076 INFO [default] =========== END ITERATION ===========
+2017-11-17 19:15:29,076 INFO [default] =========== NEW ITERATION ===========
+2017-11-17 19:15:29,076 INFO [default] Objective: 54.8832
+2017-11-17 19:15:29,076 INFO [default] Current temperature: 50.0315
+2017-11-17 19:15:29,077 INFO [default] =========  Current   =========
+2017-11-17 19:15:29,077 INFO [default] EPSILON: 107.74
+2017-11-17 19:15:29,077 INFO [default] SIGMA  : 3.721
+2017-11-17 19:15:29,077 INFO [default] N      : 13
+2017-11-17 19:15:32,133 INFO [default] Running 100K Liq...
+2017-11-17 19:27:37,794 INFO [default] Finished 100K Liq!
+2017-11-17 19:27:37,796 INFO [default] Expected density: 1313.7
+2017-11-17 19:27:37,796 INFO [default] Density reported: 938.294
+2017-11-17 19:27:37,796 INFO [default] Error: 28.5453
+2017-11-17 19:27:37,796 INFO [default] Current objective: 28.5453
+2017-11-17 19:27:37,796 INFO [default] DELTA: -26.3378
+2017-11-17 19:27:37,796 INFO [default] Accepting new configuration
+2017-11-17 19:27:37,796 INFO [default] iteration: 18
+2017-11-17 19:27:37,796 INFO [default] =========== END ITERATION ===========
+2017-11-17 19:27:37,796 INFO [default] =========== NEW ITERATION ===========
+2017-11-17 19:27:37,796 INFO [default] Objective: 28.5453
+2017-11-17 19:27:37,796 INFO [default] Current temperature: 45.0284
+2017-11-17 19:27:37,797 INFO [default] =========  Current   =========
+2017-11-17 19:27:37,797 INFO [default] EPSILON: 101.08
+2017-11-17 19:27:37,797 INFO [default] SIGMA  : 2.816
+2017-11-17 19:27:37,797 INFO [default] N      : 13
+2017-11-17 19:27:40,846 INFO [default] Running 100K Liq...
+2017-11-17 19:58:38,869 INFO [default] Finished 100K Liq!
+2017-11-17 19:58:38,871 INFO [default] Expected density: 1313.7
+2017-11-17 19:58:38,871 INFO [default] Density reported: 1983.2
+2017-11-17 19:58:38,871 INFO [default] Error: 50.9249
+2017-11-17 19:58:38,871 INFO [default] Current objective: 50.9249
+2017-11-17 19:58:38,871 INFO [default] DELTA: 22.3795
+2017-11-17 19:58:38,872 INFO [default] Rejecting new configuration
+2017-11-17 19:58:38,872 INFO [default] iteration: 19
+2017-11-17 19:58:38,872 INFO [default] =========== END ITERATION ===========
+2017-11-17 19:58:38,872 INFO [default] =========== NEW ITERATION ===========
+2017-11-17 19:58:38,872 INFO [default] Objective: 28.5453
+2017-11-17 19:58:38,872 INFO [default] Current temperature: 40.5256
+2017-11-17 19:58:38,873 INFO [default] =========  Current   =========
+2017-11-17 19:58:38,873 INFO [default] EPSILON: 123.53
+2017-11-17 19:58:38,873 INFO [default] SIGMA  : 3.24
+2017-11-17 19:58:38,873 INFO [default] N      : 13
+2017-11-17 19:58:41,991 INFO [default] Running 100K Liq...
+2017-11-17 20:26:32,880 INFO [default] Finished 100K Liq!
+2017-11-17 20:26:32,882 INFO [default] Expected density: 1313.7
+2017-11-17 20:26:32,882 INFO [default] Density reported: 1498.85
+2017-11-17 20:26:32,882 INFO [default] Error: 14.0824
+2017-11-17 20:26:32,882 INFO [default] Current objective: 14.0824
+2017-11-17 20:26:32,882 INFO [default] DELTA: -14.463
+2017-11-17 20:26:32,882 INFO [default] Accepting new configuration
+2017-11-17 20:26:32,882 INFO [default] iteration: 20
+2017-11-17 20:26:32,882 INFO [default] =========== END ITERATION ===========
+2017-11-17 20:26:32,882 INFO [default] =========== NEW ITERATION ===========
+2017-11-17 20:26:32,882 INFO [default] Objective: 14.0824
+2017-11-17 20:26:32,882 INFO [default] Current temperature: 36.473
+2017-11-17 20:26:32,883 INFO [default] =========  Current   =========
+2017-11-17 20:26:32,883 INFO [default] EPSILON: 108.24
+2017-11-17 20:26:32,883 INFO [default] SIGMA  : 4.333
+2017-11-17 20:26:32,883 INFO [default] N      : 13
+2017-11-17 20:26:36,093 INFO [default] Running 100K Liq...
+2017-11-17 20:36:41,712 INFO [default] Finished 100K Liq!
+2017-11-17 20:36:41,715 INFO [default] Expected density: 1313.7
+2017-11-17 20:36:41,715 INFO [default] Density reported: 587.353
+2017-11-17 20:36:41,715 INFO [default] Error: 55.2638
+2017-11-17 20:36:41,715 INFO [default] Current objective: 55.2638
+2017-11-17 20:36:41,715 INFO [default] DELTA: 41.1814
+2017-11-17 20:36:41,715 INFO [default] Accepting new configuration
+2017-11-17 20:36:41,715 INFO [default] iteration: 21
+2017-11-17 20:36:41,715 INFO [default] =========== END ITERATION ===========
+2017-11-17 20:36:41,715 INFO [default] =========== NEW ITERATION ===========
+2017-11-17 20:36:41,715 INFO [default] Objective: 55.2638
+2017-11-17 20:36:41,715 INFO [default] Current temperature: 32.8257
+2017-11-17 20:36:41,716 INFO [default] =========  Current   =========
+2017-11-17 20:36:41,716 INFO [default] EPSILON: 125.18
+2017-11-17 20:36:41,716 INFO [default] SIGMA  : 3.382
+2017-11-17 20:36:41,716 INFO [default] N      : 13
+2017-11-17 20:36:44,967 INFO [default] Running 100K Liq...
+2017-11-17 21:03:24,082 INFO [default] Finished 100K Liq!
+2017-11-17 21:03:24,084 INFO [default] Expected density: 1313.7
+2017-11-17 21:03:24,084 INFO [default] Density reported: 1351.17
+2017-11-17 21:03:24,084 INFO [default] Error: 2.81647
+2017-11-17 21:03:24,084 INFO [default] Current objective: 2.81647
+2017-11-17 21:03:24,084 INFO [default] DELTA: -52.4473
+2017-11-17 21:03:24,084 INFO [default] Accepting new configuration
+2017-11-17 21:03:24,084 INFO [default] iteration: 22
+2017-11-17 21:03:24,084 INFO [default] =========== END ITERATION ===========
+2017-11-17 21:03:24,084 INFO [default] =========== NEW ITERATION ===========
+2017-11-17 21:03:24,085 INFO [default] Objective: 2.81647
+2017-11-17 21:03:24,085 INFO [default] Current temperature: 29.5431
+2017-11-17 21:03:24,086 INFO [default] =========  Current   =========
+2017-11-17 21:03:24,086 INFO [default] EPSILON: 106.55
+2017-11-17 21:03:24,086 INFO [default] SIGMA  : 3.16
+2017-11-17 21:03:24,086 INFO [default] N      : 13
+2017-11-17 21:03:27,655 INFO [default] Running 100K Liq...
+2017-11-17 21:30:54,781 INFO [default] Finished 100K Liq!
+2017-11-17 21:30:54,783 INFO [default] Expected density: 1313.7
+2017-11-17 21:30:54,783 INFO [default] Density reported: 1507.86
+2017-11-17 21:30:54,783 INFO [default] Error: 14.7675
+2017-11-17 21:30:54,783 INFO [default] Current objective: 14.7675
+2017-11-17 21:30:54,783 INFO [default] DELTA: 11.951
+2017-11-17 21:30:54,784 INFO [default] Rejecting new configuration
+2017-11-17 21:30:54,784 INFO [default] iteration: 23
+2017-11-17 21:30:54,784 INFO [default] =========== END ITERATION ===========
+2017-11-17 21:30:54,784 INFO [default] =========== NEW ITERATION ===========
+2017-11-17 21:30:54,784 INFO [default] Objective: 2.81647
+2017-11-17 21:30:54,784 INFO [default] Current temperature: 26.5888
+2017-11-17 21:30:54,785 INFO [default] =========  Current   =========
+2017-11-17 21:30:54,785 INFO [default] EPSILON: 103.35
+2017-11-17 21:30:54,785 INFO [default] SIGMA  : 2.803
+2017-11-17 21:30:54,785 INFO [default] N      : 13
+2017-11-17 21:30:58,334 INFO [default] Running 100K Liq...
+2017-11-17 22:02:03,868 INFO [default] Finished 100K Liq!
+2017-11-17 22:02:03,871 INFO [default] Expected density: 1313.7
+2017-11-17 22:02:03,871 INFO [default] Density reported: 2105.38
+2017-11-17 22:02:03,871 INFO [default] Error: 60.2116
+2017-11-17 22:02:03,871 INFO [default] Current objective: 60.2116
+2017-11-17 22:02:03,871 INFO [default] DELTA: 57.3951
+2017-11-17 22:02:03,871 INFO [default] Accepting new configuration
+2017-11-17 22:02:03,871 INFO [default] iteration: 24
+2017-11-17 22:02:03,871 INFO [default] =========== END ITERATION ===========
+2017-11-17 22:02:03,871 INFO [default] =========== NEW ITERATION ===========
+2017-11-17 22:02:03,871 INFO [default] Objective: 60.2116
+2017-11-17 22:02:03,871 INFO [default] Current temperature: 23.9299
+2017-11-17 22:02:03,872 INFO [default] =========  Current   =========
+2017-11-17 22:02:03,872 INFO [default] EPSILON: 101.28
+2017-11-17 22:02:03,872 INFO [default] SIGMA  : 3.323
+2017-11-17 22:02:03,872 INFO [default] N      : 13
+2017-11-17 22:02:07,149 INFO [default] Running 100K Liq...
+2017-11-17 22:28:05,620 INFO [default] Finished 100K Liq!
+2017-11-17 22:28:05,622 INFO [default] Expected density: 1313.7
+2017-11-17 22:28:05,622 INFO [default] Density reported: 1196.75
+2017-11-17 22:28:05,622 INFO [default] Error: 8.83002
+2017-11-17 22:28:05,622 INFO [default] Current objective: 8.83002
+2017-11-17 22:28:05,622 INFO [default] DELTA: -51.3816
+2017-11-17 22:28:05,622 INFO [default] Accepting new configuration
+2017-11-17 22:28:05,622 INFO [default] iteration: 25
+2017-11-17 22:28:05,622 INFO [default] =========== END ITERATION ===========
+2017-11-17 22:28:05,622 INFO [default] =========== NEW ITERATION ===========
+2017-11-17 22:28:05,622 INFO [default] Objective: 8.83002
+2017-11-17 22:28:05,622 INFO [default] Current temperature: 21.5369
+2017-11-17 22:28:05,623 INFO [default] =========  Current   =========
+2017-11-17 22:28:05,623 INFO [default] EPSILON: 113.36
+2017-11-17 22:28:05,623 INFO [default] SIGMA  : 2.748
+2017-11-17 22:28:05,623 INFO [default] N      : 13
+2017-11-17 22:28:08,788 INFO [default] Running 100K Liq...
+2017-11-17 23:00:51,940 INFO [default] Finished 100K Liq!
+2017-11-17 23:00:51,942 INFO [default] Expected density: 1313.7
+2017-11-17 23:00:51,942 INFO [default] Density reported: 2379.32
+2017-11-17 23:00:51,942 INFO [default] Error: 81.0687
+2017-11-17 23:00:51,942 INFO [default] Current objective: 81.0687
+2017-11-17 23:00:51,942 INFO [default] DELTA: 72.2387
+2017-11-17 23:00:51,943 INFO [default] Rejecting new configuration
+2017-11-17 23:00:51,943 INFO [default] iteration: 26
+2017-11-17 23:00:51,943 INFO [default] =========== END ITERATION ===========
+2017-11-17 23:00:51,943 INFO [default] =========== NEW ITERATION ===========
+2017-11-17 23:00:51,943 INFO [default] Objective: 8.83002
+2017-11-17 23:00:51,943 INFO [default] Current temperature: 19.3832
+2017-11-17 23:00:51,944 INFO [default] =========  Current   =========
+2017-11-17 23:00:51,944 INFO [default] EPSILON: 105.74
+2017-11-17 23:00:51,944 INFO [default] SIGMA  : 3.738
+2017-11-17 23:00:51,944 INFO [default] N      : 13
+2017-11-17 23:00:55,114 INFO [default] Running 100K Liq...
+2017-11-17 23:12:51,304 INFO [default] Finished 100K Liq!
+2017-11-17 23:12:51,307 INFO [default] Expected density: 1313.7
+2017-11-17 23:12:51,307 INFO [default] Density reported: 907.948
+2017-11-17 23:12:51,307 INFO [default] Error: 30.829
+2017-11-17 23:12:51,307 INFO [default] Current objective: 30.829
+2017-11-17 23:12:51,307 INFO [default] DELTA: 21.9989
+2017-11-17 23:12:51,307 INFO [default] Rejecting new configuration
+2017-11-17 23:12:51,307 INFO [default] iteration: 27
+2017-11-17 23:12:51,307 INFO [default] =========== END ITERATION ===========
+2017-11-17 23:12:51,307 INFO [default] =========== NEW ITERATION ===========
+2017-11-17 23:12:51,307 INFO [default] Objective: 8.83002
+2017-11-17 23:12:51,307 INFO [default] Current temperature: 17.4449
+2017-11-17 23:12:51,308 INFO [default] =========  Current   =========
+2017-11-17 23:12:51,308 INFO [default] EPSILON: 122.53
+2017-11-17 23:12:51,308 INFO [default] SIGMA  : 3.626
+2017-11-17 23:12:51,308 INFO [default] N      : 13
+2017-11-17 23:12:54,517 INFO [default] Running 100K Liq...
+2017-11-17 23:37:39,994 INFO [default] Finished 100K Liq!
+2017-11-17 23:37:39,996 INFO [default] Expected density: 1313.7
+2017-11-17 23:37:39,996 INFO [default] Density reported: 1083.85
+2017-11-17 23:37:39,996 INFO [default] Error: 17.4317
+2017-11-17 23:37:39,996 INFO [default] Current objective: 17.4317
+2017-11-17 23:37:39,996 INFO [default] DELTA: 8.60166
+2017-11-17 23:37:39,997 INFO [default] Rejecting new configuration
+2017-11-17 23:37:39,997 INFO [default] iteration: 28
+2017-11-17 23:37:39,997 INFO [default] =========== END ITERATION ===========
+2017-11-17 23:37:39,997 INFO [default] =========== NEW ITERATION ===========
+2017-11-17 23:37:39,997 INFO [default] Objective: 8.83002
+2017-11-17 23:37:39,997 INFO [default] Current temperature: 15.7004
+2017-11-17 23:37:39,998 INFO [default] =========  Current   =========
+2017-11-17 23:37:39,998 INFO [default] EPSILON: 110.65
+2017-11-17 23:37:39,998 INFO [default] SIGMA  : 2.485
+2017-11-17 23:37:39,998 INFO [default] N      : 13
+2017-11-17 23:37:43,138 INFO [default] Running 100K Liq...
+2017-11-18 00:13:15,825 INFO [default] Finished 100K Liq!
+2017-11-18 00:13:15,827 INFO [default] Expected density: 1313.7
+2017-11-18 00:13:15,827 INFO [default] Density reported: 3120.44
+2017-11-18 00:13:15,827 INFO [default] Error: 137.474
+2017-11-18 00:13:15,827 INFO [default] Current objective: 137.474
+2017-11-18 00:13:15,827 INFO [default] DELTA: 128.644
+2017-11-18 00:13:15,828 INFO [default] Rejecting new configuration
+2017-11-18 00:13:15,828 INFO [default] iteration: 29
+2017-11-18 00:13:15,828 INFO [default] =========== END ITERATION ===========
+2017-11-18 00:13:15,828 INFO [default] =========== NEW ITERATION ===========
+2017-11-18 00:13:15,828 INFO [default] Objective: 8.83002
+2017-11-18 00:13:15,828 INFO [default] Current temperature: 14.1304
+2017-11-18 00:13:15,829 INFO [default] =========  Current   =========
+2017-11-18 00:13:15,829 INFO [default] EPSILON: 121.08
+2017-11-18 00:13:15,829 INFO [default] SIGMA  : 3.148
+2017-11-18 00:13:15,829 INFO [default] N      : 13
+2017-11-18 00:13:18,911 INFO [default] Running 100K Liq...
+2017-11-18 00:41:57,146 INFO [default] Finished 100K Liq!
+2017-11-18 00:41:57,148 INFO [default] Expected density: 1313.7
+2017-11-18 00:41:57,148 INFO [default] Density reported: 1644.65
+2017-11-18 00:41:57,148 INFO [default] Error: 25.1199
+2017-11-18 00:41:57,148 INFO [default] Current objective: 25.1199
+2017-11-18 00:41:57,148 INFO [default] DELTA: 16.2899
+2017-11-18 00:41:57,149 INFO [default] Rejecting new configuration
+2017-11-18 00:41:57,149 INFO [default] iteration: 30
+2017-11-18 00:41:57,149 INFO [default] =========== END ITERATION ===========
+2017-11-18 00:41:57,149 INFO [default] =========== NEW ITERATION ===========
+2017-11-18 00:41:57,149 INFO [default] Objective: 8.83002
+2017-11-18 00:41:57,149 INFO [default] Current temperature: 12.7173
+2017-11-18 00:41:57,150 INFO [default] =========  Current   =========
+2017-11-18 00:41:57,150 INFO [default] EPSILON: 120.73
+2017-11-18 00:41:57,150 INFO [default] SIGMA  : 3.959
+2017-11-18 00:41:57,150 INFO [default] N      : 13
+2017-11-18 00:42:00,482 INFO [default] Running 100K Liq...
+2017-11-18 00:53:30,308 INFO [default] Finished 100K Liq!
+2017-11-18 00:53:30,310 INFO [default] Expected density: 1313.7
+2017-11-18 00:53:30,310 INFO [default] Density reported: 831.667
+2017-11-18 00:53:30,310 INFO [default] Error: 36.6903
+2017-11-18 00:53:30,310 INFO [default] Current objective: 36.6903
+2017-11-18 00:53:30,310 INFO [default] DELTA: 27.8602
+2017-11-18 00:53:30,310 INFO [default] Accepting new configuration
+2017-11-18 00:53:30,310 INFO [default] iteration: 31
+2017-11-18 00:53:30,310 INFO [default] =========== END ITERATION ===========
+2017-11-18 00:53:30,310 INFO [default] =========== NEW ITERATION ===========
+2017-11-18 00:53:30,310 INFO [default] Objective: 36.6903
+2017-11-18 00:53:30,310 INFO [default] Current temperature: 11.4456
+2017-11-18 00:53:30,311 INFO [default] =========  Current   =========
+2017-11-18 00:53:30,311 INFO [default] EPSILON: 115.45
+2017-11-18 00:53:30,311 INFO [default] SIGMA  : 4.303
+2017-11-18 00:53:30,311 INFO [default] N      : 13
+2017-11-18 00:53:33,577 INFO [default] Running 100K Liq...
+2017-11-18 01:03:56,531 INFO [default] Finished 100K Liq!
+2017-11-18 01:03:56,533 INFO [default] Expected density: 1313.7
+2017-11-18 01:03:56,533 INFO [default] Density reported: 631.795
+2017-11-18 01:03:56,533 INFO [default] Error: 51.8383
+2017-11-18 01:03:56,533 INFO [default] Current objective: 51.8383
+2017-11-18 01:03:56,533 INFO [default] DELTA: 15.1481
+2017-11-18 01:03:56,533 INFO [default] Accepting new configuration
+2017-11-18 01:03:56,533 INFO [default] iteration: 32
+2017-11-18 01:03:56,533 INFO [default] =========== END ITERATION ===========
+2017-11-18 01:03:56,533 INFO [default] =========== NEW ITERATION ===========
+2017-11-18 01:03:56,533 INFO [default] Objective: 51.8383
+2017-11-18 01:03:56,534 INFO [default] Current temperature: 10.3011
+2017-11-18 01:03:56,534 INFO [default] =========  Current   =========
+2017-11-18 01:03:56,534 INFO [default] EPSILON: 129.75
+2017-11-18 01:03:56,534 INFO [default] SIGMA  : 3.159
+2017-11-18 01:03:56,535 INFO [default] N      : 13
+2017-11-18 01:03:59,907 INFO [default] Running 100K Liq...
+2017-11-18 01:32:40,354 INFO [default] Finished 100K Liq!
+2017-11-18 01:32:40,356 INFO [default] Expected density: 1313.7
+2017-11-18 01:32:40,356 INFO [default] Density reported: 1680.89
+2017-11-18 01:32:40,356 INFO [default] Error: 27.9364
+2017-11-18 01:32:40,356 INFO [default] Current objective: 27.9364
+2017-11-18 01:32:40,356 INFO [default] DELTA: -23.902
+2017-11-18 01:32:40,356 INFO [default] Accepting new configuration
+2017-11-18 01:32:40,356 INFO [default] iteration: 33
+2017-11-18 01:32:40,356 INFO [default] =========== END ITERATION ===========
+2017-11-18 01:32:40,356 INFO [default] =========== NEW ITERATION ===========
+2017-11-18 01:32:40,356 INFO [default] Objective: 27.9364
+2017-11-18 01:32:40,356 INFO [default] Current temperature: 9.27095
+2017-11-18 01:32:40,357 INFO [default] =========  Current   =========
+2017-11-18 01:32:40,357 INFO [default] EPSILON: 115.59
+2017-11-18 01:32:40,357 INFO [default] SIGMA  : 2.496
+2017-11-18 01:32:40,357 INFO [default] N      : 13
+2017-11-18 01:32:43,841 INFO [default] Running 100K Liq...
+2017-11-18 02:07:27,288 INFO [default] Finished 100K Liq!
+2017-11-18 02:07:27,291 INFO [default] Expected density: 1313.7
+2017-11-18 02:07:27,291 INFO [default] Density reported: 3193.23
+2017-11-18 02:07:27,291 INFO [default] Error: 143.031
+2017-11-18 02:07:27,291 INFO [default] Current objective: 143.031
+2017-11-18 02:07:27,291 INFO [default] DELTA: 115.095
+2017-11-18 02:07:27,291 INFO [default] Rejecting new configuration
+2017-11-18 02:07:27,291 INFO [default] iteration: 34
+2017-11-18 02:07:27,291 INFO [default] =========== END ITERATION ===========
+2017-11-18 02:07:27,291 INFO [default] =========== NEW ITERATION ===========
+2017-11-18 02:07:27,291 INFO [default] Objective: 27.9364
+2017-11-18 02:07:27,291 INFO [default] Current temperature: 8.34385
+2017-11-18 02:07:27,292 INFO [default] =========  Current   =========
+2017-11-18 02:07:27,292 INFO [default] EPSILON: 124.41
+2017-11-18 02:07:27,292 INFO [default] SIGMA  : 4.009
+2017-11-18 02:07:27,292 INFO [default] N      : 13
+2017-11-18 02:07:30,658 INFO [default] Running 100K Liq...
+2017-11-18 02:18:56,402 INFO [default] Finished 100K Liq!
+2017-11-18 02:18:56,404 INFO [default] Expected density: 1313.7
+2017-11-18 02:18:56,405 INFO [default] Density reported: 813.509
+2017-11-18 02:18:56,405 INFO [default] Error: 38.0604
+2017-11-18 02:18:56,405 INFO [default] Current objective: 38.0604
+2017-11-18 02:18:56,405 INFO [default] DELTA: 10.1241
+2017-11-18 02:18:56,405 INFO [default] Rejecting new configuration
+2017-11-18 02:18:56,405 INFO [default] iteration: 35
+2017-11-18 02:18:56,405 INFO [default] =========== END ITERATION ===========
+2017-11-18 02:18:56,405 INFO [default] =========== NEW ITERATION ===========
+2017-11-18 02:18:56,405 INFO [default] Objective: 27.9364
+2017-11-18 02:18:56,405 INFO [default] Current temperature: 7.50947
+2017-11-18 02:18:56,406 INFO [default] =========  Current   =========
+2017-11-18 02:18:56,406 INFO [default] EPSILON: 103.53
+2017-11-18 02:18:56,406 INFO [default] SIGMA  : 3.605
+2017-11-18 02:18:56,406 INFO [default] N      : 13
+2017-11-18 02:18:59,819 INFO [default] Running 100K Liq...
+2017-11-18 02:31:27,603 INFO [default] Finished 100K Liq!
+2017-11-18 02:31:27,605 INFO [default] Expected density: 1313.7
+2017-11-18 02:31:27,605 INFO [default] Density reported: 994.803
+2017-11-18 02:31:27,605 INFO [default] Error: 24.2064
+2017-11-18 02:31:27,605 INFO [default] Current objective: 24.2064
+2017-11-18 02:31:27,605 INFO [default] DELTA: -3.72992
+2017-11-18 02:31:27,605 INFO [default] Accepting new configuration
+2017-11-18 02:31:27,605 INFO [default] iteration: 36
+2017-11-18 02:31:27,605 INFO [default] =========== END ITERATION ===========
+2017-11-18 02:31:27,605 INFO [default] =========== NEW ITERATION ===========
+2017-11-18 02:31:27,605 INFO [default] Objective: 24.2064
+2017-11-18 02:31:27,605 INFO [default] Current temperature: 6.75852
+2017-11-18 02:31:27,607 INFO [default] =========  Current   =========
+2017-11-18 02:31:27,607 INFO [default] EPSILON: 113.95
+2017-11-18 02:31:27,607 INFO [default] SIGMA  : 4.344
+2017-11-18 02:31:27,607 INFO [default] N      : 13
+2017-11-18 02:31:30,909 INFO [default] Running 100K Liq...
+2017-11-18 02:41:44,662 INFO [default] Finished 100K Liq!
+2017-11-18 02:41:44,665 INFO [default] Expected density: 1313.7
+2017-11-18 02:41:44,665 INFO [default] Density reported: 616.944
+2017-11-18 02:41:44,665 INFO [default] Error: 52.9801
+2017-11-18 02:41:44,665 INFO [default] Current objective: 52.9801
+2017-11-18 02:41:44,665 INFO [default] DELTA: 28.7737
+2017-11-18 02:41:44,665 INFO [default] Rejecting new configuration
+2017-11-18 02:41:44,665 INFO [default] iteration: 37
+2017-11-18 02:41:44,665 INFO [default] =========== END ITERATION ===========
+2017-11-18 02:41:44,665 INFO [default] =========== NEW ITERATION ===========
+2017-11-18 02:41:44,665 INFO [default] Objective: 24.2064
+2017-11-18 02:41:44,665 INFO [default] Current temperature: 6.08267
+2017-11-18 02:41:44,666 INFO [default] =========  Current   =========
+2017-11-18 02:41:44,666 INFO [default] EPSILON: 117.98
+2017-11-18 02:41:44,666 INFO [default] SIGMA  : 2.839
+2017-11-18 02:41:44,666 INFO [default] N      : 13
+2017-11-18 02:41:47,966 INFO [default] Running 100K Liq...
+2017-11-18 03:15:06,117 INFO [default] Finished 100K Liq!
+2017-11-18 03:15:06,119 INFO [default] Expected density: 1313.7
+2017-11-18 03:15:06,119 INFO [default] Density reported: 2210.94
+2017-11-18 03:15:06,119 INFO [default] Error: 68.2804
+2017-11-18 03:15:06,119 INFO [default] Current objective: 68.2804
+2017-11-18 03:15:06,119 INFO [default] DELTA: 44.074
+2017-11-18 03:15:06,120 INFO [default] Rejecting new configuration
+2017-11-18 03:15:06,120 INFO [default] iteration: 38
+2017-11-18 03:15:06,120 INFO [default] =========== END ITERATION ===========
+2017-11-18 03:15:06,120 INFO [default] =========== NEW ITERATION ===========
+2017-11-18 03:15:06,120 INFO [default] Objective: 24.2064
+2017-11-18 03:15:06,120 INFO [default] Current temperature: 5.4744
+2017-11-18 03:15:06,121 INFO [default] =========  Current   =========
+2017-11-18 03:15:06,121 INFO [default] EPSILON: 128.9
+2017-11-18 03:15:06,121 INFO [default] SIGMA  : 2.868
+2017-11-18 03:15:06,121 INFO [default] N      : 13
+2017-11-18 03:15:09,418 INFO [default] Running 100K Liq...
+2017-11-18 03:47:37,458 INFO [default] Finished 100K Liq!
+2017-11-18 03:47:37,460 INFO [default] Expected density: 1313.7
+2017-11-18 03:47:37,460 INFO [default] Density reported: 2262.22
+2017-11-18 03:47:37,460 INFO [default] Error: 72.1626
+2017-11-18 03:47:37,460 INFO [default] Current objective: 72.1626
+2017-11-18 03:47:37,460 INFO [default] DELTA: 47.9562
+2017-11-18 03:47:37,461 INFO [default] Rejecting new configuration
+2017-11-18 03:47:37,461 INFO [default] iteration: 39
+2017-11-18 03:47:37,461 INFO [default] =========== END ITERATION ===========
+2017-11-18 03:47:37,461 INFO [default] =========== NEW ITERATION ===========
+2017-11-18 03:47:37,461 INFO [default] Objective: 24.2064
+2017-11-18 03:47:37,461 INFO [default] Current temperature: 4.92696
+2017-11-18 03:47:37,462 INFO [default] =========  Current   =========
+2017-11-18 03:47:37,462 INFO [default] EPSILON: 123.77
+2017-11-18 03:47:37,462 INFO [default] SIGMA  : 4.285
+2017-11-18 03:47:37,462 INFO [default] N      : 13
+2017-11-18 03:47:40,602 INFO [default] Running 100K Liq...
+2017-11-18 03:58:18,526 INFO [default] Finished 100K Liq!
+2017-11-18 03:58:18,528 INFO [default] Expected density: 1313.7
+2017-11-18 03:58:18,528 INFO [default] Density reported: 672.02
+2017-11-18 03:58:18,528 INFO [default] Error: 48.7935
+2017-11-18 03:58:18,528 INFO [default] Current objective: 48.7935
+2017-11-18 03:58:18,528 INFO [default] DELTA: 24.587
+2017-11-18 03:58:18,529 INFO [default] Rejecting new configuration
+2017-11-18 03:58:18,529 INFO [default] iteration: 40
+2017-11-18 03:58:18,529 INFO [default] =========== END ITERATION ===========
+2017-11-18 03:58:18,529 INFO [default] =========== NEW ITERATION ===========
+2017-11-18 03:58:18,529 INFO [default] Objective: 24.2064
+2017-11-18 03:58:18,529 INFO [default] Current temperature: 4.43426
+2017-11-18 03:58:18,530 INFO [default] =========  Current   =========
+2017-11-18 03:58:18,530 INFO [default] EPSILON: 114.74
+2017-11-18 03:58:18,530 INFO [default] SIGMA  : 2.695
+2017-11-18 03:58:18,530 INFO [default] N      : 13
+2017-11-18 03:58:21,906 INFO [default] Running 100K Liq...
+2017-11-18 04:32:04,407 INFO [default] Finished 100K Liq!
+2017-11-18 04:32:04,409 INFO [default] Expected density: 1313.7
+2017-11-18 04:32:04,409 INFO [default] Density reported: 2532.31
+2017-11-18 04:32:04,409 INFO [default] Error: 92.7152
+2017-11-18 04:32:04,409 INFO [default] Current objective: 92.7152
+2017-11-18 04:32:04,409 INFO [default] DELTA: 68.5088
+2017-11-18 04:32:04,409 INFO [default] Rejecting new configuration
+2017-11-18 04:32:04,409 INFO [default] iteration: 41
+2017-11-18 04:32:04,409 INFO [default] =========== END ITERATION ===========
+2017-11-18 04:32:04,409 INFO [default] =========== NEW ITERATION ===========
+2017-11-18 04:32:04,409 INFO [default] Objective: 24.2064
+2017-11-18 04:32:04,409 INFO [default] Current temperature: 3.99084
+2017-11-18 04:32:04,410 INFO [default] =========  Current   =========
+2017-11-18 04:32:04,410 INFO [default] EPSILON: 111.26
+2017-11-18 04:32:04,410 INFO [default] SIGMA  : 4.061
+2017-11-18 04:32:04,410 INFO [default] N      : 13
+2017-11-18 04:32:07,701 INFO [default] Running 100K Liq...
+2017-11-18 04:43:08,849 INFO [default] Finished 100K Liq!
+2017-11-18 04:43:08,851 INFO [default] Expected density: 1313.7
+2017-11-18 04:43:08,851 INFO [default] Density reported: 726.611
+2017-11-18 04:43:08,851 INFO [default] Error: 44.683
+2017-11-18 04:43:08,851 INFO [default] Current objective: 44.683
+2017-11-18 04:43:08,851 INFO [default] DELTA: 20.4765
+2017-11-18 04:43:08,852 INFO [default] Rejecting new configuration
+2017-11-18 04:43:08,852 INFO [default] iteration: 42
+2017-11-18 04:43:08,852 INFO [default] =========== END ITERATION ===========
+2017-11-18 04:43:08,852 INFO [default] =========== NEW ITERATION ===========
+2017-11-18 04:43:08,852 INFO [default] Objective: 24.2064
+2017-11-18 04:43:08,852 INFO [default] Current temperature: 3.59175
+2017-11-18 04:43:08,853 INFO [default] =========  Current   =========
+2017-11-18 04:43:08,853 INFO [default] EPSILON: 124.35
+2017-11-18 04:43:08,853 INFO [default] SIGMA  : 4.005
+2017-11-18 04:43:08,853 INFO [default] N      : 13
+2017-11-18 04:43:12,225 INFO [default] Running 100K Liq...
+2017-11-18 04:54:40,199 INFO [default] Finished 100K Liq!
+2017-11-18 04:54:40,201 INFO [default] Expected density: 1313.7
+2017-11-18 04:54:40,201 INFO [default] Density reported: 813.692
+2017-11-18 04:54:40,201 INFO [default] Error: 38.0604
+2017-11-18 04:54:40,201 INFO [default] Current objective: 38.0604
+2017-11-18 04:54:40,201 INFO [default] DELTA: 13.854
+2017-11-18 04:54:40,202 INFO [default] Rejecting new configuration
+2017-11-18 04:54:40,202 INFO [default] iteration: 43
+2017-11-18 04:54:40,202 INFO [default] =========== END ITERATION ===========
+2017-11-18 04:54:40,202 INFO [default] =========== NEW ITERATION ===========
+2017-11-18 04:54:40,202 INFO [default] Objective: 24.2064
+2017-11-18 04:54:40,202 INFO [default] Current temperature: 3.23258
+2017-11-18 04:54:40,203 INFO [default] =========  Current   =========
+2017-11-18 04:54:40,203 INFO [default] EPSILON: 103.02
+2017-11-18 04:54:40,203 INFO [default] SIGMA  : 3.498
+2017-11-18 04:54:40,203 INFO [default] N      : 13
+2017-11-18 04:54:43,456 INFO [default] Running 100K Liq...
+2017-11-18 05:19:03,819 INFO [default] Finished 100K Liq!
+2017-11-18 05:19:03,822 INFO [default] Expected density: 1313.7
+2017-11-18 05:19:03,822 INFO [default] Density reported: 1096.87
+2017-11-18 05:19:03,822 INFO [default] Error: 16.4421
+2017-11-18 05:19:03,822 INFO [default] Current objective: 16.4421
+2017-11-18 05:19:03,822 INFO [default] DELTA: -7.76433
+2017-11-18 05:19:03,822 INFO [default] Accepting new configuration
+2017-11-18 05:19:03,822 INFO [default] iteration: 44
+2017-11-18 05:19:03,822 INFO [default] =========== END ITERATION ===========
+2017-11-18 05:19:03,822 INFO [default] =========== NEW ITERATION ===========
+2017-11-18 05:19:03,822 INFO [default] Objective: 16.4421
+2017-11-18 05:19:03,822 INFO [default] Current temperature: 2.90932
+2017-11-18 05:19:03,823 INFO [default] =========  Current   =========
+2017-11-18 05:19:03,823 INFO [default] EPSILON: 114.52
+2017-11-18 05:19:03,823 INFO [default] SIGMA  : 3.103
+2017-11-18 05:19:03,823 INFO [default] N      : 13
+2017-11-18 05:19:07,123 INFO [default] Running 100K Liq...
+2017-11-18 05:48:10,553 INFO [default] Finished 100K Liq!
+2017-11-18 05:48:10,556 INFO [default] Expected density: 1313.7
+2017-11-18 05:48:10,556 INFO [default] Density reported: 1688.15
+2017-11-18 05:48:10,556 INFO [default] Error: 28.4692
+2017-11-18 05:48:10,556 INFO [default] Current objective: 28.4692
+2017-11-18 05:48:10,556 INFO [default] DELTA: 12.0271
+2017-11-18 05:48:10,556 INFO [default] Rejecting new configuration
+2017-11-18 05:48:10,556 INFO [default] iteration: 45
+2017-11-18 05:48:10,556 INFO [default] =========== END ITERATION ===========
+2017-11-18 05:48:10,556 INFO [default] =========== NEW ITERATION ===========
+2017-11-18 05:48:10,556 INFO [default] Objective: 16.4421
+2017-11-18 05:48:10,556 INFO [default] Current temperature: 2.61839
+2017-11-18 05:48:10,557 INFO [default] =========  Current   =========
+2017-11-18 05:48:10,557 INFO [default] EPSILON: 117.79
+2017-11-18 05:48:10,557 INFO [default] SIGMA  : 4.263
+2017-11-18 05:48:10,557 INFO [default] N      : 13
+2017-11-18 05:48:13,737 INFO [default] Running 100K Liq...
+2017-11-18 05:58:45,607 INFO [default] Finished 100K Liq!
+2017-11-18 05:58:45,610 INFO [default] Expected density: 1313.7
+2017-11-18 05:58:45,610 INFO [default] Density reported: 658.703
+2017-11-18 05:58:45,610 INFO [default] Error: 49.7831
+2017-11-18 05:58:45,610 INFO [default] Current objective: 49.7831
+2017-11-18 05:58:45,610 INFO [default] DELTA: 33.3409
+2017-11-18 05:58:45,610 INFO [default] Rejecting new configuration
+2017-11-18 05:58:45,610 INFO [default] iteration: 46
+2017-11-18 05:58:45,610 INFO [default] =========== END ITERATION ===========
+2017-11-18 05:58:45,610 INFO [default] =========== NEW ITERATION ===========
+2017-11-18 05:58:45,610 INFO [default] Objective: 16.4421
+2017-11-18 05:58:45,610 INFO [default] Current temperature: 2.35655
+2017-11-18 05:58:45,611 INFO [default] =========  Current   =========
+2017-11-18 05:58:45,611 INFO [default] EPSILON: 106.61
+2017-11-18 05:58:45,611 INFO [default] SIGMA  : 3.321
+2017-11-18 05:58:45,611 INFO [default] N      : 13
+2017-11-18 05:58:48,740 INFO [default] Running 100K Liq...
+2017-11-18 06:24:57,372 INFO [default] Finished 100K Liq!
+2017-11-18 06:24:57,374 INFO [default] Expected density: 1313.7
+2017-11-18 06:24:57,374 INFO [default] Density reported: 1307.61
+2017-11-18 06:24:57,374 INFO [default] Error: 0.456725
+2017-11-18 06:24:57,374 INFO [default] Running 100K Vap...
+2017-11-18 06:26:16,684 INFO [default] Finished 100K Vap!
+2017-11-18 06:26:16,686 INFO [default] Expected density: 16.859
+2017-11-18 06:26:16,686 INFO [default] Density reported: 15.8953
+2017-11-18 06:26:16,686 INFO [default] Error: 0
+2017-11-18 06:26:16,686 INFO [default] Running 130K Liq...
+2017-11-18 06:28:55,204 INFO [default] Finished 130K Liq!
+2017-11-18 06:28:55,206 INFO [default] Expected density: 1068.1
+2017-11-18 06:28:55,206 INFO [default] Density reported: 85.5601
+2017-11-18 06:28:55,206 INFO [default] Error: 91.939
+2017-11-18 06:28:55,206 INFO [default] Current objective: 30.7986
+2017-11-18 06:28:55,206 INFO [default] DELTA: 14.3565
+2017-11-18 06:28:55,206 INFO [default] Rejecting new configuration
+2017-11-18 06:28:55,206 INFO [default] iteration: 47
+2017-11-18 06:28:55,206 INFO [default] =========== END ITERATION ===========
+2017-11-18 06:28:55,206 INFO [default] =========== NEW ITERATION ===========
+2017-11-18 06:28:55,206 INFO [default] Objective: 16.4421
+2017-11-18 06:28:55,206 INFO [default] Current temperature: 2.1209
+2017-11-18 06:28:55,207 INFO [default] =========  Current   =========
+2017-11-18 06:28:55,207 INFO [default] EPSILON: 102.69
+2017-11-18 06:28:55,207 INFO [default] SIGMA  : 3.821
+2017-11-18 06:28:55,207 INFO [default] N      : 13
+2017-11-18 06:28:58,473 INFO [default] Running 100K Liq...
+2017-11-18 06:40:26,102 INFO [default] Finished 100K Liq!
+2017-11-18 06:40:26,104 INFO [default] Expected density: 1313.7
+2017-11-18 06:40:26,104 INFO [default] Density reported: 837.258
+2017-11-18 06:40:26,104 INFO [default] Error: 36.2335
+2017-11-18 06:40:26,104 INFO [default] Current objective: 36.2335
+2017-11-18 06:40:26,104 INFO [default] DELTA: 19.7914
+2017-11-18 06:40:26,104 INFO [default] Rejecting new configuration
+2017-11-18 06:40:26,104 INFO [default] iteration: 48
+2017-11-18 06:40:26,104 INFO [default] =========== END ITERATION ===========
+2017-11-18 06:40:26,104 INFO [default] =========== NEW ITERATION ===========
+2017-11-18 06:40:26,104 INFO [default] Objective: 16.4421
+2017-11-18 06:40:26,104 INFO [default] Current temperature: 1.90881
+2017-11-18 06:40:26,105 INFO [default] =========  Current   =========
+2017-11-18 06:40:26,105 INFO [default] EPSILON: 116.44
+2017-11-18 06:40:26,105 INFO [default] SIGMA  : 3.373
+2017-11-18 06:40:26,105 INFO [default] N      : 13
+2017-11-18 06:40:29,325 INFO [default] Running 100K Liq...
+2017-11-18 07:06:53,683 INFO [default] Finished 100K Liq!
+2017-11-18 07:06:53,685 INFO [default] Expected density: 1313.7
+2017-11-18 07:06:53,685 INFO [default] Density reported: 1297.76
+2017-11-18 07:06:53,685 INFO [default] Error: 1.14181
+2017-11-18 07:06:53,685 INFO [default] Current objective: 1.14181
+2017-11-18 07:06:53,685 INFO [default] DELTA: -15.3003
+2017-11-18 07:06:53,685 INFO [default] Accepting new configuration
+2017-11-18 07:06:53,685 INFO [default] iteration: 49
+2017-11-18 07:06:53,685 INFO [default] =========== END ITERATION ===========
+2017-11-18 07:06:53,685 INFO [default] =========== NEW ITERATION ===========
+2017-11-18 07:06:53,685 INFO [default] Objective: 1.14181
+2017-11-18 07:06:53,685 INFO [default] Current temperature: 1.71793
+2017-11-18 07:06:53,686 INFO [default] =========  Current   =========
+2017-11-18 07:06:53,686 INFO [default] EPSILON: 115.56
+2017-11-18 07:06:53,686 INFO [default] SIGMA  : 3.682
+2017-11-18 07:06:53,686 INFO [default] N      : 13
+2017-11-18 07:06:56,824 INFO [default] Running 100K Liq...

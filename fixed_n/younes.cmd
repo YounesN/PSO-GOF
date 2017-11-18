@@ -6,7 +6,7 @@
 echo Running on host `hostname`
 echo Time is `date`
 
-cd /home4/younes/Desktop/Optimization/AV_ARG/
+cd /home4/younes/Desktop/Optimization/fixed_n/
 echo Directory is `pwd`
 
 # Run job

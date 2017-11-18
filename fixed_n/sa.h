@@ -240,18 +240,6 @@ double objective_function()
   LOG(INFO) << "Finished 130K Liq!";
   curr_obj = check_density_130_Liq();
   total_obj += curr_obj;
-  if(curr_obj < 10)
-  {
-    // this n is most likely the optimal n
-    possible_n.clear();
-    possible_n.push_back(current_n);
-  }
-  else if(curr_obj > 50)
-  {
-    // definitely not this n, remove it from possible_n values
-    possible_n.erase( std::remove(possible_n.begin(), possible_n.end(), 
-				  current_n), possible_n.end());
-  } // otherwise not sure, we will continue
   if(curr_obj > 1.0)
     return total_obj/3;
   
