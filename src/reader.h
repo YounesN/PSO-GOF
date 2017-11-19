@@ -13,10 +13,10 @@ class Reader {
 
       // read configs
       command = std::string (doc.FirstChildElement("configuration")->FirstChildElement("command")->GetText());
-      densityLiq1 = toDouble(doc.FirstChildElement("configuration")->FirstChildElement("densityLiq1")->GetText());
-      densityLiq2 = toDouble(doc.FirstChildElement("configuration")->FirstChildElement("densityLiq2")->GetText());
-      densityVap1 = toDouble(doc.FirstChildElement("configuration")->FirstChildElement("densityVap1")->GetText());
-      densityVap2 = toDouble(doc.FirstChildElement("configuration")->FirstChildElement("densityVap2")->GetText());
+      densityLiq1 = toDouble(doc.FirstChildElement("configuration")->FirstChildElement("densityliq1")->GetText());
+      densityLiq2 = toDouble(doc.FirstChildElement("configuration")->FirstChildElement("densityliq2")->GetText());
+      densityVap1 = toDouble(doc.FirstChildElement("configuration")->FirstChildElement("densityvap1")->GetText());
+      densityVap2 = toDouble(doc.FirstChildElement("configuration")->FirstChildElement("densityvap2")->GetText());
       dir1 = std::string (doc.FirstChildElement("configuration")->FirstChildElement("directory1")->GetText());
       dir2 = std::string (doc.FirstChildElement("configuration")->FirstChildElement("directory2")->GetText());
       psf_file = std::string (doc.FirstChildElement("configuration")->FirstChildElement("psffile")->GetText());
