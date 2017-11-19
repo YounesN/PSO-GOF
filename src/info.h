@@ -15,7 +15,7 @@ void PrintRestrictions()
     LOG(INFO) << "SIGMA  : [" << Reader::sigma_start << ", " << Reader::sigma_end
         << ", " << Reader::sigma_accuracy << "]";
     LOG(INFO) << "N      : [" << Reader::n_start << ", " << Reader::n_end
-        << ", 1 ]";
+        << ", 1]";
     LOG(INFO) << "BOND   : [" << Reader::bond_start << ", " << Reader::bond_end
         << ", " << Reader::bond_accuracy << "]";
 }

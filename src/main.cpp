@@ -24,6 +24,8 @@ int iteration = 0;
 int main()
 {
   LOG(INFO) << "Program started";
+  LOG(INFO) << "Reading input XML";
+  Reader::Init("input.xml");
   PrintRestrictions();
   PrintAlgorithmInfo();
   init_variables();
