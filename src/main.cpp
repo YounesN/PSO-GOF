@@ -28,7 +28,7 @@ int main()
   PrintAlgorithmInfo();
   init_variables();
   PrintInitial();
-  annealing();
+  //annealing();
   LOG(INFO) << "Program finished successfully";
   return 0;
 }

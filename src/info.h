@@ -3,29 +3,30 @@
 #include <iostream>
 #include "restriction.h"
 #include "easylogging++.h"
+#include "reader.h"
 
 void PrintRestrictions()
 {
     LOG(INFO) << "========= RESTRICTIONS =========";
-    LOG(INFO) << "CHARGE : [" << HCHARGE_START << ", " << HCHARGE_END
-        << ", " << HCHARGE_ACC << "]";
-    LOG(INFO) << "EPSILON: [" << EPSILON_START << ", " << EPSILON_END
-        << ", " << EPSILON_ACC << "]";
-    LOG(INFO) << "SIGMA  : [" << SIGMA_START << ", " << SIGMA_END
-        << ", " << SIGMA_ACC << "]";
-    LOG(INFO) << "N      : [" << N_START << ", " << N_END
-        << ", " << N_ACC << "]";
-    LOG(INFO) << "BOND   : [" << BOND_START << ", " << BOND_END
-        << ", " << BOND_ACC << "]";
+    LOG(INFO) << "CHARGE : [" << Reader::charge_start << ", " << Reader::charge_end
+        << ", " << Reader::charge_accuracy << "]";
+    LOG(INFO) << "EPSILON: [" << Reader::epsilon_start << ", " << Reader::epsilon_end
+        << ", " << Reader::epsilon_accuracy << "]";
+    LOG(INFO) << "SIGMA  : [" << Reader::sigma_start << ", " << Reader::sigma_end
+        << ", " << Reader::sigma_accuracy << "]";
+    LOG(INFO) << "N      : [" << Reader::n_start << ", " << Reader::n_end
+        << ", 1 ]";
+    LOG(INFO) << "BOND   : [" << Reader::bond_start << ", " << Reader::bond_end
+        << ", " << Reader::bond_accuracy << "]";
 }
 
 void PrintAlgorithmInfo()
 {
     LOG(INFO) << "=========      SA      =========";
     LOG(INFO) << "=========    Initial   =========";
-    LOG(INFO) << "Initial Temperature: " << INITIAL_TEMPERATURE;
-    LOG(INFO) << "Cooling Fraction   : " << COOLING_FRACTION;
-    LOG(INFO) << "Cooling Criteria   : " << COOLING_CRIT;
+    LOG(INFO) << "Initial Temperature: " << Reader::initial_temp;
+    LOG(INFO) << "Cooling Fraction   : " << Reader::frac_temp;
+    LOG(INFO) << "Cooling Criteria   : " << Reader::crit_temp;
 }
 
 void PrintCurrent()

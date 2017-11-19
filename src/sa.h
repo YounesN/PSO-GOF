@@ -7,6 +7,7 @@
 #include <string>
 #include <cmath>
 #include "easylogging++.h"
+#include "reader.h"
 
 double random_double(double min, double max)
 {
@@ -26,15 +27,50 @@ int random_int(int min, int max)
 
 void init_variables()
 {
-  current_charge = random_double(HCHARGE_START, HCHARGE_END);
-  current_charge = round(current_charge * HCHARGE_ACC) / HCHARGE_ACC;
-  current_epsilon = random_double(EPSILON_START, EPSILON_END);
-  current_epsilon = round(current_epsilon * EPSILON_ACC) / EPSILON_ACC;
-  current_sigma = random_double(SIGMA_START, SIGMA_END);
-  current_sigma = round(current_sigma * SIGMA_ACC) / SIGMA_ACC;
-  current_n = random_int(N_START, N_END);
-  current_bond = random_double(BOND_START, BOND_END);
-  current_bond = round(current_bond * BOND_ACC) / BOND_ACC;
+  if(Reader::charge_enabled)
+  {
+    current_charge = random_double(Reader::charge_start, Reader::charge_end);
+    current_charge = round(current_charge * Reader::charge_accuracy) / Reader::charge_accuracy;
+  }
+  else
+  {
+    current_charge = round(Reader::charge_value * Reader::charge_accuracy) / Reader::charge_accuracy;
+  }
+  if(Reader::epsilon_enabled)
+  {
+    current_epsilon = random_double(Reader::epsilon_start, Reader::epsilon_end);
+    current_epsilon = round(current_epsilon * Reader::epsilon_accuracy) / Reader::epsilon_accuracy;
+  }
+  else
+  {
+    current_epsilon = round(Reader::epsilon_value * Reader::epsilon_accuracy) / Reader::epsilon_accuracy;
+  }
+  if(Reader::sigma_enabled)
+  {
+    current_sigma = random_double(Reader::sigma_start, Reader::sigma_end);
+    current_sigma = round(current_sigma * Reader::sigma_accuracy) / Reader::sigma_accuracy;
+  }
+  else
+  {
+    current_sigma = round(Reader::sigma_value * Reader::sigma_accuracy) / Reader::sigma_accuracy;
+  }
+  if(Reader::n_enabled)
+  {
+    current_n = random_int(Reader::n_start, Reader::n_end);
+  }
+  else
+  {
+    current_n = Reader::n_value;
+  }
+  if(Reader::bond_enabled)
+  {
+    current_bond = random_double(Reader::bond_start, Reader::bond_end);
+    current_bond = round(current_bond * Reader::bond_accuracy) / Reader::bond_accuracy;
+  }
+  else
+  {
+    current_bond = round(Reader::bond_value * Reader::bond_accuracy) / Reader::bond_accuracy;
+  }
   
   previous_charge = current_charge;
   previous_epsilon = current_epsilon;
@@ -51,27 +87,27 @@ void pick_next()
   {
   case 1:
     previous_charge = current_charge;
-    current_charge = random_double(HCHARGE_START, HCHARGE_END);
-    current_charge = round(current_charge * HCHARGE_ACC) / HCHARGE_ACC;
+    current_charge = random_double(Reader::charge_start, Reader::charge_end);
+    current_charge = round(current_charge * Reader::charge_accuracy) / Reader::charge_accuracy;
     break;
   case 2:
     previous_epsilon = current_epsilon;
-    current_epsilon = random_double(EPSILON_START, EPSILON_END);
-    current_epsilon = round(current_epsilon * EPSILON_ACC) / EPSILON_ACC;
+    current_epsilon = random_double(Reader::epsilon_start, Reader::epsilon_end);
+    current_epsilon = round(current_epsilon * Reader::epsilon_accuracy) / Reader::epsilon_accuracy;
     break;
   case 3:
     previous_sigma = current_sigma;
-    current_sigma = random_double(SIGMA_START, SIGMA_END);
-    current_sigma = round(current_sigma * SIGMA_ACC) / SIGMA_ACC;
+    current_sigma = random_double(Reader::sigma_start, Reader::sigma_end);
+    current_sigma = round(current_sigma * Reader::sigma_accuracy) / Reader::sigma_accuracy;
     break;
   case 4:
     previous_bond = current_bond;
-    current_bond = random_double(BOND_START, BOND_END);
-    current_bond = round(current_bond * BOND_ACC) / BOND_ACC;
+    current_bond = random_double(Reader::bond_start, Reader::bond_end);
+    current_bond = round(current_bond * Reader::bond_accuracy) / Reader::bond_accuracy;
     break;
   case 5:
     previous_n = current_n;
-    current_n = random_int(N_START, N_END);
+    current_n = random_int(Reader::n_start, Reader::n_end);
     break;
   }
 }
@@ -206,62 +242,62 @@ double return_density(std::string filename)
   return density;
 }
 
-double check_density_500_Liq() 
+double check_density_1_Liq() 
 {
   std::string loc("temp_500/Liq/out.log");
   double den = return_density(loc);
-  LOG(INFO) << "Expected density: " << DEN_LIQ_500;
+  LOG(INFO) << "Expected density: " << Reader::densityLiq1;
   LOG(INFO) << "Density reported: " << den;
   double err = 0.0;
   if(den!=0.0)
-    err = ((abs(DEN_LIQ_500-den))/DEN_LIQ_500)*100;
+    err = ((abs(Reader::densityLiq1-den))/Reader::densityLiq1)*100;
   else
     err = 99999999999.9;
   LOG(INFO) << "Error: " << err;
   return err;
 }
 
-double check_density_500_Vap()
+double check_density_1_Vap()
 {
   std::string loc("temp_500/Vap/out.log");
   double den = return_density(loc);
-  LOG(INFO) << "Expected density: " << DEN_VAP_500;
+  LOG(INFO) << "Expected density: " << Reader::densityVap1;
   LOG(INFO) << "Density reported: " << den;
   double err = 0.0;
   if(den!=0.0)
-    err = ((abs(DEN_VAP_500-den))/DEN_VAP_500)*100;
+    err = ((abs(Reader::densityVap1-den))/Reader::densityVap1)*100;
   else
     err = 99999999999.9;
   LOG(INFO) << "Error: " << err;
   return err;
 }
 
-double check_density_600_Liq()
+double check_density_2_Liq()
 {
   std::string loc("temp_600/Liq/out.log");
   double den = return_density(loc);
-  LOG(INFO) << "Expected density: " << DEN_LIQ_600;
+  LOG(INFO) << "Expected density: " << Reader::densityLiq2;
   LOG(INFO) << "Density reported: " << den;
   double err = 0.0;
   if(den!=0.0)
-    err = ((abs(DEN_LIQ_600-den))/DEN_LIQ_600)*100;
+    err = ((abs(Reader::densityLiq2-den))/Reader::densityLiq2)*100;
   else
     err = 99999999999.9;
   LOG(INFO) << "Error: " << err;
   return err;
 }
 
-double check_density_600_Vap()
+double check_density_2_Vap()
 {
   std::string loc("temp_600/Vap/out.log");
   double den = return_density(loc);
-  LOG(INFO) << "Expected density: " << DEN_VAP_600;
+  LOG(INFO) << "Expected density: " << Reader::densityVap2;
   LOG(INFO) << "Density reported: " << den;
   double err = 0.0;
   if(den!=0.0)
-    err = ((abs(DEN_VAP_600-den))/DEN_VAP_600)*100;
-    else
-      err = 99999999999.9;
+    err = ((abs(Reader::densityVap2-den))/Reader::densityVap2)*100;
+  else
+    err = 99999999999.9;
   LOG(INFO) << "Error: " << err;
   return err;
 }
@@ -276,7 +312,7 @@ double objective_function()
   LOG(INFO) << "Running 500K Liq...";
   system("cd temp_500/Liq; ./GOMC_GPU_NPT in.conf > out.log");
   LOG(INFO) << "Finished 500K Liq!";
-  curr_obj = check_density_500_Liq();
+  curr_obj = check_density_1_Liq();
   if(curr_obj > 1.0)
     return curr_obj;
   else
@@ -286,7 +322,7 @@ double objective_function()
   LOG(INFO) << "Running 500K Vap...";
   system("cd temp_500/Vap; ./GOMC_GPU_NPT in.conf > out.log");
   LOG(INFO) << "Finished 500K Vap!";
-  curr_obj = check_density_500_Vap();
+  curr_obj = check_density_1_Vap();
   total_obj += curr_obj;
   if(curr_obj > 1.0)
     return total_obj/2;
@@ -295,7 +331,7 @@ double objective_function()
   LOG(INFO) << "Running 600K Liq...";
   system("cd temp_600/Liq; ./GOMC_GPU_NPT in.conf > out.log");
   LOG(INFO) << "Finished 600K Liq!";
-  curr_obj = check_density_600_Liq();
+  curr_obj = check_density_2_Liq();
   total_obj += curr_obj;
   if(curr_obj > 1.0)
     return total_obj/3;
@@ -306,7 +342,7 @@ double objective_function()
   LOG(INFO) << "Running 600K Vap...";
   system("cd temp_600/Vap; ./GOMC_GPU_NPT in.conf > out.log");
   LOG(INFO) << "Finished 600K Vap!";
-  curr_obj = check_density_600_Vap();
+  curr_obj = check_density_2_Vap();
   total_obj += curr_obj;
   return total_obj/4;
 }
@@ -318,14 +354,14 @@ bool accept_prob(double delta, double current_temperature)
 
 void annealing()
 {
-  current_temperature = INITIAL_TEMPERATURE;
+  current_temperature = Reader::initial_temp;
   double current_obj = 0.0;
   double objective = 99999999.9;
   double delta = 0.0;
   pick_next();
   objective = objective_function();
   
-  while(current_temperature > COOLING_CRIT)
+  while(current_temperature > Reader::crit_temp)
   {
     LOG(INFO) << "=========== NEW ITERATION ===========";
     LOG(INFO) << "Objective: " << objective;
@@ -356,7 +392,7 @@ void annealing()
     
     iteration ++;
     LOG(INFO) << "iteration: " << iteration;
-    current_temperature *= COOLING_FRACTION;
+    current_temperature *= Reader::frac_temp;
     LOG(INFO) << "=========== END ITERATION ===========";
   }
 }
