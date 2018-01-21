@@ -18,6 +18,12 @@ double previous_sigma;
 int previous_n;
 double previous_bond;
 
+double best_charge;
+double best_epsilon;
+double best_sigma;
+int best_n;
+double best_bond;
+
 double current_temperature;
 int iteration = 0;
 
@@ -30,7 +36,7 @@ int main()
   PrintAlgorithmInfo();
   init_variables();
   PrintInitial();
-  //annealing();
+  annealing();
   LOG(INFO) << "Program finished successfully";
   return 0;
 }
