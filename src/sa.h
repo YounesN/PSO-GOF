@@ -377,6 +377,15 @@ void annealing()
     PrintCurrent();
     current_obj = objective_function();
     delta = current_obj - objective;
+    if(current_obj < best_objective)
+    {
+      best_objective = current_obj;
+      best_charge = current_charge;
+      best_epsilon = current_epsilon;
+      best_sigma = current_sigma;
+      best_n = current_n;
+      best_bond = current_bond;
+    }
     LOG(INFO) << "Current objective: " << current_obj;
     LOG(INFO) << "DELTA: " << delta;
     if((delta<0) || (accept_prob(delta, current_temperature)))
