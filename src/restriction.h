@@ -18,5 +18,7 @@ extern double best_sigma;
 extern int best_n;
 extern double best_bond;
 
+extern double best_objective;
+
 extern double current_temperature;
 extern int iteration;

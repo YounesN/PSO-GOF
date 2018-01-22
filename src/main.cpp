@@ -24,6 +24,8 @@ double best_sigma;
 int best_n;
 double best_bond;
 
+double best_objective;
+
 double current_temperature;
 int iteration = 0;
 

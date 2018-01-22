@@ -77,6 +77,12 @@ void init_variables()
   previous_sigma = current_sigma;
   previous_n = current_n;
   previous_bond = current_bond;
+
+  best_charge = current_charge;
+  best_epsilon = current_epsilon;
+  best_sigma = current_sigma;
+  best_n = current_n;
+  best_bond = current_bond;
 }
 
 void pick_next()
@@ -242,7 +248,7 @@ double return_density(std::string filename)
   return density;
 }
 
-double check_density_1_Liq() 
+double check_density_1_Liq()
 {
   std::string loc("temp_500/Liq/out.log");
   double den = return_density(loc);
