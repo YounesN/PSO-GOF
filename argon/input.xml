@@ -30,7 +30,7 @@
     <accuracy>1</accuracy>
   </n>
   <charge>
-    <enabled>charge</enabled>
+    <enabled>false</enabled>
     <value>0.41</value>
     <start>0.3</start>
     <end>0.5</end>

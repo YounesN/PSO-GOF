@@ -258,7 +258,7 @@ double return_density(std::string filename)
 
 double check_density_1_Liq()
 {
-  std::string loc("temp_500/Liq/out.log");
+  std::string loc("temp_1/Liq/out.log");
   double den = return_density(loc);
   LOG(INFO) << "Expected density: " << Reader::densityLiq1;
   LOG(INFO) << "Density reported: " << den;
@@ -273,7 +273,7 @@ double check_density_1_Liq()
 
 double check_density_1_Vap()
 {
-  std::string loc("temp_500/Vap/out.log");
+  std::string loc("temp_1/Vap/out.log");
   double den = return_density(loc);
   LOG(INFO) << "Expected density: " << Reader::densityVap1;
   LOG(INFO) << "Density reported: " << den;
@@ -288,7 +288,7 @@ double check_density_1_Vap()
 
 double check_density_2_Liq()
 {
-  std::string loc("temp_600/Liq/out.log");
+  std::string loc("temp_2/Liq/out.log");
   double den = return_density(loc);
   LOG(INFO) << "Expected density: " << Reader::densityLiq2;
   LOG(INFO) << "Density reported: " << den;
@@ -303,7 +303,7 @@ double check_density_2_Liq()
 
 double check_density_2_Vap()
 {
-  std::string loc("temp_600/Vap/out.log");
+  std::string loc("temp_2/Vap/out.log");
   double den = return_density(loc);
   LOG(INFO) << "Expected density: " << Reader::densityVap2;
   LOG(INFO) << "Density reported: " << den;
@@ -323,9 +323,12 @@ double objective_function()
   double total_obj = 0.0;
   double curr_obj = 0.0;
   // Run T 500 Liq
-  LOG(INFO) << "Running 500K Liq...";
-  system("cd temp_500/Liq; ./GOMC_GPU_NPT in.conf > out.log");
-  LOG(INFO) << "Finished 500K Liq!";
+  LOG(INFO) << "Running 1st Liq...";
+  std::string cmd = "cd temp_1/Liq/; ";
+  cmd += Reader::command;
+  LOG(INFO) << cmd;
+  system(cmd.c_str());
+  LOG(INFO) << "Finished 1st Liq!";
   curr_obj = check_density_1_Liq();
   if(curr_obj > 1.0)
     return curr_obj;
@@ -333,18 +336,22 @@ double objective_function()
     total_obj += curr_obj;
   
   // Run T 500 Vap
-  LOG(INFO) << "Running 500K Vap...";
-  system("cd temp_500/Vap; ./GOMC_GPU_NPT in.conf > out.log");
-  LOG(INFO) << "Finished 500K Vap!";
+  LOG(INFO) << "Running 1st Vap...";
+  cmd = "cd temp_1/Vap/; ";
+  cmd += Reader::command;
+  system(cmd.c_str());
+  LOG(INFO) << "Finished 1st Vap!";
   curr_obj = check_density_1_Vap();
   total_obj += curr_obj;
   if(curr_obj > 1.0)
     return total_obj/2;
   
   // Run T 600 Liq
-  LOG(INFO) << "Running 600K Liq...";
-  system("cd temp_600/Liq; ./GOMC_GPU_NPT in.conf > out.log");
-  LOG(INFO) << "Finished 600K Liq!";
+  LOG(INFO) << "Running 2nd Liq...";
+  cmd = "cd temp_2/Liq/; ";
+  cmd += Reader::command;
+  system(cmd.c_str());
+  LOG(INFO) << "Finished 2nd Liq!";
   curr_obj = check_density_2_Liq();
   total_obj += curr_obj;
   if(curr_obj > 1.0)
@@ -353,9 +360,11 @@ double objective_function()
     total_obj += curr_obj;
   
   // Run T 600 Vap
-  LOG(INFO) << "Running 600K Vap...";
-  system("cd temp_600/Vap; ./GOMC_GPU_NPT in.conf > out.log");
-  LOG(INFO) << "Finished 600K Vap!";
+  LOG(INFO) << "Running 2nd Vap...";
+  cmd = "cd temp_2/Vap/; ";
+  cmd += Reader::command;
+  system(cmd.c_str());
+  LOG(INFO) << "Finished 2nd Vap!";
   curr_obj = check_density_2_Vap();
   total_obj += curr_obj;
   return total_obj/4;
