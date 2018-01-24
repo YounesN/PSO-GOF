@@ -392,6 +392,7 @@ bool accept_prob(double delta, double current_temperature)
 
 void annealing()
 {
+  best_objective = 99999999.9;
   current_temperature = Reader::initial_temp;
   double current_obj = 0.0;
   double objective = 99999999.9;
@@ -443,4 +444,9 @@ void annealing()
     LOG(INFO) << "=========== END ITERATION ===========";
   }
   PrintBest();
+}
+
+void hill_climbing()
+{
+  
 }
