@@ -38,30 +38,30 @@ void PrintCurrent()
 {
   LOG(INFO) << "=========  Current   =========";
   if(Reader::charge_enabled)
-    (INFO) << "CHARGE : " << current_charge;
+    LOG(INFO) << "CHARGE : " << current_charge;
   if(Reader::epsilon_enabled)
-    (INFO) << "EPSILON: " << current_epsilon;
+    LOG(INFO) << "EPSILON: " << current_epsilon;
   if(Reader::sigma_enabled)
-    (INFO) << "SIGMA  : " << current_sigma;
+    LOG(INFO) << "SIGMA  : " << current_sigma;
   if(Reader::n_enabled)
-    (INFO) << "N      : " << current_n;
+    LOG(INFO) << "N      : " << current_n;
   if(Reader::bond_enabled)
-    (INFO) << "BOND   : " << current_bond;
+    LOG(INFO) << "BOND   : " << current_bond;
 }
 
 void PrintBest()
 {
   LOG(INFO) << "=========  Best Solution found   =========";
   if(Reader::charge_enabled)
-    (INFO) << "CHARGE : " << best_charge;
+    LOG(INFO) << "CHARGE : " << best_charge;
   if(Reader::epsilon_enabled)
-    (INFO) << "EPSILON: " << best_epsilon;
+    LOG(INFO) << "EPSILON: " << best_epsilon;
   if(Reader::sigma_enabled)
-    (INFO) << "SIGMA  : " << best_sigma;
+    LOG(INFO) << "SIGMA  : " << best_sigma;
   if(Reader::n_enabled)
-    (INFO) << "N      : " << best_n;
+    LOG(INFO) << "N      : " << best_n;
   if(Reader::bond_enabled)
-    (INFO) << "BOND   : " << best_bond;
+    LOG(INFO) << "BOND   : " << best_bond;
 }
 
 void PrintInitial()
