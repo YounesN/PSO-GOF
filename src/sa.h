@@ -131,10 +131,10 @@ void make_temp()
   system(copy_1.c_str());
   system(copy_2.c_str());
   
+  std::stringstream stream;
   // Replace Bond
   if(Reader::bond_enabled)
   {
-    std::stringstream stream;
     stream << std::fixed << std::setprecision(4) << current_bond;
     std::string bond_rep = "sed -i 's/BBBBBB/" + stream.str() 
       + "/g' temp_1/Liq/" + Reader::par_file;
