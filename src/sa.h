@@ -132,100 +132,115 @@ void make_temp()
   system(copy_2.c_str());
   
   // Replace Bond
-  std::stringstream stream;
-  stream << std::fixed << std::setprecision(4) << current_bond;
-  std::string bond_rep = "sed -i 's/BBBBBB/" + stream.str() 
-    + "/g' temp_1/Liq/" + Reader::par_file;
-  system(bond_rep.c_str());
-  bond_rep = "sed -i 's/BBBBBB/" + stream.str() 
-    + "/g' temp_1/Vap/" + Reader::par_file;
-  system(bond_rep.c_str());
-  bond_rep = "sed -i 's/BBBBBB/" + stream.str() 
-    + "/g' temp_2/Liq/" + Reader::par_file;
-  system(bond_rep.c_str());
-  bond_rep = "sed -i 's/BBBBBB/" + stream.str() 
-    + "/g' temp_2/Vap/" + Reader::par_file;
-  system(bond_rep.c_str());
+  if(Reader::bond_enabled)
+  {
+    std::stringstream stream;
+    stream << std::fixed << std::setprecision(4) << current_bond;
+    std::string bond_rep = "sed -i 's/BBBBBB/" + stream.str() 
+      + "/g' temp_1/Liq/" + Reader::par_file;
+    system(bond_rep.c_str());
+    bond_rep = "sed -i 's/BBBBBB/" + stream.str() 
+      + "/g' temp_1/Vap/" + Reader::par_file;
+    system(bond_rep.c_str());
+    bond_rep = "sed -i 's/BBBBBB/" + stream.str() 
+      + "/g' temp_2/Liq/" + Reader::par_file;
+    system(bond_rep.c_str());
+    bond_rep = "sed -i 's/BBBBBB/" + stream.str() 
+      + "/g' temp_2/Vap/" + Reader::par_file;
+    system(bond_rep.c_str());
+  }
   
   // Replace Sigma
-  stream.str(std::string());
-  stream << std::fixed << std::setprecision(6) << current_sigma;
-  std::string sigma_rep = "sed -i 's/SSSSSSSSS/" 
-    + stream.str() + "/g' temp_1/Liq/" + Reader::par_file;
-  system(sigma_rep.c_str());
-  sigma_rep = "sed -i 's/SSSSSSSSS/" 
-    + stream.str() + "/g' temp_1/Vap/" + Reader::par_file;
-  system(sigma_rep.c_str());
-  sigma_rep = "sed -i 's/SSSSSSSSS/" 
-    + stream.str() + "/g' temp_2/Liq/" + Reader::par_file;
-  system(sigma_rep.c_str());
-  sigma_rep = "sed -i 's/SSSSSSSSS/" 
-    + stream.str() + "/g' temp_2/Vap/" + Reader::par_file;
-  system(sigma_rep.c_str());
+  if(Reader::sigma_enabled)
+  {
+    stream.str(std::string());
+    stream << std::fixed << std::setprecision(6) << current_sigma;
+    std::string sigma_rep = "sed -i 's/SSSSSSS/" 
+      + stream.str() + "/g' temp_1/Liq/" + Reader::par_file;
+    system(sigma_rep.c_str());
+    sigma_rep = "sed -i 's/SSSSSSS/" 
+      + stream.str() + "/g' temp_1/Vap/" + Reader::par_file;
+    system(sigma_rep.c_str());
+    sigma_rep = "sed -i 's/SSSSSSS/" 
+      + stream.str() + "/g' temp_2/Liq/" + Reader::par_file;
+    system(sigma_rep.c_str());
+    sigma_rep = "sed -i 's/SSSSSSS/" 
+      + stream.str() + "/g' temp_2/Vap/" + Reader::par_file;
+    system(sigma_rep.c_str());
+  }
   
   // Replace Epsilon
-  stream.str(std::string());
-  stream << std::fixed << std::setprecision(6) << current_epsilon;
-  std::string epsilon_rep = "sed -i 's/EEEEEEE/" + stream.str() 
-    + "/g' temp_1/Liq/" + Reader::par_file;
-  system(epsilon_rep.c_str());
-  epsilon_rep = "sed -i 's/EEEEEEE/" + stream.str() 
-    + "/g' temp_1/Vap/" + Reader::par_file;
-  system(epsilon_rep.c_str());
-  epsilon_rep = "sed -i 's/EEEEEEE/" + stream.str() 
-    + "/g' temp_2/Liq/" + Reader::par_file;
-  system(epsilon_rep.c_str());
-  epsilon_rep = "sed -i 's/EEEEEEE/" + stream.str() 
-    + "/g' temp_2/Vap/" + Reader::par_file;
-  system(epsilon_rep.c_str());
+  if(Reader::epsilon_enabled)
+  {
+    stream.str(std::string());
+    stream << std::fixed << std::setprecision(6) << current_epsilon;
+    std::string epsilon_rep = "sed -i 's/EEEEEEEEE/" + stream.str() 
+      + "/g' temp_1/Liq/" + Reader::par_file;
+    system(epsilon_rep.c_str());
+    epsilon_rep = "sed -i 's/EEEEEEEEE/" + stream.str() 
+      + "/g' temp_1/Vap/" + Reader::par_file;
+    system(epsilon_rep.c_str());
+    epsilon_rep = "sed -i 's/EEEEEEEEE/" + stream.str() 
+      + "/g' temp_2/Liq/" + Reader::par_file;
+    system(epsilon_rep.c_str());
+    epsilon_rep = "sed -i 's/EEEEEEEEE/" + stream.str() 
+      + "/g' temp_2/Vap/" + Reader::par_file;
+    system(epsilon_rep.c_str());
+  }
   
   // Replace n
-  stream.str(std::string());
-  stream << current_n;
-  std::string n_rep = "sed -i 's/NNN/" + stream.str()
-    + "/g' temp_1/Liq/" + Reader::par_file;
-  system(n_rep.c_str());
-  n_rep = "sed -i 's/NNN/" + stream.str()
-    + "/g' temp_1/Vap/" + Reader::par_file;
-  system(n_rep.c_str());
-  n_rep = "sed -i 's/NNN/" + stream.str()
-    + "/g' temp_2/Liq/" + Reader::par_file;
-  system(n_rep.c_str());
-  n_rep = "sed -i 's/NNN/" + stream.str()
-    + "/g' temp_2/Vap/" + Reader::par_file;
-  system(n_rep.c_str());
+  if(Reader::n_enabled)
+  {
+    stream.str(std::string());
+    stream << current_n;
+    std::string n_rep = "sed -i 's/NNN/" + stream.str()
+      + "/g' temp_1/Liq/" + Reader::par_file;
+    system(n_rep.c_str());
+    n_rep = "sed -i 's/NNN/" + stream.str()
+      + "/g' temp_1/Vap/" + Reader::par_file;
+    system(n_rep.c_str());
+    n_rep = "sed -i 's/NNN/" + stream.str()
+      + "/g' temp_2/Liq/" + Reader::par_file;
+    system(n_rep.c_str());
+    n_rep = "sed -i 's/NNN/" + stream.str()
+      + "/g' temp_2/Vap/" + Reader::par_file;
+    system(n_rep.c_str());
+  }
   
-  // Replace H Charges
-  stream.str(std::string());
-  stream << std::fixed << std::setprecision(6) << current_charge;
-  std::string hcharge_rep = "sed -i 's/HHHHHHHH/" + stream.str() 
-    + "/g' temp_1/Liq/" + Reader::psf_file;
-  system(hcharge_rep.c_str());
-  hcharge_rep = "sed -i 's/HHHHHHHH/" + stream.str() 
-    + "/g' temp_1/Vap/" + Reader::psf_file;
-  system(hcharge_rep.c_str());
-  hcharge_rep = "sed -i 's/HHHHHHHH/" + stream.str() 
-    + "/g' temp_2/Liq/" + Reader::psf_file;
-  system(hcharge_rep.c_str());
-  hcharge_rep = "sed -i 's/HHHHHHHH/" + stream.str() 
-    + "/g' temp_2/Vap/" + Reader::psf_file;
-  system(hcharge_rep.c_str());
-  
-  // Replace O Charges
-  stream.str(std::string());
-  stream << std::fixed << std::setprecision(6) << 2 * current_charge;
-  std::string ocharge_rep = "sed -i 's/OOOOOOOO/" 
-    + stream.str() + "/g' temp_1/Liq/" + Reader::psf_file;
-  system(ocharge_rep.c_str());
-  ocharge_rep = "sed -i 's/OOOOOOOO/" + stream.str() 
-    + "/g' temp_1/Vap/" + Reader::psf_file;
-  system(ocharge_rep.c_str());
-  ocharge_rep = "sed -i 's/OOOOOOOO/" + stream.str() 
-    + "/g' temp_2/Liq/" + Reader::psf_file;
-  system(ocharge_rep.c_str());
-  ocharge_rep = "sed -i 's/OOOOOOOO/" + stream.str() 
-    + "/g' temp_2/Vap/" + Reader::psf_file;
-  system(ocharge_rep.c_str());
+  if(Reader::charge_enabled)
+  {
+    // Replace H Charges
+    stream.str(std::string());
+    stream << std::fixed << std::setprecision(6) << current_charge;
+    std::string hcharge_rep = "sed -i 's/HHHHHHHH/" + stream.str() 
+      + "/g' temp_1/Liq/" + Reader::psf_file;
+    system(hcharge_rep.c_str());
+    hcharge_rep = "sed -i 's/HHHHHHHH/" + stream.str() 
+      + "/g' temp_1/Vap/" + Reader::psf_file;
+    system(hcharge_rep.c_str());
+    hcharge_rep = "sed -i 's/HHHHHHHH/" + stream.str() 
+      + "/g' temp_2/Liq/" + Reader::psf_file;
+    system(hcharge_rep.c_str());
+    hcharge_rep = "sed -i 's/HHHHHHHH/" + stream.str() 
+      + "/g' temp_2/Vap/" + Reader::psf_file;
+    system(hcharge_rep.c_str());
+    
+    // Replace O Charges
+    stream.str(std::string());
+    stream << std::fixed << std::setprecision(6) << 2 * current_charge;
+    std::string ocharge_rep = "sed -i 's/OOOOOOOO/" 
+      + stream.str() + "/g' temp_1/Liq/" + Reader::psf_file;
+    system(ocharge_rep.c_str());
+    ocharge_rep = "sed -i 's/OOOOOOOO/" + stream.str() 
+      + "/g' temp_1/Vap/" + Reader::psf_file;
+    system(ocharge_rep.c_str());
+    ocharge_rep = "sed -i 's/OOOOOOOO/" + stream.str() 
+      + "/g' temp_2/Liq/" + Reader::psf_file;
+    system(ocharge_rep.c_str());
+    ocharge_rep = "sed -i 's/OOOOOOOO/" + stream.str() 
+      + "/g' temp_2/Vap/" + Reader::psf_file;
+    system(ocharge_rep.c_str());
+  }
 }
 
 std::string get_last_line_of(std::string filename, std::string substring)
