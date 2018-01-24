@@ -427,4 +427,5 @@ void annealing()
     current_temperature *= Reader::frac_temp;
     LOG(INFO) << "=========== END ITERATION ===========";
   }
+  PrintBest();
 }

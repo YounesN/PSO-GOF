@@ -49,6 +49,21 @@ void PrintCurrent()
     (INFO) << "BOND   : " << current_bond;
 }
 
+void PrintBest()
+{
+  LOG(INFO) << "=========  Best Solution found   =========";
+  if(Reader::charge_enabled)
+    (INFO) << "CHARGE : " << best_charge;
+  if(Reader::epsilon_enabled)
+    (INFO) << "EPSILON: " << best_epsilon;
+  if(Reader::sigma_enabled)
+    (INFO) << "SIGMA  : " << best_sigma;
+  if(Reader::n_enabled)
+    (INFO) << "N      : " << best_n;
+  if(Reader::bond_enabled)
+    (INFO) << "BOND   : " << best_bond;
+}
+
 void PrintInitial()
 {
     LOG(INFO) << "=========    Initial   =========";
