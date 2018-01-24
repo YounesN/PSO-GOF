@@ -88,32 +88,38 @@ void init_variables()
 void pick_next()
 {
   // pick which parameter to change
-  int index = random_int(1, 4);
+  int index;
+  if(Reader::charge_enabled)
+    index = random_int(1, 5);
+  else if(Reader::n_enabled)
+    index = random_int(1, 3);
+  else
+    index = random_int(1, 2);
   switch(index)
   {
   case 1:
-    previous_charge = current_charge;
-    current_charge = random_double(Reader::charge_start, Reader::charge_end);
-    current_charge = round(current_charge * Reader::charge_accuracy) / Reader::charge_accuracy;
-    break;
-  case 2:
     previous_epsilon = current_epsilon;
     current_epsilon = random_double(Reader::epsilon_start, Reader::epsilon_end);
     current_epsilon = round(current_epsilon * Reader::epsilon_accuracy) / Reader::epsilon_accuracy;
     break;
-  case 3:
+  case 2:
     previous_sigma = current_sigma;
     current_sigma = random_double(Reader::sigma_start, Reader::sigma_end);
     current_sigma = round(current_sigma * Reader::sigma_accuracy) / Reader::sigma_accuracy;
     break;
+  case 3:
+    previous_n = current_n;
+    current_n = random_int(Reader::n_start, Reader::n_end);
+    break;
   case 4:
+    previous_charge = current_charge;
+    current_charge = random_double(Reader::charge_start, Reader::charge_end);
+    current_charge = round(current_charge * Reader::charge_accuracy) / Reader::charge_accuracy;
+    break;
+  case 5:
     previous_bond = current_bond;
     current_bond = random_double(Reader::bond_start, Reader::bond_end);
     current_bond = round(current_bond * Reader::bond_accuracy) / Reader::bond_accuracy;
-    break;
-  case 5:
-    previous_n = current_n;
-    current_n = random_int(Reader::n_start, Reader::n_end);
     break;
   }
 }
