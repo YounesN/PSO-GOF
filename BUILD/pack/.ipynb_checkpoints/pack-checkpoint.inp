@@ -1,0 +1,9 @@
+tolerance 3.0
+filetype pdb
+
+output packed.pdb
+
+structure ./MOLNAME.pdb
+  number MOLNUM
+  inside cube 0.01 0.01 0.01 BOXSIZE
+end structure
