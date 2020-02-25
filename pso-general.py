@@ -1,11 +1,3 @@
-
-# coding: utf-8
-
-# # Import stuff
-
-# In[1]:
-
-
 import numpy as np
 from mpi4py import MPI
 import errno
@@ -22,12 +14,6 @@ comm = MPI.COMM_WORLD
 size = comm.Get_size()
 rank = comm.Get_rank()
 
-
-# # Single parameter
-
-# In[2]:
-
-
 class Parameter:
     def __init__(self, pars):
         self.name = pars['name']
@@ -41,12 +27,6 @@ class Parameter:
         return '{} {} {} {} {} {}'.format(self.name, self.kind,
                                           str(self.start), str(self.end),
                                           self.pattern, self.reference)
-
-
-# # Parameters
-
-# In[3]:
-
 
 class Parameters:
     def __init__(self, inputfile):
@@ -72,24 +52,14 @@ class Parameters:
             if par.name == name:
                 return par
 
-
-# # Temperature
-
-# In[4]:
-
-
 class Temperature:
     def __init__(self, pars):
         self.temperature = pars['temperature']
         self.temperature_pattern = pars['temperature_pattern']
         self.molnumber_liq = pars['molnumber_liq']
         self.molnumber_liq_pattern = pars['molnumber_liq_pattern']
-        self.molnumber_vap = pars['molnumber_vap']
-        self.molnumber_vap_pattern = pars['molnumber_vap_pattern']
         self.boxsize_liq = pars['boxsize_liq']
         self.boxsize_liq_pattern = pars['boxsize_liq_pattern']
-        self.boxsize_vap = pars['boxsize_vap']
-        self.boxsize_vap_pattern = pars['boxsize_vap_pattern']
         self.eq_step = pars['eq_step']
         self.eq_step_pattern = pars['eq_step_pattern']
         self.run_step = pars['run_step']
@@ -97,13 +67,6 @@ class Temperature:
         self.pressure = pars['pressure']
         self.pressure_pattern = pars['pressure_pattern']
         self.expt_liq = pars['expt_liq']
-        self.expt_vap = pars['expt_vap']
-
-
-# # Temperatures
-
-# In[5]:
-
 
 class Temperatures:
     def __init__(self, inputfile):
@@ -116,12 +79,8 @@ class Temperatures:
             pars['temperature_pattern'] = temp.find('temp').get('pattern')
             pars['molnumber_liq'] = temp.find('molnumber_liq').text
             pars['molnumber_liq_pattern'] = temp.find('molnumber_liq').get('pattern')
-            pars['molnumber_vap'] = temp.find('molnumber_vap').text
-            pars['molnumber_vap_pattern'] = temp.find('molnumber_vap').get('pattern')
             pars['boxsize_liq'] = temp.find('boxsize_liq').text
             pars['boxsize_liq_pattern'] = temp.find('boxsize_liq').get('pattern')
-            pars['boxsize_vap'] = temp.find('boxsize_vap').text
-            pars['boxsize_vap_pattern'] = temp.find('boxsize_vap').get('pattern')
             pars['eq_step'] = temp.find('eq_step').text
             pars['eq_step_pattern'] = temp.find('eq_step').get('pattern')
             pars['run_step'] = temp.find('run_step').text
@@ -129,15 +88,11 @@ class Temperatures:
             pars['pressure'] = temp.find('pressure').text
             pars['pressure_pattern'] = temp.find('pressure').get('pattern')
             pars['expt_liq'] = temp.find('expt_liq').text
-            pars['expt_vap'] = temp.find('expt_vap').text
-            
+                        
             self.temperatures.append(Temperature(pars))
-
-
-# # System
-
-# In[6]:
-
+    
+    def GetDim(self):
+        return len(self.temperatures)
 
 class System:
     def __init__(self, inputfile):
@@ -148,12 +103,6 @@ class System:
         self.resname = e.find('system').find('resname').text
         self.resname_pattern = e.find('system').find('resname').get('pattern')
 
-
-# # Optimization Simulation parameters
-
-# In[7]:
-
-
 class ParticleSwarmParameters:
     def __init__(self, inputfile):
         e = xml.etree.ElementTree.parse(inputfile).getroot()
@@ -161,12 +110,6 @@ class ParticleSwarmParameters:
         self.w = float(e.find('pso').find('w').text)
         self.c1 = float(e.find('pso').find('c1').text)
         self.c2 = float(e.find('pso').find('c2').text)
-
-
-# # Utility Functions
-
-# In[9]:
-
 
 class Utility:
     @staticmethod
@@ -187,13 +130,12 @@ class Utility:
     def ReplaceParameters(particle, directory, tempinfo):
         temperatures = tempinfo.temperatures
         for temp in temperatures:
-            for state in ['Liq', 'Vap']:
-                for index in range(len(particle.pars)):
-                    parinfo = particle.parinfo.parameters
-                    file = directory + '/T_' + temp.temperature + '/' + state + '/Parameters.par'
-                    val = particle.pars[index]
-                    Utility.ReplaceText(file, parinfo[index].pattern, str(val))
-    
+            for index in range(len(particle.pars)):
+                parinfo = particle.parinfo.parameters
+                file = directory + '/T_' + temp.temperature + '/Liq/Parameters.par'
+                val = particle.pars[index]
+                Utility.ReplaceText(file, parinfo[index].pattern, str(val))
+                
     @staticmethod
     def ScaleContinuous(position, scale_min, scale_max):
         scale_pos = (scale_max - scale_min) * position
@@ -213,15 +155,10 @@ class Utility:
         loadmodule = 'module swap gnu7/7.3.0 intel/2019;'
         cd = 'cd ' + directory
         end_part = './GOMC_CPU_NPT in.conf > out.log 2>&1'
-        folders = []
-        for temp in temperatures:
-            for state in ['Liq', 'Vap']:
-                folders.append('/T_' + temp.temperature + '/' + state + ';')
-        commands = []
-        for folder in folders:
-            commands.append(loadmodule + cd + folder + end_part)
-        for command in commands:
-            os.system(command)
+        temp = temperatures[int(rank%3)]
+        folder = '/T_' + temp.temperature + '/Liq;'
+        command = loadmodule + cd + folder + end_part
+        os.system(command)
             
     @staticmethod
     def GetCost(particle, directory, tempinfo):
@@ -229,12 +166,8 @@ class Utility:
         folders = []
         target_densities = []
         for temp in temperatures:
-            for state in ['Liq', 'Vap']:
-                folders.append('/T_' + temp.temperature + '/' + state + '/')
-                if state == 'Liq':
-                    target_densities.append(float(temp.expt_liq))
-                else:
-                    target_densities.append(float(temp.expt_vap))
+            folders.append('/T_' + temp.temperature + '/Liq/')
+            target_densities.append(float(temp.expt_liq))
         densities = []
         for folder in folders:
             filename = directory + folder + 'Blk_PRODUCTION_BOX_0.dat'
@@ -246,7 +179,8 @@ class Utility:
                     lines.append(line)
                     numlines += 1
                 if numlines < 10:
-                    Utility.LogMessage('Error reading file from ' + directory + folder)
+                    Utility.LogMessage('Error reading file from ' +
+                                       directory + folder)
                     density = 9999
                 else:
                     start_line = int(numlines * 0.8)
@@ -259,30 +193,37 @@ class Utility:
                         density += float(columns[10])
                     density = density / length
             densities.append(density)
+        np.copyto(particle.dens, densities)
         return Utility.CostFunction(target_densities, densities, temperatures)
     
     @staticmethod
     def CostFunction(target_densities, densities, temperatures):
-        liq = 0.8 # make this 80% to 20%
-        vap = 1 - liq
-        coeff = []
-        for temp in temperatures:
-            coeff.append(liq)
-        for temp in temperatures:
-            coeff.append(vap)
+        liq_coeff = 0.91
+        slope_coeff = 0.09
         errors = []
+        temps = []
         for i in range(len(densities)):
             error = abs(densities[i] - target_densities[i]) / target_densities[i]
-            error *= coeff[i]
             errors.append(error)
-        return np.sum(errors)
+            temps.append(float(temperatures[i].temperature))
+        
+        sum_of_slops = 0.0
+        for i in range(len(errors)-1):
+            slope = (errors[i+1]-errors[i])/(temps[i+1]-temps[i])
+            sum_of_slops += slope
+
+        final = np.sum(errors) * liq_coeff + sum_of_slops * slope_coeff
+        return final
     
     @staticmethod
     def GetBestParticle(swarm):
         best_particle = swarm[0]
-        for particle in swarm:
-            if particle.cost < best_particle.cost:
-                best_particle = particle
+        length = len(swarm)
+        for i in range(length):
+            if i % 3 == 0:
+                particle = swarm[i]
+                if particle.cost < best_particle.cost:
+                    best_particle = particle
         return best_particle
 
     @staticmethod
@@ -297,11 +238,8 @@ class Utility:
     @staticmethod
     def PrintCoordinates(it, p):
         with open('data.csv', 'a') as file:
-            file.write('{},{},{},{},{},{},{},{},{},{},{},{}\n'
-                       .format(it, p.pos[0], p.pos[1], p.pos[2],
-                               p.pars[0], p.pars[1], p.pars[2],
-                               p.dens[0], p.dens[1], p.dens[2], p.dens[3],
-                               p.cost))
+            file.write('{},{},{},{},{},{},{}\n'
+                       .format(it, p.pos, p.pars, p.dens, p.vel, p.best_pos, p.cost))
             file.flush()
 
     @staticmethod
@@ -309,35 +247,36 @@ class Utility:
         base_directory = os.getcwd()
         shutil.rmtree('Equilibrate', ignore_errors=True)
         for temp in temperatures.temperatures:
-            for state in ['Liq', 'Vap']:
-                directory = "Equilibrate/T_" + temp.temperature + "/" + state + "/"
-                Utility.MakeDirectory(directory)
-                Utility.CopyDirectory("BUILD/model/*", directory)
-                Utility.CopyDirectory("BUILD/pack/*", directory)
-                Utility.CopyDirectory("BUILD/pdb/*", directory)
-                os.chmod(directory + 'packmol', 509)
+            directory = "Equilibrate/T_" + temp.temperature + "/Liq/"
+            Utility.MakeDirectory(directory)
+            Utility.CopyDirectory("BUILD/model/*", directory)
+            Utility.CopyDirectory("BUILD/pack/*", directory)
+            Utility.CopyDirectory("BUILD/pdb/*", directory)
+            os.chmod(directory + 'packmol', 509)
                 
-                os.chdir(directory)
-                Utility.ReplaceText("pack.inp", system.molname_pattern, system.molname)
-                if state == 'Liq':
-                    Utility.ReplaceText("pack.inp", temp.molnumber_liq_pattern, temp.molnumber_liq)
-                    Utility.ReplaceText("pack.inp", temp.boxsize_liq_pattern, temp.boxsize_liq)
-                else:
-                    Utility.ReplaceText("pack.inp", temp.molnumber_vap_pattern, temp.molnumber_vap)
-                    Utility.ReplaceText("pack.inp", temp.boxsize_vap_pattern, temp.boxsize_vap)
-                Utility.ReplaceText("build.tcl", system.resname_pattern, system.resname)
+            os.chdir(directory)
+            Utility.ReplaceText("pack.inp",
+                                system.molname_pattern,
+                                system.molname)
+            Utility.ReplaceText("pack.inp", temp.molnumber_liq_pattern, 
+                                temp.molnumber_liq)
+            Utility.ReplaceText("pack.inp", temp.boxsize_liq_pattern,
+                                temp.boxsize_liq)
+            Utility.ReplaceText("build.tcl", system.resname_pattern,
+                                system.resname)
                 
-                pars = ['epsilon', 'sigma', 'n']
-                for par in pars:
-                    parameter = parameters.GetParameterByName(par)
-                    Utility.ReplaceText("Parameters.par", parameter.pattern, parameter.reference)
+            pars = ['epsilon', 'sigma', 'n']
+            for par in pars:
+                parameter = parameters.GetParameterByName(par)
+                Utility.ReplaceText("Parameters.par", parameter.pattern,
+                                    parameter.reference)
                 
-                os.system('./packmol < pack.inp' + '>> build_error.log 2>&1')
-                loadmodule = 'module load vmd;'
-                os.system(loadmodule + 'vmd -dispdev text < build.tcl' + '>> build_error.log 2>&1')
+            os.system('./packmol < pack.inp' + '>> build_error.log 2>&1')
+            loadmodule = 'module load vmd;'
+            os.system(loadmodule + 'vmd -dispdev text < build.tcl' + '>> build_error.log 2>&1')
                 
-                # return to base directory
-                os.chdir(base_directory)
+            # return to base directory
+            os.chdir(base_directory)
         
     @staticmethod
     def RunEquilibrate(temperatures):
@@ -346,10 +285,9 @@ class Utility:
         directories = []
         temps = []
         for temp in temperatures.temperatures:
-            for state in ['Liq', 'Vap']:
-                directory = "Equilibrate/T_" + temp.temperature + "/" + state + "/"
-                directories.append(directory)
-                temps.append(temp)
+            directory = "Equilibrate/T_" + temp.temperature + "/Liq/"
+            directories.append(directory)
+            temps.append(temp)
         
         if rank < len(directories):
             i = rank
@@ -365,13 +303,14 @@ class Utility:
             os.chdir(directory)
             
             # Replace parameters with values
-            Utility.ReplaceText('eq.conf', temps[i].pressure_pattern, temps[i].pressure)
-            Utility.ReplaceText('eq.conf', temps[i].temperature_pattern, temps[i].temperature)
-            Utility.ReplaceText('eq.conf', temps[i].eq_step_pattern, temps[i].eq_step)
-            if 'Liq' in directory:
-                Utility.ReplaceText('eq.conf', temps[i].boxsize_liq_pattern, temps[i].boxsize_liq)
-            else:
-                Utility.ReplaceText('eq.conf', temps[i].boxsize_vap_pattern, temps[i].boxsize_vap)
+            Utility.ReplaceText('eq.conf', temps[i].pressure_pattern,
+                                temps[i].pressure)
+            Utility.ReplaceText('eq.conf', temps[i].temperature_pattern,
+                                temps[i].temperature)
+            Utility.ReplaceText('eq.conf', temps[i].eq_step_pattern,
+                                temps[i].eq_step)
+            Utility.ReplaceText('eq.conf', temps[i].boxsize_liq_pattern,
+                                temps[i].boxsize_liq)
             
             # Run the equilibrium simulation
             loadmodule = 'module swap gnu7/7.3.0 intel/2019;'
@@ -379,36 +318,34 @@ class Utility:
             
             # Go back to base directory
             os.chdir(base_directory)
+
     @staticmethod
     def GenerateRunFiles(directory, temperatures):
         Utility.MakeDirectory(directory)
         Utility.CopyDirectory('Equilibrate/*', directory)
-        os.system('echo ' + directory + '/*/*/ | xargs -n 1 cp BUILD/sim/in.conf')
-        os.system('echo ' + directory + '/*/*/ | xargs -n 1 cp BUILD/model/Parameters.par')
+        os.system('echo ' + directory +
+                  '/*/*/ | xargs -n 1 cp BUILD/sim/in.conf')
+        os.system('echo ' + directory +
+                  '/*/*/ | xargs -n 1 cp BUILD/model/Parameters.par')
         for temp in temperatures:
-            for state in ['Liq', 'Vap']:
-                folder = directory + '/T_' + temp.temperature + '/' + state + '/'
-                Utility.ReplaceText(folder + 'in.conf', temp.run_step_pattern, temp.run_step)
-                Utility.ReplaceText(folder + 'in.conf', temp.temperature_pattern, temp.temperature)
-                Utility.ReplaceText(folder + 'in.conf', temp.pressure_pattern, temp.pressure)
-                if state == 'Liq':
-                    Utility.ReplaceText(folder + 'in.conf', temp.boxsize_liq_pattern, temp.boxsize_liq)
-                else:
-                    Utility.ReplaceText(folder + 'in.conf', temp.boxsize_vap_pattern, temp.boxsize_vap)
-
-
-# # Particle
-
-# In[10]:
-
+            folder = directory + '/T_' + temp.temperature + '/Liq/'
+            Utility.ReplaceText(folder + 'in.conf', temp.run_step_pattern,
+                                temp.run_step)
+            Utility.ReplaceText(folder + 'in.conf',
+                                temp.temperature_pattern, temp.temperature)
+            Utility.ReplaceText(folder + 'in.conf', temp.pressure_pattern,
+                                temp.pressure)
+            Utility.ReplaceText(folder + 'in.conf', 
+                                temp.boxsize_liq_pattern, temp.boxsize_liq)
 
 class Particle:
     def __init__(self, pars, temps):
         self.dim = pars.GetDim()
+        self.tempdim = temps.GetDim()
         self.pos = np.random.uniform(0.0, 1.0, self.dim)
         self.pars = np.copy(self.pos)
         self.vel = np.zeros(shape=[self.dim], dtype=np.float32)
-        self.dens = np.zeros(shape=[4], dtype=np.float32)
+        self.dens = np.zeros(shape=[self.tempdim], dtype=np.float32)
         self.best_pos = np.copy(self.pos)
         self.cost = np.finfo(np.float32).max
         self.best_cost = self.cost
@@ -416,9 +353,9 @@ class Particle:
         self.tempinfo = temps
         
     def CalculateNextVelocity(self, w, c1, c2, global_best_pos):
-        self.vel = w * self.vel +                    c1 * np.random.uniform(0.0, 1.0, self.dim) *                    (self.best_pos - self.pos) +                    c2 * np.random.uniform(0.0, 1.0, self.dim) *                    (global_best_pos - self.pos)
-        self.vel = np.minimum(self.vel, np.repeat(0.2, self.dim))
-        self.vel = np.maximum(self.vel, np.repeat(-0.2, self.dim))
+        self.vel = w * self.vel + c1 * np.random.uniform(0.0, 1.0, self.dim) * (self.best_pos - self.pos) + c2 * np.random.uniform(0.0, 1.0, self.dim) *                    (global_best_pos - self.pos)
+        self.vel = np.minimum(self.vel, np.repeat(0.1, self.dim))
+        self.vel = np.maximum(self.vel, np.repeat(-0.1, self.dim))
         
     def CalculateNextPosition(self):
         self.pos = self.pos + self.vel
@@ -445,19 +382,20 @@ class Particle:
                                                            parameter.end)
 
     def Evaluate(self, it):
-        directory = 'runs/it{}/run'.format(it) + str(rank)
-        shutil.rmtree(directory, ignore_errors=True)
-        Utility.GenerateRunFiles(directory, self.tempinfo.temperatures)
-        self.ConvertPosToPars()
-        Utility.ReplaceParameters(self, directory, self.tempinfo)
+        directory = 'runs/it{}/run{}'.format(it, int(rank/3))
+
+        if rank % 3 == 0:
+            shutil.rmtree(directory, ignore_errors=True)
+            Utility.GenerateRunFiles(directory, self.tempinfo.temperatures)
+            self.ConvertPosToPars()
+            Utility.ReplaceParameters(self, directory, self.tempinfo)
+
+        comm.barrier()
         Utility.RunSimulation(self.tempinfo.temperatures, directory)
-        Utility.GetCost(self, directory, self.tempinfo)
-
-
-# # PSO
-
-# In[12]:
-
+        
+        comm.barrier()
+        if rank % 3 == 0:
+            self.cost = Utility.GetCost(self, directory, self.tempinfo)
 
 class PSO:
     def __init__(self, numIt, nPop, filename):
@@ -483,7 +421,8 @@ class PSO:
         # Equilibrate all simulations
         if rank == 0:
             Utility.LogMessage('Generate files for equilibrium')
-            Utility.GenerateFilesForEquilibrate(self.temperatures, self.parameters, self.system)
+            Utility.GenerateFilesForEquilibrate(self.temperatures,
+                                                self.parameters, self.system)
             Utility.LogMessage('Done generating equilibrium files')
             Utility.LogMessage('Running equilibrium simulations')
         comm.barrier()
@@ -499,9 +438,11 @@ class PSO:
         c2 = self.psoparameters.c2
         
         if rank == 0:
-            swarm = [Particle(self.parameters, self.temperatures) for i in range(nPop)]
+            swarm = [Particle(self.parameters, self.temperatures)
+                     for i in range(nPop)]
         else:
             swarm = None
+        
         if rank == 0:
             Utility.LogMessage('Scattering the initial swarm')
         particle = comm.scatter(swarm, root=0)
@@ -517,21 +458,28 @@ class PSO:
         swarm = comm.gather(particle, root=0)
         
         if rank == 0:
-            for p in swarm:
-                Utility.PrintCoordinates(it, p)
+            length = len(swarm)
+            for i in range(length):
+                if i % 3 == 0:
+                    p = swarm[i]
+                    Utility.PrintCoordinates(it, p)
                 
         if rank == 0:
             best_particle = Utility.GetBestParticle(swarm)
-            Utility.LogMessage('Best global cost: {}, {}, {}'
-                               .format(best_particle.cost, best_particle.pos,
+            Utility.LogMessage('Best global cost: {}, {}, {}, {}'
+                               .format(best_particle.cost,
+                                       best_particle.pars,
+                                       best_particle.pos,
                                        best_particle.dens))
         it += 1
         while it <= numIt:
             if rank == 0:
                 Utility.LogMessage('Starting iteration {}'.format(it))
-                for p in swarm:
-                    p.CalculateNextVelocity(w, c1, c2, best_particle.pos)
-                    p.CalculateNextPosition()
+                for i in range(len(swarm)):
+                    if i % 3 == 0:
+                        p = swarm[i]
+                        p.CalculateNextVelocity(w, c1, c2, best_particle.pos)
+                        p.CalculateNextPosition()
                 
             particle = comm.scatter(swarm, root=0)
             particle.Evaluate(it)
@@ -539,27 +487,25 @@ class PSO:
             swarm = comm.gather(particle, root=0)
         
             if rank == 0:
-                for p in swarm:
-                    Utility.PrintCoordinates(it, p)
+                length = len(swarm)
+                for i in range(length):
+                    if i % 3 == 0:
+                        p = swarm[i]
+                        Utility.PrintCoordinates(it, p)
         
             if rank == 0:
                 best_p = Utility.GetBestParticle(swarm)
                 if best_p.cost < best_particle.cost:
                     best_particle = best_p
                     Utility.LogMessage('Found better global cost: {}, {}, {}'
-                                       .format(best_particle.cost, best_particle.pos,
+                                       .format(best_particle.cost,
+                                               best_particle.pos,
                                                best_particle.dens))
                 else:
-                    Utility.LogMessage('Old global best is still better! {}, {}, {}'
-                                       .format(best_particle.cost, best_particle.pos,
-                                               best_particle.dens))
+                    Utility.LogMessage(
+                        'Old global best is still better! {}, {}, {}'
+                        .format(best_particle.cost, best_particle.pos,
+                                best_particle.dens))
             it += 1
 
-
-# # Testing
-
-# In[13]:
-
-
-pso = PSO(50, 64, 'par.xml')
-
+pso = PSO(30, 72, 'par.xml')
