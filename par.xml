@@ -66,4 +66,8 @@
         <c1>1.7</c1>
         <c2>1.7</c2>
     </pso>
+
+    <simulation>
+        <executable>GOMC_CPU_NPT</executable>
+    </simulation>
 </configuration>
