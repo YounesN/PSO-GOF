@@ -1,11 +1,11 @@
 # Optimization
 
 There are two ways to run this script:
-1. Let the script build your system by providing `pdb` file for single molecule, pack using `packmol`, provide `eq.conf` and `in.conf` so it will equilibriate and run the systems using these files. and etc.
+1. Let the script build your system by providing `pdb` file for single molecule, pack using `packmol`, provide `eq.conf` and `in.conf` so it will equilibriate and run the systems using these files. and etc. (more details below)
 2. Pre-build your systems and include them in `PREBUILT` folder. Inside, should be more directories for each temperature in the format `<temperature>K` (e.g. `300K`).
 
 # Pre-built systems:
-___This is the default behavior. i.e. if `PREBUILT` does exist it will using this method.___
+___This is the default behavior. i.e. if `PREBUILT` does exist it will run using this method.___
 
 Below is an example of directory `PREBUILT` which is required to run this type of system.
 ```
@@ -33,9 +33,14 @@ PREBUILT
 └── GOMC_CPU_NPT
 ```
 
-Anything outside temperature directories will be copied before running simulations (e.g. in this case I put the executable outside the directories so the script can update it everytime, in case there was a change to executable!). So, `GOMC_CPU_NPT` will be copied inside each temperature directory. _Make sure you set the executable name inside `par.xml`_
+Anything outside temperature directories will be copied before running simulations (e.g. in this case I put the executable outside the directories so the script can update it everytime, in case there was a change to executable!). So, `GOMC_CPU_NPT` will be copied inside each temperature directory. _Also make sure you set the executable name inside `par.xml`_. This is to just to let the script know what executable to run. It will still copy the executable even if you don't specify it inside `par.xml`. However, if it will throw an error if it couldn't find the executable name.
+```
+<simulation>
+  <executable>GOMC_CPU_NPT</executable>
+</simulation>
+```
 
-Using this method for each temperature we only need to set the temperatures you would like to run and the expected density inside `par.xml` file. An example of input file for this method is included in `sample-prebuilt-par.xml`.
+For each temperature we need to set the temperatures and the expected density inside `par.xml` file. An example of input file for this method is included in `sample-prebuilt-par.xml`.
 ```xml
 <data>
   <temperature>
@@ -56,12 +61,12 @@ Using this method for each temperature we only need to set the temperatures you 
   </temperature>
 </data>
 ```
-All your `temperature` tags should be included inside `data`. Your actual temperature should be inside `temp` tag inside each `temperature` tag. And your experimental (expected) density inside `expt_dens` tag.
+All of your `temperature` tags should be included inside `data`. Your actual temperature should be inside `temp` tag inside each `temperature` tag. And your experimental (expected) density inside `expt_dens` tag.
 
 Finally, you need to set parameters and its range, what pattern to look for and where to find them.
 Below is an example of required fields for parameters.
 Consider the first parameter: It will look for `EEEEEEE` pattern inside `water_mie.par` file which should reside inside in temperature directories. (Next to `in.conf` files). Then it will replace it by a value between `30` and `120`. `kind` is set to `continuous` which means any value between `start` and `end` is valid. If it was set to `discrete` only integer numbers will be generated. This is useful to set value for `N`. Finally `name` is a field to recognize the parameter name which is useful to print simulation data.
-```
+```xml
 <parameters>
   <parameter>
     <filename>water_mie.par</filename>
@@ -81,3 +86,6 @@ Consider the first parameter: It will look for `EEEEEEE` pattern inside `water_m
   </parameter>
 </parameters>
 ```
+
+# Automated build:
+- [ ] It works right now, however, this doc needs to be completed.
