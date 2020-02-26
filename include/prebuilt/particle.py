@@ -14,9 +14,7 @@ class Particle:
     self.tempinfo = temps
       
   def CalculateNextVelocity(self, w, c1, c2, global_best_pos):
-    self.vel = w * self.vel + c1 * np.random.uniform(0.0, 1.0, self.dim) *
-    (self.best_pos - self.pos) + c2 * np.random.uniform(0.0, 1.0, self.dim) *
-    (global_best_pos - self.pos)
+    self.vel = w * self.vel + c1 * np.random.uniform(0.0, 1.0, self.dim) * (self.best_pos - self.pos) + c2 * np.random.uniform(0.0, 1.0, self.dim) * (global_best_pos - self.pos)
     self.vel = np.minimum(self.vel, np.repeat(0.1, self.dim))
     self.vel = np.maximum(self.vel, np.repeat(-0.1, self.dim))
       
