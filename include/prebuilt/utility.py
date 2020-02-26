@@ -18,7 +18,6 @@ sys.path.append("./include/prebuilt/")
 from parameter import Parameter, Parameters
 from temperature import Temperature, Temperatures
 from particleswarm import ParticleSwarmParameters
-from utility import Utility
 from particle import Particle
 from simulation import Simulation
 
