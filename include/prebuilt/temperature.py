@@ -1,3 +1,19 @@
+import numpy as np
+from mpi4py import MPI
+import errno
+import shutil
+import fileinput
+import os
+import sys
+import datetime
+import re
+import xml.etree.ElementTree
+import glob
+
+comm = MPI.COMM_WORLD
+size = comm.Get_size()
+rank = comm.Get_rank()
+
 class Temperature:
   def __init__(self, pars):
     self.temperature = pars['temperature']
