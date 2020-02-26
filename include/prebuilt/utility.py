@@ -53,11 +53,11 @@ class Utility:
     folders = []
     target_densities = []
     for temp in temperatures:
-      folders.append('/T_' + temp.temperature + '/Liq/')
-      target_densities.append(float(temp.expt_liq))
+      folders.append('/' + temp.temperature + 'K/')
+      target_densities.append(float(temp.expt_dens))
     densities = []
     for folder in folders:
-      filename = directory + folder + 'Blk_PRODUCTION_BOX_0.dat'
+      filename = directory + folder + 'Blk_SPCE_BOX_0.dat'
       density = 0
       with open(filename, 'r') as file:
         lines = []
@@ -66,8 +66,7 @@ class Utility:
           lines.append(line)
           numlines += 1
         if numlines < 10:
-          Utility.LogMessage('Error reading file from ' +
-                              directory + folder)
+          Utility.LogMessage('Error reading file ' + directory + folder)
           density = 9999
         else:
           start_line = int(numlines * 0.8)

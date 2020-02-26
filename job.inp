@@ -1,5 +1,5 @@
 #PBS -q wsuq
-#PBS -l select=24:ncpus=3:mem=32gb:cpu_type=Intel
+#PBS -l select=20:ncpus=4:mem=32gb:cpu_type=Intel
 #PBS -j oe
 #PBS -m abe
 #PBS -M fe1855@wayne.edu
@@ -11,4 +11,4 @@ echo Directory is `pwd`
 
 # Run job
 source ~/install/anaconda3/bin/activate
-mpiexec -n 72 python pso-general.py 2>&1
+mpiexec -n 80 python prebuilt.py 2>&1

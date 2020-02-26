@@ -58,5 +58,5 @@ class Particle:
                           self.tempdim)
     
     comm.barrier()
-    if rank % 3 == 0:
+    if rank % self.tempdim == 0:
       self.cost = Utility.GetCost(self, directory, self.tempinfo)

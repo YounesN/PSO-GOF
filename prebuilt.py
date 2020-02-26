@@ -23,4 +23,4 @@ import particle
 import simulation
 import pso
 
-pso = PSO(30, 72, 'par.xml')
+pso = PSO(30, 80, 'par.xml')
