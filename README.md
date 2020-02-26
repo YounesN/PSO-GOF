@@ -10,30 +10,32 @@ ___This is the default behavior. i.e. if `PREBUILT` does exist it will run using
 Below is an example of directory `PREBUILT` which is required to run this type of system.
 ```
 PREBUILT
-├── 300K
-|   ├── in.conf
-|   ├── SPCE_merged.psf
-|   ├── water_mie.par
-|   └── SPCE_BOX_0_restart.pdb
-├── 373K
-|   ├── in.conf
-|   ├── SPCE_merged.psf
-|   ├── water_mie.par
-|   └── SPCE_BOX_0_restart.pdb
-├── 450K
-|   ├── in.conf
-|   ├── SPCE_merged.psf
-|   ├── water_mie.par
-|   └── SPCE_BOX_0_restart.pdb
-├── 550K
-|   ├── in.conf
-|   ├── SPCE_merged.psf
-|   ├── water_mie.par
-|   └── SPCE_BOX_0_restart.pdb
+├── RunFiles
+|   ├── 300K
+|   |   ├── in.conf
+|   |   ├── SPCE_merged.psf
+|   |   ├── water_mie.par
+|   |   └── SPCE_BOX_0_restart.pdb
+|   ├── 373K
+|   |   ├── in.conf
+|   |   ├── SPCE_merged.psf
+|   |   ├── water_mie.par
+|   |   └── SPCE_BOX_0_restart.pdb
+|   ├── 450K
+|   |   ├── in.conf
+|   |   ├── SPCE_merged.psf
+|   |   ├── water_mie.par
+|   |   └── SPCE_BOX_0_restart.pdb
+|   └── 550K
+|       ├── in.conf
+|       ├── SPCE_merged.psf
+|       ├── water_mie.par
+|       └── SPCE_BOX_0_restart.pdb
+|
 └── GOMC_CPU_NPT
 ```
 
-Anything outside temperature directories will be copied before running simulations (e.g. in this case I put the executable outside the directories so the script can update it everytime, in case there was a change to executable!). So, `GOMC_CPU_NPT` will be copied inside each temperature directory. _Also make sure you set the executable name inside `par.xml`_. This is to just to let the script know what executable to run. It will still copy the executable even if you don't specify it inside `par.xml`. However, if it will throw an error if it couldn't find the executable name.
+Anything outside `RunFiles` directory will be copied into temperature directories before running simulations (e.g. in this case I put the executable outside so the script can update it everytime, in case there was a change to executable!). So, `GOMC_CPU_NPT` will be copied inside each temperature directory. _Also make sure you set the executable name inside `par.xml`_. This is to just to let the script know what executable to run. It will still copy the executable even if you don't specify it inside `par.xml`. However, if it will throw an error if it couldn't find the executable name.
 ```
 <simulation>
   <executable>GOMC_CPU_NPT</executable>

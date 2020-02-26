@@ -13,7 +13,9 @@ class Particle:
     self.tempinfo = temps
       
   def CalculateNextVelocity(self, w, c1, c2, global_best_pos):
-    self.vel = w * self.vel + c1 * np.random.uniform(0.0, 1.0, self.dim) * (self.best_pos - self.pos) + c2 * np.random.uniform(0.0, 1.0, self.dim) *                    (global_best_pos - self.pos)
+    self.vel = w * self.vel + c1 * np.random.uniform(0.0, 1.0, self.dim) *
+    (self.best_pos - self.pos) + c2 * np.random.uniform(0.0, 1.0, self.dim) *
+    (global_best_pos - self.pos)
     self.vel = np.minimum(self.vel, np.repeat(0.1, self.dim))
     self.vel = np.maximum(self.vel, np.repeat(-0.1, self.dim))
       
@@ -42,9 +44,9 @@ class Particle:
                                                     parameter.end)
 
   def Evaluate(self, it):
-    directory = 'runs/it{}/run{}'.format(it, int(rank/3))
+    directory = 'runs/it{}/run{}'.format(it, int(rank/self.tempdim))
 
-    if rank % 3 == 0:
+    if rank % self.tempdim == 0:
       shutil.rmtree(directory, ignore_errors=True)
       Utility.GenerateRunFiles(directory, self.tempinfo.temperatures)
       self.ConvertPosToPars()

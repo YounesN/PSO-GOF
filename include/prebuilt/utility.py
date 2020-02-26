@@ -103,11 +103,11 @@ class Utility:
     return final
   
   @staticmethod
-  def GetBestParticle(swarm):
+  def GetBestParticle(swarm, num_of_temps):
     best_particle = swarm[0]
     length = len(swarm)
     for i in range(length):
-      if i % 3 == 0:
+      if i % num_of_temps == 0:
         particle = swarm[i]
         if particle.cost < best_particle.cost:
           best_particle = particle
@@ -126,5 +126,10 @@ class Utility:
   def PrintCoordinates(it, p):
     with open('data.csv', 'a') as file:
       file.write('{},{},{},{},{},{},{}\n'
-                  .format(it, p.pos, p.pars, p.dens, p.vel, p.best_pos, p.cost))
+                 .format(it, p.pos, p.pars, p.dens, p.vel, p.best_pos, p.cost))
       file.flush()
+      
+  @staticmethod
+  def GenerateRunFiles(directory, temperatures):
+    Utility.MakeDirectory(directory)
+    Utility.CopyDirectory('PREBUILT/RunFiles/*', directory)
