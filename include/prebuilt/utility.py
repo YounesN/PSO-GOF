@@ -1,3 +1,7 @@
+comm = MPI.COMM_WORLD
+size = comm.Get_size()
+rank = comm.Get_rank()
+
 class Utility:
   @staticmethod
   def MakeDirectory(directory):

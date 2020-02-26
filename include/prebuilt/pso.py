@@ -1,3 +1,7 @@
+comm = MPI.COMM_WORLD
+size = comm.Get_size()
+rank = comm.Get_rank()
+
 class PSO:
   def __init__(self, numIt, nPop, filename):
     it = 0

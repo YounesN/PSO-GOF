@@ -1,3 +1,7 @@
+comm = MPI.COMM_WORLD
+size = comm.Get_size()
+rank = comm.Get_rank()
+
 class Particle:
   def __init__(self, pars, temps, sim):
     self.exec = sim.executable
