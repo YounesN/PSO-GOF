@@ -1,5 +1,6 @@
 class Particle:
-  def __init__(self, pars, temps):
+  def __init__(self, pars, temps, sim):
+    self.exec = sim.executable
     self.dim = pars.GetDim()
     self.tempdim = temps.GetDim()
     self.pos = np.random.uniform(0.0, 1.0, self.dim)
@@ -53,7 +54,8 @@ class Particle:
       Utility.ReplaceParameters(self, directory, self.tempinfo)
 
     comm.barrier()
-    Utility.RunSimulation(self.tempinfo.temperatures, directory)
+    Utility.RunSimulation(self.tempinfo.temperatures, directory, self.exec,
+                          self.tempdim)
     
     comm.barrier()
     if rank % 3 == 0:

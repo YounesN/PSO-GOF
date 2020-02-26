@@ -27,7 +27,7 @@ class PSO:
     c2 = self.psoparameters.c2
     
     if rank == 0:
-      swarm = [Particle(self.parameters, self.temperatures) for i in range(nPop)]
+      swarm = [Particle(self.parameters, self.temperatures, self.simulation) for i in range(nPop)]
     else:
       swarm = None
     

@@ -19,7 +19,7 @@ class Utility:
     for temp in temperatures:
       for index in range(len(particle.pars)):
         parinfo = particle.parinfo.parameters
-        file = directory + '/T_' + temp.temperature + '/Liq/Parameters.par'
+        file = directory + '/' + temp.temperature + 'K/' + parinfo[index].filename
         val = particle.pars[index]
         Utility.ReplaceText(file, parinfo[index].pattern, str(val))
               
@@ -38,12 +38,12 @@ class Utility:
     return scale_pos
 
   @staticmethod
-  def RunSimulation(temperatures, directory, executable):
+  def RunSimulation(temperatures, directory, executable, number_of_temperatures):
     loadmodule = 'module swap gnu7/7.3.0 intel/2019;'
     cd = 'cd ' + directory
     end_part = './' + executable + ' in.conf > out.log 2>&1'
-    temp = temperatures[int(rank%3)]
-    folder = '/T_' + temp.temperature + '/Liq;'
+    temp = temperatures[int(rank % number_of_temperatures)]
+    folder = '/' + temp.temperature + 'K/;'
     command = loadmodule + cd + folder + end_part
     os.system(command)
           
