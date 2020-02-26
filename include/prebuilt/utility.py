@@ -131,4 +131,5 @@ class Utility:
   @staticmethod
   def GenerateRunFiles(directory, temperatures):
     Utility.MakeDirectory(directory)
+    os.system('echo ./PREBUILT/RunFiles/*K/ | xargs -n 1 cp ./PREBUILT/*')
     Utility.CopyDirectory('PREBUILT/RunFiles/*', directory)
