@@ -14,7 +14,6 @@ comm = MPI.COMM_WORLD
 size = comm.Get_size()
 rank = comm.Get_rank()
 
-sys.path.append("./include/prebuilt/")
 from parameter import Parameter, Parameters
 from temperature import Temperature, Temperatures
 from particleswarm import ParticleSwarmParameters
