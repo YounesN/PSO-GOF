@@ -1,8 +1,11 @@
 import numpy as np
 from mpi4py import MPI
+
 comm = MPI.COMM_WORLD
 size = comm.Get_size()
 rank = comm.Get_rank()
+
+from utility import Utility
 
 class Particle:
   def __init__(self, pars, temps, sim):
