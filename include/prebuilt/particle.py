@@ -1,24 +1,8 @@
 import numpy as np
 from mpi4py import MPI
-import errno
-import shutil
-import fileinput
-import os
-import sys
-import datetime
-import re
-import xml.etree.ElementTree
-import glob
-
 comm = MPI.COMM_WORLD
 size = comm.Get_size()
 rank = comm.Get_rank()
-
-from parameter import Parameter, Parameters
-from temperature import Temperature, Temperatures
-from particleswarm import ParticleSwarmParameters
-from utility import Utility
-from simulation import Simulation
 
 class Particle:
   def __init__(self, pars, temps, sim):
