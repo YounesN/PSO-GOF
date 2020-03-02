@@ -2,6 +2,7 @@ import numpy as np
 from mpi4py import MPI
 import os
 import datetime
+import fileinput
 
 comm = MPI.COMM_WORLD
 size = comm.Get_size()
