@@ -1,3 +1,5 @@
+import xml.etree.ElementTree
+
 class Parameter:
   def __init__(self, pars):
     self.filename = pars['filename']
