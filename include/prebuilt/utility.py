@@ -19,6 +19,8 @@ class Utility:
   
   @staticmethod
   def ReplaceText(filename, text_to_search, replacement_text):
+    filename = os.getcwd() + '/' + filename
+
     with fileinput.FileInput(filename, inplace=True) as file:
       for line in file:
         print(line.replace(text_to_search, replacement_text), end='')
