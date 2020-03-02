@@ -1,5 +1,5 @@
 import numpy as np
-
+import xml.etree.ElementTree
 
 class Simulation:
   def __init__(self, inputfile):

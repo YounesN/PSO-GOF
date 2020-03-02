@@ -1,3 +1,5 @@
+import xml.etree.ElementTree
+
 class ParticleSwarmParameters:
   def __init__(self, inputfile):
     e = xml.etree.ElementTree.parse(inputfile).getroot()
