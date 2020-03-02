@@ -17,7 +17,7 @@ class PSO:
   def __init__(self, numIt, nPop, filename):
     it = 0
 
-    filename = os.getcwd() + filename
+    filename = os.getcwd() + '/' + filename
     
     # Read input file
     if rank == 0:
