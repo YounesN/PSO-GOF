@@ -21,19 +21,19 @@
   <data>
     <temperature>
       <temp>300</temp>
-      <expt_liq>996.56</expt_liq>
+      <expt_dens>996.56</expt_dens>
     </temperature>
     <temperature>
       <temp>373</temp>
-      <expt_liq>958.46</expt_liq>
+      <expt_dens>958.46</expt_dens>
     </temperature>
     <temperature>
       <temp>450</temp>
-      <expt_liq>890.34</expt_liq>
+      <expt_dens>890.34</expt_dens>
     </temperature>
     <temperature>
       <temp>550</temp>
-      <expt_liq>755.81</expt_liq>
+      <expt_dens>755.81</expt_dens>
     </temperature>
   </data>
   
