@@ -15,6 +15,8 @@ from utility import Utility
 class PSO:
   def __init__(self, numIt, nPop, filename):
     it = 0
+
+    filename = "../../" + filename
     
     # Read input file
     if rank == 0:
