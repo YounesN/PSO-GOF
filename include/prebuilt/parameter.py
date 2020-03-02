@@ -21,7 +21,7 @@ class Parameters:
     e = xml.etree.ElementTree.parse(inputfile).getroot()
     for par in e.find('parameters').findall('parameter'):
       pars = {}
-      pars['filename'] = par.find('name').text
+      pars['filename'] = par.find('filename').text
       pars['name'] = par.find('name').text
       pars['kind'] = par.find('kind').text
       pars['start'] = par.find('start').text
