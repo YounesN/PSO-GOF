@@ -1,5 +1,6 @@
 import numpy as np
 from mpi4py import MPI
+import os
 
 comm = MPI.COMM_WORLD
 size = comm.Get_size()
@@ -16,7 +17,7 @@ class PSO:
   def __init__(self, numIt, nPop, filename):
     it = 0
 
-    filename = "../../" + filename
+    filename = os.getcwd() + filename
     
     # Read input file
     if rank == 0:
