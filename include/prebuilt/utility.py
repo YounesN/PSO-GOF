@@ -3,6 +3,7 @@ from mpi4py import MPI
 import os
 import datetime
 import fileinput
+from pathlib import Path
 
 comm = MPI.COMM_WORLD
 size = comm.Get_size()
@@ -71,6 +72,11 @@ class Utility:
     for folder in folders:
       filename = directory + folder + 'Blk_SPCE_BOX_0.dat'
       density = 0
+      my_file = Path(filename)
+      if(not my_file.is_file()): # simulation failed for some reason
+        Utility.LogMessage('Error reading file ' + filename)
+        densities.append(9999)   # return 9999 as the density
+        continue                 # continue to the next folder
       with open(filename, 'r') as file:
         lines = []
         numlines = 0
@@ -78,7 +84,7 @@ class Utility:
           lines.append(line)
           numlines += 1
         if numlines < 10:
-          Utility.LogMessage('Error reading file ' + directory + folder)
+          Utility.LogMessage('File exists but doesn\'t have enough data: ' + filename)
           density = 9999
         else:
           start_line = int(numlines * 0.8)
