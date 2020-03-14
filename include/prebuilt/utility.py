@@ -58,7 +58,9 @@ class Utility:
     temp = temperatures[int(rank % number_of_temperatures)]
     folder = '/' + temp.temperature + 'K/;'
     command = loadmodule + cd + folder + end_part
-    os.system(command)
+    ret = os.system(command)
+    if ret != 0:
+      Utility.LogMessage('Simulation ' + directory + ' returned with ' + ret + ' return code!')
           
   @staticmethod
   def GetCost(particle, directory, tempinfo):
