@@ -60,7 +60,7 @@ class Utility:
     command = loadmodule + cd + folder + end_part
     ret = os.system(command)
     if ret != 0:
-      Utility.LogMessage('Simulation ' + directory + ' returned with ' + ret + ' return code!')
+      Utility.LogMessage('Simulation ' + directory + ' returned with ' + str(ret) + ' return code!')
           
   @staticmethod
   def GetCost(particle, directory, tempinfo):
