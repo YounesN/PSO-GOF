@@ -54,7 +54,7 @@ class Utility:
   def RunSimulation(temperatures, directory, executable, number_of_temperatures):
     loadmodule = 'module swap gnu7/7.3.0 intel/2019;'
     cd = 'cd ' + directory
-    end_part = './' + executable + ' in.conf > out.log 2>&1'
+    end_part = executable + ' in.conf > out.log 2>&1'
     temp = temperatures[int(rank % number_of_temperatures)]
     folder = '/' + temp.temperature + 'K/;'
     command = loadmodule + cd + folder + end_part
@@ -151,5 +151,6 @@ class Utility:
   @staticmethod
   def GenerateRunFiles(directory, temperatures):
     Utility.MakeDirectory(directory)
-    os.system('echo ./PREBUILT/RunFiles/*K/ | xargs -n 1 cp ./PREBUILT/*')
+    # Let's not copy the executable and just run one from one specified in PATH
+    # os.system('echo ./PREBUILT/RunFiles/*K/ | xargs -n 1 cp ./PREBUILT/*')
     Utility.CopyDirectory('PREBUILT/RunFiles/*', directory)
