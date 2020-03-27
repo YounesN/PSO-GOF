@@ -97,7 +97,7 @@ class PSO:
             Utility.PrintCoordinates(it, swarm[i])
   
       if rank == 0:
-        best_p = Utility.GetBestParticle(swarm)
+        best_p = Utility.GetBestParticle(swarm, number_of_temperatures)
         if best_p.cost < best_particle.cost:
           best_particle = best_p
           Utility.LogMessage('Found better global cost: {}, {}, {}'
