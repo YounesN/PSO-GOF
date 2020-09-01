@@ -145,7 +145,6 @@ end structure
 ```
 `packed.pdb` is the output of packmol. `MOLNAME.pdb` will be the input of the packmol. In your par.xml file you are required to provide molecule name which the script will replace here. E.g. if you insert `cyclohexane` as your molecule name, the script will replace `MOLNAME` with `cyclohexane` and you are also required to provide `cyclohexane.pdb` in `pdb` directory.
 
-> [!NOTE]
 > par.xml:
 ```xml
 <molname pattern="MOLNAME">cyclohexane</molname>
@@ -153,14 +152,12 @@ end structure
 
 This tool will also read `MOLNUM` from configuration file and automatically replace this for each temperature. So after number, `MOLNUM` text is required.
 
-> [!NOTE]
 > par.xml:
 ```xml
 <molnumber_liq pattern="MOLNUM">400</molnumber_liq>
 ```
 And finally, the script will replace `BOXSIZE` with provided boxsize for each temperature.
 
-> [!NOTE]
 > par.xml:
 ```xml
 <boxsize_liq pattern="BOXSIZE">43.275</boxsize_liq>
