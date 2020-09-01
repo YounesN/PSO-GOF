@@ -8,10 +8,11 @@ rank = comm.Get_rank()
 
 from parameter import Parameters
 from temperature import Temperatures
-from simulation import Simulation
+from system import System
 from particleswarm import ParticleSwarmParameters
 from particle import Particle
 from utility import Utility
+from charges import Charges
 
 
 class PSO:
@@ -24,22 +25,26 @@ class PSO:
             self.temperatures = Temperatures(filename)
             self.system = System(filename)
             self.psoparameters = ParticleSwarmParameters(filename)
+            self.charges = Charges(filename)
         else:
             self.parameters = None
             self.temperatures = None
             self.system = None
             self.psoparameters = None
+            self.charges = None
             
         self.parameters = comm.bcast(self.parameters, root=0)
         self.temperatures = comm.bcast(self.temperatures, root=0)
         self.system = comm.bcast(self.system, root=0)
         self.psoparameters = comm.bcast(self.psoparameters, root=0)
+        self.charges = comm.bcast(self.charges, root=0)
 
         # Equilibrate all simulations
         if rank == 0:
             Utility.LogMessage('Generate files for equilibrium')
             Utility.GenerateFilesForEquilibrate(self.temperatures,
-                                                self.parameters, self.system)
+                                                self.parameters, self.system,
+                                                self.charges)
             Utility.LogMessage('Done generating equilibrium files')
             Utility.LogMessage('Running equilibrium simulations')
         comm.barrier()

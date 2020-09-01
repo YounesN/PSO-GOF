@@ -37,7 +37,6 @@ class PSO:
     self.psoparameters = comm.bcast(self.psoparameters, root=0)
 
     # Initilize some variables
-    dim = self.parameters.GetDim()
     number_of_temperatures = self.temperatures.GetDim()
     w = self.psoparameters.w
     c1 = self.psoparameters.c1

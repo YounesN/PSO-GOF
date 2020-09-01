@@ -1,0 +1,13 @@
+1. pack.inp
+  a. replace molecule name
+  b. replace molecule number
+  c. replace box size
+2. build.tcl
+  a. replace resname
+3. Parameters.par
+  a. replace epsilon, sigma, and n
+
+4. Run packmol
+  a. ./packmol < pack.inp >> build_error.log 2>&1
+5. Run VMD
+  a. vmd -dispdev text < build.tcl >> build_error.log 2>&1

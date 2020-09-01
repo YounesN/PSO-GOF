@@ -4,6 +4,7 @@ import os
 import datetime
 import fileinput
 from pathlib import Path
+import shutil
 
 comm = MPI.COMM_WORLD
 size = comm.Get_size()
@@ -141,7 +142,7 @@ class Utility:
             file.flush()
 
     @staticmethod
-    def GenerateFilesForEquilibrate(temperatures, parameters, system):
+    def GenerateFilesForEquilibrate(temperatures, parameters, system, charges):
         base_directory = os.getcwd()
         shutil.rmtree('Equilibrate', ignore_errors=True)
         for temp in temperatures.temperatures:
