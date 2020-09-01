@@ -164,3 +164,124 @@ And finally, the script will replace `BOXSIZE` with provided boxsize for each te
 ```
 
 ## build.tcl
+This script file is required by VMD and it will generate the final PDB and PSF file required by GOMC.
+```
+package require psfgen
+
+topology ./Topology.top
+
+segment RESNAME {
+    pdb packed.pdb
+    first none
+    last none
+}
+
+coordpdb ./packed.pdb RESNAME
+
+writepsf ./START.psf
+writepdb ./START.pdb
+```
+
+It requires `Topology.top` file inside `model` directory.
+A `resname` inside configuration file.
+
+> par.xml:
+```xml
+<resname pattern="RESNAME">C6C</resname>
+```
+
+and `packed.pdb` which packmol generates in previous step.
+
+## <molname>.pdb
+PDB file for a single molecule.
+
+## eq.conf and in.conf
+These are typical GOMC files. However, there are few places where we need to put placeholders and the PSO script will replace them during run. 
+
+1. `PPPP`: Pressure
+2. `TTTT`: Temperature
+3. `RUNSTEP`: Run step
+4. `BOXSIZE`: Box size
+
+Example these files can be found in `BUILD/sim` file.
+
+## par.xml
+Finally, the configuration file specifies everything needed to run the PSO-GOF tool.
+```xml
+<configuration>
+    <parameters>
+        <parameter>
+            <name>epsilon</name>
+            <kind>continuous</kind>
+            <start>30</start>
+            <end>120</end>
+            <pattern>EEEEEEE</pattern>
+            <reference>52.5</reference>
+        </parameter>
+        <parameter>
+            <name>sigma</name>
+            <kind>continuous</kind>
+            <start>3.0</start>
+            <end>4.5</end>
+            <pattern>SSSSSSSSS</pattern>
+            <reference>3.91</reference>
+        </parameter>
+        <parameter>
+            <name>n</name>
+            <kind>discrete</kind>
+            <start>10</start>
+            <end>20</end>
+            <pattern>NNN</pattern>
+            <reference>12</reference>
+        </parameter>
+    </parameters>
+    
+    <data>
+        <temperature>
+            <temp pattern="TTTT">500</temp>
+            <molnumber_liq pattern="MOLNUM">400</molnumber_liq>
+            <boxsize_liq pattern="BOXSIZE">43.275</boxsize_liq>
+            <eq_step pattern="RUNSTEP">2000000</eq_step>
+            <run_step pattern="RUNSTEP">5000000</run_step>
+            <pressure pattern="PPPP">20.124</pressure>
+            <expt_liq>530.62</expt_liq>
+        </temperature>
+        <temperature>
+            <temp pattern="TTTT">430</temp>
+            <molnumber_liq pattern="MOLNUM">400</molnumber_liq>
+            <boxsize_liq pattern="BOXSIZE">40.745</boxsize_liq>
+            <eq_step pattern="RUNSTEP">2000000</eq_step>
+            <run_step pattern="RUNSTEP">5000000</run_step>
+            <pressure pattern="PPPP">6.318</pressure>
+            <expt_liq>635.69</expt_liq>
+        </temperature>
+        <temperature>
+            <temp pattern="TTTT">355</temp>
+            <molnumber_liq pattern="MOLNUM">400</molnumber_liq>
+            <boxsize_liq pattern="BOXSIZE">39.118</boxsize_liq>
+            <eq_step pattern="RUNSTEP">2000000</eq_step>
+            <run_step pattern="RUNSTEP">5000000</run_step>
+            <pressure pattern="PPPP">1.0476</pressure>
+            <expt_liq>718.4</expt_liq>
+        </temperature>
+    </data>
+    
+    <system>
+        <molname pattern="MOLNAME">cyclohexane</molname>
+        <resname pattern="RESNAME">C6C</resname>
+    </system>
+    
+    <pso>
+        <w>0.715</w>
+        <c1>1.7</c1>
+        <c2>1.7</c2>
+    </pso>
+
+    <simulation>
+        <executable>GOMC_CPU_NPT</executable>
+    </simulation>
+</configuration>
+
+```
+The above is an example file for running cyclohexane.
+It runs for three different temperatures (i.e. 500, 430, and 355) and replaces `epsilon`, `sigma` and `n`. 
