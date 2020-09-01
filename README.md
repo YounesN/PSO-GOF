@@ -90,4 +90,80 @@ Consider the first parameter: It will look for `EEEEEEE` pattern inside `water_m
 ```
 
 # Automated build:
-- [ ] It works right now, however, this doc needs to be completed.
+The automated version of PSO will build PDB and PSF file for you so you don't have to!
+After building your system, it will equilibriate for the required temperatures and then start running PSO algorithm to ensure stable results.
+
+To use this tool you will have to provide few input files. Below specify the type of files and their locations:
+```
+par.xml                     # Configuration file in XML format
+BUILD                       # Required files to build system
+├── model
+|   ├── Parameters.par      # Force field parameter file
+|   └── Topology.top        # Topology file
+├── pack
+|   ├── pack.inp            # packmol required script
+|   └── build.tcl           # VMD build file
+├── pdb
+|   └── <molname>.pdb       # single molecule PDB
+└── sim
+    ├── eq.conf             # GOMC config file for equilibrium
+    └── in.conf             # GOMC config file used for running PSO
+```
+
+We will explain each file invidually in the next following sections.
+## Parameters.par
+This file should include force field parameters. Some examples are included [here](https://github.com/GOMC-WSU/GOMC_Examples/tree/master/common).
+
+## Topology.top
+Topology file required to build using VMD. Cyclohexane topology file will look like following:
+```
+RESI   C6C     0.00	! cyclohexane
+GROUP
+ATOM   C1  CH2  0.00000  ! 
+ATOM   C2  CH2  0.00000  !    
+ATOM   C3  CH2  0.00000  !     C1
+ATOM   C4  CH2  0.00000  !    /  \
+ATOM   C5  CH2  0.00000  !   C2  C6
+ATOM   C6  CH2  0.00000  !   |    | 
+                         !   C3  C5
+BOND C1 C2  C6 C1  C2 C3 !    \  /
+BOND C3 C4  C4 C5  C5 C6 !     C4   
+```
+
+## pack.inp
+`packmol` uses this file to pack your molecules into a PDB file. Here is an example of this file:
+```
+tolerance 3.0
+filetype pdb
+
+output packed.pdb
+
+structure ./MOLNAME.pdb
+  number MOLNUM
+  inside cube 0.01 0.01 0.01 BOXSIZE
+end structure
+```
+`packed.pdb` is the output of packmol. `MOLNAME.pdb` will be the input of the packmol. In your par.xml file you are required to provide molecule name which the script will replace here. E.g. if you insert `cyclohexane` as your molecule name, the script will replace `MOLNAME` with `cyclohexane` and you are also required to provide `cyclohexane.pdb` in `pdb` directory.
+
+> [!NOTE]
+> par.xml:
+```xml
+<molname pattern="MOLNAME">cyclohexane</molname>
+```
+
+This tool will also read `MOLNUM` from configuration file and automatically replace this for each temperature. So after number, `MOLNUM` text is required.
+
+> [!NOTE]
+> par.xml:
+```xml
+<molnumber_liq pattern="MOLNUM">400</molnumber_liq>
+```
+And finally, the script will replace `BOXSIZE` with provided boxsize for each temperature.
+
+> [!NOTE]
+> par.xml:
+```xml
+<boxsize_liq pattern="BOXSIZE">43.275</boxsize_liq>
+```
+
+## build.tcl
