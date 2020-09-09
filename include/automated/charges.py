@@ -14,7 +14,7 @@ class Charge:
     
     def __str__(self):
         if self.dependent:
-            return '{} {}'.format(self.pattern, self.reference)
+            return '{} {}'.format(self.pattern, self.dependent)
         else:
             return '{} {} {} {} {}'.format(self.pattern, self.reference, str(self.count), str(self.start), str(self.end))
 
