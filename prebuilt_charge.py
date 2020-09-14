@@ -17,4 +17,4 @@ rank = comm.Get_rank()
 sys.path.append("./include/prebuilt-charge/")
 from pso import PSO
 
-pso = PSO(30, 80, 'par.xml')
+pso = PSO(30, 64, 'par-charge.xml')
