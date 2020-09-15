@@ -26,7 +26,7 @@ class Temperatures:
       pars['temperature_pattern'] = temp.find('temp').get('pattern')
       pars['expt_dens'] = temp.find('expt_dens').text
       pars['pressure'] = temp.find('pressure').text
-      pars['pressure_pattern'] = temp.find('temp').get('pattern')
+      pars['pressure_pattern'] = temp.find('pressure').get('pattern')
                   
       self.temperatures.append(Temperature(pars))
   

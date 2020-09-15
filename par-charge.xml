@@ -20,16 +20,16 @@
       <filename>C2OH_merged.psf</filename>
       <name>hcharge</name>
       <kind>continuous</kind>
-      <start>3.48</start>
-      <end>5.22</end>
+      <start>0.348</start>
+      <end>0.522</end>
       <pattern>HCHARGEEE</pattern>
     </parameter>
     <parameter>
       <filename>C2OH_merged.psf</filename>
       <name>ocharge</name>
       <kind>continuous</kind>
-      <start>-8.4</start>
-      <end>-5.6</end>
+      <start>-0.84</start>
+      <end>-0.56</end>
       <pattern>OCHARGEEE</pattern>
     </parameter>
   </parameters>

@@ -10,1000 +10,1000 @@ PSF
        3 C2OH 1    C2OH C1   CH2   CCHARGEEE       14.0270           0
        4 C2OH 1    C2OH C2   CH3    0.000000       15.0350           0
        5 C2OH 2    C2OH H1   H     HCHARGEEE        1.0080           0
-       6 C2OH 2    C2OH O1   OH1   -0.700000       15.9994           0
-       7 C2OH 2    C2OH C1   CH2    0.265000       14.0270           0
+       6 C2OH 2    C2OH O1   OH1   OCHARGEEE       15.9994           0
+       7 C2OH 2    C2OH C1   CH2   CCHARGEEE       14.0270           0
        8 C2OH 2    C2OH C2   CH3    0.000000       15.0350           0
        9 C2OH 3    C2OH H1   H     HCHARGEEE        1.0080           0
-      10 C2OH 3    C2OH O1   OH1   -0.700000       15.9994           0
-      11 C2OH 3    C2OH C1   CH2    0.265000       14.0270           0
+      10 C2OH 3    C2OH O1   OH1   OCHARGEEE       15.9994           0
+      11 C2OH 3    C2OH C1   CH2   CCHARGEEE       14.0270           0
       12 C2OH 3    C2OH C2   CH3    0.000000       15.0350           0
       13 C2OH 4    C2OH H1   H     HCHARGEEE        1.0080           0
-      14 C2OH 4    C2OH O1   OH1   -0.700000       15.9994           0
-      15 C2OH 4    C2OH C1   CH2    0.265000       14.0270           0
+      14 C2OH 4    C2OH O1   OH1   OCHARGEEE       15.9994           0
+      15 C2OH 4    C2OH C1   CH2   CCHARGEEE       14.0270           0
       16 C2OH 4    C2OH C2   CH3    0.000000       15.0350           0
       17 C2OH 5    C2OH H1   H     HCHARGEEE        1.0080           0
-      18 C2OH 5    C2OH O1   OH1   -0.700000       15.9994           0
-      19 C2OH 5    C2OH C1   CH2    0.265000       14.0270           0
+      18 C2OH 5    C2OH O1   OH1   OCHARGEEE       15.9994           0
+      19 C2OH 5    C2OH C1   CH2   CCHARGEEE       14.0270           0
       20 C2OH 5    C2OH C2   CH3    0.000000       15.0350           0
       21 C2OH 6    C2OH H1   H     HCHARGEEE        1.0080           0
-      22 C2OH 6    C2OH O1   OH1   -0.700000       15.9994           0
-      23 C2OH 6    C2OH C1   CH2    0.265000       14.0270           0
+      22 C2OH 6    C2OH O1   OH1   OCHARGEEE       15.9994           0
+      23 C2OH 6    C2OH C1   CH2   CCHARGEEE       14.0270           0
       24 C2OH 6    C2OH C2   CH3    0.000000       15.0350           0
       25 C2OH 7    C2OH H1   H     HCHARGEEE        1.0080           0
-      26 C2OH 7    C2OH O1   OH1   -0.700000       15.9994           0
-      27 C2OH 7    C2OH C1   CH2    0.265000       14.0270           0
+      26 C2OH 7    C2OH O1   OH1   OCHARGEEE       15.9994           0
+      27 C2OH 7    C2OH C1   CH2   CCHARGEEE       14.0270           0
       28 C2OH 7    C2OH C2   CH3    0.000000       15.0350           0
       29 C2OH 8    C2OH H1   H     HCHARGEEE        1.0080           0
-      30 C2OH 8    C2OH O1   OH1   -0.700000       15.9994           0
-      31 C2OH 8    C2OH C1   CH2    0.265000       14.0270           0
+      30 C2OH 8    C2OH O1   OH1   OCHARGEEE       15.9994           0
+      31 C2OH 8    C2OH C1   CH2   CCHARGEEE       14.0270           0
       32 C2OH 8    C2OH C2   CH3    0.000000       15.0350           0
       33 C2OH 9    C2OH H1   H     HCHARGEEE        1.0080           0
-      34 C2OH 9    C2OH O1   OH1   -0.700000       15.9994           0
-      35 C2OH 9    C2OH C1   CH2    0.265000       14.0270           0
+      34 C2OH 9    C2OH O1   OH1   OCHARGEEE       15.9994           0
+      35 C2OH 9    C2OH C1   CH2   CCHARGEEE       14.0270           0
       36 C2OH 9    C2OH C2   CH3    0.000000       15.0350           0
       37 C2OH 10   C2OH H1   H     HCHARGEEE        1.0080           0
-      38 C2OH 10   C2OH O1   OH1   -0.700000       15.9994           0
-      39 C2OH 10   C2OH C1   CH2    0.265000       14.0270           0
+      38 C2OH 10   C2OH O1   OH1   OCHARGEEE       15.9994           0
+      39 C2OH 10   C2OH C1   CH2   CCHARGEEE       14.0270           0
       40 C2OH 10   C2OH C2   CH3    0.000000       15.0350           0
       41 C2OH 11   C2OH H1   H     HCHARGEEE        1.0080           0
-      42 C2OH 11   C2OH O1   OH1   -0.700000       15.9994           0
-      43 C2OH 11   C2OH C1   CH2    0.265000       14.0270           0
+      42 C2OH 11   C2OH O1   OH1   OCHARGEEE       15.9994           0
+      43 C2OH 11   C2OH C1   CH2   CCHARGEEE       14.0270           0
       44 C2OH 11   C2OH C2   CH3    0.000000       15.0350           0
       45 C2OH 12   C2OH H1   H     HCHARGEEE        1.0080           0
-      46 C2OH 12   C2OH O1   OH1   -0.700000       15.9994           0
-      47 C2OH 12   C2OH C1   CH2    0.265000       14.0270           0
+      46 C2OH 12   C2OH O1   OH1   OCHARGEEE       15.9994           0
+      47 C2OH 12   C2OH C1   CH2   CCHARGEEE       14.0270           0
       48 C2OH 12   C2OH C2   CH3    0.000000       15.0350           0
       49 C2OH 13   C2OH H1   H     HCHARGEEE        1.0080           0
-      50 C2OH 13   C2OH O1   OH1   -0.700000       15.9994           0
-      51 C2OH 13   C2OH C1   CH2    0.265000       14.0270           0
+      50 C2OH 13   C2OH O1   OH1   OCHARGEEE       15.9994           0
+      51 C2OH 13   C2OH C1   CH2   CCHARGEEE       14.0270           0
       52 C2OH 13   C2OH C2   CH3    0.000000       15.0350           0
       53 C2OH 14   C2OH H1   H     HCHARGEEE        1.0080           0
-      54 C2OH 14   C2OH O1   OH1   -0.700000       15.9994           0
-      55 C2OH 14   C2OH C1   CH2    0.265000       14.0270           0
+      54 C2OH 14   C2OH O1   OH1   OCHARGEEE       15.9994           0
+      55 C2OH 14   C2OH C1   CH2   CCHARGEEE       14.0270           0
       56 C2OH 14   C2OH C2   CH3    0.000000       15.0350           0
       57 C2OH 15   C2OH H1   H     HCHARGEEE        1.0080           0
-      58 C2OH 15   C2OH O1   OH1   -0.700000       15.9994           0
-      59 C2OH 15   C2OH C1   CH2    0.265000       14.0270           0
+      58 C2OH 15   C2OH O1   OH1   OCHARGEEE       15.9994           0
+      59 C2OH 15   C2OH C1   CH2   CCHARGEEE       14.0270           0
       60 C2OH 15   C2OH C2   CH3    0.000000       15.0350           0
       61 C2OH 16   C2OH H1   H     HCHARGEEE        1.0080           0
-      62 C2OH 16   C2OH O1   OH1   -0.700000       15.9994           0
-      63 C2OH 16   C2OH C1   CH2    0.265000       14.0270           0
+      62 C2OH 16   C2OH O1   OH1   OCHARGEEE       15.9994           0
+      63 C2OH 16   C2OH C1   CH2   CCHARGEEE       14.0270           0
       64 C2OH 16   C2OH C2   CH3    0.000000       15.0350           0
       65 C2OH 17   C2OH H1   H     HCHARGEEE        1.0080           0
-      66 C2OH 17   C2OH O1   OH1   -0.700000       15.9994           0
-      67 C2OH 17   C2OH C1   CH2    0.265000       14.0270           0
+      66 C2OH 17   C2OH O1   OH1   OCHARGEEE       15.9994           0
+      67 C2OH 17   C2OH C1   CH2   CCHARGEEE       14.0270           0
       68 C2OH 17   C2OH C2   CH3    0.000000       15.0350           0
       69 C2OH 18   C2OH H1   H     HCHARGEEE        1.0080           0
-      70 C2OH 18   C2OH O1   OH1   -0.700000       15.9994           0
-      71 C2OH 18   C2OH C1   CH2    0.265000       14.0270           0
+      70 C2OH 18   C2OH O1   OH1   OCHARGEEE       15.9994           0
+      71 C2OH 18   C2OH C1   CH2   CCHARGEEE       14.0270           0
       72 C2OH 18   C2OH C2   CH3    0.000000       15.0350           0
       73 C2OH 19   C2OH H1   H     HCHARGEEE        1.0080           0
-      74 C2OH 19   C2OH O1   OH1   -0.700000       15.9994           0
-      75 C2OH 19   C2OH C1   CH2    0.265000       14.0270           0
+      74 C2OH 19   C2OH O1   OH1   OCHARGEEE       15.9994           0
+      75 C2OH 19   C2OH C1   CH2   CCHARGEEE       14.0270           0
       76 C2OH 19   C2OH C2   CH3    0.000000       15.0350           0
       77 C2OH 20   C2OH H1   H     HCHARGEEE        1.0080           0
-      78 C2OH 20   C2OH O1   OH1   -0.700000       15.9994           0
-      79 C2OH 20   C2OH C1   CH2    0.265000       14.0270           0
+      78 C2OH 20   C2OH O1   OH1   OCHARGEEE       15.9994           0
+      79 C2OH 20   C2OH C1   CH2   CCHARGEEE       14.0270           0
       80 C2OH 20   C2OH C2   CH3    0.000000       15.0350           0
       81 C2OH 21   C2OH H1   H     HCHARGEEE        1.0080           0
-      82 C2OH 21   C2OH O1   OH1   -0.700000       15.9994           0
-      83 C2OH 21   C2OH C1   CH2    0.265000       14.0270           0
+      82 C2OH 21   C2OH O1   OH1   OCHARGEEE       15.9994           0
+      83 C2OH 21   C2OH C1   CH2   CCHARGEEE       14.0270           0
       84 C2OH 21   C2OH C2   CH3    0.000000       15.0350           0
       85 C2OH 22   C2OH H1   H     HCHARGEEE        1.0080           0
-      86 C2OH 22   C2OH O1   OH1   -0.700000       15.9994           0
-      87 C2OH 22   C2OH C1   CH2    0.265000       14.0270           0
+      86 C2OH 22   C2OH O1   OH1   OCHARGEEE       15.9994           0
+      87 C2OH 22   C2OH C1   CH2   CCHARGEEE       14.0270           0
       88 C2OH 22   C2OH C2   CH3    0.000000       15.0350           0
       89 C2OH 23   C2OH H1   H     HCHARGEEE        1.0080           0
-      90 C2OH 23   C2OH O1   OH1   -0.700000       15.9994           0
-      91 C2OH 23   C2OH C1   CH2    0.265000       14.0270           0
+      90 C2OH 23   C2OH O1   OH1   OCHARGEEE       15.9994           0
+      91 C2OH 23   C2OH C1   CH2   CCHARGEEE       14.0270           0
       92 C2OH 23   C2OH C2   CH3    0.000000       15.0350           0
       93 C2OH 24   C2OH H1   H     HCHARGEEE        1.0080           0
-      94 C2OH 24   C2OH O1   OH1   -0.700000       15.9994           0
-      95 C2OH 24   C2OH C1   CH2    0.265000       14.0270           0
+      94 C2OH 24   C2OH O1   OH1   OCHARGEEE       15.9994           0
+      95 C2OH 24   C2OH C1   CH2   CCHARGEEE       14.0270           0
       96 C2OH 24   C2OH C2   CH3    0.000000       15.0350           0
       97 C2OH 25   C2OH H1   H     HCHARGEEE        1.0080           0
-      98 C2OH 25   C2OH O1   OH1   -0.700000       15.9994           0
-      99 C2OH 25   C2OH C1   CH2    0.265000       14.0270           0
+      98 C2OH 25   C2OH O1   OH1   OCHARGEEE       15.9994           0
+      99 C2OH 25   C2OH C1   CH2   CCHARGEEE       14.0270           0
      100 C2OH 25   C2OH C2   CH3    0.000000       15.0350           0
      101 C2OH 26   C2OH H1   H     HCHARGEEE        1.0080           0
-     102 C2OH 26   C2OH O1   OH1   -0.700000       15.9994           0
-     103 C2OH 26   C2OH C1   CH2    0.265000       14.0270           0
+     102 C2OH 26   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     103 C2OH 26   C2OH C1   CH2   CCHARGEEE       14.0270           0
      104 C2OH 26   C2OH C2   CH3    0.000000       15.0350           0
      105 C2OH 27   C2OH H1   H     HCHARGEEE        1.0080           0
-     106 C2OH 27   C2OH O1   OH1   -0.700000       15.9994           0
-     107 C2OH 27   C2OH C1   CH2    0.265000       14.0270           0
+     106 C2OH 27   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     107 C2OH 27   C2OH C1   CH2   CCHARGEEE       14.0270           0
      108 C2OH 27   C2OH C2   CH3    0.000000       15.0350           0
      109 C2OH 28   C2OH H1   H     HCHARGEEE        1.0080           0
-     110 C2OH 28   C2OH O1   OH1   -0.700000       15.9994           0
-     111 C2OH 28   C2OH C1   CH2    0.265000       14.0270           0
+     110 C2OH 28   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     111 C2OH 28   C2OH C1   CH2   CCHARGEEE       14.0270           0
      112 C2OH 28   C2OH C2   CH3    0.000000       15.0350           0
      113 C2OH 29   C2OH H1   H     HCHARGEEE        1.0080           0
-     114 C2OH 29   C2OH O1   OH1   -0.700000       15.9994           0
-     115 C2OH 29   C2OH C1   CH2    0.265000       14.0270           0
+     114 C2OH 29   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     115 C2OH 29   C2OH C1   CH2   CCHARGEEE       14.0270           0
      116 C2OH 29   C2OH C2   CH3    0.000000       15.0350           0
      117 C2OH 30   C2OH H1   H     HCHARGEEE        1.0080           0
-     118 C2OH 30   C2OH O1   OH1   -0.700000       15.9994           0
-     119 C2OH 30   C2OH C1   CH2    0.265000       14.0270           0
+     118 C2OH 30   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     119 C2OH 30   C2OH C1   CH2   CCHARGEEE       14.0270           0
      120 C2OH 30   C2OH C2   CH3    0.000000       15.0350           0
      121 C2OH 31   C2OH H1   H     HCHARGEEE        1.0080           0
-     122 C2OH 31   C2OH O1   OH1   -0.700000       15.9994           0
-     123 C2OH 31   C2OH C1   CH2    0.265000       14.0270           0
+     122 C2OH 31   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     123 C2OH 31   C2OH C1   CH2   CCHARGEEE       14.0270           0
      124 C2OH 31   C2OH C2   CH3    0.000000       15.0350           0
      125 C2OH 32   C2OH H1   H     HCHARGEEE        1.0080           0
-     126 C2OH 32   C2OH O1   OH1   -0.700000       15.9994           0
-     127 C2OH 32   C2OH C1   CH2    0.265000       14.0270           0
+     126 C2OH 32   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     127 C2OH 32   C2OH C1   CH2   CCHARGEEE       14.0270           0
      128 C2OH 32   C2OH C2   CH3    0.000000       15.0350           0
      129 C2OH 33   C2OH H1   H     HCHARGEEE        1.0080           0
-     130 C2OH 33   C2OH O1   OH1   -0.700000       15.9994           0
-     131 C2OH 33   C2OH C1   CH2    0.265000       14.0270           0
+     130 C2OH 33   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     131 C2OH 33   C2OH C1   CH2   CCHARGEEE       14.0270           0
      132 C2OH 33   C2OH C2   CH3    0.000000       15.0350           0
      133 C2OH 34   C2OH H1   H     HCHARGEEE        1.0080           0
-     134 C2OH 34   C2OH O1   OH1   -0.700000       15.9994           0
-     135 C2OH 34   C2OH C1   CH2    0.265000       14.0270           0
+     134 C2OH 34   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     135 C2OH 34   C2OH C1   CH2   CCHARGEEE       14.0270           0
      136 C2OH 34   C2OH C2   CH3    0.000000       15.0350           0
      137 C2OH 35   C2OH H1   H     HCHARGEEE        1.0080           0
-     138 C2OH 35   C2OH O1   OH1   -0.700000       15.9994           0
-     139 C2OH 35   C2OH C1   CH2    0.265000       14.0270           0
+     138 C2OH 35   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     139 C2OH 35   C2OH C1   CH2   CCHARGEEE       14.0270           0
      140 C2OH 35   C2OH C2   CH3    0.000000       15.0350           0
      141 C2OH 36   C2OH H1   H     HCHARGEEE        1.0080           0
-     142 C2OH 36   C2OH O1   OH1   -0.700000       15.9994           0
-     143 C2OH 36   C2OH C1   CH2    0.265000       14.0270           0
+     142 C2OH 36   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     143 C2OH 36   C2OH C1   CH2   CCHARGEEE       14.0270           0
      144 C2OH 36   C2OH C2   CH3    0.000000       15.0350           0
      145 C2OH 37   C2OH H1   H     HCHARGEEE        1.0080           0
-     146 C2OH 37   C2OH O1   OH1   -0.700000       15.9994           0
-     147 C2OH 37   C2OH C1   CH2    0.265000       14.0270           0
+     146 C2OH 37   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     147 C2OH 37   C2OH C1   CH2   CCHARGEEE       14.0270           0
      148 C2OH 37   C2OH C2   CH3    0.000000       15.0350           0
      149 C2OH 38   C2OH H1   H     HCHARGEEE        1.0080           0
-     150 C2OH 38   C2OH O1   OH1   -0.700000       15.9994           0
-     151 C2OH 38   C2OH C1   CH2    0.265000       14.0270           0
+     150 C2OH 38   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     151 C2OH 38   C2OH C1   CH2   CCHARGEEE       14.0270           0
      152 C2OH 38   C2OH C2   CH3    0.000000       15.0350           0
      153 C2OH 39   C2OH H1   H     HCHARGEEE        1.0080           0
-     154 C2OH 39   C2OH O1   OH1   -0.700000       15.9994           0
-     155 C2OH 39   C2OH C1   CH2    0.265000       14.0270           0
+     154 C2OH 39   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     155 C2OH 39   C2OH C1   CH2   CCHARGEEE       14.0270           0
      156 C2OH 39   C2OH C2   CH3    0.000000       15.0350           0
      157 C2OH 40   C2OH H1   H     HCHARGEEE        1.0080           0
-     158 C2OH 40   C2OH O1   OH1   -0.700000       15.9994           0
-     159 C2OH 40   C2OH C1   CH2    0.265000       14.0270           0
+     158 C2OH 40   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     159 C2OH 40   C2OH C1   CH2   CCHARGEEE       14.0270           0
      160 C2OH 40   C2OH C2   CH3    0.000000       15.0350           0
      161 C2OH 41   C2OH H1   H     HCHARGEEE        1.0080           0
-     162 C2OH 41   C2OH O1   OH1   -0.700000       15.9994           0
-     163 C2OH 41   C2OH C1   CH2    0.265000       14.0270           0
+     162 C2OH 41   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     163 C2OH 41   C2OH C1   CH2   CCHARGEEE       14.0270           0
      164 C2OH 41   C2OH C2   CH3    0.000000       15.0350           0
      165 C2OH 42   C2OH H1   H     HCHARGEEE        1.0080           0
-     166 C2OH 42   C2OH O1   OH1   -0.700000       15.9994           0
-     167 C2OH 42   C2OH C1   CH2    0.265000       14.0270           0
+     166 C2OH 42   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     167 C2OH 42   C2OH C1   CH2   CCHARGEEE       14.0270           0
      168 C2OH 42   C2OH C2   CH3    0.000000       15.0350           0
      169 C2OH 43   C2OH H1   H     HCHARGEEE        1.0080           0
-     170 C2OH 43   C2OH O1   OH1   -0.700000       15.9994           0
-     171 C2OH 43   C2OH C1   CH2    0.265000       14.0270           0
+     170 C2OH 43   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     171 C2OH 43   C2OH C1   CH2   CCHARGEEE       14.0270           0
      172 C2OH 43   C2OH C2   CH3    0.000000       15.0350           0
      173 C2OH 44   C2OH H1   H     HCHARGEEE        1.0080           0
-     174 C2OH 44   C2OH O1   OH1   -0.700000       15.9994           0
-     175 C2OH 44   C2OH C1   CH2    0.265000       14.0270           0
+     174 C2OH 44   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     175 C2OH 44   C2OH C1   CH2   CCHARGEEE       14.0270           0
      176 C2OH 44   C2OH C2   CH3    0.000000       15.0350           0
      177 C2OH 45   C2OH H1   H     HCHARGEEE        1.0080           0
-     178 C2OH 45   C2OH O1   OH1   -0.700000       15.9994           0
-     179 C2OH 45   C2OH C1   CH2    0.265000       14.0270           0
+     178 C2OH 45   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     179 C2OH 45   C2OH C1   CH2   CCHARGEEE       14.0270           0
      180 C2OH 45   C2OH C2   CH3    0.000000       15.0350           0
      181 C2OH 46   C2OH H1   H     HCHARGEEE        1.0080           0
-     182 C2OH 46   C2OH O1   OH1   -0.700000       15.9994           0
-     183 C2OH 46   C2OH C1   CH2    0.265000       14.0270           0
+     182 C2OH 46   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     183 C2OH 46   C2OH C1   CH2   CCHARGEEE       14.0270           0
      184 C2OH 46   C2OH C2   CH3    0.000000       15.0350           0
      185 C2OH 47   C2OH H1   H     HCHARGEEE        1.0080           0
-     186 C2OH 47   C2OH O1   OH1   -0.700000       15.9994           0
-     187 C2OH 47   C2OH C1   CH2    0.265000       14.0270           0
+     186 C2OH 47   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     187 C2OH 47   C2OH C1   CH2   CCHARGEEE       14.0270           0
      188 C2OH 47   C2OH C2   CH3    0.000000       15.0350           0
      189 C2OH 48   C2OH H1   H     HCHARGEEE        1.0080           0
-     190 C2OH 48   C2OH O1   OH1   -0.700000       15.9994           0
-     191 C2OH 48   C2OH C1   CH2    0.265000       14.0270           0
+     190 C2OH 48   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     191 C2OH 48   C2OH C1   CH2   CCHARGEEE       14.0270           0
      192 C2OH 48   C2OH C2   CH3    0.000000       15.0350           0
      193 C2OH 49   C2OH H1   H     HCHARGEEE        1.0080           0
-     194 C2OH 49   C2OH O1   OH1   -0.700000       15.9994           0
-     195 C2OH 49   C2OH C1   CH2    0.265000       14.0270           0
+     194 C2OH 49   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     195 C2OH 49   C2OH C1   CH2   CCHARGEEE       14.0270           0
      196 C2OH 49   C2OH C2   CH3    0.000000       15.0350           0
      197 C2OH 50   C2OH H1   H     HCHARGEEE        1.0080           0
-     198 C2OH 50   C2OH O1   OH1   -0.700000       15.9994           0
-     199 C2OH 50   C2OH C1   CH2    0.265000       14.0270           0
+     198 C2OH 50   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     199 C2OH 50   C2OH C1   CH2   CCHARGEEE       14.0270           0
      200 C2OH 50   C2OH C2   CH3    0.000000       15.0350           0
      201 C2OH 51   C2OH H1   H     HCHARGEEE        1.0080           0
-     202 C2OH 51   C2OH O1   OH1   -0.700000       15.9994           0
-     203 C2OH 51   C2OH C1   CH2    0.265000       14.0270           0
+     202 C2OH 51   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     203 C2OH 51   C2OH C1   CH2   CCHARGEEE       14.0270           0
      204 C2OH 51   C2OH C2   CH3    0.000000       15.0350           0
      205 C2OH 52   C2OH H1   H     HCHARGEEE        1.0080           0
-     206 C2OH 52   C2OH O1   OH1   -0.700000       15.9994           0
-     207 C2OH 52   C2OH C1   CH2    0.265000       14.0270           0
+     206 C2OH 52   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     207 C2OH 52   C2OH C1   CH2   CCHARGEEE       14.0270           0
      208 C2OH 52   C2OH C2   CH3    0.000000       15.0350           0
      209 C2OH 53   C2OH H1   H     HCHARGEEE        1.0080           0
-     210 C2OH 53   C2OH O1   OH1   -0.700000       15.9994           0
-     211 C2OH 53   C2OH C1   CH2    0.265000       14.0270           0
+     210 C2OH 53   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     211 C2OH 53   C2OH C1   CH2   CCHARGEEE       14.0270           0
      212 C2OH 53   C2OH C2   CH3    0.000000       15.0350           0
      213 C2OH 54   C2OH H1   H     HCHARGEEE        1.0080           0
-     214 C2OH 54   C2OH O1   OH1   -0.700000       15.9994           0
-     215 C2OH 54   C2OH C1   CH2    0.265000       14.0270           0
+     214 C2OH 54   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     215 C2OH 54   C2OH C1   CH2   CCHARGEEE       14.0270           0
      216 C2OH 54   C2OH C2   CH3    0.000000       15.0350           0
      217 C2OH 55   C2OH H1   H     HCHARGEEE        1.0080           0
-     218 C2OH 55   C2OH O1   OH1   -0.700000       15.9994           0
-     219 C2OH 55   C2OH C1   CH2    0.265000       14.0270           0
+     218 C2OH 55   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     219 C2OH 55   C2OH C1   CH2   CCHARGEEE       14.0270           0
      220 C2OH 55   C2OH C2   CH3    0.000000       15.0350           0
      221 C2OH 56   C2OH H1   H     HCHARGEEE        1.0080           0
-     222 C2OH 56   C2OH O1   OH1   -0.700000       15.9994           0
-     223 C2OH 56   C2OH C1   CH2    0.265000       14.0270           0
+     222 C2OH 56   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     223 C2OH 56   C2OH C1   CH2   CCHARGEEE       14.0270           0
      224 C2OH 56   C2OH C2   CH3    0.000000       15.0350           0
      225 C2OH 57   C2OH H1   H     HCHARGEEE        1.0080           0
-     226 C2OH 57   C2OH O1   OH1   -0.700000       15.9994           0
-     227 C2OH 57   C2OH C1   CH2    0.265000       14.0270           0
+     226 C2OH 57   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     227 C2OH 57   C2OH C1   CH2   CCHARGEEE       14.0270           0
      228 C2OH 57   C2OH C2   CH3    0.000000       15.0350           0
      229 C2OH 58   C2OH H1   H     HCHARGEEE        1.0080           0
-     230 C2OH 58   C2OH O1   OH1   -0.700000       15.9994           0
-     231 C2OH 58   C2OH C1   CH2    0.265000       14.0270           0
+     230 C2OH 58   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     231 C2OH 58   C2OH C1   CH2   CCHARGEEE       14.0270           0
      232 C2OH 58   C2OH C2   CH3    0.000000       15.0350           0
      233 C2OH 59   C2OH H1   H     HCHARGEEE        1.0080           0
-     234 C2OH 59   C2OH O1   OH1   -0.700000       15.9994           0
-     235 C2OH 59   C2OH C1   CH2    0.265000       14.0270           0
+     234 C2OH 59   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     235 C2OH 59   C2OH C1   CH2   CCHARGEEE       14.0270           0
      236 C2OH 59   C2OH C2   CH3    0.000000       15.0350           0
      237 C2OH 60   C2OH H1   H     HCHARGEEE        1.0080           0
-     238 C2OH 60   C2OH O1   OH1   -0.700000       15.9994           0
-     239 C2OH 60   C2OH C1   CH2    0.265000       14.0270           0
+     238 C2OH 60   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     239 C2OH 60   C2OH C1   CH2   CCHARGEEE       14.0270           0
      240 C2OH 60   C2OH C2   CH3    0.000000       15.0350           0
      241 C2OH 61   C2OH H1   H     HCHARGEEE        1.0080           0
-     242 C2OH 61   C2OH O1   OH1   -0.700000       15.9994           0
-     243 C2OH 61   C2OH C1   CH2    0.265000       14.0270           0
+     242 C2OH 61   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     243 C2OH 61   C2OH C1   CH2   CCHARGEEE       14.0270           0
      244 C2OH 61   C2OH C2   CH3    0.000000       15.0350           0
      245 C2OH 62   C2OH H1   H     HCHARGEEE        1.0080           0
-     246 C2OH 62   C2OH O1   OH1   -0.700000       15.9994           0
-     247 C2OH 62   C2OH C1   CH2    0.265000       14.0270           0
+     246 C2OH 62   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     247 C2OH 62   C2OH C1   CH2   CCHARGEEE       14.0270           0
      248 C2OH 62   C2OH C2   CH3    0.000000       15.0350           0
      249 C2OH 63   C2OH H1   H     HCHARGEEE        1.0080           0
-     250 C2OH 63   C2OH O1   OH1   -0.700000       15.9994           0
-     251 C2OH 63   C2OH C1   CH2    0.265000       14.0270           0
+     250 C2OH 63   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     251 C2OH 63   C2OH C1   CH2   CCHARGEEE       14.0270           0
      252 C2OH 63   C2OH C2   CH3    0.000000       15.0350           0
      253 C2OH 64   C2OH H1   H     HCHARGEEE        1.0080           0
-     254 C2OH 64   C2OH O1   OH1   -0.700000       15.9994           0
-     255 C2OH 64   C2OH C1   CH2    0.265000       14.0270           0
+     254 C2OH 64   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     255 C2OH 64   C2OH C1   CH2   CCHARGEEE       14.0270           0
      256 C2OH 64   C2OH C2   CH3    0.000000       15.0350           0
      257 C2OH 65   C2OH H1   H     HCHARGEEE        1.0080           0
-     258 C2OH 65   C2OH O1   OH1   -0.700000       15.9994           0
-     259 C2OH 65   C2OH C1   CH2    0.265000       14.0270           0
+     258 C2OH 65   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     259 C2OH 65   C2OH C1   CH2   CCHARGEEE       14.0270           0
      260 C2OH 65   C2OH C2   CH3    0.000000       15.0350           0
      261 C2OH 66   C2OH H1   H     HCHARGEEE        1.0080           0
-     262 C2OH 66   C2OH O1   OH1   -0.700000       15.9994           0
-     263 C2OH 66   C2OH C1   CH2    0.265000       14.0270           0
+     262 C2OH 66   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     263 C2OH 66   C2OH C1   CH2   CCHARGEEE       14.0270           0
      264 C2OH 66   C2OH C2   CH3    0.000000       15.0350           0
      265 C2OH 67   C2OH H1   H     HCHARGEEE        1.0080           0
-     266 C2OH 67   C2OH O1   OH1   -0.700000       15.9994           0
-     267 C2OH 67   C2OH C1   CH2    0.265000       14.0270           0
+     266 C2OH 67   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     267 C2OH 67   C2OH C1   CH2   CCHARGEEE       14.0270           0
      268 C2OH 67   C2OH C2   CH3    0.000000       15.0350           0
      269 C2OH 68   C2OH H1   H     HCHARGEEE        1.0080           0
-     270 C2OH 68   C2OH O1   OH1   -0.700000       15.9994           0
-     271 C2OH 68   C2OH C1   CH2    0.265000       14.0270           0
+     270 C2OH 68   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     271 C2OH 68   C2OH C1   CH2   CCHARGEEE       14.0270           0
      272 C2OH 68   C2OH C2   CH3    0.000000       15.0350           0
      273 C2OH 69   C2OH H1   H     HCHARGEEE        1.0080           0
-     274 C2OH 69   C2OH O1   OH1   -0.700000       15.9994           0
-     275 C2OH 69   C2OH C1   CH2    0.265000       14.0270           0
+     274 C2OH 69   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     275 C2OH 69   C2OH C1   CH2   CCHARGEEE       14.0270           0
      276 C2OH 69   C2OH C2   CH3    0.000000       15.0350           0
      277 C2OH 70   C2OH H1   H     HCHARGEEE        1.0080           0
-     278 C2OH 70   C2OH O1   OH1   -0.700000       15.9994           0
-     279 C2OH 70   C2OH C1   CH2    0.265000       14.0270           0
+     278 C2OH 70   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     279 C2OH 70   C2OH C1   CH2   CCHARGEEE       14.0270           0
      280 C2OH 70   C2OH C2   CH3    0.000000       15.0350           0
      281 C2OH 71   C2OH H1   H     HCHARGEEE        1.0080           0
-     282 C2OH 71   C2OH O1   OH1   -0.700000       15.9994           0
-     283 C2OH 71   C2OH C1   CH2    0.265000       14.0270           0
+     282 C2OH 71   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     283 C2OH 71   C2OH C1   CH2   CCHARGEEE       14.0270           0
      284 C2OH 71   C2OH C2   CH3    0.000000       15.0350           0
      285 C2OH 72   C2OH H1   H     HCHARGEEE        1.0080           0
-     286 C2OH 72   C2OH O1   OH1   -0.700000       15.9994           0
-     287 C2OH 72   C2OH C1   CH2    0.265000       14.0270           0
+     286 C2OH 72   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     287 C2OH 72   C2OH C1   CH2   CCHARGEEE       14.0270           0
      288 C2OH 72   C2OH C2   CH3    0.000000       15.0350           0
      289 C2OH 73   C2OH H1   H     HCHARGEEE        1.0080           0
-     290 C2OH 73   C2OH O1   OH1   -0.700000       15.9994           0
-     291 C2OH 73   C2OH C1   CH2    0.265000       14.0270           0
+     290 C2OH 73   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     291 C2OH 73   C2OH C1   CH2   CCHARGEEE       14.0270           0
      292 C2OH 73   C2OH C2   CH3    0.000000       15.0350           0
      293 C2OH 74   C2OH H1   H     HCHARGEEE        1.0080           0
-     294 C2OH 74   C2OH O1   OH1   -0.700000       15.9994           0
-     295 C2OH 74   C2OH C1   CH2    0.265000       14.0270           0
+     294 C2OH 74   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     295 C2OH 74   C2OH C1   CH2   CCHARGEEE       14.0270           0
      296 C2OH 74   C2OH C2   CH3    0.000000       15.0350           0
      297 C2OH 75   C2OH H1   H     HCHARGEEE        1.0080           0
-     298 C2OH 75   C2OH O1   OH1   -0.700000       15.9994           0
-     299 C2OH 75   C2OH C1   CH2    0.265000       14.0270           0
+     298 C2OH 75   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     299 C2OH 75   C2OH C1   CH2   CCHARGEEE       14.0270           0
      300 C2OH 75   C2OH C2   CH3    0.000000       15.0350           0
      301 C2OH 76   C2OH H1   H     HCHARGEEE        1.0080           0
-     302 C2OH 76   C2OH O1   OH1   -0.700000       15.9994           0
-     303 C2OH 76   C2OH C1   CH2    0.265000       14.0270           0
+     302 C2OH 76   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     303 C2OH 76   C2OH C1   CH2   CCHARGEEE       14.0270           0
      304 C2OH 76   C2OH C2   CH3    0.000000       15.0350           0
      305 C2OH 77   C2OH H1   H     HCHARGEEE        1.0080           0
-     306 C2OH 77   C2OH O1   OH1   -0.700000       15.9994           0
-     307 C2OH 77   C2OH C1   CH2    0.265000       14.0270           0
+     306 C2OH 77   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     307 C2OH 77   C2OH C1   CH2   CCHARGEEE       14.0270           0
      308 C2OH 77   C2OH C2   CH3    0.000000       15.0350           0
      309 C2OH 78   C2OH H1   H     HCHARGEEE        1.0080           0
-     310 C2OH 78   C2OH O1   OH1   -0.700000       15.9994           0
-     311 C2OH 78   C2OH C1   CH2    0.265000       14.0270           0
+     310 C2OH 78   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     311 C2OH 78   C2OH C1   CH2   CCHARGEEE       14.0270           0
      312 C2OH 78   C2OH C2   CH3    0.000000       15.0350           0
      313 C2OH 79   C2OH H1   H     HCHARGEEE        1.0080           0
-     314 C2OH 79   C2OH O1   OH1   -0.700000       15.9994           0
-     315 C2OH 79   C2OH C1   CH2    0.265000       14.0270           0
+     314 C2OH 79   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     315 C2OH 79   C2OH C1   CH2   CCHARGEEE       14.0270           0
      316 C2OH 79   C2OH C2   CH3    0.000000       15.0350           0
      317 C2OH 80   C2OH H1   H     HCHARGEEE        1.0080           0
-     318 C2OH 80   C2OH O1   OH1   -0.700000       15.9994           0
-     319 C2OH 80   C2OH C1   CH2    0.265000       14.0270           0
+     318 C2OH 80   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     319 C2OH 80   C2OH C1   CH2   CCHARGEEE       14.0270           0
      320 C2OH 80   C2OH C2   CH3    0.000000       15.0350           0
      321 C2OH 81   C2OH H1   H     HCHARGEEE        1.0080           0
-     322 C2OH 81   C2OH O1   OH1   -0.700000       15.9994           0
-     323 C2OH 81   C2OH C1   CH2    0.265000       14.0270           0
+     322 C2OH 81   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     323 C2OH 81   C2OH C1   CH2   CCHARGEEE       14.0270           0
      324 C2OH 81   C2OH C2   CH3    0.000000       15.0350           0
      325 C2OH 82   C2OH H1   H     HCHARGEEE        1.0080           0
-     326 C2OH 82   C2OH O1   OH1   -0.700000       15.9994           0
-     327 C2OH 82   C2OH C1   CH2    0.265000       14.0270           0
+     326 C2OH 82   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     327 C2OH 82   C2OH C1   CH2   CCHARGEEE       14.0270           0
      328 C2OH 82   C2OH C2   CH3    0.000000       15.0350           0
      329 C2OH 83   C2OH H1   H     HCHARGEEE        1.0080           0
-     330 C2OH 83   C2OH O1   OH1   -0.700000       15.9994           0
-     331 C2OH 83   C2OH C1   CH2    0.265000       14.0270           0
+     330 C2OH 83   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     331 C2OH 83   C2OH C1   CH2   CCHARGEEE       14.0270           0
      332 C2OH 83   C2OH C2   CH3    0.000000       15.0350           0
      333 C2OH 84   C2OH H1   H     HCHARGEEE        1.0080           0
-     334 C2OH 84   C2OH O1   OH1   -0.700000       15.9994           0
-     335 C2OH 84   C2OH C1   CH2    0.265000       14.0270           0
+     334 C2OH 84   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     335 C2OH 84   C2OH C1   CH2   CCHARGEEE       14.0270           0
      336 C2OH 84   C2OH C2   CH3    0.000000       15.0350           0
      337 C2OH 85   C2OH H1   H     HCHARGEEE        1.0080           0
-     338 C2OH 85   C2OH O1   OH1   -0.700000       15.9994           0
-     339 C2OH 85   C2OH C1   CH2    0.265000       14.0270           0
+     338 C2OH 85   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     339 C2OH 85   C2OH C1   CH2   CCHARGEEE       14.0270           0
      340 C2OH 85   C2OH C2   CH3    0.000000       15.0350           0
      341 C2OH 86   C2OH H1   H     HCHARGEEE        1.0080           0
-     342 C2OH 86   C2OH O1   OH1   -0.700000       15.9994           0
-     343 C2OH 86   C2OH C1   CH2    0.265000       14.0270           0
+     342 C2OH 86   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     343 C2OH 86   C2OH C1   CH2   CCHARGEEE       14.0270           0
      344 C2OH 86   C2OH C2   CH3    0.000000       15.0350           0
      345 C2OH 87   C2OH H1   H     HCHARGEEE        1.0080           0
-     346 C2OH 87   C2OH O1   OH1   -0.700000       15.9994           0
-     347 C2OH 87   C2OH C1   CH2    0.265000       14.0270           0
+     346 C2OH 87   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     347 C2OH 87   C2OH C1   CH2   CCHARGEEE       14.0270           0
      348 C2OH 87   C2OH C2   CH3    0.000000       15.0350           0
      349 C2OH 88   C2OH H1   H     HCHARGEEE        1.0080           0
-     350 C2OH 88   C2OH O1   OH1   -0.700000       15.9994           0
-     351 C2OH 88   C2OH C1   CH2    0.265000       14.0270           0
+     350 C2OH 88   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     351 C2OH 88   C2OH C1   CH2   CCHARGEEE       14.0270           0
      352 C2OH 88   C2OH C2   CH3    0.000000       15.0350           0
      353 C2OH 89   C2OH H1   H     HCHARGEEE        1.0080           0
-     354 C2OH 89   C2OH O1   OH1   -0.700000       15.9994           0
-     355 C2OH 89   C2OH C1   CH2    0.265000       14.0270           0
+     354 C2OH 89   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     355 C2OH 89   C2OH C1   CH2   CCHARGEEE       14.0270           0
      356 C2OH 89   C2OH C2   CH3    0.000000       15.0350           0
      357 C2OH 90   C2OH H1   H     HCHARGEEE        1.0080           0
-     358 C2OH 90   C2OH O1   OH1   -0.700000       15.9994           0
-     359 C2OH 90   C2OH C1   CH2    0.265000       14.0270           0
+     358 C2OH 90   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     359 C2OH 90   C2OH C1   CH2   CCHARGEEE       14.0270           0
      360 C2OH 90   C2OH C2   CH3    0.000000       15.0350           0
      361 C2OH 91   C2OH H1   H     HCHARGEEE        1.0080           0
-     362 C2OH 91   C2OH O1   OH1   -0.700000       15.9994           0
-     363 C2OH 91   C2OH C1   CH2    0.265000       14.0270           0
+     362 C2OH 91   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     363 C2OH 91   C2OH C1   CH2   CCHARGEEE       14.0270           0
      364 C2OH 91   C2OH C2   CH3    0.000000       15.0350           0
      365 C2OH 92   C2OH H1   H     HCHARGEEE        1.0080           0
-     366 C2OH 92   C2OH O1   OH1   -0.700000       15.9994           0
-     367 C2OH 92   C2OH C1   CH2    0.265000       14.0270           0
+     366 C2OH 92   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     367 C2OH 92   C2OH C1   CH2   CCHARGEEE       14.0270           0
      368 C2OH 92   C2OH C2   CH3    0.000000       15.0350           0
      369 C2OH 93   C2OH H1   H     HCHARGEEE        1.0080           0
-     370 C2OH 93   C2OH O1   OH1   -0.700000       15.9994           0
-     371 C2OH 93   C2OH C1   CH2    0.265000       14.0270           0
+     370 C2OH 93   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     371 C2OH 93   C2OH C1   CH2   CCHARGEEE       14.0270           0
      372 C2OH 93   C2OH C2   CH3    0.000000       15.0350           0
      373 C2OH 94   C2OH H1   H     HCHARGEEE        1.0080           0
-     374 C2OH 94   C2OH O1   OH1   -0.700000       15.9994           0
-     375 C2OH 94   C2OH C1   CH2    0.265000       14.0270           0
+     374 C2OH 94   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     375 C2OH 94   C2OH C1   CH2   CCHARGEEE       14.0270           0
      376 C2OH 94   C2OH C2   CH3    0.000000       15.0350           0
      377 C2OH 95   C2OH H1   H     HCHARGEEE        1.0080           0
-     378 C2OH 95   C2OH O1   OH1   -0.700000       15.9994           0
-     379 C2OH 95   C2OH C1   CH2    0.265000       14.0270           0
+     378 C2OH 95   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     379 C2OH 95   C2OH C1   CH2   CCHARGEEE       14.0270           0
      380 C2OH 95   C2OH C2   CH3    0.000000       15.0350           0
      381 C2OH 96   C2OH H1   H     HCHARGEEE        1.0080           0
-     382 C2OH 96   C2OH O1   OH1   -0.700000       15.9994           0
-     383 C2OH 96   C2OH C1   CH2    0.265000       14.0270           0
+     382 C2OH 96   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     383 C2OH 96   C2OH C1   CH2   CCHARGEEE       14.0270           0
      384 C2OH 96   C2OH C2   CH3    0.000000       15.0350           0
      385 C2OH 97   C2OH H1   H     HCHARGEEE        1.0080           0
-     386 C2OH 97   C2OH O1   OH1   -0.700000       15.9994           0
-     387 C2OH 97   C2OH C1   CH2    0.265000       14.0270           0
+     386 C2OH 97   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     387 C2OH 97   C2OH C1   CH2   CCHARGEEE       14.0270           0
      388 C2OH 97   C2OH C2   CH3    0.000000       15.0350           0
      389 C2OH 98   C2OH H1   H     HCHARGEEE        1.0080           0
-     390 C2OH 98   C2OH O1   OH1   -0.700000       15.9994           0
-     391 C2OH 98   C2OH C1   CH2    0.265000       14.0270           0
+     390 C2OH 98   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     391 C2OH 98   C2OH C1   CH2   CCHARGEEE       14.0270           0
      392 C2OH 98   C2OH C2   CH3    0.000000       15.0350           0
      393 C2OH 99   C2OH H1   H     HCHARGEEE        1.0080           0
-     394 C2OH 99   C2OH O1   OH1   -0.700000       15.9994           0
-     395 C2OH 99   C2OH C1   CH2    0.265000       14.0270           0
+     394 C2OH 99   C2OH O1   OH1   OCHARGEEE       15.9994           0
+     395 C2OH 99   C2OH C1   CH2   CCHARGEEE       14.0270           0
      396 C2OH 99   C2OH C2   CH3    0.000000       15.0350           0
      397 C2OH 100  C2OH H1   H     HCHARGEEE        1.0080           0
-     398 C2OH 100  C2OH O1   OH1   -0.700000       15.9994           0
-     399 C2OH 100  C2OH C1   CH2    0.265000       14.0270           0
+     398 C2OH 100  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     399 C2OH 100  C2OH C1   CH2   CCHARGEEE       14.0270           0
      400 C2OH 100  C2OH C2   CH3    0.000000       15.0350           0
      401 C2OH 101  C2OH H1   H     HCHARGEEE        1.0080           0
-     402 C2OH 101  C2OH O1   OH1   -0.700000       15.9994           0
-     403 C2OH 101  C2OH C1   CH2    0.265000       14.0270           0
+     402 C2OH 101  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     403 C2OH 101  C2OH C1   CH2   CCHARGEEE       14.0270           0
      404 C2OH 101  C2OH C2   CH3    0.000000       15.0350           0
      405 C2OH 102  C2OH H1   H     HCHARGEEE        1.0080           0
-     406 C2OH 102  C2OH O1   OH1   -0.700000       15.9994           0
-     407 C2OH 102  C2OH C1   CH2    0.265000       14.0270           0
+     406 C2OH 102  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     407 C2OH 102  C2OH C1   CH2   CCHARGEEE       14.0270           0
      408 C2OH 102  C2OH C2   CH3    0.000000       15.0350           0
      409 C2OH 103  C2OH H1   H     HCHARGEEE        1.0080           0
-     410 C2OH 103  C2OH O1   OH1   -0.700000       15.9994           0
-     411 C2OH 103  C2OH C1   CH2    0.265000       14.0270           0
+     410 C2OH 103  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     411 C2OH 103  C2OH C1   CH2   CCHARGEEE       14.0270           0
      412 C2OH 103  C2OH C2   CH3    0.000000       15.0350           0
      413 C2OH 104  C2OH H1   H     HCHARGEEE        1.0080           0
-     414 C2OH 104  C2OH O1   OH1   -0.700000       15.9994           0
-     415 C2OH 104  C2OH C1   CH2    0.265000       14.0270           0
+     414 C2OH 104  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     415 C2OH 104  C2OH C1   CH2   CCHARGEEE       14.0270           0
      416 C2OH 104  C2OH C2   CH3    0.000000       15.0350           0
      417 C2OH 105  C2OH H1   H     HCHARGEEE        1.0080           0
-     418 C2OH 105  C2OH O1   OH1   -0.700000       15.9994           0
-     419 C2OH 105  C2OH C1   CH2    0.265000       14.0270           0
+     418 C2OH 105  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     419 C2OH 105  C2OH C1   CH2   CCHARGEEE       14.0270           0
      420 C2OH 105  C2OH C2   CH3    0.000000       15.0350           0
      421 C2OH 106  C2OH H1   H     HCHARGEEE        1.0080           0
-     422 C2OH 106  C2OH O1   OH1   -0.700000       15.9994           0
-     423 C2OH 106  C2OH C1   CH2    0.265000       14.0270           0
+     422 C2OH 106  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     423 C2OH 106  C2OH C1   CH2   CCHARGEEE       14.0270           0
      424 C2OH 106  C2OH C2   CH3    0.000000       15.0350           0
      425 C2OH 107  C2OH H1   H     HCHARGEEE        1.0080           0
-     426 C2OH 107  C2OH O1   OH1   -0.700000       15.9994           0
-     427 C2OH 107  C2OH C1   CH2    0.265000       14.0270           0
+     426 C2OH 107  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     427 C2OH 107  C2OH C1   CH2   CCHARGEEE       14.0270           0
      428 C2OH 107  C2OH C2   CH3    0.000000       15.0350           0
      429 C2OH 108  C2OH H1   H     HCHARGEEE        1.0080           0
-     430 C2OH 108  C2OH O1   OH1   -0.700000       15.9994           0
-     431 C2OH 108  C2OH C1   CH2    0.265000       14.0270           0
+     430 C2OH 108  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     431 C2OH 108  C2OH C1   CH2   CCHARGEEE       14.0270           0
      432 C2OH 108  C2OH C2   CH3    0.000000       15.0350           0
      433 C2OH 109  C2OH H1   H     HCHARGEEE        1.0080           0
-     434 C2OH 109  C2OH O1   OH1   -0.700000       15.9994           0
-     435 C2OH 109  C2OH C1   CH2    0.265000       14.0270           0
+     434 C2OH 109  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     435 C2OH 109  C2OH C1   CH2   CCHARGEEE       14.0270           0
      436 C2OH 109  C2OH C2   CH3    0.000000       15.0350           0
      437 C2OH 110  C2OH H1   H     HCHARGEEE        1.0080           0
-     438 C2OH 110  C2OH O1   OH1   -0.700000       15.9994           0
-     439 C2OH 110  C2OH C1   CH2    0.265000       14.0270           0
+     438 C2OH 110  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     439 C2OH 110  C2OH C1   CH2   CCHARGEEE       14.0270           0
      440 C2OH 110  C2OH C2   CH3    0.000000       15.0350           0
      441 C2OH 111  C2OH H1   H     HCHARGEEE        1.0080           0
-     442 C2OH 111  C2OH O1   OH1   -0.700000       15.9994           0
-     443 C2OH 111  C2OH C1   CH2    0.265000       14.0270           0
+     442 C2OH 111  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     443 C2OH 111  C2OH C1   CH2   CCHARGEEE       14.0270           0
      444 C2OH 111  C2OH C2   CH3    0.000000       15.0350           0
      445 C2OH 112  C2OH H1   H     HCHARGEEE        1.0080           0
-     446 C2OH 112  C2OH O1   OH1   -0.700000       15.9994           0
-     447 C2OH 112  C2OH C1   CH2    0.265000       14.0270           0
+     446 C2OH 112  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     447 C2OH 112  C2OH C1   CH2   CCHARGEEE       14.0270           0
      448 C2OH 112  C2OH C2   CH3    0.000000       15.0350           0
      449 C2OH 113  C2OH H1   H     HCHARGEEE        1.0080           0
-     450 C2OH 113  C2OH O1   OH1   -0.700000       15.9994           0
-     451 C2OH 113  C2OH C1   CH2    0.265000       14.0270           0
+     450 C2OH 113  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     451 C2OH 113  C2OH C1   CH2   CCHARGEEE       14.0270           0
      452 C2OH 113  C2OH C2   CH3    0.000000       15.0350           0
      453 C2OH 114  C2OH H1   H     HCHARGEEE        1.0080           0
-     454 C2OH 114  C2OH O1   OH1   -0.700000       15.9994           0
-     455 C2OH 114  C2OH C1   CH2    0.265000       14.0270           0
+     454 C2OH 114  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     455 C2OH 114  C2OH C1   CH2   CCHARGEEE       14.0270           0
      456 C2OH 114  C2OH C2   CH3    0.000000       15.0350           0
      457 C2OH 115  C2OH H1   H     HCHARGEEE        1.0080           0
-     458 C2OH 115  C2OH O1   OH1   -0.700000       15.9994           0
-     459 C2OH 115  C2OH C1   CH2    0.265000       14.0270           0
+     458 C2OH 115  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     459 C2OH 115  C2OH C1   CH2   CCHARGEEE       14.0270           0
      460 C2OH 115  C2OH C2   CH3    0.000000       15.0350           0
      461 C2OH 116  C2OH H1   H     HCHARGEEE        1.0080           0
-     462 C2OH 116  C2OH O1   OH1   -0.700000       15.9994           0
-     463 C2OH 116  C2OH C1   CH2    0.265000       14.0270           0
+     462 C2OH 116  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     463 C2OH 116  C2OH C1   CH2   CCHARGEEE       14.0270           0
      464 C2OH 116  C2OH C2   CH3    0.000000       15.0350           0
      465 C2OH 117  C2OH H1   H     HCHARGEEE        1.0080           0
-     466 C2OH 117  C2OH O1   OH1   -0.700000       15.9994           0
-     467 C2OH 117  C2OH C1   CH2    0.265000       14.0270           0
+     466 C2OH 117  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     467 C2OH 117  C2OH C1   CH2   CCHARGEEE       14.0270           0
      468 C2OH 117  C2OH C2   CH3    0.000000       15.0350           0
      469 C2OH 118  C2OH H1   H     HCHARGEEE        1.0080           0
-     470 C2OH 118  C2OH O1   OH1   -0.700000       15.9994           0
-     471 C2OH 118  C2OH C1   CH2    0.265000       14.0270           0
+     470 C2OH 118  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     471 C2OH 118  C2OH C1   CH2   CCHARGEEE       14.0270           0
      472 C2OH 118  C2OH C2   CH3    0.000000       15.0350           0
      473 C2OH 119  C2OH H1   H     HCHARGEEE        1.0080           0
-     474 C2OH 119  C2OH O1   OH1   -0.700000       15.9994           0
-     475 C2OH 119  C2OH C1   CH2    0.265000       14.0270           0
+     474 C2OH 119  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     475 C2OH 119  C2OH C1   CH2   CCHARGEEE       14.0270           0
      476 C2OH 119  C2OH C2   CH3    0.000000       15.0350           0
      477 C2OH 120  C2OH H1   H     HCHARGEEE        1.0080           0
-     478 C2OH 120  C2OH O1   OH1   -0.700000       15.9994           0
-     479 C2OH 120  C2OH C1   CH2    0.265000       14.0270           0
+     478 C2OH 120  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     479 C2OH 120  C2OH C1   CH2   CCHARGEEE       14.0270           0
      480 C2OH 120  C2OH C2   CH3    0.000000       15.0350           0
      481 C2OH 121  C2OH H1   H     HCHARGEEE        1.0080           0
-     482 C2OH 121  C2OH O1   OH1   -0.700000       15.9994           0
-     483 C2OH 121  C2OH C1   CH2    0.265000       14.0270           0
+     482 C2OH 121  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     483 C2OH 121  C2OH C1   CH2   CCHARGEEE       14.0270           0
      484 C2OH 121  C2OH C2   CH3    0.000000       15.0350           0
      485 C2OH 122  C2OH H1   H     HCHARGEEE        1.0080           0
-     486 C2OH 122  C2OH O1   OH1   -0.700000       15.9994           0
-     487 C2OH 122  C2OH C1   CH2    0.265000       14.0270           0
+     486 C2OH 122  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     487 C2OH 122  C2OH C1   CH2   CCHARGEEE       14.0270           0
      488 C2OH 122  C2OH C2   CH3    0.000000       15.0350           0
      489 C2OH 123  C2OH H1   H     HCHARGEEE        1.0080           0
-     490 C2OH 123  C2OH O1   OH1   -0.700000       15.9994           0
-     491 C2OH 123  C2OH C1   CH2    0.265000       14.0270           0
+     490 C2OH 123  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     491 C2OH 123  C2OH C1   CH2   CCHARGEEE       14.0270           0
      492 C2OH 123  C2OH C2   CH3    0.000000       15.0350           0
      493 C2OH 124  C2OH H1   H     HCHARGEEE        1.0080           0
-     494 C2OH 124  C2OH O1   OH1   -0.700000       15.9994           0
-     495 C2OH 124  C2OH C1   CH2    0.265000       14.0270           0
+     494 C2OH 124  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     495 C2OH 124  C2OH C1   CH2   CCHARGEEE       14.0270           0
      496 C2OH 124  C2OH C2   CH3    0.000000       15.0350           0
      497 C2OH 125  C2OH H1   H     HCHARGEEE        1.0080           0
-     498 C2OH 125  C2OH O1   OH1   -0.700000       15.9994           0
-     499 C2OH 125  C2OH C1   CH2    0.265000       14.0270           0
+     498 C2OH 125  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     499 C2OH 125  C2OH C1   CH2   CCHARGEEE       14.0270           0
      500 C2OH 125  C2OH C2   CH3    0.000000       15.0350           0
      501 C2OH 126  C2OH H1   H     HCHARGEEE        1.0080           0
-     502 C2OH 126  C2OH O1   OH1   -0.700000       15.9994           0
-     503 C2OH 126  C2OH C1   CH2    0.265000       14.0270           0
+     502 C2OH 126  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     503 C2OH 126  C2OH C1   CH2   CCHARGEEE       14.0270           0
      504 C2OH 126  C2OH C2   CH3    0.000000       15.0350           0
      505 C2OH 127  C2OH H1   H     HCHARGEEE        1.0080           0
-     506 C2OH 127  C2OH O1   OH1   -0.700000       15.9994           0
-     507 C2OH 127  C2OH C1   CH2    0.265000       14.0270           0
+     506 C2OH 127  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     507 C2OH 127  C2OH C1   CH2   CCHARGEEE       14.0270           0
      508 C2OH 127  C2OH C2   CH3    0.000000       15.0350           0
      509 C2OH 128  C2OH H1   H     HCHARGEEE        1.0080           0
-     510 C2OH 128  C2OH O1   OH1   -0.700000       15.9994           0
-     511 C2OH 128  C2OH C1   CH2    0.265000       14.0270           0
+     510 C2OH 128  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     511 C2OH 128  C2OH C1   CH2   CCHARGEEE       14.0270           0
      512 C2OH 128  C2OH C2   CH3    0.000000       15.0350           0
      513 C2OH 129  C2OH H1   H     HCHARGEEE        1.0080           0
-     514 C2OH 129  C2OH O1   OH1   -0.700000       15.9994           0
-     515 C2OH 129  C2OH C1   CH2    0.265000       14.0270           0
+     514 C2OH 129  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     515 C2OH 129  C2OH C1   CH2   CCHARGEEE       14.0270           0
      516 C2OH 129  C2OH C2   CH3    0.000000       15.0350           0
      517 C2OH 130  C2OH H1   H     HCHARGEEE        1.0080           0
-     518 C2OH 130  C2OH O1   OH1   -0.700000       15.9994           0
-     519 C2OH 130  C2OH C1   CH2    0.265000       14.0270           0
+     518 C2OH 130  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     519 C2OH 130  C2OH C1   CH2   CCHARGEEE       14.0270           0
      520 C2OH 130  C2OH C2   CH3    0.000000       15.0350           0
      521 C2OH 131  C2OH H1   H     HCHARGEEE        1.0080           0
-     522 C2OH 131  C2OH O1   OH1   -0.700000       15.9994           0
-     523 C2OH 131  C2OH C1   CH2    0.265000       14.0270           0
+     522 C2OH 131  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     523 C2OH 131  C2OH C1   CH2   CCHARGEEE       14.0270           0
      524 C2OH 131  C2OH C2   CH3    0.000000       15.0350           0
      525 C2OH 132  C2OH H1   H     HCHARGEEE        1.0080           0
-     526 C2OH 132  C2OH O1   OH1   -0.700000       15.9994           0
-     527 C2OH 132  C2OH C1   CH2    0.265000       14.0270           0
+     526 C2OH 132  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     527 C2OH 132  C2OH C1   CH2   CCHARGEEE       14.0270           0
      528 C2OH 132  C2OH C2   CH3    0.000000       15.0350           0
      529 C2OH 133  C2OH H1   H     HCHARGEEE        1.0080           0
-     530 C2OH 133  C2OH O1   OH1   -0.700000       15.9994           0
-     531 C2OH 133  C2OH C1   CH2    0.265000       14.0270           0
+     530 C2OH 133  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     531 C2OH 133  C2OH C1   CH2   CCHARGEEE       14.0270           0
      532 C2OH 133  C2OH C2   CH3    0.000000       15.0350           0
      533 C2OH 134  C2OH H1   H     HCHARGEEE        1.0080           0
-     534 C2OH 134  C2OH O1   OH1   -0.700000       15.9994           0
-     535 C2OH 134  C2OH C1   CH2    0.265000       14.0270           0
+     534 C2OH 134  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     535 C2OH 134  C2OH C1   CH2   CCHARGEEE       14.0270           0
      536 C2OH 134  C2OH C2   CH3    0.000000       15.0350           0
      537 C2OH 135  C2OH H1   H     HCHARGEEE        1.0080           0
-     538 C2OH 135  C2OH O1   OH1   -0.700000       15.9994           0
-     539 C2OH 135  C2OH C1   CH2    0.265000       14.0270           0
+     538 C2OH 135  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     539 C2OH 135  C2OH C1   CH2   CCHARGEEE       14.0270           0
      540 C2OH 135  C2OH C2   CH3    0.000000       15.0350           0
      541 C2OH 136  C2OH H1   H     HCHARGEEE        1.0080           0
-     542 C2OH 136  C2OH O1   OH1   -0.700000       15.9994           0
-     543 C2OH 136  C2OH C1   CH2    0.265000       14.0270           0
+     542 C2OH 136  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     543 C2OH 136  C2OH C1   CH2   CCHARGEEE       14.0270           0
      544 C2OH 136  C2OH C2   CH3    0.000000       15.0350           0
      545 C2OH 137  C2OH H1   H     HCHARGEEE        1.0080           0
-     546 C2OH 137  C2OH O1   OH1   -0.700000       15.9994           0
-     547 C2OH 137  C2OH C1   CH2    0.265000       14.0270           0
+     546 C2OH 137  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     547 C2OH 137  C2OH C1   CH2   CCHARGEEE       14.0270           0
      548 C2OH 137  C2OH C2   CH3    0.000000       15.0350           0
      549 C2OH 138  C2OH H1   H     HCHARGEEE        1.0080           0
-     550 C2OH 138  C2OH O1   OH1   -0.700000       15.9994           0
-     551 C2OH 138  C2OH C1   CH2    0.265000       14.0270           0
+     550 C2OH 138  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     551 C2OH 138  C2OH C1   CH2   CCHARGEEE       14.0270           0
      552 C2OH 138  C2OH C2   CH3    0.000000       15.0350           0
      553 C2OH 139  C2OH H1   H     HCHARGEEE        1.0080           0
-     554 C2OH 139  C2OH O1   OH1   -0.700000       15.9994           0
-     555 C2OH 139  C2OH C1   CH2    0.265000       14.0270           0
+     554 C2OH 139  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     555 C2OH 139  C2OH C1   CH2   CCHARGEEE       14.0270           0
      556 C2OH 139  C2OH C2   CH3    0.000000       15.0350           0
      557 C2OH 140  C2OH H1   H     HCHARGEEE        1.0080           0
-     558 C2OH 140  C2OH O1   OH1   -0.700000       15.9994           0
-     559 C2OH 140  C2OH C1   CH2    0.265000       14.0270           0
+     558 C2OH 140  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     559 C2OH 140  C2OH C1   CH2   CCHARGEEE       14.0270           0
      560 C2OH 140  C2OH C2   CH3    0.000000       15.0350           0
      561 C2OH 141  C2OH H1   H     HCHARGEEE        1.0080           0
-     562 C2OH 141  C2OH O1   OH1   -0.700000       15.9994           0
-     563 C2OH 141  C2OH C1   CH2    0.265000       14.0270           0
+     562 C2OH 141  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     563 C2OH 141  C2OH C1   CH2   CCHARGEEE       14.0270           0
      564 C2OH 141  C2OH C2   CH3    0.000000       15.0350           0
      565 C2OH 142  C2OH H1   H     HCHARGEEE        1.0080           0
-     566 C2OH 142  C2OH O1   OH1   -0.700000       15.9994           0
-     567 C2OH 142  C2OH C1   CH2    0.265000       14.0270           0
+     566 C2OH 142  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     567 C2OH 142  C2OH C1   CH2   CCHARGEEE       14.0270           0
      568 C2OH 142  C2OH C2   CH3    0.000000       15.0350           0
      569 C2OH 143  C2OH H1   H     HCHARGEEE        1.0080           0
-     570 C2OH 143  C2OH O1   OH1   -0.700000       15.9994           0
-     571 C2OH 143  C2OH C1   CH2    0.265000       14.0270           0
+     570 C2OH 143  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     571 C2OH 143  C2OH C1   CH2   CCHARGEEE       14.0270           0
      572 C2OH 143  C2OH C2   CH3    0.000000       15.0350           0
      573 C2OH 144  C2OH H1   H     HCHARGEEE        1.0080           0
-     574 C2OH 144  C2OH O1   OH1   -0.700000       15.9994           0
-     575 C2OH 144  C2OH C1   CH2    0.265000       14.0270           0
+     574 C2OH 144  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     575 C2OH 144  C2OH C1   CH2   CCHARGEEE       14.0270           0
      576 C2OH 144  C2OH C2   CH3    0.000000       15.0350           0
      577 C2OH 145  C2OH H1   H     HCHARGEEE        1.0080           0
-     578 C2OH 145  C2OH O1   OH1   -0.700000       15.9994           0
-     579 C2OH 145  C2OH C1   CH2    0.265000       14.0270           0
+     578 C2OH 145  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     579 C2OH 145  C2OH C1   CH2   CCHARGEEE       14.0270           0
      580 C2OH 145  C2OH C2   CH3    0.000000       15.0350           0
      581 C2OH 146  C2OH H1   H     HCHARGEEE        1.0080           0
-     582 C2OH 146  C2OH O1   OH1   -0.700000       15.9994           0
-     583 C2OH 146  C2OH C1   CH2    0.265000       14.0270           0
+     582 C2OH 146  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     583 C2OH 146  C2OH C1   CH2   CCHARGEEE       14.0270           0
      584 C2OH 146  C2OH C2   CH3    0.000000       15.0350           0
      585 C2OH 147  C2OH H1   H     HCHARGEEE        1.0080           0
-     586 C2OH 147  C2OH O1   OH1   -0.700000       15.9994           0
-     587 C2OH 147  C2OH C1   CH2    0.265000       14.0270           0
+     586 C2OH 147  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     587 C2OH 147  C2OH C1   CH2   CCHARGEEE       14.0270           0
      588 C2OH 147  C2OH C2   CH3    0.000000       15.0350           0
      589 C2OH 148  C2OH H1   H     HCHARGEEE        1.0080           0
-     590 C2OH 148  C2OH O1   OH1   -0.700000       15.9994           0
-     591 C2OH 148  C2OH C1   CH2    0.265000       14.0270           0
+     590 C2OH 148  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     591 C2OH 148  C2OH C1   CH2   CCHARGEEE       14.0270           0
      592 C2OH 148  C2OH C2   CH3    0.000000       15.0350           0
      593 C2OH 149  C2OH H1   H     HCHARGEEE        1.0080           0
-     594 C2OH 149  C2OH O1   OH1   -0.700000       15.9994           0
-     595 C2OH 149  C2OH C1   CH2    0.265000       14.0270           0
+     594 C2OH 149  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     595 C2OH 149  C2OH C1   CH2   CCHARGEEE       14.0270           0
      596 C2OH 149  C2OH C2   CH3    0.000000       15.0350           0
      597 C2OH 150  C2OH H1   H     HCHARGEEE        1.0080           0
-     598 C2OH 150  C2OH O1   OH1   -0.700000       15.9994           0
-     599 C2OH 150  C2OH C1   CH2    0.265000       14.0270           0
+     598 C2OH 150  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     599 C2OH 150  C2OH C1   CH2   CCHARGEEE       14.0270           0
      600 C2OH 150  C2OH C2   CH3    0.000000       15.0350           0
      601 C2OH 151  C2OH H1   H     HCHARGEEE        1.0080           0
-     602 C2OH 151  C2OH O1   OH1   -0.700000       15.9994           0
-     603 C2OH 151  C2OH C1   CH2    0.265000       14.0270           0
+     602 C2OH 151  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     603 C2OH 151  C2OH C1   CH2   CCHARGEEE       14.0270           0
      604 C2OH 151  C2OH C2   CH3    0.000000       15.0350           0
      605 C2OH 152  C2OH H1   H     HCHARGEEE        1.0080           0
-     606 C2OH 152  C2OH O1   OH1   -0.700000       15.9994           0
-     607 C2OH 152  C2OH C1   CH2    0.265000       14.0270           0
+     606 C2OH 152  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     607 C2OH 152  C2OH C1   CH2   CCHARGEEE       14.0270           0
      608 C2OH 152  C2OH C2   CH3    0.000000       15.0350           0
      609 C2OH 153  C2OH H1   H     HCHARGEEE        1.0080           0
-     610 C2OH 153  C2OH O1   OH1   -0.700000       15.9994           0
-     611 C2OH 153  C2OH C1   CH2    0.265000       14.0270           0
+     610 C2OH 153  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     611 C2OH 153  C2OH C1   CH2   CCHARGEEE       14.0270           0
      612 C2OH 153  C2OH C2   CH3    0.000000       15.0350           0
      613 C2OH 154  C2OH H1   H     HCHARGEEE        1.0080           0
-     614 C2OH 154  C2OH O1   OH1   -0.700000       15.9994           0
-     615 C2OH 154  C2OH C1   CH2    0.265000       14.0270           0
+     614 C2OH 154  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     615 C2OH 154  C2OH C1   CH2   CCHARGEEE       14.0270           0
      616 C2OH 154  C2OH C2   CH3    0.000000       15.0350           0
      617 C2OH 155  C2OH H1   H     HCHARGEEE        1.0080           0
-     618 C2OH 155  C2OH O1   OH1   -0.700000       15.9994           0
-     619 C2OH 155  C2OH C1   CH2    0.265000       14.0270           0
+     618 C2OH 155  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     619 C2OH 155  C2OH C1   CH2   CCHARGEEE       14.0270           0
      620 C2OH 155  C2OH C2   CH3    0.000000       15.0350           0
      621 C2OH 156  C2OH H1   H     HCHARGEEE        1.0080           0
-     622 C2OH 156  C2OH O1   OH1   -0.700000       15.9994           0
-     623 C2OH 156  C2OH C1   CH2    0.265000       14.0270           0
+     622 C2OH 156  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     623 C2OH 156  C2OH C1   CH2   CCHARGEEE       14.0270           0
      624 C2OH 156  C2OH C2   CH3    0.000000       15.0350           0
      625 C2OH 157  C2OH H1   H     HCHARGEEE        1.0080           0
-     626 C2OH 157  C2OH O1   OH1   -0.700000       15.9994           0
-     627 C2OH 157  C2OH C1   CH2    0.265000       14.0270           0
+     626 C2OH 157  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     627 C2OH 157  C2OH C1   CH2   CCHARGEEE       14.0270           0
      628 C2OH 157  C2OH C2   CH3    0.000000       15.0350           0
      629 C2OH 158  C2OH H1   H     HCHARGEEE        1.0080           0
-     630 C2OH 158  C2OH O1   OH1   -0.700000       15.9994           0
-     631 C2OH 158  C2OH C1   CH2    0.265000       14.0270           0
+     630 C2OH 158  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     631 C2OH 158  C2OH C1   CH2   CCHARGEEE       14.0270           0
      632 C2OH 158  C2OH C2   CH3    0.000000       15.0350           0
      633 C2OH 159  C2OH H1   H     HCHARGEEE        1.0080           0
-     634 C2OH 159  C2OH O1   OH1   -0.700000       15.9994           0
-     635 C2OH 159  C2OH C1   CH2    0.265000       14.0270           0
+     634 C2OH 159  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     635 C2OH 159  C2OH C1   CH2   CCHARGEEE       14.0270           0
      636 C2OH 159  C2OH C2   CH3    0.000000       15.0350           0
      637 C2OH 160  C2OH H1   H     HCHARGEEE        1.0080           0
-     638 C2OH 160  C2OH O1   OH1   -0.700000       15.9994           0
-     639 C2OH 160  C2OH C1   CH2    0.265000       14.0270           0
+     638 C2OH 160  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     639 C2OH 160  C2OH C1   CH2   CCHARGEEE       14.0270           0
      640 C2OH 160  C2OH C2   CH3    0.000000       15.0350           0
      641 C2OH 161  C2OH H1   H     HCHARGEEE        1.0080           0
-     642 C2OH 161  C2OH O1   OH1   -0.700000       15.9994           0
-     643 C2OH 161  C2OH C1   CH2    0.265000       14.0270           0
+     642 C2OH 161  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     643 C2OH 161  C2OH C1   CH2   CCHARGEEE       14.0270           0
      644 C2OH 161  C2OH C2   CH3    0.000000       15.0350           0
      645 C2OH 162  C2OH H1   H     HCHARGEEE        1.0080           0
-     646 C2OH 162  C2OH O1   OH1   -0.700000       15.9994           0
-     647 C2OH 162  C2OH C1   CH2    0.265000       14.0270           0
+     646 C2OH 162  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     647 C2OH 162  C2OH C1   CH2   CCHARGEEE       14.0270           0
      648 C2OH 162  C2OH C2   CH3    0.000000       15.0350           0
      649 C2OH 163  C2OH H1   H     HCHARGEEE        1.0080           0
-     650 C2OH 163  C2OH O1   OH1   -0.700000       15.9994           0
-     651 C2OH 163  C2OH C1   CH2    0.265000       14.0270           0
+     650 C2OH 163  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     651 C2OH 163  C2OH C1   CH2   CCHARGEEE       14.0270           0
      652 C2OH 163  C2OH C2   CH3    0.000000       15.0350           0
      653 C2OH 164  C2OH H1   H     HCHARGEEE        1.0080           0
-     654 C2OH 164  C2OH O1   OH1   -0.700000       15.9994           0
-     655 C2OH 164  C2OH C1   CH2    0.265000       14.0270           0
+     654 C2OH 164  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     655 C2OH 164  C2OH C1   CH2   CCHARGEEE       14.0270           0
      656 C2OH 164  C2OH C2   CH3    0.000000       15.0350           0
      657 C2OH 165  C2OH H1   H     HCHARGEEE        1.0080           0
-     658 C2OH 165  C2OH O1   OH1   -0.700000       15.9994           0
-     659 C2OH 165  C2OH C1   CH2    0.265000       14.0270           0
+     658 C2OH 165  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     659 C2OH 165  C2OH C1   CH2   CCHARGEEE       14.0270           0
      660 C2OH 165  C2OH C2   CH3    0.000000       15.0350           0
      661 C2OH 166  C2OH H1   H     HCHARGEEE        1.0080           0
-     662 C2OH 166  C2OH O1   OH1   -0.700000       15.9994           0
-     663 C2OH 166  C2OH C1   CH2    0.265000       14.0270           0
+     662 C2OH 166  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     663 C2OH 166  C2OH C1   CH2   CCHARGEEE       14.0270           0
      664 C2OH 166  C2OH C2   CH3    0.000000       15.0350           0
      665 C2OH 167  C2OH H1   H     HCHARGEEE        1.0080           0
-     666 C2OH 167  C2OH O1   OH1   -0.700000       15.9994           0
-     667 C2OH 167  C2OH C1   CH2    0.265000       14.0270           0
+     666 C2OH 167  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     667 C2OH 167  C2OH C1   CH2   CCHARGEEE       14.0270           0
      668 C2OH 167  C2OH C2   CH3    0.000000       15.0350           0
      669 C2OH 168  C2OH H1   H     HCHARGEEE        1.0080           0
-     670 C2OH 168  C2OH O1   OH1   -0.700000       15.9994           0
-     671 C2OH 168  C2OH C1   CH2    0.265000       14.0270           0
+     670 C2OH 168  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     671 C2OH 168  C2OH C1   CH2   CCHARGEEE       14.0270           0
      672 C2OH 168  C2OH C2   CH3    0.000000       15.0350           0
      673 C2OH 169  C2OH H1   H     HCHARGEEE        1.0080           0
-     674 C2OH 169  C2OH O1   OH1   -0.700000       15.9994           0
-     675 C2OH 169  C2OH C1   CH2    0.265000       14.0270           0
+     674 C2OH 169  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     675 C2OH 169  C2OH C1   CH2   CCHARGEEE       14.0270           0
      676 C2OH 169  C2OH C2   CH3    0.000000       15.0350           0
      677 C2OH 170  C2OH H1   H     HCHARGEEE        1.0080           0
-     678 C2OH 170  C2OH O1   OH1   -0.700000       15.9994           0
-     679 C2OH 170  C2OH C1   CH2    0.265000       14.0270           0
+     678 C2OH 170  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     679 C2OH 170  C2OH C1   CH2   CCHARGEEE       14.0270           0
      680 C2OH 170  C2OH C2   CH3    0.000000       15.0350           0
      681 C2OH 171  C2OH H1   H     HCHARGEEE        1.0080           0
-     682 C2OH 171  C2OH O1   OH1   -0.700000       15.9994           0
-     683 C2OH 171  C2OH C1   CH2    0.265000       14.0270           0
+     682 C2OH 171  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     683 C2OH 171  C2OH C1   CH2   CCHARGEEE       14.0270           0
      684 C2OH 171  C2OH C2   CH3    0.000000       15.0350           0
      685 C2OH 172  C2OH H1   H     HCHARGEEE        1.0080           0
-     686 C2OH 172  C2OH O1   OH1   -0.700000       15.9994           0
-     687 C2OH 172  C2OH C1   CH2    0.265000       14.0270           0
+     686 C2OH 172  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     687 C2OH 172  C2OH C1   CH2   CCHARGEEE       14.0270           0
      688 C2OH 172  C2OH C2   CH3    0.000000       15.0350           0
      689 C2OH 173  C2OH H1   H     HCHARGEEE        1.0080           0
-     690 C2OH 173  C2OH O1   OH1   -0.700000       15.9994           0
-     691 C2OH 173  C2OH C1   CH2    0.265000       14.0270           0
+     690 C2OH 173  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     691 C2OH 173  C2OH C1   CH2   CCHARGEEE       14.0270           0
      692 C2OH 173  C2OH C2   CH3    0.000000       15.0350           0
      693 C2OH 174  C2OH H1   H     HCHARGEEE        1.0080           0
-     694 C2OH 174  C2OH O1   OH1   -0.700000       15.9994           0
-     695 C2OH 174  C2OH C1   CH2    0.265000       14.0270           0
+     694 C2OH 174  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     695 C2OH 174  C2OH C1   CH2   CCHARGEEE       14.0270           0
      696 C2OH 174  C2OH C2   CH3    0.000000       15.0350           0
      697 C2OH 175  C2OH H1   H     HCHARGEEE        1.0080           0
-     698 C2OH 175  C2OH O1   OH1   -0.700000       15.9994           0
-     699 C2OH 175  C2OH C1   CH2    0.265000       14.0270           0
+     698 C2OH 175  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     699 C2OH 175  C2OH C1   CH2   CCHARGEEE       14.0270           0
      700 C2OH 175  C2OH C2   CH3    0.000000       15.0350           0
      701 C2OH 176  C2OH H1   H     HCHARGEEE        1.0080           0
-     702 C2OH 176  C2OH O1   OH1   -0.700000       15.9994           0
-     703 C2OH 176  C2OH C1   CH2    0.265000       14.0270           0
+     702 C2OH 176  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     703 C2OH 176  C2OH C1   CH2   CCHARGEEE       14.0270           0
      704 C2OH 176  C2OH C2   CH3    0.000000       15.0350           0
      705 C2OH 177  C2OH H1   H     HCHARGEEE        1.0080           0
-     706 C2OH 177  C2OH O1   OH1   -0.700000       15.9994           0
-     707 C2OH 177  C2OH C1   CH2    0.265000       14.0270           0
+     706 C2OH 177  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     707 C2OH 177  C2OH C1   CH2   CCHARGEEE       14.0270           0
      708 C2OH 177  C2OH C2   CH3    0.000000       15.0350           0
      709 C2OH 178  C2OH H1   H     HCHARGEEE        1.0080           0
-     710 C2OH 178  C2OH O1   OH1   -0.700000       15.9994           0
-     711 C2OH 178  C2OH C1   CH2    0.265000       14.0270           0
+     710 C2OH 178  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     711 C2OH 178  C2OH C1   CH2   CCHARGEEE       14.0270           0
      712 C2OH 178  C2OH C2   CH3    0.000000       15.0350           0
      713 C2OH 179  C2OH H1   H     HCHARGEEE        1.0080           0
-     714 C2OH 179  C2OH O1   OH1   -0.700000       15.9994           0
-     715 C2OH 179  C2OH C1   CH2    0.265000       14.0270           0
+     714 C2OH 179  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     715 C2OH 179  C2OH C1   CH2   CCHARGEEE       14.0270           0
      716 C2OH 179  C2OH C2   CH3    0.000000       15.0350           0
      717 C2OH 180  C2OH H1   H     HCHARGEEE        1.0080           0
-     718 C2OH 180  C2OH O1   OH1   -0.700000       15.9994           0
-     719 C2OH 180  C2OH C1   CH2    0.265000       14.0270           0
+     718 C2OH 180  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     719 C2OH 180  C2OH C1   CH2   CCHARGEEE       14.0270           0
      720 C2OH 180  C2OH C2   CH3    0.000000       15.0350           0
      721 C2OH 181  C2OH H1   H     HCHARGEEE        1.0080           0
-     722 C2OH 181  C2OH O1   OH1   -0.700000       15.9994           0
-     723 C2OH 181  C2OH C1   CH2    0.265000       14.0270           0
+     722 C2OH 181  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     723 C2OH 181  C2OH C1   CH2   CCHARGEEE       14.0270           0
      724 C2OH 181  C2OH C2   CH3    0.000000       15.0350           0
      725 C2OH 182  C2OH H1   H     HCHARGEEE        1.0080           0
-     726 C2OH 182  C2OH O1   OH1   -0.700000       15.9994           0
-     727 C2OH 182  C2OH C1   CH2    0.265000       14.0270           0
+     726 C2OH 182  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     727 C2OH 182  C2OH C1   CH2   CCHARGEEE       14.0270           0
      728 C2OH 182  C2OH C2   CH3    0.000000       15.0350           0
      729 C2OH 183  C2OH H1   H     HCHARGEEE        1.0080           0
-     730 C2OH 183  C2OH O1   OH1   -0.700000       15.9994           0
-     731 C2OH 183  C2OH C1   CH2    0.265000       14.0270           0
+     730 C2OH 183  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     731 C2OH 183  C2OH C1   CH2   CCHARGEEE       14.0270           0
      732 C2OH 183  C2OH C2   CH3    0.000000       15.0350           0
      733 C2OH 184  C2OH H1   H     HCHARGEEE        1.0080           0
-     734 C2OH 184  C2OH O1   OH1   -0.700000       15.9994           0
-     735 C2OH 184  C2OH C1   CH2    0.265000       14.0270           0
+     734 C2OH 184  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     735 C2OH 184  C2OH C1   CH2   CCHARGEEE       14.0270           0
      736 C2OH 184  C2OH C2   CH3    0.000000       15.0350           0
      737 C2OH 185  C2OH H1   H     HCHARGEEE        1.0080           0
-     738 C2OH 185  C2OH O1   OH1   -0.700000       15.9994           0
-     739 C2OH 185  C2OH C1   CH2    0.265000       14.0270           0
+     738 C2OH 185  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     739 C2OH 185  C2OH C1   CH2   CCHARGEEE       14.0270           0
      740 C2OH 185  C2OH C2   CH3    0.000000       15.0350           0
      741 C2OH 186  C2OH H1   H     HCHARGEEE        1.0080           0
-     742 C2OH 186  C2OH O1   OH1   -0.700000       15.9994           0
-     743 C2OH 186  C2OH C1   CH2    0.265000       14.0270           0
+     742 C2OH 186  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     743 C2OH 186  C2OH C1   CH2   CCHARGEEE       14.0270           0
      744 C2OH 186  C2OH C2   CH3    0.000000       15.0350           0
      745 C2OH 187  C2OH H1   H     HCHARGEEE        1.0080           0
-     746 C2OH 187  C2OH O1   OH1   -0.700000       15.9994           0
-     747 C2OH 187  C2OH C1   CH2    0.265000       14.0270           0
+     746 C2OH 187  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     747 C2OH 187  C2OH C1   CH2   CCHARGEEE       14.0270           0
      748 C2OH 187  C2OH C2   CH3    0.000000       15.0350           0
      749 C2OH 188  C2OH H1   H     HCHARGEEE        1.0080           0
-     750 C2OH 188  C2OH O1   OH1   -0.700000       15.9994           0
-     751 C2OH 188  C2OH C1   CH2    0.265000       14.0270           0
+     750 C2OH 188  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     751 C2OH 188  C2OH C1   CH2   CCHARGEEE       14.0270           0
      752 C2OH 188  C2OH C2   CH3    0.000000       15.0350           0
      753 C2OH 189  C2OH H1   H     HCHARGEEE        1.0080           0
-     754 C2OH 189  C2OH O1   OH1   -0.700000       15.9994           0
-     755 C2OH 189  C2OH C1   CH2    0.265000       14.0270           0
+     754 C2OH 189  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     755 C2OH 189  C2OH C1   CH2   CCHARGEEE       14.0270           0
      756 C2OH 189  C2OH C2   CH3    0.000000       15.0350           0
      757 C2OH 190  C2OH H1   H     HCHARGEEE        1.0080           0
-     758 C2OH 190  C2OH O1   OH1   -0.700000       15.9994           0
-     759 C2OH 190  C2OH C1   CH2    0.265000       14.0270           0
+     758 C2OH 190  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     759 C2OH 190  C2OH C1   CH2   CCHARGEEE       14.0270           0
      760 C2OH 190  C2OH C2   CH3    0.000000       15.0350           0
      761 C2OH 191  C2OH H1   H     HCHARGEEE        1.0080           0
-     762 C2OH 191  C2OH O1   OH1   -0.700000       15.9994           0
-     763 C2OH 191  C2OH C1   CH2    0.265000       14.0270           0
+     762 C2OH 191  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     763 C2OH 191  C2OH C1   CH2   CCHARGEEE       14.0270           0
      764 C2OH 191  C2OH C2   CH3    0.000000       15.0350           0
      765 C2OH 192  C2OH H1   H     HCHARGEEE        1.0080           0
-     766 C2OH 192  C2OH O1   OH1   -0.700000       15.9994           0
-     767 C2OH 192  C2OH C1   CH2    0.265000       14.0270           0
+     766 C2OH 192  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     767 C2OH 192  C2OH C1   CH2   CCHARGEEE       14.0270           0
      768 C2OH 192  C2OH C2   CH3    0.000000       15.0350           0
      769 C2OH 193  C2OH H1   H     HCHARGEEE        1.0080           0
-     770 C2OH 193  C2OH O1   OH1   -0.700000       15.9994           0
-     771 C2OH 193  C2OH C1   CH2    0.265000       14.0270           0
+     770 C2OH 193  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     771 C2OH 193  C2OH C1   CH2   CCHARGEEE       14.0270           0
      772 C2OH 193  C2OH C2   CH3    0.000000       15.0350           0
      773 C2OH 194  C2OH H1   H     HCHARGEEE        1.0080           0
-     774 C2OH 194  C2OH O1   OH1   -0.700000       15.9994           0
-     775 C2OH 194  C2OH C1   CH2    0.265000       14.0270           0
+     774 C2OH 194  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     775 C2OH 194  C2OH C1   CH2   CCHARGEEE       14.0270           0
      776 C2OH 194  C2OH C2   CH3    0.000000       15.0350           0
      777 C2OH 195  C2OH H1   H     HCHARGEEE        1.0080           0
-     778 C2OH 195  C2OH O1   OH1   -0.700000       15.9994           0
-     779 C2OH 195  C2OH C1   CH2    0.265000       14.0270           0
+     778 C2OH 195  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     779 C2OH 195  C2OH C1   CH2   CCHARGEEE       14.0270           0
      780 C2OH 195  C2OH C2   CH3    0.000000       15.0350           0
      781 C2OH 196  C2OH H1   H     HCHARGEEE        1.0080           0
-     782 C2OH 196  C2OH O1   OH1   -0.700000       15.9994           0
-     783 C2OH 196  C2OH C1   CH2    0.265000       14.0270           0
+     782 C2OH 196  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     783 C2OH 196  C2OH C1   CH2   CCHARGEEE       14.0270           0
      784 C2OH 196  C2OH C2   CH3    0.000000       15.0350           0
      785 C2OH 197  C2OH H1   H     HCHARGEEE        1.0080           0
-     786 C2OH 197  C2OH O1   OH1   -0.700000       15.9994           0
-     787 C2OH 197  C2OH C1   CH2    0.265000       14.0270           0
+     786 C2OH 197  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     787 C2OH 197  C2OH C1   CH2   CCHARGEEE       14.0270           0
      788 C2OH 197  C2OH C2   CH3    0.000000       15.0350           0
      789 C2OH 198  C2OH H1   H     HCHARGEEE        1.0080           0
-     790 C2OH 198  C2OH O1   OH1   -0.700000       15.9994           0
-     791 C2OH 198  C2OH C1   CH2    0.265000       14.0270           0
+     790 C2OH 198  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     791 C2OH 198  C2OH C1   CH2   CCHARGEEE       14.0270           0
      792 C2OH 198  C2OH C2   CH3    0.000000       15.0350           0
      793 C2OH 199  C2OH H1   H     HCHARGEEE        1.0080           0
-     794 C2OH 199  C2OH O1   OH1   -0.700000       15.9994           0
-     795 C2OH 199  C2OH C1   CH2    0.265000       14.0270           0
+     794 C2OH 199  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     795 C2OH 199  C2OH C1   CH2   CCHARGEEE       14.0270           0
      796 C2OH 199  C2OH C2   CH3    0.000000       15.0350           0
      797 C2OH 200  C2OH H1   H     HCHARGEEE        1.0080           0
-     798 C2OH 200  C2OH O1   OH1   -0.700000       15.9994           0
-     799 C2OH 200  C2OH C1   CH2    0.265000       14.0270           0
+     798 C2OH 200  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     799 C2OH 200  C2OH C1   CH2   CCHARGEEE       14.0270           0
      800 C2OH 200  C2OH C2   CH3    0.000000       15.0350           0
      801 C2OH 201  C2OH H1   H     HCHARGEEE        1.0080           0
-     802 C2OH 201  C2OH O1   OH1   -0.700000       15.9994           0
-     803 C2OH 201  C2OH C1   CH2    0.265000       14.0270           0
+     802 C2OH 201  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     803 C2OH 201  C2OH C1   CH2   CCHARGEEE       14.0270           0
      804 C2OH 201  C2OH C2   CH3    0.000000       15.0350           0
      805 C2OH 202  C2OH H1   H     HCHARGEEE        1.0080           0
-     806 C2OH 202  C2OH O1   OH1   -0.700000       15.9994           0
-     807 C2OH 202  C2OH C1   CH2    0.265000       14.0270           0
+     806 C2OH 202  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     807 C2OH 202  C2OH C1   CH2   CCHARGEEE       14.0270           0
      808 C2OH 202  C2OH C2   CH3    0.000000       15.0350           0
      809 C2OH 203  C2OH H1   H     HCHARGEEE        1.0080           0
-     810 C2OH 203  C2OH O1   OH1   -0.700000       15.9994           0
-     811 C2OH 203  C2OH C1   CH2    0.265000       14.0270           0
+     810 C2OH 203  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     811 C2OH 203  C2OH C1   CH2   CCHARGEEE       14.0270           0
      812 C2OH 203  C2OH C2   CH3    0.000000       15.0350           0
      813 C2OH 204  C2OH H1   H     HCHARGEEE        1.0080           0
-     814 C2OH 204  C2OH O1   OH1   -0.700000       15.9994           0
-     815 C2OH 204  C2OH C1   CH2    0.265000       14.0270           0
+     814 C2OH 204  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     815 C2OH 204  C2OH C1   CH2   CCHARGEEE       14.0270           0
      816 C2OH 204  C2OH C2   CH3    0.000000       15.0350           0
      817 C2OH 205  C2OH H1   H     HCHARGEEE        1.0080           0
-     818 C2OH 205  C2OH O1   OH1   -0.700000       15.9994           0
-     819 C2OH 205  C2OH C1   CH2    0.265000       14.0270           0
+     818 C2OH 205  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     819 C2OH 205  C2OH C1   CH2   CCHARGEEE       14.0270           0
      820 C2OH 205  C2OH C2   CH3    0.000000       15.0350           0
      821 C2OH 206  C2OH H1   H     HCHARGEEE        1.0080           0
-     822 C2OH 206  C2OH O1   OH1   -0.700000       15.9994           0
-     823 C2OH 206  C2OH C1   CH2    0.265000       14.0270           0
+     822 C2OH 206  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     823 C2OH 206  C2OH C1   CH2   CCHARGEEE       14.0270           0
      824 C2OH 206  C2OH C2   CH3    0.000000       15.0350           0
      825 C2OH 207  C2OH H1   H     HCHARGEEE        1.0080           0
-     826 C2OH 207  C2OH O1   OH1   -0.700000       15.9994           0
-     827 C2OH 207  C2OH C1   CH2    0.265000       14.0270           0
+     826 C2OH 207  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     827 C2OH 207  C2OH C1   CH2   CCHARGEEE       14.0270           0
      828 C2OH 207  C2OH C2   CH3    0.000000       15.0350           0
      829 C2OH 208  C2OH H1   H     HCHARGEEE        1.0080           0
-     830 C2OH 208  C2OH O1   OH1   -0.700000       15.9994           0
-     831 C2OH 208  C2OH C1   CH2    0.265000       14.0270           0
+     830 C2OH 208  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     831 C2OH 208  C2OH C1   CH2   CCHARGEEE       14.0270           0
      832 C2OH 208  C2OH C2   CH3    0.000000       15.0350           0
      833 C2OH 209  C2OH H1   H     HCHARGEEE        1.0080           0
-     834 C2OH 209  C2OH O1   OH1   -0.700000       15.9994           0
-     835 C2OH 209  C2OH C1   CH2    0.265000       14.0270           0
+     834 C2OH 209  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     835 C2OH 209  C2OH C1   CH2   CCHARGEEE       14.0270           0
      836 C2OH 209  C2OH C2   CH3    0.000000       15.0350           0
      837 C2OH 210  C2OH H1   H     HCHARGEEE        1.0080           0
-     838 C2OH 210  C2OH O1   OH1   -0.700000       15.9994           0
-     839 C2OH 210  C2OH C1   CH2    0.265000       14.0270           0
+     838 C2OH 210  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     839 C2OH 210  C2OH C1   CH2   CCHARGEEE       14.0270           0
      840 C2OH 210  C2OH C2   CH3    0.000000       15.0350           0
      841 C2OH 211  C2OH H1   H     HCHARGEEE        1.0080           0
-     842 C2OH 211  C2OH O1   OH1   -0.700000       15.9994           0
-     843 C2OH 211  C2OH C1   CH2    0.265000       14.0270           0
+     842 C2OH 211  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     843 C2OH 211  C2OH C1   CH2   CCHARGEEE       14.0270           0
      844 C2OH 211  C2OH C2   CH3    0.000000       15.0350           0
      845 C2OH 212  C2OH H1   H     HCHARGEEE        1.0080           0
-     846 C2OH 212  C2OH O1   OH1   -0.700000       15.9994           0
-     847 C2OH 212  C2OH C1   CH2    0.265000       14.0270           0
+     846 C2OH 212  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     847 C2OH 212  C2OH C1   CH2   CCHARGEEE       14.0270           0
      848 C2OH 212  C2OH C2   CH3    0.000000       15.0350           0
      849 C2OH 213  C2OH H1   H     HCHARGEEE        1.0080           0
-     850 C2OH 213  C2OH O1   OH1   -0.700000       15.9994           0
-     851 C2OH 213  C2OH C1   CH2    0.265000       14.0270           0
+     850 C2OH 213  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     851 C2OH 213  C2OH C1   CH2   CCHARGEEE       14.0270           0
      852 C2OH 213  C2OH C2   CH3    0.000000       15.0350           0
      853 C2OH 214  C2OH H1   H     HCHARGEEE        1.0080           0
-     854 C2OH 214  C2OH O1   OH1   -0.700000       15.9994           0
-     855 C2OH 214  C2OH C1   CH2    0.265000       14.0270           0
+     854 C2OH 214  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     855 C2OH 214  C2OH C1   CH2   CCHARGEEE       14.0270           0
      856 C2OH 214  C2OH C2   CH3    0.000000       15.0350           0
      857 C2OH 215  C2OH H1   H     HCHARGEEE        1.0080           0
-     858 C2OH 215  C2OH O1   OH1   -0.700000       15.9994           0
-     859 C2OH 215  C2OH C1   CH2    0.265000       14.0270           0
+     858 C2OH 215  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     859 C2OH 215  C2OH C1   CH2   CCHARGEEE       14.0270           0
      860 C2OH 215  C2OH C2   CH3    0.000000       15.0350           0
      861 C2OH 216  C2OH H1   H     HCHARGEEE        1.0080           0
-     862 C2OH 216  C2OH O1   OH1   -0.700000       15.9994           0
-     863 C2OH 216  C2OH C1   CH2    0.265000       14.0270           0
+     862 C2OH 216  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     863 C2OH 216  C2OH C1   CH2   CCHARGEEE       14.0270           0
      864 C2OH 216  C2OH C2   CH3    0.000000       15.0350           0
      865 C2OH 217  C2OH H1   H     HCHARGEEE        1.0080           0
-     866 C2OH 217  C2OH O1   OH1   -0.700000       15.9994           0
-     867 C2OH 217  C2OH C1   CH2    0.265000       14.0270           0
+     866 C2OH 217  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     867 C2OH 217  C2OH C1   CH2   CCHARGEEE       14.0270           0
      868 C2OH 217  C2OH C2   CH3    0.000000       15.0350           0
      869 C2OH 218  C2OH H1   H     HCHARGEEE        1.0080           0
-     870 C2OH 218  C2OH O1   OH1   -0.700000       15.9994           0
-     871 C2OH 218  C2OH C1   CH2    0.265000       14.0270           0
+     870 C2OH 218  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     871 C2OH 218  C2OH C1   CH2   CCHARGEEE       14.0270           0
      872 C2OH 218  C2OH C2   CH3    0.000000       15.0350           0
      873 C2OH 219  C2OH H1   H     HCHARGEEE        1.0080           0
-     874 C2OH 219  C2OH O1   OH1   -0.700000       15.9994           0
-     875 C2OH 219  C2OH C1   CH2    0.265000       14.0270           0
+     874 C2OH 219  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     875 C2OH 219  C2OH C1   CH2   CCHARGEEE       14.0270           0
      876 C2OH 219  C2OH C2   CH3    0.000000       15.0350           0
      877 C2OH 220  C2OH H1   H     HCHARGEEE        1.0080           0
-     878 C2OH 220  C2OH O1   OH1   -0.700000       15.9994           0
-     879 C2OH 220  C2OH C1   CH2    0.265000       14.0270           0
+     878 C2OH 220  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     879 C2OH 220  C2OH C1   CH2   CCHARGEEE       14.0270           0
      880 C2OH 220  C2OH C2   CH3    0.000000       15.0350           0
      881 C2OH 221  C2OH H1   H     HCHARGEEE        1.0080           0
-     882 C2OH 221  C2OH O1   OH1   -0.700000       15.9994           0
-     883 C2OH 221  C2OH C1   CH2    0.265000       14.0270           0
+     882 C2OH 221  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     883 C2OH 221  C2OH C1   CH2   CCHARGEEE       14.0270           0
      884 C2OH 221  C2OH C2   CH3    0.000000       15.0350           0
      885 C2OH 222  C2OH H1   H     HCHARGEEE        1.0080           0
-     886 C2OH 222  C2OH O1   OH1   -0.700000       15.9994           0
-     887 C2OH 222  C2OH C1   CH2    0.265000       14.0270           0
+     886 C2OH 222  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     887 C2OH 222  C2OH C1   CH2   CCHARGEEE       14.0270           0
      888 C2OH 222  C2OH C2   CH3    0.000000       15.0350           0
      889 C2OH 223  C2OH H1   H     HCHARGEEE        1.0080           0
-     890 C2OH 223  C2OH O1   OH1   -0.700000       15.9994           0
-     891 C2OH 223  C2OH C1   CH2    0.265000       14.0270           0
+     890 C2OH 223  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     891 C2OH 223  C2OH C1   CH2   CCHARGEEE       14.0270           0
      892 C2OH 223  C2OH C2   CH3    0.000000       15.0350           0
      893 C2OH 224  C2OH H1   H     HCHARGEEE        1.0080           0
-     894 C2OH 224  C2OH O1   OH1   -0.700000       15.9994           0
-     895 C2OH 224  C2OH C1   CH2    0.265000       14.0270           0
+     894 C2OH 224  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     895 C2OH 224  C2OH C1   CH2   CCHARGEEE       14.0270           0
      896 C2OH 224  C2OH C2   CH3    0.000000       15.0350           0
      897 C2OH 225  C2OH H1   H     HCHARGEEE        1.0080           0
-     898 C2OH 225  C2OH O1   OH1   -0.700000       15.9994           0
-     899 C2OH 225  C2OH C1   CH2    0.265000       14.0270           0
+     898 C2OH 225  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     899 C2OH 225  C2OH C1   CH2   CCHARGEEE       14.0270           0
      900 C2OH 225  C2OH C2   CH3    0.000000       15.0350           0
      901 C2OH 226  C2OH H1   H     HCHARGEEE        1.0080           0
-     902 C2OH 226  C2OH O1   OH1   -0.700000       15.9994           0
-     903 C2OH 226  C2OH C1   CH2    0.265000       14.0270           0
+     902 C2OH 226  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     903 C2OH 226  C2OH C1   CH2   CCHARGEEE       14.0270           0
      904 C2OH 226  C2OH C2   CH3    0.000000       15.0350           0
      905 C2OH 227  C2OH H1   H     HCHARGEEE        1.0080           0
-     906 C2OH 227  C2OH O1   OH1   -0.700000       15.9994           0
-     907 C2OH 227  C2OH C1   CH2    0.265000       14.0270           0
+     906 C2OH 227  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     907 C2OH 227  C2OH C1   CH2   CCHARGEEE       14.0270           0
      908 C2OH 227  C2OH C2   CH3    0.000000       15.0350           0
      909 C2OH 228  C2OH H1   H     HCHARGEEE        1.0080           0
-     910 C2OH 228  C2OH O1   OH1   -0.700000       15.9994           0
-     911 C2OH 228  C2OH C1   CH2    0.265000       14.0270           0
+     910 C2OH 228  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     911 C2OH 228  C2OH C1   CH2   CCHARGEEE       14.0270           0
      912 C2OH 228  C2OH C2   CH3    0.000000       15.0350           0
      913 C2OH 229  C2OH H1   H     HCHARGEEE        1.0080           0
-     914 C2OH 229  C2OH O1   OH1   -0.700000       15.9994           0
-     915 C2OH 229  C2OH C1   CH2    0.265000       14.0270           0
+     914 C2OH 229  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     915 C2OH 229  C2OH C1   CH2   CCHARGEEE       14.0270           0
      916 C2OH 229  C2OH C2   CH3    0.000000       15.0350           0
      917 C2OH 230  C2OH H1   H     HCHARGEEE        1.0080           0
-     918 C2OH 230  C2OH O1   OH1   -0.700000       15.9994           0
-     919 C2OH 230  C2OH C1   CH2    0.265000       14.0270           0
+     918 C2OH 230  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     919 C2OH 230  C2OH C1   CH2   CCHARGEEE       14.0270           0
      920 C2OH 230  C2OH C2   CH3    0.000000       15.0350           0
      921 C2OH 231  C2OH H1   H     HCHARGEEE        1.0080           0
-     922 C2OH 231  C2OH O1   OH1   -0.700000       15.9994           0
-     923 C2OH 231  C2OH C1   CH2    0.265000       14.0270           0
+     922 C2OH 231  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     923 C2OH 231  C2OH C1   CH2   CCHARGEEE       14.0270           0
      924 C2OH 231  C2OH C2   CH3    0.000000       15.0350           0
      925 C2OH 232  C2OH H1   H     HCHARGEEE        1.0080           0
-     926 C2OH 232  C2OH O1   OH1   -0.700000       15.9994           0
-     927 C2OH 232  C2OH C1   CH2    0.265000       14.0270           0
+     926 C2OH 232  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     927 C2OH 232  C2OH C1   CH2   CCHARGEEE       14.0270           0
      928 C2OH 232  C2OH C2   CH3    0.000000       15.0350           0
      929 C2OH 233  C2OH H1   H     HCHARGEEE        1.0080           0
-     930 C2OH 233  C2OH O1   OH1   -0.700000       15.9994           0
-     931 C2OH 233  C2OH C1   CH2    0.265000       14.0270           0
+     930 C2OH 233  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     931 C2OH 233  C2OH C1   CH2   CCHARGEEE       14.0270           0
      932 C2OH 233  C2OH C2   CH3    0.000000       15.0350           0
      933 C2OH 234  C2OH H1   H     HCHARGEEE        1.0080           0
-     934 C2OH 234  C2OH O1   OH1   -0.700000       15.9994           0
-     935 C2OH 234  C2OH C1   CH2    0.265000       14.0270           0
+     934 C2OH 234  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     935 C2OH 234  C2OH C1   CH2   CCHARGEEE       14.0270           0
      936 C2OH 234  C2OH C2   CH3    0.000000       15.0350           0
      937 C2OH 235  C2OH H1   H     HCHARGEEE        1.0080           0
-     938 C2OH 235  C2OH O1   OH1   -0.700000       15.9994           0
-     939 C2OH 235  C2OH C1   CH2    0.265000       14.0270           0
+     938 C2OH 235  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     939 C2OH 235  C2OH C1   CH2   CCHARGEEE       14.0270           0
      940 C2OH 235  C2OH C2   CH3    0.000000       15.0350           0
      941 C2OH 236  C2OH H1   H     HCHARGEEE        1.0080           0
-     942 C2OH 236  C2OH O1   OH1   -0.700000       15.9994           0
-     943 C2OH 236  C2OH C1   CH2    0.265000       14.0270           0
+     942 C2OH 236  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     943 C2OH 236  C2OH C1   CH2   CCHARGEEE       14.0270           0
      944 C2OH 236  C2OH C2   CH3    0.000000       15.0350           0
      945 C2OH 237  C2OH H1   H     HCHARGEEE        1.0080           0
-     946 C2OH 237  C2OH O1   OH1   -0.700000       15.9994           0
-     947 C2OH 237  C2OH C1   CH2    0.265000       14.0270           0
+     946 C2OH 237  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     947 C2OH 237  C2OH C1   CH2   CCHARGEEE       14.0270           0
      948 C2OH 237  C2OH C2   CH3    0.000000       15.0350           0
      949 C2OH 238  C2OH H1   H     HCHARGEEE        1.0080           0
-     950 C2OH 238  C2OH O1   OH1   -0.700000       15.9994           0
-     951 C2OH 238  C2OH C1   CH2    0.265000       14.0270           0
+     950 C2OH 238  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     951 C2OH 238  C2OH C1   CH2   CCHARGEEE       14.0270           0
      952 C2OH 238  C2OH C2   CH3    0.000000       15.0350           0
      953 C2OH 239  C2OH H1   H     HCHARGEEE        1.0080           0
-     954 C2OH 239  C2OH O1   OH1   -0.700000       15.9994           0
-     955 C2OH 239  C2OH C1   CH2    0.265000       14.0270           0
+     954 C2OH 239  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     955 C2OH 239  C2OH C1   CH2   CCHARGEEE       14.0270           0
      956 C2OH 239  C2OH C2   CH3    0.000000       15.0350           0
      957 C2OH 240  C2OH H1   H     HCHARGEEE        1.0080           0
-     958 C2OH 240  C2OH O1   OH1   -0.700000       15.9994           0
-     959 C2OH 240  C2OH C1   CH2    0.265000       14.0270           0
+     958 C2OH 240  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     959 C2OH 240  C2OH C1   CH2   CCHARGEEE       14.0270           0
      960 C2OH 240  C2OH C2   CH3    0.000000       15.0350           0
      961 C2OH 241  C2OH H1   H     HCHARGEEE        1.0080           0
-     962 C2OH 241  C2OH O1   OH1   -0.700000       15.9994           0
-     963 C2OH 241  C2OH C1   CH2    0.265000       14.0270           0
+     962 C2OH 241  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     963 C2OH 241  C2OH C1   CH2   CCHARGEEE       14.0270           0
      964 C2OH 241  C2OH C2   CH3    0.000000       15.0350           0
      965 C2OH 242  C2OH H1   H     HCHARGEEE        1.0080           0
-     966 C2OH 242  C2OH O1   OH1   -0.700000       15.9994           0
-     967 C2OH 242  C2OH C1   CH2    0.265000       14.0270           0
+     966 C2OH 242  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     967 C2OH 242  C2OH C1   CH2   CCHARGEEE       14.0270           0
      968 C2OH 242  C2OH C2   CH3    0.000000       15.0350           0
      969 C2OH 243  C2OH H1   H     HCHARGEEE        1.0080           0
-     970 C2OH 243  C2OH O1   OH1   -0.700000       15.9994           0
-     971 C2OH 243  C2OH C1   CH2    0.265000       14.0270           0
+     970 C2OH 243  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     971 C2OH 243  C2OH C1   CH2   CCHARGEEE       14.0270           0
      972 C2OH 243  C2OH C2   CH3    0.000000       15.0350           0
      973 C2OH 244  C2OH H1   H     HCHARGEEE        1.0080           0
-     974 C2OH 244  C2OH O1   OH1   -0.700000       15.9994           0
-     975 C2OH 244  C2OH C1   CH2    0.265000       14.0270           0
+     974 C2OH 244  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     975 C2OH 244  C2OH C1   CH2   CCHARGEEE       14.0270           0
      976 C2OH 244  C2OH C2   CH3    0.000000       15.0350           0
      977 C2OH 245  C2OH H1   H     HCHARGEEE        1.0080           0
-     978 C2OH 245  C2OH O1   OH1   -0.700000       15.9994           0
-     979 C2OH 245  C2OH C1   CH2    0.265000       14.0270           0
+     978 C2OH 245  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     979 C2OH 245  C2OH C1   CH2   CCHARGEEE       14.0270           0
      980 C2OH 245  C2OH C2   CH3    0.000000       15.0350           0
      981 C2OH 246  C2OH H1   H     HCHARGEEE        1.0080           0
-     982 C2OH 246  C2OH O1   OH1   -0.700000       15.9994           0
-     983 C2OH 246  C2OH C1   CH2    0.265000       14.0270           0
+     982 C2OH 246  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     983 C2OH 246  C2OH C1   CH2   CCHARGEEE       14.0270           0
      984 C2OH 246  C2OH C2   CH3    0.000000       15.0350           0
      985 C2OH 247  C2OH H1   H     HCHARGEEE        1.0080           0
-     986 C2OH 247  C2OH O1   OH1   -0.700000       15.9994           0
-     987 C2OH 247  C2OH C1   CH2    0.265000       14.0270           0
+     986 C2OH 247  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     987 C2OH 247  C2OH C1   CH2   CCHARGEEE       14.0270           0
      988 C2OH 247  C2OH C2   CH3    0.000000       15.0350           0
      989 C2OH 248  C2OH H1   H     HCHARGEEE        1.0080           0
-     990 C2OH 248  C2OH O1   OH1   -0.700000       15.9994           0
-     991 C2OH 248  C2OH C1   CH2    0.265000       14.0270           0
+     990 C2OH 248  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     991 C2OH 248  C2OH C1   CH2   CCHARGEEE       14.0270           0
      992 C2OH 248  C2OH C2   CH3    0.000000       15.0350           0
      993 C2OH 249  C2OH H1   H     HCHARGEEE        1.0080           0
-     994 C2OH 249  C2OH O1   OH1   -0.700000       15.9994           0
-     995 C2OH 249  C2OH C1   CH2    0.265000       14.0270           0
+     994 C2OH 249  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     995 C2OH 249  C2OH C1   CH2   CCHARGEEE       14.0270           0
      996 C2OH 249  C2OH C2   CH3    0.000000       15.0350           0
      997 C2OH 250  C2OH H1   H     HCHARGEEE        1.0080           0
-     998 C2OH 250  C2OH O1   OH1   -0.700000       15.9994           0
-     999 C2OH 250  C2OH C1   CH2    0.265000       14.0270           0
+     998 C2OH 250  C2OH O1   OH1   OCHARGEEE       15.9994           0
+     999 C2OH 250  C2OH C1   CH2   CCHARGEEE       14.0270           0
     1000 C2OH 250  C2OH C2   CH3    0.000000       15.0350           0
 
      750 !NBOND: bonds 

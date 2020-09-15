@@ -29,12 +29,45 @@ class Utility:
         print(line.replace(text_to_search, replacement_text), end='')
   
   @staticmethod
+  def format_charge_string(s):
+    if s < 0:
+      string = str(s)
+      while len(string) < 9:
+        string += '0'
+      return string
+    else:
+      string = str(s)
+      while len(string) < 8:
+        string += '0'
+      return ' ' + string
+
+  @staticmethod
+  def format_charges(h, o):
+    h = round(h, 6)
+    o = round(o, 6)
+    c = -1 * (h + o)
+    c = round(c, 6)
+    h = Utility.format_charge_string(h)
+    o = Utility.format_charge_string(o)
+    c = Utility.format_charge_string(c)
+    return h, o, c
+  
+  @staticmethod
   def ReplaceParameters(particle, directory):
     temperatures = particle.tempinfo.temperatures
     for temp in temperatures:
       # replace parameters
+      parinfo = particle.parinfo.parameters
+      hcharge_val = 0
+      ocharge_val = 0
+      ccharge_val = 0
       for index in range(len(particle.pars)):
-        parinfo = particle.parinfo.parameters
+        if parinfo[index].name == 'hcharge':
+          hcharge_val = particle.pars[index]
+          continue
+        if parinfo[index].name == 'ocharge':
+          ocharge_val = particle.pars[index]
+          continue
         file = directory + '/' + temp.temperature + 'K/' + parinfo[index].filename
         val = particle.pars[index]
         Utility.ReplaceText(file, parinfo[index].pattern, str(val))
@@ -43,6 +76,13 @@ class Utility:
       file = directory + '/' + temp.temperature + 'K/in.conf'
       Utility.ReplaceText(file, temp.temperature_pattern, temp.temperature)
       Utility.ReplaceText(file, temp.pressure_pattern, temp.pressure)
+
+      # replace ccharge which should add all charges to zero
+      hcharge_val, ocharge_val, ccharge_val = Utility.format_charges(hcharge_val, ocharge_val)
+      file = directory + '/' + temp.temperature + 'K/C2OH_merged.psf'
+      Utility.ReplaceText(file, 'HCHARGEEE', hcharge_val)
+      Utility.ReplaceText(file, 'OCHARGEEE', ocharge_val)
+      Utility.ReplaceText(file, 'CCHARGEEE', ccharge_val)
               
   @staticmethod
   def ScaleContinuous(position, scale_min, scale_max):

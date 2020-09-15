@@ -41,3 +41,5 @@ log/
 __pycache__
 log.txt
 *.pyc
+data.csv
+runs/
