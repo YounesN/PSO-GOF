@@ -60,7 +60,8 @@ class Utility:
 
   @staticmethod
   def RunSimulation(temperatures, directory, executable, number_of_temperatures):
-    loadmodule = 'module swap gnu7/7.3.0 intel/2018;'
+    #loadmodule = 'module swap gnu7/7.3.0 intel/2018;'
+    loadmodule = ''
     cd = 'cd ' + directory
     temp = temperatures[int(rank % number_of_temperatures)]
     folder = '/' + temp.temperature + 'K/;'

@@ -64,6 +64,6 @@
   </pso>
 
   <simulation>
-    <executable>GOMC_CPU_NPT</executable>
+    <executable>./GOMC_CPU_NPT</executable>
   </simulation>
 </configuration>
