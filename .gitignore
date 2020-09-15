@@ -38,3 +38,6 @@ temp_100
 temp_130
 log/
 .ipynb_checkpoints
+__pycache__
+log.txt
+*.pyc
