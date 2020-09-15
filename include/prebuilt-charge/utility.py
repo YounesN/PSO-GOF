@@ -17,7 +17,8 @@ class Utility:
   
   @staticmethod
   def CopyDirectory(src, dest):
-    os.system('cp -r ' + src + ' ' + dest)
+    command = 'cp -r ' + src + ' ' + dest
+    os.system(command)
   
   @staticmethod
   def ReplaceText(filename, text_to_search, replacement_text):
@@ -161,4 +162,4 @@ class Utility:
     Utility.MakeDirectory(directory)
     # Let's not copy the executable and just run one from one specified in PATH
     for temp in temperatures:
-      Utility.CopyDirectory('PREBUILT/*', directory + '/' + temp.temperature + 'K')
+      Utility.CopyDirectory('PREBUILT/', directory + '/' + temp.temperature + 'K')
