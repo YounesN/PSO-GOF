@@ -70,6 +70,8 @@ All of your `temperature` tags should be included inside `data`. Your actual tem
 Finally, you need to set parameters and its range, what pattern to look for and where to find them.
 Below is an example of required fields for parameters.
 Consider the first parameter: It will look for `EEEEEEE` pattern inside `water_mie.par` file which should reside inside in temperature directories. (Next to `in.conf` files). Then it will replace it by a value between `30` and `120`. `kind` is set to `continuous` which means any value between `start` and `end` is valid. If it was set to `discrete` only integer numbers will be generated. This is useful to set value for `N`. Finally `name` is a field to recognize the parameter name which is useful to print simulation data.
+
+For charge parameters there are two other required fields. `charge` specifies that this parameter is a charge parameter. Only one of the charged parameters should have `fixed` to true. e.g. if you have 3 charge parameters, PSO can change 2 of them (variables) and calculate the third one based on the other two (fixed). This is because the value of all charges should add up to zero. For the `fixed` parameter, start and end is meaningless since the value will be calculated based off of the other parameters (you can leave it at 0.00).
 ```xml
 <parameters>
   <parameter>
@@ -87,6 +89,16 @@ Consider the first parameter: It will look for `EEEEEEE` pattern inside `water_m
     <kind>continuous</kind>
     <start>3.0</start>
     <end>4.5</end>
+  </parameter>
+  <parameter>
+    <filename>C2OH_merged.psf</filename>
+    <name>ccharge</name>
+    <kind>continuous</kind>
+    <start>0.00</start>
+    <end>0.00</end>
+    <pattern>CCHARGEEE</pattern>
+    <charge>true</charge>
+    <fixed>true</fixed>
   </parameter>
 </parameters>
 ```
