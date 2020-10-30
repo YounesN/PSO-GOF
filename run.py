@@ -1,11 +1,15 @@
 import os
 
 # Check if PREBUILT directory exists!
-if(os.path.isdir('./PREBUILT')):
-  # If so the run the PREBUILT method
-  import prebuilt_charge
+# If so the run the PREBUILT method
+if os.path.isdir('./PREBUILT'):
+    # If par-charge.xml exists, run the charged version
+    if os.path.exists("par-charge.xml"):
+        import prebuilt_charge
+    else:
+        import prebuilt
 else:
-  # Otherwise, run pso_general, the automated version
-  import pso_general
+    # Otherwise, run pso_general, the automated version
+    import automated
 
 print('All done!')

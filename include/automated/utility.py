@@ -30,7 +30,7 @@ class Utility:
         temperatures = tempinfo.temperatures
         for temp in temperatures:
             for index in range(len(particle.pars)):
-                parinfo = particle.parinfo.parameters
+                parinfo = particle.parameter_info.parameters
                 file = directory + '/T_' + temp.temperature + '/Liq/Parameters.par'
                 val = particle.pars[index]
                 Utility.ReplaceText(file, parinfo[index].pattern, str(val))
@@ -166,7 +166,7 @@ class Utility:
                 
             pars = ['epsilon', 'sigma', 'n']
             for par in pars:
-                parameter = parameters.GetParameterByName(par)
+                parameter = parameters.get_parameter_by_name(par)
                 Utility.ReplaceText("Parameters.par", parameter.pattern,
                                     parameter.reference)
                 

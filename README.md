@@ -35,6 +35,8 @@ PREBUILT
 └── GOMC_CPU_NPT
 ```
 
+If you are running a molecule with charge your input file should be named `par-charge.xml`. That's how `run.py` will figure if you are running charged or non-charged molecule. You can always run `prebuilt.py` or `prebuilt-charge.py` instead of `run.py` as well.
+
 Anything outside `RunFiles` directory will be copied into temperature directories before running simulations (e.g. in this case I put the executable outside so the script can update it everytime, in case there was a change to executable!). So, `GOMC_CPU_NPT` will be copied inside each temperature directory. _Also make sure you set the executable name inside `par.xml`_. This is to just to let the script know what executable to run. It will still copy the executable even if you don't specify it inside `par.xml`. However, if it will throw an error if it couldn't find the executable name.
 ```xml
 <simulation>

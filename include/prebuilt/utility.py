@@ -31,7 +31,7 @@ class Utility:
     temperatures = tempinfo.temperatures
     for temp in temperatures:
       for index in range(len(particle.pars)):
-        parinfo = particle.parinfo.parameters
+        parinfo = particle.parameter_info.parameters
         file = directory + '/' + temp.temperature + 'K/' + parinfo[index].filename
         val = particle.pars[index]
         Utility.ReplaceText(file, parinfo[index].pattern, str(val))

@@ -11,8 +11,8 @@ from utility import Utility
 class Particle:
   def __init__(self, pars, temps, sim):
     self.exec = sim.executable
-    self.dim = pars.GetDim()
-    self.tempdim = temps.GetDim()
+    self.dim = pars.get_dim()
+    self.tempdim = temps.get_dim()
     self.pos = np.random.uniform(0.0, 1.0, self.dim)
     self.pars = np.copy(self.pos)
     self.vel = np.zeros(shape=[self.dim], dtype=np.float32)
@@ -44,11 +44,11 @@ class Particle:
       parameter = self.parinfo.parameters[index]
       kind = parameter.kind
       if kind == 'discrete':
-        self.pars[index] = Utility.ScaleDiscrete(self.pos[index],
+        self.pars[index] = Utility.scale_discrete(self.pos[index],
                                                   parameter.start,
                                                   parameter.end)
       else:
-        self.pars[index] = Utility.ScaleContinuous(self.pos[index],
+        self.pars[index] = Utility.scale_continuous(self.pos[index],
                                                     parameter.start,
                                                     parameter.end)
 
@@ -57,14 +57,14 @@ class Particle:
 
     if rank % self.tempdim == 0:
       shutil.rmtree(directory, ignore_errors=True)
-      Utility.GenerateRunFiles(directory, self.tempinfo.temperatures)
+      Utility.generate_run_files(directory, self.tempinfo.temperatures)
       self.ConvertPosToPars()
-      Utility.ReplaceParameters(self, directory, self.tempinfo)
+      Utility.replace_parameters(self, directory, self.tempinfo)
 
     comm.barrier()
-    Utility.RunSimulation(self.tempinfo.temperatures, directory, self.exec,
-                          self.tempdim)
+    Utility.run_simulation(self.tempinfo.temperatures, directory, self.exec,
+                           self.tempdim)
     
     comm.barrier()
     if rank % self.tempdim == 0:
-      self.cost = Utility.GetCost(self, directory, self.tempinfo)
+      self.cost = Utility.get_cost(self, directory, self.tempinfo)
