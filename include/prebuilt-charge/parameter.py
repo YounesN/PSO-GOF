@@ -1,5 +1,6 @@
 import xml.etree.ElementTree
 
+
 class Parameter:
     def __init__(self, pars):
         self.filename = pars['filename']
@@ -8,9 +9,12 @@ class Parameter:
         self.start = float(pars['start'])
         self.end = float(pars['end'])
         self.pattern = pars['pattern']
+        self.is_charge = pars['is_charge']
+        self.is_fixed = pars['is_fixed']
 
     def __str__(self):
-        return '{} {} {} {} {} {}'.format(self.filename, self.name, self.kind, str(self.start), str(self.end), self.pattern)
+        return '{} {} {} {} {} {} {} {}'.format(self.filename, self.name, self.kind, str(self.start), str(self.end),
+                                          self.pattern, self.is_charge, self.is_fixed)
 
 
 class Parameters:
@@ -29,7 +33,7 @@ class Parameters:
                     'is_charge': par.find('charge').text,
                     'is_fixed': par.find('fixed').text}
 
-            if pars.is_fixed == 'true':
+            if pars['is_fixed'] == 'true':
                 self.is_fixed_exists = True
             self.parameters.append(Parameter(pars))
 

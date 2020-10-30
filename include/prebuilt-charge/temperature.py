@@ -7,6 +7,7 @@ comm = MPI.COMM_WORLD
 size = comm.Get_size()
 rank = comm.Get_rank()
 
+
 class Temperature:
     def __init__(self, pars):
         self.temperature = pars['temperature']
@@ -15,11 +16,12 @@ class Temperature:
         self.pressure = pars['pressure']
         self.pressure_pattern = pars['pressure_pattern']
 
+
 class Temperatures:
-    def __init__(self, inputfile):
+    def __init__(self, input_file):
         self.temperatures = []
 
-        e = xml.etree.ElementTree.parse(inputfile).getroot()
+        e = xml.etree.ElementTree.parse(input_file).getroot()
         for temp in e.find('data').findall('temperature'):
             pars = {'temperature': temp.find('temp').text,
                     'temperature_pattern': temp.find('temp').get('pattern'),
@@ -29,5 +31,5 @@ class Temperatures:
 
             self.temperatures.append(Temperature(pars))
 
-    def GetDim(self):
+    def get_dim(self):
         return len(self.temperatures)
