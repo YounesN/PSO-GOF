@@ -1,0 +1,69 @@
+<configuration>
+  <parameters>
+    <parameter>
+      <filename>par_trappe.inp</filename>
+      <name>epsilon</name>
+      <kind>continuous</kind>
+      <start>75</start>
+      <end>110</end>
+      <pattern>EEEEEEEEE</pattern>
+    </parameter>
+    <parameter>
+      <filename>par_trappe.inp</filename>
+      <name>sigma</name>
+      <kind>continuous</kind>
+      <start>2.40</start>
+      <end>3.70</end>
+      <pattern>SSSSSSSSS</pattern>
+    </parameter>
+    <parameter>
+      <filename>C2OH_merged.psf</filename>
+      <name>hcharge</name>
+      <kind>continuous</kind>
+      <start>0.348</start>
+      <end>0.522</end>
+      <pattern>HCHARGEEE</pattern>
+    </parameter>
+    <parameter>
+      <filename>C2OH_merged.psf</filename>
+      <name>ocharge</name>
+      <kind>continuous</kind>
+      <start>-0.84</start>
+      <end>-0.56</end>
+      <pattern>OCHARGEEE</pattern>
+    </parameter>
+  </parameters>
+  
+  <data>
+    <temperature>
+      <temp pattern="TTTTTT">351.05</temp>
+      <expt_dens>736.78</expt_dens>
+      <pressure pattern="PPPPPP">1.01</pressure>
+    </temperature>
+    <temperature>
+      <temp pattern="TTTTTT">373.15</temp>
+      <expt_dens>713.14</expt_dens>
+      <pressure pattern="PPPPPP">2.253</pressure>
+    </temperature>
+    <temperature>
+      <temp pattern="TTTTTT">423.85</temp>
+      <expt_dens>647.20</expt_dens>
+      <pressure pattern="PPPPPP">10.0</pressure>
+    </temperature>
+    <temperature>
+      <temp pattern="TTTTTT">473.15</temp>
+      <expt_dens>554.66</expt_dens>
+      <pressure pattern="PPPPPP">29.871</pressure>
+    </temperature>
+  </data>
+  
+  <pso>
+    <w>0.715</w>
+    <c1>1.7</c1>
+    <c2>1.7</c2>
+  </pso>
+
+  <simulation>
+    <executable>./GOMC_CPU_NPT</executable>
+  </simulation>
+</configuration>

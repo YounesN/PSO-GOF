@@ -1,14 +1,21 @@
-#PBS -q wsuq
-#PBS -l select=20:ncpus=4:mem=32gb:cpu_type=Intel
-#PBS -j oe
-#PBS -m abe
-#PBS -M fe1855@wayne.edu
+#!/bin/bash
 
+#SBATCH --job-name PSO
+
+#SBATCH -q secondary
+#SBATCH --ntasks=64
+#SBATCH --mem-per-cpu=8G
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user=fe1855@wayne.edu
+#SBATCH -o output.dat
+#SBATCH -e error.dat
+#SBATCH -t 21-00:00:00
+
+## Run the job
 echo Running on host `hostname`
 echo Time is `date`
-cd /wsu/home/fe/fe18/fe1855/projects/optimization/water_feb_2020/1_water_epsilon_sigma/Optimization
+cd /wsu/home/fe/fe18/fe1855/projects/pso_ethonal/PSO-GOF
 echo Directory is `pwd`
 
-# Run job
 source ~/install/anaconda3/bin/activate
-mpiexec -n 80 python prebuilt.py 2>&1
+mpiexec -n 64 python run.py 2>&1
