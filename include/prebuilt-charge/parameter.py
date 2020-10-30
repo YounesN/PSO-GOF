@@ -14,7 +14,7 @@ class Parameter:
 
     def __str__(self):
         return '{} {} {} {} {} {} {} {}'.format(self.filename, self.name, self.kind, str(self.start), str(self.end),
-                                          self.pattern, self.is_charge, self.is_fixed)
+                                                self.pattern, self.is_charge, self.is_fixed)
 
 
 class Parameters:
@@ -29,9 +29,18 @@ class Parameters:
                     'kind': par.find('kind').text,
                     'start': par.find('start').text,
                     'end': par.find('end').text,
-                    'pattern': par.find('pattern').text,
-                    'is_charge': par.find('charge').text,
-                    'is_fixed': par.find('fixed').text}
+                    'pattern': par.find('pattern').text}
+            charge_par = par.find('charge')
+            if charge_par is not None:
+                pars['is_charge'] = charge_par.text
+            else:
+                pars['is_charge'] = 'false'
+
+            fixed_par = par.find('fixed')
+            if fixed_par is not None:
+                pars['is_fixed'] = charge_par.text
+            else:
+                pars['is_fixed'] = 'false'
 
             if pars['is_fixed'] == 'true':
                 self.is_fixed_exists = True
@@ -42,7 +51,7 @@ class Parameters:
             return len(self.parameters) - 1
         else:
             return len(self.parameters)
-    
+
     def get_parameter_by_name(self, name):
         for par in self.parameters:
             if par.name == name:
