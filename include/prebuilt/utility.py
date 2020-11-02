@@ -4,6 +4,7 @@ import os
 import datetime
 import fileinput
 from pathlib import Path
+import re
 
 comm = MPI.COMM_WORLD
 size = comm.Get_size()
