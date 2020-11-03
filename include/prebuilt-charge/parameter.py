@@ -38,7 +38,7 @@ class Parameters:
 
             fixed_par = par.find('fixed')
             if fixed_par is not None:
-                pars['is_fixed'] = charge_par.text
+                pars['is_fixed'] = fixed_par.text
             else:
                 pars['is_fixed'] = 'false'
 
