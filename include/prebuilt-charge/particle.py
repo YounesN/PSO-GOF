@@ -40,7 +40,7 @@ class Particle:
             self.best_pos = self.pos
 
     def convert_position_to_parameters(self):
-        for index in range(len(self.number_of_particles)):
+        for index in range(self.number_of_particles):
             parameter = self.parameter_info.parameters[index]
             kind = parameter.kind
             if kind == 'discrete':
