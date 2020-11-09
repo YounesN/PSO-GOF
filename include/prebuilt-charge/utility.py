@@ -134,7 +134,6 @@ class Utility:
         temperatures = temperature_info.temperatures
         folders = []
         target_densities = []
-        density = 0
         for temp in temperatures:
             folders.append('/' + temp.temperature + 'K/')
             target_densities.append(float(temp.expt_dens))
@@ -151,6 +150,7 @@ class Utility:
             with open(filename, 'r') as file:
                 lines = []
                 number_of_lines = 0
+                density = 0
                 for line in file:
                     lines.append(line)
                     number_of_lines += 1
