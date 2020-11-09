@@ -134,6 +134,7 @@ class Utility:
         temperatures = temperature_info.temperatures
         folders = []
         target_densities = []
+        density = 0
         for temp in temperatures:
             folders.append('/' + temp.temperature + 'K/')
             target_densities.append(float(temp.expt_dens))
